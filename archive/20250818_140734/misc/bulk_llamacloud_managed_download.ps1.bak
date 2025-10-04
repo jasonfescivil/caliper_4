@@ -1,0 +1,155 @@
+param(
+  [Parameter(Mandatory=$true)][string]$PipelineId,
+  [string]$OutDir = "G:\llama_downloads",
+  [int]$Limit = 100
+)
+
+# Load .env
+$envPath = Join-Path $PSScriptRoot ".env"
+if (Test-Path $envPath) {
+  Write-Host "Loading .env file..."
+  Get-Content $envPath | Where-Object { $_ -match '^[A-Za-z_][A-Za-z0-9_]*=' } | ForEach-Object {
+    $name, $val = $_ -split '=', 2
+    $trimmedVal = $val.Trim().Trim('"').Trim("'")
+    if (-not (Test-Path "env:$name")) {
+      Set-Item -Path "env:$name" -Value $trimmedVal
+    }
+  }
+}
+
+if (-not $env:LLAMA_CLOUD_API_KEY) {
+  throw "LLAMA_CLOUD_API_KEY not found"
+}
+
+$headers = @{ Authorization = "Bearer $env:LLAMA_CLOUD_API_KEY" }
+New-Item -ItemType Directory -Force -Path $OutDir | Out-Null
+
+Write-Host "Fetching files for pipeline: $PipelineId"
+
+# Get all files for this pipeline
+$cursor = $null
+$files = @()
+
+do {
+  $uri = "https://api.cloud.llamaindex.ai/api/v1/files?pipeline_id=$PipelineId&limit=$Limit"
+  if ($cursor) { $uri += "&cursor=$cursor" }
+  
+  Write-Host "Fetching batch..."
+  $resp = Invoke-RestMethod -Method GET -Headers $headers -Uri $uri
+  
+  if ($resp -is [array]) {
+    # Direct array response
+    $files += $resp
+    $cursor = $null
+  } else {
+    # Paginated response
+    $files += $resp.data
+    $cursor = $resp.next_cursor
+  }
+} while ($cursor)
+
+Write-Host "Found $($files.Count) files to process"
+
+foreach ($file in $files) {
+  $fileId = $file.id
+  $fileName = $file.name
+  
+  if (-not $fileName) {
+    $fileName = "$fileId.pdf"
+  }
+  
+  # Clean filename
+  $fileName = $fileName -replace '[<>:"/\\|?*]', '_'
+  
+  # Create subdirectory based on file type or name pattern
+  $subDir = $OutDir
+  if ($fileName -match '^(WAC|RCW|CFR)') {
+    $subDir = Join-Path $OutDir "regulations"
+  } elseif ($fileName -match '^(EPA|DOE)') {
+    $subDir = Join-Path $OutDir "guidance" 
+  } elseif ($fileName -match '^(WEF|ASCE|AWWA|MOP)') {
+    $subDir = Join-Path $OutDir "standards"
+  }
+  
+  New-Item -ItemType Directory -Force -Path $subDir | Out-Null
+  
+  # Download parsing results (artifacts)
+  $baseName = [System.IO.Path]::GetFileNameWithoutExtension($fileName)
+  $artifactDir = Join-Path $subDir $baseName
+  New-Item -ItemType Directory -Force -Path $artifactDir | Out-Null
+  
+  Write-Host "`nProcessing: $fileName"
+  
+  # Try to download artifacts via parsing endpoints
+  $artifacts = @{
+    "markdown" = ".md"
+    "json" = ".json" 
+    "csv" = ".csv"
+    "xlsx" = ".xlsx"
+  }
+  
+  foreach ($type in $artifacts.Keys) {
+    $outFile = Join-Path $artifactDir "$baseName$($artifacts[$type])"
+    
+    # Skip if already exists
+    if (Test-Path $outFile) {
+      Write-Host "  Skipping $type (already exists)"
+      continue
+    }
+    
+    try {
+      # Try various possible endpoints
+      $endpoints = @(
+        "https://api.cloud.llamaindex.ai/api/v1/files/$fileId/content/$type",
+        "https://api.cloud.llamaindex.ai/api/v1/parsing/files/$fileId/result/$type",
+        "https://api.cloud.llamaindex.ai/api/v1/files/$fileId/artifacts/$type"
+      )
+      
+      $success = $false
+      foreach ($endpoint in $endpoints) {
+        try {
+          Write-Host "  Trying $type from: $endpoint"
+          Invoke-WebRequest -Headers $headers -Uri $endpoint -OutFile $outFile -UseBasicParsing
+          Write-Host "  Downloaded $type"
+          $success = $true
+          break
+        } catch {
+          # Try next endpoint
+        }
+      }
+      
+      if (-not $success) {
+        Write-Host "  No $type artifact available"
+        if (Test-Path $outFile) { Remove-Item $outFile }
+      }
+    } catch {
+      Write-Host "  Failed to download $type"
+    }
+  }
+  
+  # Also try to get the original file
+  $origFile = Join-Path $artifactDir $fileName
+  if (-not (Test-Path $origFile)) {
+    try {
+      $origEndpoint = "https://api.cloud.llamaindex.ai/api/v1/files/$fileId/content"
+      Write-Host "  Downloading original from: $origEndpoint"
+      
+      # First get the download URL
+      $downloadInfo = Invoke-RestMethod -Headers $headers -Uri $origEndpoint
+      
+      if ($downloadInfo.url) {
+        # Presigned URL
+        Invoke-WebRequest -Uri $downloadInfo.url -OutFile $origFile -UseBasicParsing
+        Write-Host "  Downloaded original"
+      } elseif ($downloadInfo -is [string]) {
+        # Direct URL
+        Invoke-WebRequest -Uri $downloadInfo -OutFile $origFile -UseBasicParsing
+        Write-Host "  Downloaded original"
+      }
+    } catch {
+      Write-Host "  Could not download original"
+    }
+  }
+}
+
+Write-Host "`nDone! Files saved to: $OutDir"

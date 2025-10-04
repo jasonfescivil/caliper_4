@@ -1,0 +1,446 @@
+{
+  "type": "retrieval_session",
+  "version": 1,
+  "created_at": "2025-09-14T20:28:23Z",
+  "question": "Summarize Tekoa WWTP influent/effluent BOD and TSS limits and cite governing sections.",
+  "indexes": [
+    "tekoa_wastewater"
+  ],
+  "search_mode": "hybrid",
+  "requested_top_k": 8,
+  "final_kept": 8,
+  "top_k": 8,
+  "reranker": "cohere",
+  "retrieval": {
+    "nodes": [
+      {
+        "node_id": "114bce30-c774-4002-8a03-32d74bf40217",
+        "document_id": "a221349eb9c667e569355be1ca62f9343d2fd953b2375cb131",
+        "passage_id": "pid_353a286c0cced15a4805867c",
+        "parent_id": null,
+        "score": 0.8446273,
+        "text": "# 2 DISCHARGE STANDARDS\n\n## 2.1 Existing Permit\n\nThe Tekoa Wastewater Treatment Plant discharges treated wastewater to Hangman Creek under NPDES Permit No. WA0023141, issued by Ecology on **April 23, 2014** and was initially effective from June 1, 2014 to May 31, 2019 with an original permit renewal deadline due to Ecology by May 31ˢᵗ, 2018. At present, the permit is operating under an extension pending reissuance.\n\n## 2.2 Limits\n\nEffluent quality discharged from the Tekoa Wastewater Treatment Plant is regulated by NPDES Permit No. WA0023141. The final effluent limitations, detailed in Section S1.A of the permit, are summarized in the table below. These limits specify the required performance standards for various parameters, including monthly and weekly averages, daily maximums, and specific removal efficiencies, ensuring compliance and environmental protection.\n\n**Table 2.2-1. NPDES Permit No. WA0023141 Effluent Limits (Outfall #001)**\n\n<table>\n<thead>\n<tr>\n<th>Parameter</th>\n<th>Average Monthly</th>\n<th>Average Weekly</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><b>Biochemical Oxygen Demand (5-day) (BOD5)</b></td>\n<td>\n30 milligrams/liter (mg/L)<br>\n34.5 pounds/day (lbs/day)<br>\n85% removal of influent BOD5\n</td>\n<td>\n45 mg/L<br>\n51.7 lbs/day\n</td>\n</tr>\n<tr>\n<td><b>Total Suspended Solids (TSS)</b></td>\n<td>\n30 milligrams/liter (mg/L)<br>\n34.5 pounds/day (lbs/day)<br>\n85% removal of influent TSS\n</td>\n<td>\n45 mg/L<br>\n51.7 lbs/day\n</td>\n</tr>\n<tr>\n<th>Parameter</th>\n<th>Minimum</th>\n<th>Maximum</th>\n</tr>\n<tr>\n<td>pH</td>\n<td>6.0 S.U.</td>\n<td>9.0 S.U.</td>\n</tr>\n</tbody>\n</table>",
+        "text_raw": "# 2 DISCHARGE STANDARDS\n\n## 2.1 Existing Permit\n\nThe Tekoa Wastewater Treatment Plant discharges treated wastewater to Hangman Creek under NPDES Permit No. WA0023141, issued by Ecology on **April 23, 2014** and was initially effective from June 1, 2014 to May 31, 2019 with an original permit renewal deadline due to Ecology by May 31ˢᵗ, 2018. At present, the permit is operating under an extension pending reissuance.\n\n## 2.2 Limits\n\nEffluent quality discharged from the Tekoa Wastewater Treatment Plant is regulated by NPDES Permit No. WA0023141. The final effluent limitations, detailed in Section S1.A of the permit, are summarized in the table below. These limits specify the required performance standards for various parameters, including monthly and weekly averages, daily maximums, and specific removal efficiencies, ensuring compliance and environmental protection.\n\n**Table 2.2-1. NPDES Permit No. WA0023141 Effluent Limits (Outfall #001)**\n\n<table>\n<thead>\n<tr>\n<th>Parameter</th>\n<th>Average Monthly</th>\n<th>Average Weekly</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><b>Biochemical Oxygen Demand (5-day) (BOD5)</b></td>\n<td>\n30 milligrams/liter (mg/L)<br>\n34.5 pounds/day (lbs/day)<br>\n85% removal of influent BOD5\n</td>\n<td>\n45 mg/L<br>\n51.7 lbs/day\n</td>\n</tr>\n<tr>\n<td><b>Total Suspended Solids (TSS)</b></td>\n<td>\n30 milligrams/liter (mg/L)<br>\n34.5 pounds/day (lbs/day)<br>\n85% removal of influent TSS\n</td>\n<td>\n45 mg/L<br>\n51.7 lbs/day\n</td>\n</tr>\n<tr>\n<th>Parameter</th>\n<th>Minimum</th>\n<th>Maximum</th>\n</tr>\n<tr>\n<td>pH</td>\n<td>6.0 S.U.</td>\n<td>9.0 S.U.</td>\n</tr>\n</tbody>\n</table>",
+        "text_clean": "# 2 DISCHARGE STANDARDS ## 2.1 Existing Permit The Tekoa Wastewater Treatment Plant discharges treated wastewater to Hangman Creek under NPDES Permit No. WA0023141, issued by Ecology on **April 23, 2014** and was initially effective from June 1, 2014 to May 31, 2019 with an original permit renewal deadline due to Ecology by May 31ˢᵗ, 2018. At present, the permit is operating under an extension pending reissuance. ## 2.2 Limits Effluent quality discharged from the Tekoa Wastewater Treatment Plant is regulated by NPDES Permit No. WA0023141. The final effluent limitations, detailed in Section S1.A of the permit, are summarized in the table below. These limits specify the required performance standards for various parameters, including monthly and weekly averages, daily maximums, and specific removal efficiencies, ensuring compliance and environmental protection. **Table 2.2-1. NPDES Permit No. WA0023141 Effluent Limits (Outfall #001)** <table> <thead> <tr> <th>Parameter</th> <th>Average Monthly</th> <th>Average Weekly</th> </tr> </thead> <tbody> <tr> <td><b>Biochemical Oxygen Demand (5-day) (BOD5)</b></td> <td> 30 milligrams/liter (mg/L)<br> 34.5 pounds/day (lbs/day)<br> 85% removal of influent BOD5 </td> <td> 45 mg/L<br> 51.7 lbs/day </td> </tr> <tr> <td><b>Total Suspended Solids (TSS)</b></td> <td> 30 milligrams/liter (mg/L)<br> 34.5 pounds/day (lbs/day)<br> 85% removal of influent TSS </td> <td> 45 mg/L<br> 51.7 lbs/day </td> </tr> <tr> <th>Parameter</th> <th>Minimum</th> <th>Maximum</th> </tr> <tr> <td>pH</td> <td>6.0 S.U.</td> <td>9.0 S.U.</td> </tr> </tbody> </table>",
+        "char_count": 1596,
+        "token_count": 504,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 1602,
+          "source_file": "tekoa-facility-plan-draft-v41.docx",
+          "page": 24,
+          "section": "2.2 Limits",
+          "document_title": "tekoa-facility-plan-draft-v41",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "tekoa-facility-plan-draft-v41.docx",
+          "file_path": "tekoa-facility-plan-draft-v41.docx",
+          "page": 24,
+          "page_label": "24",
+          "page_raw": null,
+          "section": "2.2 Limits",
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "tekoa-facility-plan-draft-v41",
+          "author": null,
+          "publisher": null,
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Section: 2.2 Limits; p.24; WWTP guidance; effluent limits; permitting",
+          "confidence": 0.65
+        }
+      },
+      {
+        "node_id": "0565ea56-2587-4d30-8d50-b5237c1862d0",
+        "document_id": "680524c5c22797343497491b225731bec36563cbbc68faf376",
+        "passage_id": "pid_546477fd3f26256ef551dbc9",
+        "parent_id": null,
+        "score": 0.838376,
+        "text": "<table>\n<thead>\n<tr>\n<th>Parameter</th>\n<th>Units &amp; Speciation</th>\n<th>Minimum Sampling Frequency</th>\n<th>Sample Type</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td colspan=\"4\"><b>(1) Wastewater Influent</b></td>\n</tr>\n<tr>\n<td colspan=\"4\">Wastewater Influent means the raw sewage flow from the collection system into the treatment facility. Sample the wastewater entering the headworks of the treatment plant excluding any side-stream returns from inside the plant.</td>\n</tr>\n<tr>\n<td>Biochemical Oxygen Demand (BOD<sub>5</sub>)</td>\n<td>mg/L</td>\n<td>1/week</td>\n<td>24-Hour Composite <sup>2</sup></td>\n</tr>\n<tr>\n<td>BOD<sub>5</sub></td>\n<td>lbs/day</td>\n<td>1/week</td>\n<td>Calculated <sup>7</sup></td>\n</tr>\n<tr>\n<td>Total Suspended Solids (TSS)</td>\n<td>mg/L</td>\n<td>1/week</td>\n<td>24-Hour Composite <sup>2</sup></td>\n</tr>\n<tr>\n<td>TSS</td>\n<td>lbs/day</td>\n<td>1/week</td>\n<td>Calculated <sup>7</sup></td>\n</tr>\n<tr>\n<td>TKN</td>\n<td>mg/L</td>\n<td>1/week</td>\n<td>24-Hour Composite <sup>2</sup></td>\n</tr>\n<tr>\n<td>Temperature (Daily Max)</td>\n<td>Degrees Centigrade (°C)</td>\n<td>Continuous <sup>1, 13</sup></td>\n<td>Metered/Recorded</td>\n</tr>\n<tr>\n<td colspan=\"4\"><b>(2) Final Wastewater Effluent</b></td>\n</tr>\n<tr>\n<td colspan=\"4\">Final Wastewater Effluent means wastewater exiting the last treatment process or operation. Typically, this is after or at the exit from the chlorine contact chamber or other disinfection process. The Permittee may take effluent samples for the BOD<sub>5</sub> analysis before or after the disinfection process. If taken after, the Permittee must de-chlorinate and reseed the sample.</td>\n</tr>\n<tr>\n<td>Flow</td>\n<td>MGD</td>\n<td>Continuous <sup>1</sup></td>\n<td>Metered/Recorded</td>\n</tr>\n<tr>\n<td>pH</td>\n<td>Standard Units</td>\n<td>5/week <sup>8, 12</sup></td>\n<td>Grab <sup>6</sup></td>\n</tr>\n<tr>\n<td>Chlorine (Total Residual)</td>\n<td>μg/L</td>\n<td>5/week <sup>12</sup></td>\n<td>Grab <sup>6</sup></td>\n</tr>\n<tr>\n<td>Temperature (Daily Max)</td>\n<td>Degrees Centigrade (°C)</td>\n<td>5/week <sup>9, 12</sup></td>\n<td>Grab <sup>6</sup><br/><b>Discontinue when continuous temperature recording starts</b></td>\n</tr>\n<tr>\n<td>Temperature (Daily Max)</td>\n<td>Degrees Centigrade (°C)</td>\n<td>Continuous <sup>1, 9</sup></td>\n<td>Metered/Recorded – <b>Starting May 1, 2015</b></td>\n</tr>\n<tr>\n<td>7-DADMax Temperature</td>\n<td>°C – Daily Maximum</td>\n<td>Continuous <sup>1, 9, 10</sup></td>\n<td>Calculated – <b>Starting May 1, 2015</b></td>\n</tr>\n<tr>\n<td>BOD<sub>5</sub></td>\n<td>mg/L</td>\n<td>1/week <sup>5</sup></td>\n<td>24-Hour Composite <sup>2</sup></td>\n</tr>\n<tr>\n<td>BOD<sub>5</sub></td>\n<td>lbs/day</td>\n<td>1/week <sup>5</sup></td>\n<td>Calculated <sup>7</sup></td>\n</tr>\n<tr>\n<td>BOD<sub>5</sub></td>\n<td>% removal <sup>3</sup></td>\n<td>1/week <sup>5</sup></td>\n<td>Calculated <sup>7</sup></td>\n</tr>\n<tr>\n<td>TSS</td>\n<td>mg/L</td>\n<td>1/week</td>\n<td>24-Hour Composite <sup>2</sup></td>\n</tr>\n<tr>\n<td>TSS</td>\n<td>lbs/day</td>\n<td>1/week</td>\n<td>Calculated <sup>7</sup></td>\n</tr>\n</tbody>\n</table>",
+        "text_raw": "<table>\n<thead>\n<tr>\n<th>Parameter</th>\n<th>Units &amp; Speciation</th>\n<th>Minimum Sampling Frequency</th>\n<th>Sample Type</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td colspan=\"4\"><b>(1) Wastewater Influent</b></td>\n</tr>\n<tr>\n<td colspan=\"4\">Wastewater Influent means the raw sewage flow from the collection system into the treatment facility. Sample the wastewater entering the headworks of the treatment plant excluding any side-stream returns from inside the plant.</td>\n</tr>\n<tr>\n<td>Biochemical Oxygen Demand (BOD<sub>5</sub>)</td>\n<td>mg/L</td>\n<td>1/week</td>\n<td>24-Hour Composite <sup>2</sup></td>\n</tr>\n<tr>\n<td>BOD<sub>5</sub></td>\n<td>lbs/day</td>\n<td>1/week</td>\n<td>Calculated <sup>7</sup></td>\n</tr>\n<tr>\n<td>Total Suspended Solids (TSS)</td>\n<td>mg/L</td>\n<td>1/week</td>\n<td>24-Hour Composite <sup>2</sup></td>\n</tr>\n<tr>\n<td>TSS</td>\n<td>lbs/day</td>\n<td>1/week</td>\n<td>Calculated <sup>7</sup></td>\n</tr>\n<tr>\n<td>TKN</td>\n<td>mg/L</td>\n<td>1/week</td>\n<td>24-Hour Composite <sup>2</sup></td>\n</tr>\n<tr>\n<td>Temperature (Daily Max)</td>\n<td>Degrees Centigrade (°C)</td>\n<td>Continuous <sup>1, 13</sup></td>\n<td>Metered/Recorded</td>\n</tr>\n<tr>\n<td colspan=\"4\"><b>(2) Final Wastewater Effluent</b></td>\n</tr>\n<tr>\n<td colspan=\"4\">Final Wastewater Effluent means wastewater exiting the last treatment process or operation. Typically, this is after or at the exit from the chlorine contact chamber or other disinfection process. The Permittee may take effluent samples for the BOD<sub>5</sub> analysis before or after the disinfection process. If taken after, the Permittee must de-chlorinate and reseed the sample.</td>\n</tr>\n<tr>\n<td>Flow</td>\n<td>MGD</td>\n<td>Continuous <sup>1</sup></td>\n<td>Metered/Recorded</td>\n</tr>\n<tr>\n<td>pH</td>\n<td>Standard Units</td>\n<td>5/week <sup>8, 12</sup></td>\n<td>Grab <sup>6</sup></td>\n</tr>\n<tr>\n<td>Chlorine (Total Residual)</td>\n<td>μg/L</td>\n<td>5/week <sup>12</sup></td>\n<td>Grab <sup>6</sup></td>\n</tr>\n<tr>\n<td>Temperature (Daily Max)</td>\n<td>Degrees Centigrade (°C)</td>\n<td>5/week <sup>9, 12</sup></td>\n<td>Grab <sup>6</sup><br/><b>Discontinue when continuous temperature recording starts</b></td>\n</tr>\n<tr>\n<td>Temperature (Daily Max)</td>\n<td>Degrees Centigrade (°C)</td>\n<td>Continuous <sup>1, 9</sup></td>\n<td>Metered/Recorded – <b>Starting May 1, 2015</b></td>\n</tr>\n<tr>\n<td>7-DADMax Temperature</td>\n<td>°C – Daily Maximum</td>\n<td>Continuous <sup>1, 9, 10</sup></td>\n<td>Calculated – <b>Starting May 1, 2015</b></td>\n</tr>\n<tr>\n<td>BOD<sub>5</sub></td>\n<td>mg/L</td>\n<td>1/week <sup>5</sup></td>\n<td>24-Hour Composite <sup>2</sup></td>\n</tr>\n<tr>\n<td>BOD<sub>5</sub></td>\n<td>lbs/day</td>\n<td>1/week <sup>5</sup></td>\n<td>Calculated <sup>7</sup></td>\n</tr>\n<tr>\n<td>BOD<sub>5</sub></td>\n<td>% removal <sup>3</sup></td>\n<td>1/week <sup>5</sup></td>\n<td>Calculated <sup>7</sup></td>\n</tr>\n<tr>\n<td>TSS</td>\n<td>mg/L</td>\n<td>1/week</td>\n<td>24-Hour Composite <sup>2</sup></td>\n</tr>\n<tr>\n<td>TSS</td>\n<td>lbs/day</td>\n<td>1/week</td>\n<td>Calculated <sup>7</sup></td>\n</tr>\n</tbody>\n</table>",
+        "text_clean": "<table> <thead> <tr> <th>Parameter</th> <th>Units &amp; Speciation</th> <th>Minimum Sampling Frequency</th> <th>Sample Type</th> </tr> </thead> <tbody> <tr> <td colspan=\"4\"><b>(1) Wastewater Influent</b></td> </tr> <tr> <td colspan=\"4\">Wastewater Influent means the raw sewage flow from the collection system into the treatment facility. Sample the wastewater entering the headworks of the treatment plant excluding any side-stream returns from inside the plant.</td> </tr> <tr> <td>Biochemical Oxygen Demand (BOD<sub>5</sub>)</td> <td>mg/L</td> <td>1/week</td> <td>24-Hour Composite <sup>2</sup></td> </tr> <tr> <td>BOD<sub>5</sub></td> <td>lbs/day</td> <td>1/week</td> <td>Calculated <sup>7</sup></td> </tr> <tr> <td>Total Suspended Solids (TSS)</td> <td>mg/L</td> <td>1/week</td> <td>24-Hour Composite <sup>2</sup></td> </tr> <tr> <td>TSS</td> <td>lbs/day</td> <td>1/week</td> <td>Calculated <sup>7</sup></td> </tr> <tr> <td>TKN</td> <td>mg/L</td> <td>1/week</td> <td>24-Hour Composite <sup>2</sup></td> </tr> <tr> <td>Temperature (Daily Max)</td> <td>Degrees Centigrade (°C)</td> <td>Continuous <sup>1, 13</sup></td> <td>Metered/Recorded</td> </tr> <tr> <td colspan=\"4\"><b>(2) Final Wastewater Effluent</b></td> </tr> <tr> <td colspan=\"4\">Final Wastewater Effluent means wastewater exiting the last treatment process or operation. Typically, this is after or at the exit from the chlorine contact chamber or other disinfection process. The Permittee may take effluent samples for the BOD<sub>5</sub> analysis before or after the disinfection process. If taken after, the Permittee must de-chlorinate and reseed the sample.</td> </tr> <tr> <td>Flow</td> <td>MGD</td> <td>Continuous <sup>1</sup></td> <td>Metered/Recorded</td> </tr> <tr> <td>pH</td> <td>Standard Units</td> <td>5/week <sup>8, 12</sup></td> <td>Grab <sup>6</sup></td> </tr> <tr> <td>Chlorine (Total Residual)</td> <td>μg/L</td> <td>5/week <sup>12</sup></td> <td>Grab <sup>6</sup></td> </tr> <tr> <td>Temperature (Daily Max)</td> <td>Degrees Centigrade (°C)</td> <td>5/week <sup>9, 12</sup></td> <td>Grab <sup>6</sup><br/><b>Discontinue when continuous temperature recording starts</b></td> </tr> <tr> <td>Temperature (Daily Max)</td> <td>Degrees Centigrade (°C)</td> <td>Continuous <sup>1, 9</sup></td> <td>Metered/Recorded – <b>Starting May 1, 2015</b></td> </tr> <tr> <td>7-DADMax Temperature</td> <td>°C – Daily Maximum</td> <td>Continuous <sup>1, 9, 10</sup></td> <td>Calculated – <b>Starting May 1, 2015</b></td> </tr> <tr> <td>BOD<sub>5</sub></td> <td>mg/L</td> <td>1/week <sup>5</sup></td> <td>24-Hour Composite <sup>2</sup></td> </tr> <tr> <td>BOD<sub>5</sub></td> <td>lbs/day</td> <td>1/week <sup>5</sup></td> <td>Calculated <sup>7</sup></td> </tr> <tr> <td>BOD<sub>5</sub></td> <td>% removal <sup>3</sup></td> <td>1/week <sup>5</sup></td> <td>Calculated <sup>7</sup></td> </tr> <tr> <td>TSS</td> <td>mg/L</td> <td>1/week</td> <td>24-Hour Composite <sup>2</sup></td> </tr> <tr> <td>TSS</td> <td>lbs/day</td> <td>1/week</td> <td>Calculated <sup>7</sup></td> </tr> </tbody> </table>",
+        "char_count": 3057,
+        "token_count": 1206,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 3057,
+          "source_file": "2014_ecology_npdes_permit_wa0023141_tekoa.pdf",
+          "page": 8,
+          "section": null,
+          "document_title": "2014 ecology npdes permit wa0023141 tekoa",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "2014_ecology_npdes_permit_wa0023141_tekoa.pdf",
+          "file_path": "2014_ecology_npdes_permit_wa0023141_tekoa.pdf",
+          "page": 8,
+          "page_label": "8",
+          "page_raw": null,
+          "section": null,
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "2014 ecology npdes permit wa0023141 tekoa",
+          "author": null,
+          "publisher": "Washington State Department of Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "p.8; WWTP guidance",
+          "confidence": 0.6
+        }
+      },
+      {
+        "node_id": "f49bce0d-68f9-4c21-9979-6dc362768332",
+        "document_id": "a221349eb9c667e569355be1ca62f9343d2fd953b2375cb131",
+        "passage_id": "pid_f9c7ab6c008c605f2eee6e44",
+        "parent_id": null,
+        "score": 0.8106142,
+        "text": "<table>\n  <thead>\n    <tr>\n      <th colspan=\"3\">Table 2.2-1. NPDES Permit No. WA0023141 Effluent Limits Outfall #001 (Continued)</th>\n    </tr>\n<tr>\n      <th>Parameter</th>\n      <th>Average Monthly</th>\n      <th>Maximum Daily</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><b>Total Ammonia (as NH3-N)</b></td>\n      <td>1.3 mg/L</td>\n      <td>2.4 mg/L</td>\n    </tr>\n<tr>\n      <td><b>Total Residual Chlorine</b><br>(WQ-based)</td>\n      <td>4 μg/L</td>\n      <td>19 μg/L</td>\n    </tr>\n<tr>\n      <th colspan=\"2\">Parameter (Effective 2024)</th>\n      <th>7 DAD Maximum</th>\n    </tr>\n<tr>\n      <td colspan=\"2\"><b>Temperature<br>7 day DAD Max</b></td>\n      <td>\n        <b>To take effect 2024:</b><br>\n        June = 18.2º C<br>\n        July = 21.5º C<br>\n        August = 17.7º C\n      </td>\n    </tr>\n  </tbody>\n</table>\n\nAn exhaustive list of effluent limits for the Tekoa’s WWTP is provided in Appendix A for full permit.\n\n## 2.3 Compliance History\n\nReview of available records indicates the Tekoa WWTP has experienced challenges in consistently meeting its NPDES permit limits. A Notice of Noncompliance was issued by Ecology in March 2016, citing numeric effluent violations for fecal coliform (6), TSS (6), BOD (2), effluent quantity (2) and chlorine (1) from June 2014 to January 2016. Significant effort prior to the Notice of Noncompliance has been put forward to improve the the plant’s ability to meet its permit limits, though challenges remain. See Table 2.3-1 for a summary of the facility’s effluent violations from 2022 to 2024 based on wasteload assessments submitted to Ecology by the town.\n\n<table>\n  <thead>\n    <tr>\n      <th>Parameter</th>\n      <th>Limit Value</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><b>Temperature</b></td>\n      <td>\n        June: 18.2°C<br>\n        July: 21.5°C<br>\n        August: 17.7°C\n      </td>\n    </tr>\n<tr>\n      <td><b>Dissolved Inorganic Nitrogen (DIN)</b></td>\n      <td>0.0132 kg/d <br> (0.0291 lbs/d)</td>\n    </tr>\n<tr>\n      <td><b>Total Phosphorus (TP)</b></td>\n      <td>0.00183 kg/d <br> (0.00404 lbs/d)</td>\n    </tr>\n  </tbody>\n</table>",
+        "text_raw": "<table>\n  <thead>\n    <tr>\n      <th colspan=\"3\">Table 2.2-1. NPDES Permit No. WA0023141 Effluent Limits Outfall #001 (Continued)</th>\n    </tr>\n<tr>\n      <th>Parameter</th>\n      <th>Average Monthly</th>\n      <th>Maximum Daily</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><b>Total Ammonia (as NH3-N)</b></td>\n      <td>1.3 mg/L</td>\n      <td>2.4 mg/L</td>\n    </tr>\n<tr>\n      <td><b>Total Residual Chlorine</b><br>(WQ-based)</td>\n      <td>4 μg/L</td>\n      <td>19 μg/L</td>\n    </tr>\n<tr>\n      <th colspan=\"2\">Parameter (Effective 2024)</th>\n      <th>7 DAD Maximum</th>\n    </tr>\n<tr>\n      <td colspan=\"2\"><b>Temperature<br>7 day DAD Max</b></td>\n      <td>\n        <b>To take effect 2024:</b><br>\n        June = 18.2º C<br>\n        July = 21.5º C<br>\n        August = 17.7º C\n      </td>\n    </tr>\n  </tbody>\n</table>\n\nAn exhaustive list of effluent limits for the Tekoa’s WWTP is provided in Appendix A for full permit.\n\n## 2.3 Compliance History\n\nReview of available records indicates the Tekoa WWTP has experienced challenges in consistently meeting its NPDES permit limits. A Notice of Noncompliance was issued by Ecology in March 2016, citing numeric effluent violations for fecal coliform (6), TSS (6), BOD (2), effluent quantity (2) and chlorine (1) from June 2014 to January 2016. Significant effort prior to the Notice of Noncompliance has been put forward to improve the the plant’s ability to meet its permit limits, though challenges remain. See Table 2.3-1 for a summary of the facility’s effluent violations from 2022 to 2024 based on wasteload assessments submitted to Ecology by the town.\n\n<table>\n  <thead>\n    <tr>\n      <th>Parameter</th>\n      <th>Limit Value</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td><b>Temperature</b></td>\n      <td>\n        June: 18.2°C<br>\n        July: 21.5°C<br>\n        August: 17.7°C\n      </td>\n    </tr>\n<tr>\n      <td><b>Dissolved Inorganic Nitrogen (DIN)</b></td>\n      <td>0.0132 kg/d <br> (0.0291 lbs/d)</td>\n    </tr>\n<tr>\n      <td><b>Total Phosphorus (TP)</b></td>\n      <td>0.00183 kg/d <br> (0.00404 lbs/d)</td>\n    </tr>\n  </tbody>\n</table>",
+        "text_clean": "<table> <thead> <tr> <th colspan=\"3\">Table 2.2-1. NPDES Permit No. WA0023141 Effluent Limits Outfall #001 (Continued)</th> </tr> <tr> <th>Parameter</th> <th>Average Monthly</th> <th>Maximum Daily</th> </tr> </thead> <tbody> <tr> <td><b>Total Ammonia (as NH3-N)</b></td> <td>1.3 mg/L</td> <td>2.4 mg/L</td> </tr> <tr> <td><b>Total Residual Chlorine</b><br>(WQ-based)</td> <td>4 μg/L</td> <td>19 μg/L</td> </tr> <tr> <th colspan=\"2\">Parameter (Effective 2024)</th> <th>7 DAD Maximum</th> </tr> <tr> <td colspan=\"2\"><b>Temperature<br>7 day DAD Max</b></td> <td> <b>To take effect 2024:</b><br> June = 18.2º C<br> July = 21.5º C<br> August = 17.7º C </td> </tr> </tbody> </table> An exhaustive list of effluent limits for the Tekoa’s WWTP is provided in Appendix A for full permit. ## 2.3 Compliance History Review of available records indicates the Tekoa WWTP has experienced challenges in consistently meeting its NPDES permit limits. A Notice of Noncompliance was issued by Ecology in March 2016, citing numeric effluent violations for fecal coliform (6), TSS (6), BOD (2), effluent quantity (2) and chlorine (1) from June 2014 to January 2016. Significant effort prior to the Notice of Noncompliance has been put forward to improve the the plant’s ability to meet its permit limits, though challenges remain. See Table 2.3-1 for a summary of the facility’s effluent violations from 2022 to 2024 based on wasteload assessments submitted to Ecology by the town. <table> <thead> <tr> <th>Parameter</th> <th>Limit Value</th> </tr> </thead> <tbody> <tr> <td><b>Temperature</b></td> <td> June: 18.2°C<br> July: 21.5°C<br> August: 17.7°C </td> </tr> <tr> <td><b>Dissolved Inorganic Nitrogen (DIN)</b></td> <td>0.0132 kg/d <br> (0.0291 lbs/d)</td> </tr> <tr> <td><b>Total Phosphorus (TP)</b></td> <td>0.00183 kg/d <br> (0.00404 lbs/d)</td> </tr> </tbody> </table>",
+        "char_count": 1855,
+        "token_count": 644,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 2131,
+          "source_file": "tekoa-facility-plan-draft-v41.docx",
+          "page": 25,
+          "section": "2.3 Compliance History",
+          "document_title": "tekoa-facility-plan-draft-v41",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "tekoa-facility-plan-draft-v41.docx",
+          "file_path": "tekoa-facility-plan-draft-v41.docx",
+          "page": 25,
+          "page_label": "25",
+          "page_raw": null,
+          "section": "2.3 Compliance History",
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "tekoa-facility-plan-draft-v41",
+          "author": null,
+          "publisher": null,
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Section: 2.3 Compliance History; p.25; WWTP guidance; effluent limits; permitting",
+          "confidence": 0.65
+        }
+      },
+      {
+        "node_id": "e558dad7-12af-4b4b-af2d-46918ca6020b",
+        "document_id": "02138eeb4e7073512a43c264a2153b92e288a9b68e938bf89c",
+        "passage_id": "pid_4621b0b725ed22a4f3b81bc1",
+        "parent_id": null,
+        "score": 0.6762998,
+        "text": "any hazard in the receiving waters of the sewage treatment plant, including but not limited to cyanides in excess of two (2) mg/l as CN in the wastes as discharged to the public sewer.\n\n3. Any waters or wastes having a pH lower than (5.5), or having any other corrosive property capable of causing damage or hazard to structures, equipment, and personnel of the sewage works.\n\n4. Solid or viscous substances in quantities or of such size capable of causing obstruction to the flow in sewers, or other interference with the proper operation of the sewage works such as, but not limited to, ashes, cinders, sand, mud, straw, shavings, metal glass, rags, feathers, tar, plastics, wood, unground garbage, whole blood, paunch manure, hair and fleshings, entrails and paper dishes, cups, milk containers, etc., either whole or ground by garbage grinders.\n\n> _Compiler’s Note:_  \n> Hazardous waste is dealt with under Zoning; Definitions section  \n> and Industrial Zone section.\n\nb) No person shall discharge or cause to be discharged the following described substances, materials, waters, or wastes if it appears likely in the opinion of the Superintendent that such wastes can harm either the sewers, sewage treatment process, or equipment, have an adverse effect on the receiving stream, or can otherwise endanger life, limb, public property, or constitute a nuisance. In forming his opinion as to the acceptability of these wastes, the Superintendent will give consideration to such factors as to quantities of subject wastes in relation to flows and velocities in the sewers, materials of construction of the sewers, nature of the sewage treatment process, capacity of the sewage treatment plant, degree of treatability of wastes in the sewage treatment plant, and other pertinent factors. The substances prohibited are:\n\n1) Any liquid or vapor having a temperature higher than one hundred fifty (150°F) (65°C).\n\n2) Any water or waste containing fats, wax, grease, or oils, whether emulsified or not, in excess of one hundred (100) mg/l or containing substances which may solidify or become viscous at temperatures between thirty-two (32) and one hundred fifty (150°F) (0 and 65°C).\n\n3) Any garbage that has not been property shredded. The installation and operation of any garbage grinder equipped with a motor of three-fourths (3/4) horsepower (0.76 hp metric) or greater shall be subject to the review and approval of the Superintendent.\n\n4) Any waters or wastes containing strong acid iron pickling wastes, or concentrated plating solutions whether neutralized or not.\n\n5) Any waters or wastes containing iron, chromium, copper, zinc, and similar objectionable or toxic substances; or wastes exerting an excessive chlorine requirement, to such degree that any such material received in the composite sewage at the sewage treatment works exceeds the limits established by the Superintendent for such materials.\n\n6) Any waters or wastes containing phenols or other taste or odor producing substances, in such concentrations exceeding limits which may be established by the Superintendent as necessary, after treatment of the composite sewage, to meet the requirements of the State, Federal, or other public agencies of jurisdiction for such discharge to the receiving waters.",
+        "text_raw": "any hazard in the receiving waters of the sewage treatment plant, including but not limited to cyanides in excess of two (2) mg/l as CN in the wastes as discharged to the public sewer.\n\n3. Any waters or wastes having a pH lower than (5.5), or having any other corrosive property capable of causing damage or hazard to structures, equipment, and personnel of the sewage works.\n\n4. Solid or viscous substances in quantities or of such size capable of causing obstruction to the flow in sewers, or other interference with the proper operation of the sewage works such as, but not limited to, ashes, cinders, sand, mud, straw, shavings, metal glass, rags, feathers, tar, plastics, wood, unground garbage, whole blood, paunch manure, hair and fleshings, entrails and paper dishes, cups, milk containers, etc., either whole or ground by garbage grinders.\n\n> _Compiler’s Note:_  \n> Hazardous waste is dealt with under Zoning; Definitions section  \n> and Industrial Zone section.\n\nb) No person shall discharge or cause to be discharged the following described substances, materials, waters, or wastes if it appears likely in the opinion of the Superintendent that such wastes can harm either the sewers, sewage treatment process, or equipment, have an adverse effect on the receiving stream, or can otherwise endanger life, limb, public property, or constitute a nuisance. In forming his opinion as to the acceptability of these wastes, the Superintendent will give consideration to such factors as to quantities of subject wastes in relation to flows and velocities in the sewers, materials of construction of the sewers, nature of the sewage treatment process, capacity of the sewage treatment plant, degree of treatability of wastes in the sewage treatment plant, and other pertinent factors. The substances prohibited are:\n\n1) Any liquid or vapor having a temperature higher than one hundred fifty (150°F) (65°C).\n\n2) Any water or waste containing fats, wax, grease, or oils, whether emulsified or not, in excess of one hundred (100) mg/l or containing substances which may solidify or become viscous at temperatures between thirty-two (32) and one hundred fifty (150°F) (0 and 65°C).\n\n3) Any garbage that has not been property shredded. The installation and operation of any garbage grinder equipped with a motor of three-fourths (3/4) horsepower (0.76 hp metric) or greater shall be subject to the review and approval of the Superintendent.\n\n4) Any waters or wastes containing strong acid iron pickling wastes, or concentrated plating solutions whether neutralized or not.\n\n5) Any waters or wastes containing iron, chromium, copper, zinc, and similar objectionable or toxic substances; or wastes exerting an excessive chlorine requirement, to such degree that any such material received in the composite sewage at the sewage treatment works exceeds the limits established by the Superintendent for such materials.\n\n6) Any waters or wastes containing phenols or other taste or odor producing substances, in such concentrations exceeding limits which may be established by the Superintendent as necessary, after treatment of the composite sewage, to meet the requirements of the State, Federal, or other public agencies of jurisdiction for such discharge to the receiving waters.",
+        "text_clean": "any hazard in the receiving waters of the sewage treatment plant, including but not limited to cyanides in excess of two (2) mg/l as CN in the wastes as discharged to the public sewer. 3. Any waters or wastes having a pH lower than (5.5), or having any other corrosive property capable of causing damage or hazard to structures, equipment, and personnel of the sewage works. 4. Solid or viscous substances in quantities or of such size capable of causing obstruction to the flow in sewers, or other interference with the proper operation of the sewage works such as, but not limited to, ashes, cinders, sand, mud, straw, shavings, metal glass, rags, feathers, tar, plastics, wood, unground garbage, whole blood, paunch manure, hair and fleshings, entrails and paper dishes, cups, milk containers, etc., either whole or ground by garbage grinders. > _Compiler’s Note:_ > Hazardous waste is dealt with under Zoning; Definitions section > and Industrial Zone section. b) No person shall discharge or cause to be discharged the following described substances, materials, waters, or wastes if it appears likely in the opinion of the Superintendent that such wastes can harm either the sewers, sewage treatment process, or equipment, have an adverse effect on the receiving stream, or can otherwise endanger life, limb, public property, or constitute a nuisance. In forming his opinion as to the acceptability of these wastes, the Superintendent will give consideration to such factors as to quantities of subject wastes in relation to flows and velocities in the sewers, materials of construction of the sewers, nature of the sewage treatment process, capacity of the sewage treatment plant, degree of treatability of wastes in the sewage treatment plant, and other pertinent factors. The substances prohibited are: 1) Any liquid or vapor having a temperature higher than one hundred fifty (150°F) (65°C). 2) Any water or waste containing fats, wax, grease, or oils, whether emulsified or not, in excess of one hundred (100) mg/l or containing substances which may solidify or become viscous at temperatures between thirty-two (32) and one hundred fifty (150°F) (0 and 65°C). 3) Any garbage that has not been property shredded. The installation and operation of any garbage grinder equipped with a motor of three-fourths (3/4) horsepower (0.76 hp metric) or greater shall be subject to the review and approval of the Superintendent. 4) Any waters or wastes containing strong acid iron pickling wastes, or concentrated plating solutions whether neutralized or not. 5) Any waters or wastes containing iron, chromium, copper, zinc, and similar objectionable or toxic substances; or wastes exerting an excessive chlorine requirement, to such degree that any such material received in the composite sewage at the sewage treatment works exceeds the limits established by the Superintendent for such materials. 6) Any waters or wastes containing phenols or other taste or odor producing substances, in such concentrations exceeding limits which may be established by the Superintendent as necessary, after treatment of the composite sewage, to meet the requirements of the State, Federal, or other public agencies of jurisdiction for such discharge to the receiving waters.",
+        "char_count": 3261,
+        "token_count": 671,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 3275,
+          "source_file": "tekoa_code_book.pdf",
+          "page": 51,
+          "section": null,
+          "document_title": "tekoa code book",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "tekoa_code_book.pdf",
+          "file_path": "tekoa_code_book.pdf",
+          "page": 51,
+          "page_label": "51",
+          "page_raw": null,
+          "section": null,
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "tekoa code book",
+          "author": null,
+          "publisher": null,
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "p.51",
+          "confidence": 0.6
+        }
+      },
+      {
+        "node_id": "d44d2ccb-413c-44e2-808a-30987293fddd",
+        "document_id": "02138eeb4e7073512a43c264a2153b92e288a9b68e938bf89c",
+        "passage_id": "pid_6c7f21bcb1667f988cb54156",
+        "parent_id": null,
+        "score": 0.6729558,
+        "text": "# Chapter 2.24\n\n# SEWER SYSTEM\n\n**Sections:**\n\n2.24.010  -  Sewer System Merged into Water System  \n2.24.020  -  Application for Service  \n2.24.030  -  Definitions  \n2.24.040  -  Rates  \n2.24.050  -  Special Rule – Apartment Houses  \n2.24.060  -  Number of Sewer Connections not Determinative  \n2.24.070  -  Proration  \n2.24.080  -  Payment  \n2.24.090  -  Late Charge  \n2.24.100  -  Discontinuance by Customer  \n2.24.110  -  Discontinuance by City  \n2.24.120  -  Lien  \n2.24.130  -  Additional Definitions  \n2.24.140  -  Use of Public Sewers Required  \n2.24.150  -  Private Sewage Disposal  \n2.24.160  -  Building Sewers and Connections  \n2.24.170  -  Building Standards  \n2.24.180  -  Repair Standards  \n2.24.190  -  Connecting Ground & Drainwater Prohibited  \n2.24.200  -  Storm Water Drains  \n2.24.210  -  Discharge of Pollutants Prohibited  \n2.24.220  -  Interceptors  \n2.24.230  -  Preliminary Treatment or Flow of Equalizing Devices  \n2.24.240  -  Manholes – When Required  \n2.24.250  -  Standards for Measurement  \n2.24.260  -  Special Agreements",
+        "text_raw": "# Chapter 2.24\n\n# SEWER SYSTEM\n\n**Sections:**\n\n2.24.010  -  Sewer System Merged into Water System  \n2.24.020  -  Application for Service  \n2.24.030  -  Definitions  \n2.24.040  -  Rates  \n2.24.050  -  Special Rule – Apartment Houses  \n2.24.060  -  Number of Sewer Connections not Determinative  \n2.24.070  -  Proration  \n2.24.080  -  Payment  \n2.24.090  -  Late Charge  \n2.24.100  -  Discontinuance by Customer  \n2.24.110  -  Discontinuance by City  \n2.24.120  -  Lien  \n2.24.130  -  Additional Definitions  \n2.24.140  -  Use of Public Sewers Required  \n2.24.150  -  Private Sewage Disposal  \n2.24.160  -  Building Sewers and Connections  \n2.24.170  -  Building Standards  \n2.24.180  -  Repair Standards  \n2.24.190  -  Connecting Ground & Drainwater Prohibited  \n2.24.200  -  Storm Water Drains  \n2.24.210  -  Discharge of Pollutants Prohibited  \n2.24.220  -  Interceptors  \n2.24.230  -  Preliminary Treatment or Flow of Equalizing Devices  \n2.24.240  -  Manholes – When Required  \n2.24.250  -  Standards for Measurement  \n2.24.260  -  Special Agreements",
+        "text_clean": "# Chapter 2.24 # SEWER SYSTEM **Sections:** 2.24.010 - Sewer System Merged into Water System 2.24.020 - Application for Service 2.24.030 - Definitions 2.24.040 - Rates 2.24.050 - Special Rule – Apartment Houses 2.24.060 - Number of Sewer Connections not Determinative 2.24.070 - Proration 2.24.080 - Payment 2.24.090 - Late Charge 2.24.100 - Discontinuance by Customer 2.24.110 - Discontinuance by City 2.24.120 - Lien 2.24.130 - Additional Definitions 2.24.140 - Use of Public Sewers Required 2.24.150 - Private Sewage Disposal 2.24.160 - Building Sewers and Connections 2.24.170 - Building Standards 2.24.180 - Repair Standards 2.24.190 - Connecting Ground & Drainwater Prohibited 2.24.200 - Storm Water Drains 2.24.210 - Discharge of Pollutants Prohibited 2.24.220 - Interceptors 2.24.230 - Preliminary Treatment or Flow of Equalizing Devices 2.24.240 - Manholes – When Required 2.24.250 - Standards for Measurement 2.24.260 - Special Agreements",
+        "char_count": 948,
+        "token_count": 303,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 1053,
+          "source_file": "tekoa_code_book.pdf",
+          "page": 43,
+          "section": "SEWER SYSTEM",
+          "document_title": "tekoa code book",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "tekoa_code_book.pdf",
+          "file_path": "tekoa_code_book.pdf",
+          "page": 43,
+          "page_label": "43",
+          "page_raw": null,
+          "section": "SEWER SYSTEM",
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "tekoa code book",
+          "author": null,
+          "publisher": null,
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Section: SEWER SYSTEM; p.43",
+          "confidence": 0.65
+        }
+      },
+      {
+        "node_id": "37572626-b9dc-4ff7-b790-46702933fdc1",
+        "document_id": "02138eeb4e7073512a43c264a2153b92e288a9b68e938bf89c",
+        "passage_id": "pid_2cfe05426a355c3e01e482bd",
+        "parent_id": null,
+        "score": 0.5860734,
+        "text": "address. If mailed notice is given, the sewer service shall not be discontinued prior to the eighth (8th) business day following mailing of the notice. If personal delivery of the notice is made, the sewer service shall not be discontinued prior to five o’clock (5:00) p.m. of the first business day following delivery. (Ord. 582, Ch. 4, §2; 5/6/1985).\n\n## 2.24.120 – Property Owner Obligation to Pay Charges – Lien  \nAll sewer connection fees, monthly charges, late charges, and any other charges relating to the Tekoa Public Sewer System shall be the obligation of, and shall be charged to, the owner of the premises served. The City of Tekoa shall have a lien against the premises for any delinquent sewer charges. Such lien may be enforced by foreclosure as provided in RCW 35.67.290 until such time as all delinquent charges and a reconnection fee, listed in the fee schedule, have been paid to the City Clerk-Treasurer. (Ord. 731, §1, 7/3/2003; Ord. 582, Ch. 4, §3; 5/6/1985).\n\n## 2.24.130 – Additional Definitions  \nUnless the context specifically indicates otherwise, the meaning of terms used in this Chapter shall be as follows:\n\n1. “BOD” (denoting Biochemical Oxygen Demand) shall mean the quantity of oxygen utilized in the biochemical oxidation of organic matter under standard laboratory procedure in five (5) days at 20°C, expressed in milligrams per liter.\n\n2. “Building Drain” shall mean that part of the lowest horizontal piping of a drainage system which receives the discharge from soil, waste, and other drainage pipes inside the walls of the building and conveys it to the building sewer, beginning five (5) feet (1.5) meters outside the inner face of the building wall.\n\n3. “Building Sewer” shall mean the extension from the building drain to the public sewer or other place of disposal.\n\n4. “Combined Sewer” shall mean a sewer receiving both surface runoff and sewage.\n\n5. “Garbage” shall mean solid wastes from the domestic and commercial preparation, cooking and dispensing of food, and from the handling, storage, and sale of produce.\n\n6. “Industrial Wastes” shall mean the liquid wastes from industrial manufacturing processes, trade, or business as distinct from sanitary sewage.\n\n7. “Natural Outlet” shall mean any outlet into a watercourse, pond, ditch, lake, or other body of surface or ground water.\n\n8. “Person” shall mean any individual, firm, company, association, society, corporation, or group.\n\n9. “pH” shall mean the logarithm of the reciprocal of the weight of hydrogen ions in grams per liter of solution.\n\n10. “Property Shredded Garbage” shall mean the wastes from the preparation, cooking, and dispensing of food that have been shredded to such a degree that all particles will be carried freely under the flow conditions normally prevailing in public sewers, with no particle greater than one-half (1/2) inch (1.27 centimeters) in any dimension.",
+        "text_raw": "address. If mailed notice is given, the sewer service shall not be discontinued prior to the eighth (8th) business day following mailing of the notice. If personal delivery of the notice is made, the sewer service shall not be discontinued prior to five o’clock (5:00) p.m. of the first business day following delivery. (Ord. 582, Ch. 4, §2; 5/6/1985).\n\n## 2.24.120 – Property Owner Obligation to Pay Charges – Lien  \nAll sewer connection fees, monthly charges, late charges, and any other charges relating to the Tekoa Public Sewer System shall be the obligation of, and shall be charged to, the owner of the premises served. The City of Tekoa shall have a lien against the premises for any delinquent sewer charges. Such lien may be enforced by foreclosure as provided in RCW 35.67.290 until such time as all delinquent charges and a reconnection fee, listed in the fee schedule, have been paid to the City Clerk-Treasurer. (Ord. 731, §1, 7/3/2003; Ord. 582, Ch. 4, §3; 5/6/1985).\n\n## 2.24.130 – Additional Definitions  \nUnless the context specifically indicates otherwise, the meaning of terms used in this Chapter shall be as follows:\n\n1. “BOD” (denoting Biochemical Oxygen Demand) shall mean the quantity of oxygen utilized in the biochemical oxidation of organic matter under standard laboratory procedure in five (5) days at 20°C, expressed in milligrams per liter.\n\n2. “Building Drain” shall mean that part of the lowest horizontal piping of a drainage system which receives the discharge from soil, waste, and other drainage pipes inside the walls of the building and conveys it to the building sewer, beginning five (5) feet (1.5) meters outside the inner face of the building wall.\n\n3. “Building Sewer” shall mean the extension from the building drain to the public sewer or other place of disposal.\n\n4. “Combined Sewer” shall mean a sewer receiving both surface runoff and sewage.\n\n5. “Garbage” shall mean solid wastes from the domestic and commercial preparation, cooking and dispensing of food, and from the handling, storage, and sale of produce.\n\n6. “Industrial Wastes” shall mean the liquid wastes from industrial manufacturing processes, trade, or business as distinct from sanitary sewage.\n\n7. “Natural Outlet” shall mean any outlet into a watercourse, pond, ditch, lake, or other body of surface or ground water.\n\n8. “Person” shall mean any individual, firm, company, association, society, corporation, or group.\n\n9. “pH” shall mean the logarithm of the reciprocal of the weight of hydrogen ions in grams per liter of solution.\n\n10. “Property Shredded Garbage” shall mean the wastes from the preparation, cooking, and dispensing of food that have been shredded to such a degree that all particles will be carried freely under the flow conditions normally prevailing in public sewers, with no particle greater than one-half (1/2) inch (1.27 centimeters) in any dimension.",
+        "text_clean": "address. If mailed notice is given, the sewer service shall not be discontinued prior to the eighth (8th) business day following mailing of the notice. If personal delivery of the notice is made, the sewer service shall not be discontinued prior to five o’clock (5:00) p.m. of the first business day following delivery. (Ord. 582, Ch. 4, §2; 5/6/1985). ## 2.24.120 – Property Owner Obligation to Pay Charges – Lien All sewer connection fees, monthly charges, late charges, and any other charges relating to the Tekoa Public Sewer System shall be the obligation of, and shall be charged to, the owner of the premises served. The City of Tekoa shall have a lien against the premises for any delinquent sewer charges. Such lien may be enforced by foreclosure as provided in RCW 35.67.290 until such time as all delinquent charges and a reconnection fee, listed in the fee schedule, have been paid to the City Clerk-Treasurer. (Ord. 731, §1, 7/3/2003; Ord. 582, Ch. 4, §3; 5/6/1985). ## 2.24.130 – Additional Definitions Unless the context specifically indicates otherwise, the meaning of terms used in this Chapter shall be as follows: 1. “BOD” (denoting Biochemical Oxygen Demand) shall mean the quantity of oxygen utilized in the biochemical oxidation of organic matter under standard laboratory procedure in five (5) days at 20°C, expressed in milligrams per liter. 2. “Building Drain” shall mean that part of the lowest horizontal piping of a drainage system which receives the discharge from soil, waste, and other drainage pipes inside the walls of the building and conveys it to the building sewer, beginning five (5) feet (1.5) meters outside the inner face of the building wall. 3. “Building Sewer” shall mean the extension from the building drain to the public sewer or other place of disposal. 4. “Combined Sewer” shall mean a sewer receiving both surface runoff and sewage. 5. “Garbage” shall mean solid wastes from the domestic and commercial preparation, cooking and dispensing of food, and from the handling, storage, and sale of produce. 6. “Industrial Wastes” shall mean the liquid wastes from industrial manufacturing processes, trade, or business as distinct from sanitary sewage. 7. “Natural Outlet” shall mean any outlet into a watercourse, pond, ditch, lake, or other body of surface or ground water. 8. “Person” shall mean any individual, firm, company, association, society, corporation, or group. 9. “pH” shall mean the logarithm of the reciprocal of the weight of hydrogen ions in grams per liter of solution. 10. “Property Shredded Garbage” shall mean the wastes from the preparation, cooking, and dispensing of food that have been shredded to such a degree that all particles will be carried freely under the flow conditions normally prevailing in public sewers, with no particle greater than one-half (1/2) inch (1.27 centimeters) in any dimension.",
+        "char_count": 2874,
+        "token_count": 679,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 2890,
+          "source_file": "tekoa_code_book.pdf",
+          "page": 46,
+          "section": "2.24.130 – Additional Definitions",
+          "document_title": "tekoa code book",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "tekoa_code_book.pdf",
+          "file_path": "tekoa_code_book.pdf",
+          "page": 46,
+          "page_label": "46",
+          "page_raw": null,
+          "section": "2.24.130 – Additional Definitions",
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "tekoa code book",
+          "author": null,
+          "publisher": null,
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Cites RCW 35.67.290; Section: 2.24.130 – Additional Definitions; p.46",
+          "confidence": 0.75
+        }
+      },
+      {
+        "node_id": "9ba9bcb4-b1b0-45a8-898d-8fd4d20e6a87",
+        "document_id": "ca36b50744018334b8d53f2fb0b77e4c95f04746daf1ccf910",
+        "passage_id": "pid_436ffc53c846783d1641e94b",
+        "parent_id": null,
+        "score": 0.57894874,
+        "text": "# Final Report\n\n## Appendix 3  \n### SUMMARIES\n\nTekoa, Washington – Sanitary Sewer Flow Monitoring – SFE File #U16-09",
+        "text_raw": "# Final Report\n\n## Appendix 3  \n### SUMMARIES\n\nTekoa, Washington – Sanitary Sewer Flow Monitoring – SFE File #U16-09",
+        "text_clean": "# Final Report ## Appendix 3 ### SUMMARIES Tekoa, Washington – Sanitary Sewer Flow Monitoring – SFE File #U16-09",
+        "char_count": 112,
+        "token_count": 31,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 116,
+          "source_file": "appendix-3-u16-109-tekoe-wa-final-report.pdf",
+          "page": 25,
+          "section": "SUMMARIES",
+          "document_title": "appendix-3-u16-109-tekoe-wa-final-report",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "appendix-3-u16-109-tekoe-wa-final-report.pdf",
+          "file_path": "appendix-3-u16-109-tekoe-wa-final-report.pdf",
+          "page": 25,
+          "page_label": "25",
+          "page_raw": null,
+          "section": "SUMMARIES",
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "appendix-3-u16-109-tekoe-wa-final-report",
+          "author": null,
+          "publisher": null,
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Section: SUMMARIES; p.25",
+          "confidence": 0.65
+        }
+      },
+      {
+        "node_id": "e9f1732e-8ee7-4fae-bb4a-1fbd079586f7",
+        "document_id": "a221349eb9c667e569355be1ca62f9343d2fd953b2375cb131",
+        "passage_id": "pid_9ee2adbd033ac2c70d27970a",
+        "parent_id": null,
+        "score": 0.55767727,
+        "text": "<table>\n  <thead>\n    <tr>\n      <th>Text from WAC 173-240-060</th>\n      <th>Inclusion Check</th>\n      <th>Confirmation / Location</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td></td>\n      <td>The analysis includes at least one full year of current wastewater flow and loading data to justify appropriate design parameters.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The analyzed data includes sufficient detail to demonstrate the degree of flow and loading variability experienced.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The location of influent and effluent sampling and the type of samples taken are identified.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The locations of treatment process return streams are identified.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The report relies on credible and accurate data using laboratory data from an Ecology-accredited laboratory and flow data from meters with a documented history of proper calibration.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>Future (normally 20 years) waste load and sources of wastewater are estimated.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>Future estimates are based on present conditions and expected future conditions accounting for zoning patterns, council of government’s population forecasts, historical population trends, existing industrial users, and anticipated future sources.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>Future estimates account for the anticipated impacts of existing or planned water conservation measures on future sewer service, considering potential increased waste load concentrations and per capita flow.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>Future estimates account for the impact climate change may have on unmitigated I/I flows.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>For facilities receiving flows from combined sewers, the assessment includes how efforts to control CSOs impact anticipated future flows. (If applicable)</td>\n      <td></td>\n    </tr>\n<tr>\n      <td><b>(d) The degree of treatment required based upon applicable permits and regulations, the receiving water, the amount and strength of wastewater to be treated, and other influencing factors.</b></td>\n      <td>A copy of the current discharge permit and any compliance orders are included. (If applicable)</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>For new discharges, requirements reasonably anticipated in a draft permit are included. (If applicable)</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The evaluation results of Sections 3(e), (h), and (I) are used to estimate the degree of treatment needed to meet conditions of a current or</td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>",
+        "text_raw": "<table>\n  <thead>\n    <tr>\n      <th>Text from WAC 173-240-060</th>\n      <th>Inclusion Check</th>\n      <th>Confirmation / Location</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td></td>\n      <td>The analysis includes at least one full year of current wastewater flow and loading data to justify appropriate design parameters.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The analyzed data includes sufficient detail to demonstrate the degree of flow and loading variability experienced.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The location of influent and effluent sampling and the type of samples taken are identified.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The locations of treatment process return streams are identified.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The report relies on credible and accurate data using laboratory data from an Ecology-accredited laboratory and flow data from meters with a documented history of proper calibration.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>Future (normally 20 years) waste load and sources of wastewater are estimated.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>Future estimates are based on present conditions and expected future conditions accounting for zoning patterns, council of government’s population forecasts, historical population trends, existing industrial users, and anticipated future sources.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>Future estimates account for the anticipated impacts of existing or planned water conservation measures on future sewer service, considering potential increased waste load concentrations and per capita flow.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>Future estimates account for the impact climate change may have on unmitigated I/I flows.</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>For facilities receiving flows from combined sewers, the assessment includes how efforts to control CSOs impact anticipated future flows. (If applicable)</td>\n      <td></td>\n    </tr>\n<tr>\n      <td><b>(d) The degree of treatment required based upon applicable permits and regulations, the receiving water, the amount and strength of wastewater to be treated, and other influencing factors.</b></td>\n      <td>A copy of the current discharge permit and any compliance orders are included. (If applicable)</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>For new discharges, requirements reasonably anticipated in a draft permit are included. (If applicable)</td>\n      <td></td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The evaluation results of Sections 3(e), (h), and (I) are used to estimate the degree of treatment needed to meet conditions of a current or</td>\n      <td></td>\n    </tr>\n  </tbody>\n</table>",
+        "text_clean": "<table> <thead> <tr> <th>Text from WAC 173-240-060</th> <th>Inclusion Check</th> <th>Confirmation / Location</th> </tr> </thead> <tbody> <tr> <td></td> <td>The analysis includes at least one full year of current wastewater flow and loading data to justify appropriate design parameters.</td> <td></td> </tr> <tr> <td></td> <td>The analyzed data includes sufficient detail to demonstrate the degree of flow and loading variability experienced.</td> <td></td> </tr> <tr> <td></td> <td>The location of influent and effluent sampling and the type of samples taken are identified.</td> <td></td> </tr> <tr> <td></td> <td>The locations of treatment process return streams are identified.</td> <td></td> </tr> <tr> <td></td> <td>The report relies on credible and accurate data using laboratory data from an Ecology-accredited laboratory and flow data from meters with a documented history of proper calibration.</td> <td></td> </tr> <tr> <td></td> <td>Future (normally 20 years) waste load and sources of wastewater are estimated.</td> <td></td> </tr> <tr> <td></td> <td>Future estimates are based on present conditions and expected future conditions accounting for zoning patterns, council of government’s population forecasts, historical population trends, existing industrial users, and anticipated future sources.</td> <td></td> </tr> <tr> <td></td> <td>Future estimates account for the anticipated impacts of existing or planned water conservation measures on future sewer service, considering potential increased waste load concentrations and per capita flow.</td> <td></td> </tr> <tr> <td></td> <td>Future estimates account for the impact climate change may have on unmitigated I/I flows.</td> <td></td> </tr> <tr> <td></td> <td>For facilities receiving flows from combined sewers, the assessment includes how efforts to control CSOs impact anticipated future flows. (If applicable)</td> <td></td> </tr> <tr> <td><b>(d) The degree of treatment required based upon applicable permits and regulations, the receiving water, the amount and strength of wastewater to be treated, and other influencing factors.</b></td> <td>A copy of the current discharge permit and any compliance orders are included. (If applicable)</td> <td></td> </tr> <tr> <td></td> <td>For new discharges, requirements reasonably anticipated in a draft permit are included. (If applicable)</td> <td></td> </tr> <tr> <td></td> <td>The evaluation results of Sections 3(e), (h), and (I) are used to estimate the degree of treatment needed to meet conditions of a current or</td> <td></td> </tr> </tbody> </table>",
+        "char_count": 2576,
+        "token_count": 652,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 2900,
+          "source_file": "tekoa-facility-plan-draft-v41.docx",
+          "page": 9,
+          "section": null,
+          "document_title": "tekoa-facility-plan-draft-v41",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "tekoa-facility-plan-draft-v41.docx",
+          "file_path": "tekoa-facility-plan-draft-v41.docx",
+          "page": 9,
+          "page_label": "9",
+          "page_raw": null,
+          "section": null,
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "tekoa-facility-plan-draft-v41",
+          "author": null,
+          "publisher": null,
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Cites WAC 173-240-060; p.9; WWTP guidance; effluent limits",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "spore": {
+      "summary": "Retrieved 8 nodes covering 1 regulations, 0 standards, addressing 'Summarize Tekoa WWTP influent/effluent BOD and TSS limits and cite governing sec...'",
+      "rationale_bullets": [
+        "Retrieved 1 regulatory citations including WAC 173-240-060",
+        "Covers 3 relevant topics: effluent requirements, wastewater treatment, permitting",
+        "Sources selected based on semantic and lexical relevance to query",
+        "Includes upstream/downstream context for comprehensive coverage"
+      ],
+      "confidence": 0.85
+    },
+    "citations": [
+      {
+        "file": "tekoa-facility-plan-draft-v41.docx",
+        "page": 24,
+        "section": "2.2 Limits"
+      },
+      {
+        "file": "2014_ecology_npdes_permit_wa0023141_tekoa.pdf",
+        "page": 8,
+        "section": null
+      },
+      {
+        "file": "tekoa-facility-plan-draft-v41.docx",
+        "page": 25,
+        "section": "2.3 Compliance History"
+      },
+      {
+        "file": "tekoa_code_book.pdf",
+        "page": 51,
+        "section": null
+      },
+      {
+        "file": "tekoa_code_book.pdf",
+        "page": 43,
+        "section": "SEWER SYSTEM"
+      },
+      {
+        "file": "tekoa_code_book.pdf",
+        "page": 46,
+        "section": "2.24.130 – Additional Definitions"
+      },
+      {
+        "file": "appendix-3-u16-109-tekoe-wa-final-report.pdf",
+        "page": 25,
+        "section": "SUMMARIES"
+      },
+      {
+        "file": "tekoa-facility-plan-draft-v41.docx",
+        "page": 9,
+        "section": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,89 @@
+{
+  "type": "retrieval_session",
+  "version": 1,
+  "question": "What are key requirements for biosolids under 40 CFR Part 503?",
+  "indexes": ["federal"],
+  "search_mode": "vector",
+  "top_k": 2,
+  "retrieval": {
+    "nodes": [
+      {
+        "node_id": "doc-40cfr503-1",
+        "parent_id": null,
+        "score": null,
+        "text": "40 CFR Part 503 establishes standards for the use or disposal of sewage sludge (biosolids), including pathogen reduction, vector attraction reduction, and pollutant limits. These standards apply to land application, surface disposal, and incineration pathways.",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 268,
+          "source_file": "40CFR503.pdf",
+          "page": 1,
+          "section": "Purpose and scope",
+          "document_title": "40 CFR Part 503",
+          "confidence": 0.82
+        },
+        "metadata": {
+          "file_name": "40CFR503.pdf",
+          "file_path": "federal/40CFR503.pdf",
+          "page": 1,
+          "section": "Purpose and scope",
+          "breadcrumbs": "federal > EPA > 40 CFR > Part 503",
+          "index": "federal",
+          "document_title": "40 CFR Part 503",
+          "author": "U.S. Environmental Protection Agency",
+          "publisher": "U.S. Environmental Protection Agency",
+          "rerank_confidence": 0.82,
+          "retrieval_strategy": "cohere_optimized"
+        }
+      },
+      {
+        "node_id": "doc-40cfr503-2",
+        "parent_id": null,
+        "score": null,
+        "text": "Pathogen reduction requirements define Class A and Class B alternatives. Class A requires no detectable pathogens in the finished product; Class B allows detectable pathogens within limits paired with site restrictions and management practices.",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 274,
+          "source_file": "40CFR503.pdf",
+          "page": 2,
+          "section": "Pathogen reduction",
+          "document_title": "40 CFR Part 503",
+          "confidence": 0.78
+        },
+        "metadata": {
+          "file_name": "40CFR503.pdf",
+          "file_path": "federal/40CFR503.pdf",
+          "page": 2,
+          "section": "Pathogen reduction",
+          "breadcrumbs": "federal > EPA > 40 CFR > Part 503",
+          "index": "federal",
+          "document_title": "40 CFR Part 503",
+          "author": "U.S. Environmental Protection Agency",
+          "publisher": "U.S. Environmental Protection Agency",
+          "rerank_confidence": 0.78,
+          "retrieval_strategy": "cohere_optimized"
+        }
+      }
+    ],
+    "spore": {
+      "summary": "The selected context covers Part 503’s overall scope and the core pathogen reduction framework (Class A vs. Class B), which underpin how biosolids can be used or disposed.",
+      "rationale_bullets": [
+        "Includes a high-level summary of the Part 503 program scope and applicability.",
+        "Provides the key compliance axis (Class A vs. Class B) relevant to allowable use and site restrictions.",
+        "Surfaces enforcement-critical concepts (pathogen and vector attraction reduction) needed for practical guidance."
+      ],
+      "confidence": 0.76
+    },
+    "citations": [
+      {
+        "file": "40CFR503.pdf",
+        "page": 1,
+        "section": "Purpose and scope"
+      },
+      {
+        "file": "40CFR503.pdf",
+        "page": 2,
+        "section": "Pathogen reduction"
+      }
+    ]
+  }
+}

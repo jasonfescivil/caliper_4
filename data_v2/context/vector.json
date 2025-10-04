@@ -1,0 +1,23 @@
+{
+  "type": "retrieval_session",
+  "version": 1,
+  "created_at": "2025-09-04T08:17:23Z",
+  "question": "﻿Washington State Chapter 4 \"Population, Flow, and Loading Projections\": definitions and formulas for ADWF, MDDF, MWDF, Peak Hour Flow; required tables and columns; Design Year.  Compare these definitions to other available but commonly accepted definitions provided by, for instance, WEF design guidance.",
+  "indexes": [],
+  "search_mode": "vector",
+  "top_k": 30,
+  "reranker": "cohere,st-mini",
+  "retrieval": {
+    "nodes": [],
+    "spore": {
+      "summary": "Top sources selected based on hybrid similarity and coverage of relevant sections.",
+      "rationale_bullets": [
+        "Covers primary regulatory sections referenced by the question",
+        "Includes adjacent sections providing upstream/downstream context",
+        "Combines lexical and semantic matches to reduce out-of-context risk"
+      ],
+      "confidence": 0.7
+    },
+    "citations": []
+  }
+}

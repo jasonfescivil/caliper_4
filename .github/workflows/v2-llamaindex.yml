@@ -1,0 +1,78 @@
+name: v2-llamaindex-smoke
+
+on:
+  push:
+    branches: [ main, master ]
+    paths:
+      - "pyproject.toml"
+      - "poetry.lock"
+      - "src/caliper_v2/**"
+      - "LLAMAINDEX_*.md"
+      - ".github/workflows/v2-llamaindex.yml"
+  pull_request:
+    branches: [ main, master ]
+    paths:
+      - "pyproject.toml"
+      - "poetry.lock"
+      - "src/caliper_v2/**"
+      - "LLAMAINDEX_*.md"
+      - ".github/workflows/v2-llamaindex.yml"
+
+jobs:
+  smoke:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install Poetry
+        uses: snok/install-poetry@v1
+        with:
+          version: "1.8.3"
+          virtualenvs-create: true
+          virtualenvs-in-project: true
+
+      - name: Configure Poetry caching
+        uses: actions/cache@v4
+        with:
+          path: |
+            .venv
+            ~/.cache/pip
+          key: ${{ runner.os }}-py${{ steps.setup-python.outputs.python-version }}-poetry-${{ hashFiles('**/poetry.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-py${{ steps.setup-python.outputs.python-version }}-poetry-
+
+      - name: Install base + v2 group
+        run: |
+          poetry install --no-interaction --with llamaindex
+
+      - name: LlamaIndex v2 CLI smoke
+        run: |
+          set -e
+          poetry run caliper_v2 --help
+          poetry run caliper_v2 info
+          # Use a minimal directory to avoid heavy IO; create a tiny sample
+          mkdir -p tmp_docs && echo "Caliper v2 smoke doc" > tmp_docs/doc.txt
+          poetry run caliper_v2 ingest tmp_docs --index smoke
+          poetry run caliper_v2 query "What is this doc about?" --index smoke
+
+      - name: Verify v1 remains import-clean
+        run: |
+          set -e
+          poetry run caliper --help
+
+      - name: Upload smoke logs (if any)
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: v2-smoke-artifacts
+          path: |
+            ./**/htmlcov
+            ./tmp_docs

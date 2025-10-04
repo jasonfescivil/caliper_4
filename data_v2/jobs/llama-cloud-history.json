@@ -1,0 +1,3207 @@
+{
+  "jobs": [
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "764557db-8d53-45ed-bc14-e9daae7702bb"
+        },
+        "parameters": {
+          "original_file_name": "2012_EPA-guidelines-water-reuse.pdf",
+          "do_not_cache": false
+        },
+        "session_id": null,
+        "correlation_id": null,
+        "parent_job_execution_id": null,
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T23:33:06.893000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "31d87492-ca36-41ec-8894-85ac90f9962e",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T23:33:06.946000Z",
+        "ended_at": "2025-08-17T23:34:20.467000Z",
+        "updated_at": "2025-08-17T23:34:20.481000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "86bc4aa8-3c8e-44dd-aa38-e20186eff9a8"
+        },
+        "parameters": {
+          "original_file_name": "2012_EPA-guidelines-water-reuse.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "b4401423-b65a-4773-94cb-2c60841ea7b5",
+        "correlation_id": "1f0d3127-fcb7-4c82-ac4a-3dcab98e314d",
+        "parent_job_execution_id": "87f5f9a3-b366-4e72-a9f9-5d8f85722ac5",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T20:35:22.430000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "f2e2ba79-fac7-497e-8b24-4009d31c88ff",
+        "status": "ERROR",
+        "error_code": "TIMEOUT",
+        "error_message": "JOB_ABORTED Timeout on parent worker, time ellapsed 1980s, for a timeout of 1980000s.",
+        "attempts": 2,
+        "started_at": "2025-08-17T21:05:22.527000Z",
+        "ended_at": "2025-08-17T21:08:22.510000Z",
+        "updated_at": "2025-08-17T21:08:22.522000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "a7d68485-ff99-4fa4-a5eb-721d67bf482f"
+        },
+        "parameters": {
+          "original_file_name": "2012_EPA-guidelines-water-reuse.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "c22f7f28-cf8f-44a8-93f0-7ef3fcddfeb3",
+        "correlation_id": "5572be19-b032-4b32-a656-ca06b25232c6",
+        "parent_job_execution_id": "a2553cf4-6603-4b5a-9655-51dedae77efa",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T20:34:49.272000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "23a23fa7-1bce-491e-8113-68d9d8e23780",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T20:34:49.329000Z",
+        "ended_at": "2025-08-17T20:51:08.240000Z",
+        "updated_at": "2025-08-17T20:51:08.252000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "81dfa736-4a9e-4e88-ad17-7edb3087282f"
+        },
+        "parameters": {
+          "original_file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "9ed709f1-c8ba-4fed-ac32-da0b64c2fda8",
+        "correlation_id": "864efe90-dd3f-4435-87e2-fa46556b22ee",
+        "parent_job_execution_id": "53888a0d-104d-47d3-b0f3-54b376ff0b19",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T11:57:13.917000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "1bfb9f0c-6cc2-46f4-8a2d-62c732774522",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T11:57:13.978000Z",
+        "ended_at": "2025-08-17T12:07:57.203000Z",
+        "updated_at": "2025-08-17T12:07:57.212000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "75df1f17-2bf4-425d-8e86-f31e41ac1614"
+        },
+        "parameters": {
+          "original_file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "8fe16ee6-cdf3-4296-822a-b5c848cb054d",
+        "correlation_id": "5a28cd88-01c0-4cae-9d63-434142985c55",
+        "parent_job_execution_id": "6fb704f5-f067-4ba8-b732-cfb988d9d918",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T11:56:59.770000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "e083b6e7-b7c8-471b-825c-107aeb2187a1",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T11:56:59.842000Z",
+        "ended_at": "2025-08-17T12:07:57.385000Z",
+        "updated_at": "2025-08-17T12:07:57.396000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "43bf201d-2a87-4ff5-a32f-c6c01dc4d1a5"
+        },
+        "parameters": {
+          "original_file_name": "2012_EPA-guidelines-water-reuse.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "8fc4b942-b6c2-4950-b627-f413bd757e21",
+        "correlation_id": "b163e165-9cb2-4745-bcc0-0884ab9a351c",
+        "parent_job_execution_id": "63c0e20b-6ec2-4f56-b07f-0fc69a2ba4ab",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T11:56:22.778000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "0e8c461d-71e5-4603-b6ee-77ea49a36895",
+        "status": "ERROR",
+        "error_code": "TIMEOUT",
+        "error_message": "The operation has timed out. Please try again later.",
+        "attempts": 2,
+        "started_at": "2025-08-17T12:08:11.063000Z",
+        "ended_at": null,
+        "updated_at": "2025-08-17T12:08:11.068000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "3eaeee97-d75d-4c51-b1bd-e6877acc0f13"
+        },
+        "parameters": {
+          "original_file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "614dbd93-71da-4449-8d25-27adec1c2571",
+        "correlation_id": "2c96d8f0-e68d-463f-90ca-0646fc6a04be",
+        "parent_job_execution_id": "7ed45e8a-b92d-4f88-b167-71408e1f9252",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T11:29:40.519000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "e1322173-6b9d-496e-b641-2ff939c74ea8",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T11:29:40.580000Z",
+        "ended_at": "2025-08-17T11:41:27.364000Z",
+        "updated_at": "2025-08-17T11:41:27.377000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "7e9d2fc8-b14b-4daa-825b-6b96ff110045"
+        },
+        "parameters": {
+          "original_file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "b59157d5-24a8-4306-b507-1427315715f8",
+        "correlation_id": "1736e274-f2cf-4533-96d2-589084b88800",
+        "parent_job_execution_id": "f56e7f88-6e92-462e-8467-8346207275bc",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:48:36.353000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "7991970f-d60e-462c-809b-9b3bb3fd5676",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 2,
+        "started_at": "2025-08-17T10:53:57.452000Z",
+        "ended_at": "2025-08-17T11:01:07.231000Z",
+        "updated_at": "2025-08-17T11:01:07.244000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "e3bc736f-e2c9-4a17-bb94-35488774b8be"
+        },
+        "parameters": {
+          "original_file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "0f73fdea-d10b-4c70-b5bf-f7e9a7edabff",
+        "correlation_id": "6d798c6e-23c2-457c-8822-469b93864ef8",
+        "parent_job_execution_id": "953dae8d-3702-4e9d-bf7c-d7befc1ca99b",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:48:03.245000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "ded42c29-7a6c-4dbf-afa9-39445e4224ec",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 2,
+        "started_at": "2025-08-17T10:57:19.230000Z",
+        "ended_at": "2025-08-17T11:01:07.121000Z",
+        "updated_at": "2025-08-17T11:01:07.134000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "ef7d71a0-edcf-43ad-8974-dcd638f80bd4"
+        },
+        "parameters": {
+          "original_file_name": "2012_EPA-guidelines-water-reuse.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "81f79257-a1f5-432a-b390-925186915c2f",
+        "correlation_id": "d1dcc4eb-6053-4798-adc9-fd3602ec0062",
+        "parent_job_execution_id": "c973e6cb-37d6-4da9-af9e-f53fafd32351",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:47:26.699000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "0f704bcd-8149-4c2d-9134-eb63529afe13",
+        "status": "ERROR",
+        "error_code": "RECONSTRUCTION_ERROR",
+        "error_message": "Something went wrong while parsing the document. Please contact support with your job-record-id=0f704bcd-8149-4c2d-9134-eb63529afe13",
+        "attempts": 2,
+        "started_at": "2025-08-17T11:05:20.039000Z",
+        "ended_at": "2025-08-17T11:05:21.542000Z",
+        "updated_at": "2025-08-17T11:05:21.548000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "c4f139ab-1a2b-404d-ac04-de65bdc586ea"
+        },
+        "parameters": {
+          "original_file_name": "2012_EPA-guidelines-water-reuse.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "d6c1cd56-c147-463a-ae83-5de9fb4223a5",
+        "correlation_id": "84f75909-9438-46a5-91fe-990bbfa85e7a",
+        "parent_job_execution_id": "48d1c9e4-3780-4964-80a1-b7b17d956d22",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:47:02.687000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "5f5e469e-be33-44d5-82ba-21dcc8bb8990",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:47:02.755000Z",
+        "ended_at": "2025-08-17T11:01:13.462000Z",
+        "updated_at": "2025-08-17T11:01:13.478000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "3b69a402-83fa-4230-9071-2e15d13826c5"
+        },
+        "parameters": {
+          "original_file_name": "WAC 173 -175  Dam Safety.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "32854b65-402e-45e3-8d58-f80973d361a1",
+        "correlation_id": "aa009371-05d3-488b-8d4a-4416d9255e0b",
+        "parent_job_execution_id": "bb8bf1c5-56ff-4843-b96a-fbcf15f3b6d3",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:39:30.931000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "23c6a506-e2c2-407c-8838-1c4f8ce93af7",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:39:30.998000Z",
+        "ended_at": "2025-08-17T10:42:43.564000Z",
+        "updated_at": "2025-08-17T10:42:43.573000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "f512956d-1b99-4934-9b0e-e523d7c6e744"
+        },
+        "parameters": {
+          "original_file_name": "WAC 173 -216  State Waste Discharge Permit.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "32854b65-402e-45e3-8d58-f80973d361a1",
+        "correlation_id": "aa009371-05d3-488b-8d4a-4416d9255e0b",
+        "parent_job_execution_id": "cbf5629b-e2ff-4be0-ab3d-620caa12857b",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:39:30.747000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "8c08d661-fe40-4687-a700-f26faa3a9aa5",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:39:30.806000Z",
+        "ended_at": "2025-08-17T10:40:06.635000Z",
+        "updated_at": "2025-08-17T10:40:06.647000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "2aeb5f9a-8f58-4b74-baef-2de094f08ac1"
+        },
+        "parameters": {
+          "original_file_name": "WAC 173 -218  UIC Program.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "32854b65-402e-45e3-8d58-f80973d361a1",
+        "correlation_id": "aa009371-05d3-488b-8d4a-4416d9255e0b",
+        "parent_job_execution_id": "d8990c2a-5b4d-40fd-84b4-e8a27929a9fa",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:39:30.731000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "a6e587e3-27cb-4fb7-8946-68693998f687",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:39:30.792000Z",
+        "ended_at": "2025-08-17T10:40:16.512000Z",
+        "updated_at": "2025-08-17T10:40:16.523000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "9fc3fa82-7418-4cd0-9527-e53b89ca5001"
+        },
+        "parameters": {
+          "original_file_name": "1997_DOE_Interagency_GW.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "32854b65-402e-45e3-8d58-f80973d361a1",
+        "correlation_id": "aa009371-05d3-488b-8d4a-4416d9255e0b",
+        "parent_job_execution_id": "0a5de463-441c-4dc5-97f5-a4ca640a0078",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:39:30.665000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "98a5debe-c174-41cc-8b22-61b7848c07d6",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:39:30.722000Z",
+        "ended_at": "2025-08-17T10:40:10.500000Z",
+        "updated_at": "2025-08-17T10:40:10.512000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "db9dce54-627a-44fe-86a0-5d0fa021e830"
+        },
+        "parameters": {
+          "original_file_name": "WAC 197-11 SEPA RULES.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "32854b65-402e-45e3-8d58-f80973d361a1",
+        "correlation_id": "aa009371-05d3-488b-8d4a-4416d9255e0b",
+        "parent_job_execution_id": "05c4ed32-d888-4292-a19a-974307a59115",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:39:30.662000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "258bc904-e5b2-47c8-845b-d8ea35967793",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:39:30.726000Z",
+        "ended_at": "2025-08-17T11:00:29.528000Z",
+        "updated_at": "2025-08-17T11:00:29.545000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "92bdb4db-c55f-431e-a8b1-187da9dfff24"
+        },
+        "parameters": {
+          "original_file_name": "2019_DOE_Reclaimed_Water_Facilities_Manual.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "32854b65-402e-45e3-8d58-f80973d361a1",
+        "correlation_id": "aa009371-05d3-488b-8d4a-4416d9255e0b",
+        "parent_job_execution_id": "79c86949-cbcf-4129-ac53-a62b672197ff",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:39:30.657000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "405399e2-fa1c-4e38-83ae-3524c021777c",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:39:30.713000Z",
+        "ended_at": "2025-08-17T10:41:14.551000Z",
+        "updated_at": "2025-08-17T10:41:14.561000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "c352c1ff-8520-4e1c-88f3-45a1ac5e1273"
+        },
+        "parameters": {
+          "original_file_name": "WAC 197-11 SEPA RULES.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "b02c2bda-9ae8-47d1-9435-f8bf654174ba",
+        "correlation_id": "be82fd17-b516-4baf-b4c2-42953ff24501",
+        "parent_job_execution_id": "72d1323c-4129-401b-97eb-c16e65ba5820",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:34:44.010000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "e1017e5c-de1b-491e-9b56-a9ced2a30516",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:34:44.063000Z",
+        "ended_at": "2025-08-17T10:37:58.950000Z",
+        "updated_at": "2025-08-17T10:37:58.960000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "1693fd05-2601-46fc-9479-69f03d0f3bd6"
+        },
+        "parameters": {
+          "original_file_name": "WAC 173 -218  UIC Program.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "086ef71c-b2d2-4df1-b0d8-ea8ae755f190",
+        "correlation_id": "32414f99-4862-4458-9498-c39256ec9d2d",
+        "parent_job_execution_id": "5c3c0acb-1745-4872-9c55-0144a1853543",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:34:03.131000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "7a0895b4-32bb-445b-96ac-0f7ac705c1eb",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:34:03.189000Z",
+        "ended_at": "2025-08-17T10:35:05.363000Z",
+        "updated_at": "2025-08-17T10:35:05.374000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "7625ec9c-514c-48b7-9826-5f6516863206"
+        },
+        "parameters": {
+          "original_file_name": "2019_DOE_Reclaimed_Water_Facilities_Manual.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "086ef71c-b2d2-4df1-b0d8-ea8ae755f190",
+        "correlation_id": "32414f99-4862-4458-9498-c39256ec9d2d",
+        "parent_job_execution_id": "1f03e892-89ad-41b1-9fc8-7edb318ba825",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:34:02.968000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "824e6948-eec1-444b-8392-115146b375b5",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:34:03.035000Z",
+        "ended_at": "2025-08-17T10:37:43.297000Z",
+        "updated_at": "2025-08-17T10:37:43.311000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "2bddfff8-b983-4309-8d79-febbeaa59f2c"
+        },
+        "parameters": {
+          "original_file_name": "1997_DOE_Interagency_GW.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "086ef71c-b2d2-4df1-b0d8-ea8ae755f190",
+        "correlation_id": "32414f99-4862-4458-9498-c39256ec9d2d",
+        "parent_job_execution_id": "40709615-1069-43d5-90c0-e7e319b653aa",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:34:02.958000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "eeaa654f-3b7e-437f-b034-b8c4ea61fa47",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:34:03.012000Z",
+        "ended_at": "2025-08-17T10:34:57.074000Z",
+        "updated_at": "2025-08-17T10:34:57.086000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "0a96ccf9-7a1c-4cc1-9eea-3e01c04a4563"
+        },
+        "parameters": {
+          "original_file_name": "WAC 197-11 SEPA RULES.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "086ef71c-b2d2-4df1-b0d8-ea8ae755f190",
+        "correlation_id": "32414f99-4862-4458-9498-c39256ec9d2d",
+        "parent_job_execution_id": "6675e33c-5711-4ee2-857a-e416e5534579",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:34:02.819000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "bd581dbb-0634-4c8f-9c47-c2f59edf3c68",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:34:02.873000Z",
+        "ended_at": "2025-08-17T10:37:18.418000Z",
+        "updated_at": "2025-08-17T10:37:18.432000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "2dae6bbf-5b72-4470-83e8-29ec0eca5083"
+        },
+        "parameters": {
+          "original_file_name": "WAC 173 -175  Dam Safety.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "086ef71c-b2d2-4df1-b0d8-ea8ae755f190",
+        "correlation_id": "32414f99-4862-4458-9498-c39256ec9d2d",
+        "parent_job_execution_id": "8f1c4b48-b3a9-4545-9644-783200e42a42",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:34:02.809000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "d758f469-b994-48b1-8535-7257b1ade3ed",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:34:02.864000Z",
+        "ended_at": "2025-08-17T10:37:10.757000Z",
+        "updated_at": "2025-08-17T10:37:10.768000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "dfe300c4-2a02-49d5-a0b9-ddf7aa4960d5"
+        },
+        "parameters": {
+          "original_file_name": "WAC 173 -216  State Waste Discharge Permit.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "086ef71c-b2d2-4df1-b0d8-ea8ae755f190",
+        "correlation_id": "32414f99-4862-4458-9498-c39256ec9d2d",
+        "parent_job_execution_id": "95e74d0c-71ce-4899-8cbb-a6338585fd79",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-17T10:34:02.782000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "a83cdc41-4563-4d09-b7b8-611750da4efa",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-17T10:34:02.843000Z",
+        "ended_at": "2025-08-17T10:34:58.052000Z",
+        "updated_at": "2025-08-17T10:34:58.064000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "97147eb1-c4de-4f5f-92d5-de883fd505ec"
+        },
+        "parameters": {
+          "original_file_name": "WEF_FD-16_Facilities_Design.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "a804c1b1-78ac-440a-adb9-4ed89987a9aa",
+        "correlation_id": "b7841b6f-4099-4a21-b310-e07ee02a5207",
+        "parent_job_execution_id": "7966fa3a-fc5f-45be-be0a-50687fd6b8c2",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:47:56.270000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "f9adea1d-7c5c-4f4f-a75b-cc3a95b51347",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:47:56.318000Z",
+        "ended_at": "2025-08-16T10:04:13.747000Z",
+        "updated_at": "2025-08-16T10:04:13.759000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "793e381d-0592-4098-9cc5-11a0165a002e"
+        },
+        "parameters": {
+          "original_file_name": "2020_ASCE_Pipelines_Enfinger_Paper.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "9f872d71-ce43-4b59-bbfc-c4fe8c67682e",
+        "correlation_id": "b3f22082-7dcd-4839-9969-d4cd05765aa8",
+        "parent_job_execution_id": "c56dec8e-ddf4-40dd-b188-dc17928bfafb",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:35:17.079000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "011bd055-631e-4ccb-a5fa-fa7da9d12fe6",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:35:17.471000Z",
+        "ended_at": "2025-08-16T09:35:34.270000Z",
+        "updated_at": "2025-08-16T09:35:34.276000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "9e31c291-edf8-42cc-a4ec-60392dc13938"
+        },
+        "parameters": {
+          "original_file_name": "AWWA_PPWTF_Infiltration_Inflow_Analysis.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "9f872d71-ce43-4b59-bbfc-c4fe8c67682e",
+        "correlation_id": "b3f22082-7dcd-4839-9969-d4cd05765aa8",
+        "parent_job_execution_id": "e241e401-0716-4738-956e-f5933a58c771",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:35:17.068000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "0beb51d5-f9e7-4af9-83dd-bef8dc6ba64b",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:35:17.492000Z",
+        "ended_at": "2025-08-16T09:35:55.409000Z",
+        "updated_at": "2025-08-16T09:35:55.420000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "82462201-d127-4c3d-abfc-e9a93d4edd75"
+        },
+        "parameters": {
+          "original_file_name": "MOP8_Combined_part04.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "9f872d71-ce43-4b59-bbfc-c4fe8c67682e",
+        "correlation_id": "b3f22082-7dcd-4839-9969-d4cd05765aa8",
+        "parent_job_execution_id": "c72fe902-1bee-462f-b78d-c52dd6eae8d9",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:35:17.021000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "42e383f2-b8c8-4590-9c70-c564621fe311",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:35:17.082000Z",
+        "ended_at": "2025-08-16T09:44:31.229000Z",
+        "updated_at": "2025-08-16T09:44:31.240000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "b1d02807-8aa3-4df5-a09d-13b1268c1113"
+        },
+        "parameters": {
+          "original_file_name": "WEF_FD-16_Facilities_Design.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "9f872d71-ce43-4b59-bbfc-c4fe8c67682e",
+        "correlation_id": "b3f22082-7dcd-4839-9969-d4cd05765aa8",
+        "parent_job_execution_id": "3555c037-58a9-4f0b-bd26-1ce4e6afc5b3",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:35:17.006000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "fed88f9f-9e7b-4e52-8d39-5ca436eadc89",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:35:17.451000Z",
+        "ended_at": "2025-08-16T09:50:21.627000Z",
+        "updated_at": "2025-08-16T09:50:21.637000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "ff90ec9d-a846-4715-9026-15b3e52723a0"
+        },
+        "parameters": {
+          "original_file_name": "WEF_FD-6_Sanitary_Sewer_Rehabilitation.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "9f872d71-ce43-4b59-bbfc-c4fe8c67682e",
+        "correlation_id": "b3f22082-7dcd-4839-9969-d4cd05765aa8",
+        "parent_job_execution_id": "2016f194-486f-4fb3-9920-626b65cb1e7d",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:35:16.995000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "7c38feba-b6ff-40df-b939-e87047cc8f02",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:35:17.042000Z",
+        "ended_at": "2025-08-16T09:43:02.630000Z",
+        "updated_at": "2025-08-16T09:43:02.640000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "b0cf69bc-03b7-4d70-956d-185254f09cb2"
+        },
+        "parameters": {
+          "original_file_name": "MOP8_Combined_part02.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "9f872d71-ce43-4b59-bbfc-c4fe8c67682e",
+        "correlation_id": "b3f22082-7dcd-4839-9969-d4cd05765aa8",
+        "parent_job_execution_id": "ec612dd2-cbf0-43b3-bf64-9bb07d2088b1",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:35:16.994000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "1e88a471-b233-4b76-b564-376e09493c93",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:35:17.050000Z",
+        "ended_at": "2025-08-16T09:43:10.828000Z",
+        "updated_at": "2025-08-16T09:43:10.836000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "eff43990-d069-422c-bf67-963b542b86d6"
+        },
+        "parameters": {
+          "original_file_name": "MOP8_Combined_part01.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "9f872d71-ce43-4b59-bbfc-c4fe8c67682e",
+        "correlation_id": "b3f22082-7dcd-4839-9969-d4cd05765aa8",
+        "parent_job_execution_id": "827d26eb-a816-4dd8-ade6-658c04afd77a",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:35:16.989000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "68a33805-1a2d-4958-beba-16d7a440b4a1",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:35:17.470000Z",
+        "ended_at": "2025-08-16T09:42:55.497000Z",
+        "updated_at": "2025-08-16T09:42:55.506000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "3deb48c6-56fa-4e6b-8e6e-f4dd3428b405"
+        },
+        "parameters": {
+          "original_file_name": "MOP8_Combined_part06.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "9f872d71-ce43-4b59-bbfc-c4fe8c67682e",
+        "correlation_id": "b3f22082-7dcd-4839-9969-d4cd05765aa8",
+        "parent_job_execution_id": "d2845061-fa3f-40c9-8143-7050efba488d",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:35:16.988000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "5edd1e53-251a-44eb-9ab9-ea01001644e8",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:35:17.055000Z",
+        "ended_at": "2025-08-16T09:44:10.657000Z",
+        "updated_at": "2025-08-16T09:44:10.667000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "cb052c52-6039-4660-8592-153d69936d60"
+        },
+        "parameters": {
+          "original_file_name": "MOP8_Combined_part03.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "9f872d71-ce43-4b59-bbfc-c4fe8c67682e",
+        "correlation_id": "b3f22082-7dcd-4839-9969-d4cd05765aa8",
+        "parent_job_execution_id": "7c6fcc74-a26a-4673-9347-9fbc2900c1a6",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:35:16.988000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "00f39c0f-5474-4cce-8e70-dbb814d5d9fd",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:35:17.463000Z",
+        "ended_at": "2025-08-16T09:43:52.933000Z",
+        "updated_at": "2025-08-16T09:43:52.943000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "65ee90b6-e52c-40f1-a78d-d8a83217b999"
+        },
+        "parameters": {
+          "original_file_name": "MOP8_Combined_part05.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "9f872d71-ce43-4b59-bbfc-c4fe8c67682e",
+        "correlation_id": "b3f22082-7dcd-4839-9969-d4cd05765aa8",
+        "parent_job_execution_id": "18642a7f-deae-4952-b103-115945efb042",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:35:16.964000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "cf89cf2e-29cb-485b-a0a9-2909f4ad981f",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:35:17.447000Z",
+        "ended_at": "2025-08-16T09:43:34.781000Z",
+        "updated_at": "2025-08-16T09:43:34.788000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "06e6f7bc-99ee-4daa-98bb-1ba92f6b354c"
+        },
+        "parameters": {
+          "original_file_name": "MOP8_Combined_part02.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "50ca2faa-aaf1-495e-8a5d-95a28c1a7ea5",
+        "correlation_id": "7f90ddbb-a93b-4c37-b38e-63b4f62c30ae",
+        "parent_job_execution_id": "b311178d-5783-4a8d-8f34-679c673fb2d4",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:53.025000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "c4b2299e-fb13-4ede-9afe-68a15387d809",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:53.083000Z",
+        "ended_at": "2025-08-16T09:43:10.898000Z",
+        "updated_at": "2025-08-16T09:43:10.912000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "a5650a8b-6f7c-4c4e-b899-e94f414a7a53"
+        },
+        "parameters": {
+          "original_file_name": "WEF_FD-16_Facilities_Design.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "50ca2faa-aaf1-495e-8a5d-95a28c1a7ea5",
+        "correlation_id": "7f90ddbb-a93b-4c37-b38e-63b4f62c30ae",
+        "parent_job_execution_id": "e5a1220c-bde0-471d-8e9d-f779a1830492",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:53.018000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "ae76667f-cc59-4cce-9c0c-47bcb5b80937",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:53.079000Z",
+        "ended_at": "2025-08-16T09:50:03.363000Z",
+        "updated_at": "2025-08-16T09:50:03.372000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "305c884c-37d1-4a31-90bb-0cda31bc2734"
+        },
+        "parameters": {
+          "original_file_name": "MOP8_Combined_part01.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "50ca2faa-aaf1-495e-8a5d-95a28c1a7ea5",
+        "correlation_id": "7f90ddbb-a93b-4c37-b38e-63b4f62c30ae",
+        "parent_job_execution_id": "5ce4f0c3-7e24-44c1-a707-2a6804b5fbc2",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:53Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "aeeca823-fdf1-4c26-ac9c-adbf89f9d435",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:53.063000Z",
+        "ended_at": "2025-08-16T09:42:55.542000Z",
+        "updated_at": "2025-08-16T09:42:55.554000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "b91f91dd-1329-4487-b7d8-690e8b42e60c"
+        },
+        "parameters": {
+          "original_file_name": "2020_ASCE_Pipelines_Enfinger_Paper.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "50ca2faa-aaf1-495e-8a5d-95a28c1a7ea5",
+        "correlation_id": "7f90ddbb-a93b-4c37-b38e-63b4f62c30ae",
+        "parent_job_execution_id": "346ecb9f-b2f0-4859-9e2c-c1a8ee78ff09",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:52.994000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "b270dcc1-aef0-439d-ad41-bb018ff3c4c1",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:53.050000Z",
+        "ended_at": "2025-08-16T09:34:12.650000Z",
+        "updated_at": "2025-08-16T09:34:12.660000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "593f1f64-183e-4b17-88aa-004ec37e255d"
+        },
+        "parameters": {
+          "original_file_name": "MOP8_Combined_part03.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "50ca2faa-aaf1-495e-8a5d-95a28c1a7ea5",
+        "correlation_id": "7f90ddbb-a93b-4c37-b38e-63b4f62c30ae",
+        "parent_job_execution_id": "84d73ebc-1449-43b1-bd3d-e631eae15ecb",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:52.993000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "c434dacb-81ee-4f2a-a111-d2512beef488",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 2,
+        "started_at": "2025-08-16T09:41:39.697000Z",
+        "ended_at": "2025-08-16T09:50:15.025000Z",
+        "updated_at": "2025-08-16T09:50:15.035000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "8bcc0b45-43ad-4c5f-be5a-d91f368fed60"
+        },
+        "parameters": {
+          "original_file_name": "MOP8_Combined_part05.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "50ca2faa-aaf1-495e-8a5d-95a28c1a7ea5",
+        "correlation_id": "7f90ddbb-a93b-4c37-b38e-63b4f62c30ae",
+        "parent_job_execution_id": "4f75f770-6463-4e32-a940-38e8f0b5b8d7",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:52.992000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "7ccafc44-fc43-4020-a4f1-5fadd6693377",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:53.044000Z",
+        "ended_at": "2025-08-16T09:42:43.647000Z",
+        "updated_at": "2025-08-16T09:42:43.656000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "13699685-8f61-408e-866f-8b9721319d6c"
+        },
+        "parameters": {
+          "original_file_name": "MOP8_Combined_part06.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "50ca2faa-aaf1-495e-8a5d-95a28c1a7ea5",
+        "correlation_id": "7f90ddbb-a93b-4c37-b38e-63b4f62c30ae",
+        "parent_job_execution_id": "bb901c02-2541-41ab-86bd-60e39f8ad7c2",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:52.991000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "edd8cfb9-0418-4ce5-b4fb-425aa3b7798b",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:53.042000Z",
+        "ended_at": "2025-08-16T09:43:15.082000Z",
+        "updated_at": "2025-08-16T09:43:15.094000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "8f1361a7-70b3-4d80-a1c0-dada504c4574"
+        },
+        "parameters": {
+          "original_file_name": "MOP8_Combined_part04.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "50ca2faa-aaf1-495e-8a5d-95a28c1a7ea5",
+        "correlation_id": "7f90ddbb-a93b-4c37-b38e-63b4f62c30ae",
+        "parent_job_execution_id": "05eaad47-8946-414c-ba81-489f1a1c6ef7",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:52.989000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "90751dec-f9d6-4cdd-a8ef-8fd3e3de867c",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:53.053000Z",
+        "ended_at": "2025-08-16T09:43:58.142000Z",
+        "updated_at": "2025-08-16T09:43:58.154000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "11733492-b997-4b19-b78d-489e46a18ed9"
+        },
+        "parameters": {
+          "original_file_name": "WEF_FD-6_Sanitary_Sewer_Rehabilitation.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "50ca2faa-aaf1-495e-8a5d-95a28c1a7ea5",
+        "correlation_id": "7f90ddbb-a93b-4c37-b38e-63b4f62c30ae",
+        "parent_job_execution_id": "c2983b14-0d7e-49b7-ace7-399fbba48628",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:52.960000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "25628985-0572-4f4c-9f4d-9a2ba2f68d01",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:53Z",
+        "ended_at": "2025-08-16T09:42:11.244000Z",
+        "updated_at": "2025-08-16T09:42:11.253000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "dde0768e-6c8f-42e3-9593-2b19e8436765"
+        },
+        "parameters": {
+          "original_file_name": "AWWA_PPWTF_Infiltration_Inflow_Analysis.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "50ca2faa-aaf1-495e-8a5d-95a28c1a7ea5",
+        "correlation_id": "7f90ddbb-a93b-4c37-b38e-63b4f62c30ae",
+        "parent_job_execution_id": "1c0d64cf-3ac0-40db-8891-3eaa564670f7",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:52.944000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "b5486081-8ebc-4656-8bb3-5e8322cf1f94",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:52.980000Z",
+        "ended_at": "2025-08-16T09:34:35.258000Z",
+        "updated_at": "2025-08-16T09:34:35.268000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "4f6d74d6-7725-480c-970c-c7767e5fa5e8"
+        },
+        "parameters": {
+          "original_file_name": "1985_EPA_Guide_Infiltration_Inflow.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "620f9337-4291-4d08-8dc7-92feb3a0f1b2",
+        "correlation_id": "6a55442e-b422-462f-93df-0895aea30661",
+        "parent_job_execution_id": "512952c7-0a8b-4b9b-86c9-21f0dbdd0940",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:21.908000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "f17c953c-f10d-40be-98c2-a6491664408b",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:21.964000Z",
+        "ended_at": "2025-08-16T09:33:46.656000Z",
+        "updated_at": "2025-08-16T09:33:46.667000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "42ddf923-74bf-4775-998d-4fa27e67a285"
+        },
+        "parameters": {
+          "original_file_name": "2014_CFR_40-35.927-2_Grant_Amendments.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "620f9337-4291-4d08-8dc7-92feb3a0f1b2",
+        "correlation_id": "6a55442e-b422-462f-93df-0895aea30661",
+        "parent_job_execution_id": "385c4518-2e3e-4948-9b5d-e9b771413146",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:21.702000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "13547b85-1c8d-422d-b152-2fd6897ae6ba",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:21.750000Z",
+        "ended_at": "2025-08-16T09:34:02.167000Z",
+        "updated_at": "2025-08-16T09:34:02.180000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "3a392776-f52d-4c98-ac39-e51959c1eb0c"
+        },
+        "parameters": {
+          "original_file_name": "2023_CFR_40-503_Biosolids_Standards.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "620f9337-4291-4d08-8dc7-92feb3a0f1b2",
+        "correlation_id": "6a55442e-b422-462f-93df-0895aea30661",
+        "parent_job_execution_id": "a7742087-2c5e-4e27-b2c5-0af090711b19",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:21.671000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "416c12c7-41b2-497a-9acf-d2300092b978",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:21.721000Z",
+        "ended_at": "2025-08-16T09:34:49.305000Z",
+        "updated_at": "2025-08-16T09:34:49.315000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "e4935b8b-75b1-46aa-ac23-b6ac066ba9d3"
+        },
+        "parameters": {
+          "original_file_name": "2025_CFR_40-35.2120_Grant_Regulations.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "620f9337-4291-4d08-8dc7-92feb3a0f1b2",
+        "correlation_id": "6a55442e-b422-462f-93df-0895aea30661",
+        "parent_job_execution_id": "a67bca5d-4caa-4da9-96c5-50f734c22556",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:21.663000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "5c145b35-5adc-4488-b66b-b7c5152715ff",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:21.708000Z",
+        "ended_at": "2025-08-16T09:33:47.641000Z",
+        "updated_at": "2025-08-16T09:33:47.648000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "e7894bac-cb95-4a62-81b6-094dc2f90b56"
+        },
+        "parameters": {
+          "original_file_name": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "620f9337-4291-4d08-8dc7-92feb3a0f1b2",
+        "correlation_id": "6a55442e-b422-462f-93df-0895aea30661",
+        "parent_job_execution_id": "ee9f37a6-e125-49c5-848d-72772ec21c82",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:21.552000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "3224504f-1fb7-44d9-84f7-7bf8750b5b46",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:21.613000Z",
+        "ended_at": "2025-08-16T09:33:51.665000Z",
+        "updated_at": "2025-08-16T09:33:51.677000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "398572bc-b805-4d4a-8e9a-40b7e32ca80d"
+        },
+        "parameters": {
+          "original_file_name": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "620f9337-4291-4d08-8dc7-92feb3a0f1b2",
+        "correlation_id": "6a55442e-b422-462f-93df-0895aea30661",
+        "parent_job_execution_id": "734367c0-cb4d-45b8-aac4-fd6dd9b7d839",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:21.467000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "46012d7a-ec6e-4175-9611-ae018278fb67",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:21.515000Z",
+        "ended_at": "2025-08-16T09:43:19.507000Z",
+        "updated_at": "2025-08-16T09:43:19.516000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "207f0f30-d2c9-4ff9-880e-e91396dc244d"
+        },
+        "parameters": {
+          "original_file_name": "EPA_Sanitary_Sewer_Evaluation_9100WGB6.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "620f9337-4291-4d08-8dc7-92feb3a0f1b2",
+        "correlation_id": "6a55442e-b422-462f-93df-0895aea30661",
+        "parent_job_execution_id": "ff1c1230-43e9-4814-9e7b-c29e5c4743cc",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:21.411000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "fcc01433-d63c-405d-9da3-776ec1ce6935",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:21.468000Z",
+        "ended_at": "2025-08-16T09:36:02.422000Z",
+        "updated_at": "2025-08-16T09:36:02.432000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "6327a927-d39c-44a4-9c58-ed8294bce212"
+        },
+        "parameters": {
+          "original_file_name": "EPA_Infiltration_Inflow_Review.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "620f9337-4291-4d08-8dc7-92feb3a0f1b2",
+        "correlation_id": "6a55442e-b422-462f-93df-0895aea30661",
+        "parent_job_execution_id": "94c0540f-6cf0-469e-8ff7-029a3a29cd2f",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:21.361000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "0cb6d726-de12-46f6-9292-f254a67d0569",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:21.415000Z",
+        "ended_at": "2025-08-16T09:34:08.169000Z",
+        "updated_at": "2025-08-16T09:34:08.181000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "ca253cc0-7eb1-4676-8e7b-8ea7465b670e"
+        },
+        "parameters": {
+          "original_file_name": "2010_EPA_Permit_Writers_Manual.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "620f9337-4291-4d08-8dc7-92feb3a0f1b2",
+        "correlation_id": "6a55442e-b422-462f-93df-0895aea30661",
+        "parent_job_execution_id": "bee59df4-96ea-43ce-86a9-462a855c499a",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:33:21.301000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "2644a833-1609-465a-8262-109aed3a5169",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:33:21.360000Z",
+        "ended_at": "2025-08-16T09:39:51.052000Z",
+        "updated_at": "2025-08-16T09:39:51.061000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "087c56e4-35ed-4427-8782-e1a2737d30bc"
+        },
+        "parameters": {
+          "original_file_name": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "0b9c3841-4d32-4413-80b4-c067b93af27c",
+        "correlation_id": "26b1a105-f6d9-4554-9bff-373e146e5781",
+        "parent_job_execution_id": "af950778-14ad-41c0-bad1-57d3a8985193",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:30:48.609000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "21a7b303-e110-4c62-a3da-15853c9b16d7",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:30:48.663000Z",
+        "ended_at": "2025-08-16T09:45:48.839000Z",
+        "updated_at": "2025-08-16T09:45:48.851000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "70fd4e0a-8085-4a09-a85f-ddb8bbc34e36"
+        },
+        "parameters": {
+          "original_file_name": "EPA_Infiltration_Inflow_Review.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "0b9c3841-4d32-4413-80b4-c067b93af27c",
+        "correlation_id": "26b1a105-f6d9-4554-9bff-373e146e5781",
+        "parent_job_execution_id": "ea77ed95-d573-4dfc-982c-a1dcb98993d9",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:30:47.187000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "de23fe57-5806-4cb0-8878-84e12bdd729b",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:30:47.238000Z",
+        "ended_at": "2025-08-16T09:31:22.770000Z",
+        "updated_at": "2025-08-16T09:31:22.776000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "bac6f716-ad0f-459f-bc94-955488404525"
+        },
+        "parameters": {
+          "original_file_name": "2023_CFR_40-503_Biosolids_Standards.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "0b9c3841-4d32-4413-80b4-c067b93af27c",
+        "correlation_id": "26b1a105-f6d9-4554-9bff-373e146e5781",
+        "parent_job_execution_id": "52e3b1f4-5fd8-4f26-9f2b-e70cac08f5e6",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:30:47.183000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "90bcd95d-3aa5-4f14-92cd-dfce7791f321",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:30:47.243000Z",
+        "ended_at": "2025-08-16T09:32:39.327000Z",
+        "updated_at": "2025-08-16T09:32:39.335000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "a0e1e69e-934c-45ed-bcfe-331ce8b2d39c"
+        },
+        "parameters": {
+          "original_file_name": "2014_CFR_40-35.927-2_Grant_Amendments.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "0b9c3841-4d32-4413-80b4-c067b93af27c",
+        "correlation_id": "26b1a105-f6d9-4554-9bff-373e146e5781",
+        "parent_job_execution_id": "2127ddf2-afd2-4632-931f-f554a7f938b7",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:30:47.181000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "b50b0a60-3f5a-4457-bcbe-2aeed99ee2dd",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:30:47.245000Z",
+        "ended_at": "2025-08-16T09:30:52.151000Z",
+        "updated_at": "2025-08-16T09:30:52.163000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "739ff509-8bec-40ea-9d08-5af733163ad1"
+        },
+        "parameters": {
+          "original_file_name": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "0b9c3841-4d32-4413-80b4-c067b93af27c",
+        "correlation_id": "26b1a105-f6d9-4554-9bff-373e146e5781",
+        "parent_job_execution_id": "3143d07e-1273-4b31-860e-5d46e7078ea5",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:30:47.170000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "2df3c008-6686-46f3-b006-279ecbed122e",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:30:47.228000Z",
+        "ended_at": "2025-08-16T09:31:04.792000Z",
+        "updated_at": "2025-08-16T09:31:04.805000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "ae794809-487e-4cb9-b058-91d37f0b62e4"
+        },
+        "parameters": {
+          "original_file_name": "2025_CFR_40-35.2120_Grant_Regulations.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "0b9c3841-4d32-4413-80b4-c067b93af27c",
+        "correlation_id": "26b1a105-f6d9-4554-9bff-373e146e5781",
+        "parent_job_execution_id": "925a1522-0586-4e1a-966d-aee60735ce03",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:30:47.170000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "ee04e35a-1f46-457a-aebd-91d2b70b9937",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:30:47.221000Z",
+        "ended_at": "2025-08-16T09:30:52.234000Z",
+        "updated_at": "2025-08-16T09:30:52.244000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "177664a3-fac3-42e0-8be2-b0b544a74694"
+        },
+        "parameters": {
+          "original_file_name": "2010_EPA_Permit_Writers_Manual.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "0b9c3841-4d32-4413-80b4-c067b93af27c",
+        "correlation_id": "26b1a105-f6d9-4554-9bff-373e146e5781",
+        "parent_job_execution_id": "a010bae9-aeac-4903-9501-ae0c81cedf7a",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:30:47.167000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "62b0c539-b0d4-4031-9bc4-e9d5ae972488",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:30:47.229000Z",
+        "ended_at": "2025-08-16T09:40:37.879000Z",
+        "updated_at": "2025-08-16T09:40:37.891000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "762187f7-70d5-4a4d-ba23-46e2cdb1eef2"
+        },
+        "parameters": {
+          "original_file_name": "EPA_Sanitary_Sewer_Evaluation_9100WGB6.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "0b9c3841-4d32-4413-80b4-c067b93af27c",
+        "correlation_id": "26b1a105-f6d9-4554-9bff-373e146e5781",
+        "parent_job_execution_id": "46035a13-33c4-45a3-910f-099486ccdc3f",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:30:47.166000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "357dd878-5e4a-4980-ad86-e360d040fc6d",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:30:47.226000Z",
+        "ended_at": "2025-08-16T09:32:12.121000Z",
+        "updated_at": "2025-08-16T09:32:12.134000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "faa28a34-88e0-4c1d-942c-29b8aaf4203b"
+        },
+        "parameters": {
+          "original_file_name": "1985_EPA_Guide_Infiltration_Inflow.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "0b9c3841-4d32-4413-80b4-c067b93af27c",
+        "correlation_id": "26b1a105-f6d9-4554-9bff-373e146e5781",
+        "parent_job_execution_id": "f3332598-8beb-446a-bfc3-165ecb083c00",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:30:47.150000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "6a771384-3fb8-4433-9b3d-3a2f7815c312",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:30:47.218000Z",
+        "ended_at": "2025-08-16T09:31:02.412000Z",
+        "updated_at": "2025-08-16T09:31:02.422000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "1cf51dd9-9972-44ca-a417-f31c4e41c2e8"
+        },
+        "parameters": {
+          "original_file_name": "WAC_173-200_Water_Quality_Groundwater.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "3f324b5d-78b5-4105-91a6-935c42d53153",
+        "correlation_id": "6289c40f-0103-4656-b74f-0f8af5fbc0ea",
+        "parent_job_execution_id": "1fafa07e-a522-4bac-a0fe-f8852f9857e7",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:35.779000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "049a14cc-5a3d-4f65-8132-7894de0eb406",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:35.830000Z",
+        "ended_at": "2025-08-16T09:28:39.498000Z",
+        "updated_at": "2025-08-16T09:28:39.504000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "d858fac2-4547-4f0e-8ce1-7e4e4524317c"
+        },
+        "parameters": {
+          "original_file_name": "RCW_43.21C_State_Environmental_Policy_Act.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "3f324b5d-78b5-4105-91a6-935c42d53153",
+        "correlation_id": "6289c40f-0103-4656-b74f-0f8af5fbc0ea",
+        "parent_job_execution_id": "19b106bb-4962-488a-9cb5-9ff6eda8f4d7",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:35.754000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "cf3a61e3-e750-484e-90d1-caabca4db08d",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:35.805000Z",
+        "ended_at": "2025-08-16T09:29:06.104000Z",
+        "updated_at": "2025-08-16T09:29:06.111000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "92d20f89-c53b-4710-962b-7ada3e8decfc"
+        },
+        "parameters": {
+          "original_file_name": "WAC_173-240-050_Engineering_Reports.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "3f324b5d-78b5-4105-91a6-935c42d53153",
+        "correlation_id": "6289c40f-0103-4656-b74f-0f8af5fbc0ea",
+        "parent_job_execution_id": "eb53b100-438c-4db8-8b88-3cc458ed4ea0",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:35.662000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "1205f563-baec-4bfc-a930-226e73cce6b1",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:35.723000Z",
+        "ended_at": "2025-08-16T09:28:04.908000Z",
+        "updated_at": "2025-08-16T09:28:04.920000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "3a84b8cd-ea5f-4f8a-bc50-59a70bfc7669"
+        },
+        "parameters": {
+          "original_file_name": "WAC_173-219_Reclaimed_Water_Use.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "3f324b5d-78b5-4105-91a6-935c42d53153",
+        "correlation_id": "6289c40f-0103-4656-b74f-0f8af5fbc0ea",
+        "parent_job_execution_id": "48fd4ae4-b656-4c50-a853-873f3514f505",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:35.658000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "06834cef-5ecd-4c61-abb9-ea102fd213b6",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:35.708000Z",
+        "ended_at": "2025-08-16T09:29:04.306000Z",
+        "updated_at": "2025-08-16T09:29:04.314000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "9a449996-074a-4106-899a-5675a44a9e70"
+        },
+        "parameters": {
+          "original_file_name": "1996_Ecology_02_Guidance_Document.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "3f324b5d-78b5-4105-91a6-935c42d53153",
+        "correlation_id": "6289c40f-0103-4656-b74f-0f8af5fbc0ea",
+        "parent_job_execution_id": "ece13fc1-ccd7-4657-877f-8a371bf2ffdc",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:35.598000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "0b2373fb-73ad-4675-93e2-0687ffc85799",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:35.651000Z",
+        "ended_at": "2025-08-16T09:36:17.093000Z",
+        "updated_at": "2025-08-16T09:36:17.102000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "dfd0ad9a-d86f-4a63-b6fa-166a858ae9fb"
+        },
+        "parameters": {
+          "original_file_name": "DOE_Orange_Book_Design_Standards.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "3f324b5d-78b5-4105-91a6-935c42d53153",
+        "correlation_id": "6289c40f-0103-4656-b74f-0f8af5fbc0ea",
+        "parent_job_execution_id": "e63666cb-340c-45d9-9752-4cb006e4909a",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:35.530000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "3236a5fc-06f8-4519-9093-2a5429a41540",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:35.585000Z",
+        "ended_at": "2025-08-16T09:36:12.149000Z",
+        "updated_at": "2025-08-16T09:36:12.160000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "fdac422b-2e80-442d-8a68-a933314ed716"
+        },
+        "parameters": {
+          "original_file_name": "RCW_36.70A_Growth_Management_Act.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "3f324b5d-78b5-4105-91a6-935c42d53153",
+        "correlation_id": "6289c40f-0103-4656-b74f-0f8af5fbc0ea",
+        "parent_job_execution_id": "99e5a067-68a8-457f-9d42-564157461873",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:35.530000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "926b42ff-6bab-4cec-88ec-bc7d561d8cf2",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:35.581000Z",
+        "ended_at": "2025-08-16T09:30:29.249000Z",
+        "updated_at": "2025-08-16T09:30:29.261000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "020027a3-5d41-4cf0-8f11-9db8d9138bc0"
+        },
+        "parameters": {
+          "original_file_name": "RCW_43.21C_State_Environmental_Policy_Act.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "e71f7231-701f-42b8-bea9-1ba28f3b0513",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:14.509000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "7ff16e4a-c663-4747-9e34-3102357ae3c5",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:14.560000Z",
+        "ended_at": "2025-08-16T09:28:44.301000Z",
+        "updated_at": "2025-08-16T09:28:44.309000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "c1bb1731-df3e-4dca-a5a3-b18fdd70f7ed"
+        },
+        "parameters": {
+          "original_file_name": "WAC_173-219_Reclaimed_Water_Use.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "c831a6fd-a9df-4cdb-bb11-b8e4ed6d726b",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:14.370000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "c4d7039b-f29a-47e7-a2ae-cb3c993192b2",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:14.415000Z",
+        "ended_at": "2025-08-16T09:28:44.590000Z",
+        "updated_at": "2025-08-16T09:28:44.600000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "0ce31bc9-1469-4524-970c-709c8b0bcb43"
+        },
+        "parameters": {
+          "original_file_name": "1996_Ecology_02_Guidance_Document.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "4c529211-8732-492f-b43d-bd2f5817424f",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:14.355000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "44ff3261-10ac-4cf8-9511-0a2110374c70",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:14.406000Z",
+        "ended_at": "2025-08-16T09:40:41.736000Z",
+        "updated_at": "2025-08-16T09:40:41.744000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "5aa341cd-cdea-48a9-b5ca-62f205c2b3b9"
+        },
+        "parameters": {
+          "original_file_name": "WAC_173-240-050_Engineering_Reports.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "7cb87a16-e2eb-4ba7-9b4b-48b08089fd25",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:14.342000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "1225439b-7de5-4c95-9116-b489d111beab",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:14.404000Z",
+        "ended_at": "2025-08-16T09:27:37.226000Z",
+        "updated_at": "2025-08-16T09:27:37.240000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "e640b526-62a9-438b-8dd6-2d7f5e354d5d"
+        },
+        "parameters": {
+          "original_file_name": "WAC_173-200_Water_Quality_Groundwater.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "fcb8615c-f8a2-491a-9d78-67fdb75cc724",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:14.339000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "6c296550-b1b5-42d4-a715-e260454fbe2b",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:14.396000Z",
+        "ended_at": "2025-08-16T09:27:59.510000Z",
+        "updated_at": "2025-08-16T09:27:59.521000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "3df3a6bc-3730-463c-826a-62a4808dd008"
+        },
+        "parameters": {
+          "original_file_name": "DOE_Orange_Book_Design_Standards.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "0b52c7e8-1e34-4591-ab93-0cae255ac873",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:14.306000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "79c16332-f735-4e7f-aad2-4e2d4be2ea28",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:14.362000Z",
+        "ended_at": "2025-08-16T09:35:47.409000Z",
+        "updated_at": "2025-08-16T09:35:47.417000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "1f24f73f-d784-4d87-b430-9391676c88c9"
+        },
+        "parameters": {
+          "original_file_name": "DOE_9336_Industrial_Land_Application_Systems.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "6de59be4-17d1-4a2d-8c2a-30955cd5e28c",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:14.274000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "08cba901-7c75-4528-a868-816e1f0d0fb9",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:14.319000Z",
+        "ended_at": "2025-08-16T09:28:05.956000Z",
+        "updated_at": "2025-08-16T09:28:05.966000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "2226ba20-cf57-46a3-a6f6-501a4426ad35"
+        },
+        "parameters": {
+          "original_file_name": "RCW_36.70A_Growth_Management_Act.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "a3815ae9-812f-420e-b757-1ed78ca63532",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:27:14.262000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "1bbc49f2-3c1d-4801-a76c-0fd4caa0efff",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:27:14.318000Z",
+        "ended_at": "2025-08-16T09:30:18.372000Z",
+        "updated_at": "2025-08-16T09:30:18.383000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "c833b04f-b871-4c6a-9537-469c8e5be200"
+        },
+        "parameters": {
+          "original_file_name": "DOE_9336_Industrial_Land_Application_Systems.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "3f324b5d-78b5-4105-91a6-935c42d53153",
+        "correlation_id": "6289c40f-0103-4656-b74f-0f8af5fbc0ea",
+        "parent_job_execution_id": "6f32f32b-ac26-4f8d-89cb-aebb772ff745",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:35.816000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "30b4495f-94a4-4fbf-8ecb-197e1cbd3bad",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:35.878000Z",
+        "ended_at": "2025-08-16T09:27:17.093000Z",
+        "updated_at": "2025-08-16T09:27:17.103000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "3b364411-cadd-47e8-bcf7-a0fa2eb19a25"
+        },
+        "parameters": {
+          "original_file_name": "2014_CFR_40-35.927-2_Grant_Amendments.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "8fc5e6e6-2a20-49b0-ba31-442077e91642",
+        "correlation_id": "a92ccb27-d7ff-4fcf-8235-46d09370e3e0",
+        "parent_job_execution_id": "6b0c6082-4212-4301-b841-107eb3040516",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:34.299000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "7b76673a-798b-4400-b495-0c79e1f8ba40",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:34.359000Z",
+        "ended_at": "2025-08-16T09:26:39.228000Z",
+        "updated_at": "2025-08-16T09:26:39.240000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "0825ece5-d417-4a57-bb82-21d4ab70c04c"
+        },
+        "parameters": {
+          "original_file_name": "1985_EPA_Guide_Infiltration_Inflow.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "8fc5e6e6-2a20-49b0-ba31-442077e91642",
+        "correlation_id": "a92ccb27-d7ff-4fcf-8235-46d09370e3e0",
+        "parent_job_execution_id": "b0243ffa-f7fc-487f-aa5f-75c156e4bcc0",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:34.294000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "8d88bfbf-e1d0-4b44-97a3-e45b78c20928",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:34.343000Z",
+        "ended_at": "2025-08-16T09:26:50.203000Z",
+        "updated_at": "2025-08-16T09:26:50.210000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "ccd98545-2b83-4a33-b453-6d9e032b9ece"
+        },
+        "parameters": {
+          "original_file_name": "2025_CFR_40-35.2120_Grant_Regulations.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "8fc5e6e6-2a20-49b0-ba31-442077e91642",
+        "correlation_id": "a92ccb27-d7ff-4fcf-8235-46d09370e3e0",
+        "parent_job_execution_id": "d052aebb-eb91-4c4f-af07-f70cd1389add",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:34.280000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "3bda1c49-175f-4768-ad83-4bfc166eeaf5",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:34.339000Z",
+        "ended_at": "2025-08-16T09:26:40.200000Z",
+        "updated_at": "2025-08-16T09:26:40.215000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "e62c4484-8533-4a83-a8a9-17ab474c610f"
+        },
+        "parameters": {
+          "original_file_name": "EPA_Infiltration_Inflow_Review.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "8fc5e6e6-2a20-49b0-ba31-442077e91642",
+        "correlation_id": "a92ccb27-d7ff-4fcf-8235-46d09370e3e0",
+        "parent_job_execution_id": "59313950-734d-4611-aff6-51df2dc663d7",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:34.279000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "5c95c717-c810-4dd2-95b7-1e4bf721caac",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:34.336000Z",
+        "ended_at": "2025-08-16T09:27:10.487000Z",
+        "updated_at": "2025-08-16T09:27:10.494000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "f933f6ef-dc2a-4180-930c-67d01856b89b"
+        },
+        "parameters": {
+          "original_file_name": "EPA_Sanitary_Sewer_Evaluation_9100WGB6.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "8fc5e6e6-2a20-49b0-ba31-442077e91642",
+        "correlation_id": "a92ccb27-d7ff-4fcf-8235-46d09370e3e0",
+        "parent_job_execution_id": "62121a71-a47f-4c75-9d65-43cbff5f1940",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:34.277000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "678630b9-ac3b-4a12-a1f0-4a774e55231b",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:34.334000Z",
+        "ended_at": "2025-08-16T09:27:56.181000Z",
+        "updated_at": "2025-08-16T09:27:56.190000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "2bcb1621-11d1-4191-b923-c01deec092e4"
+        },
+        "parameters": {
+          "original_file_name": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "8fc5e6e6-2a20-49b0-ba31-442077e91642",
+        "correlation_id": "a92ccb27-d7ff-4fcf-8235-46d09370e3e0",
+        "parent_job_execution_id": "30548bac-9c8a-443d-9b8f-7d223a45bf78",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:34.267000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "319217df-f529-461a-a3c4-9a6423ef747d",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:34.318000Z",
+        "ended_at": "2025-08-16T09:26:50.806000Z",
+        "updated_at": "2025-08-16T09:26:50.817000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "1e185a21-b228-4684-b2c2-34521e5e3278"
+        },
+        "parameters": {
+          "original_file_name": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "8fc5e6e6-2a20-49b0-ba31-442077e91642",
+        "correlation_id": "a92ccb27-d7ff-4fcf-8235-46d09370e3e0",
+        "parent_job_execution_id": "395cfbbb-d11e-42a8-a52e-611d36088969",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:34.260000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "9e00326d-19a5-4428-aa20-e6f328ba74b5",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:34.309000Z",
+        "ended_at": "2025-08-16T09:42:38.434000Z",
+        "updated_at": "2025-08-16T09:42:38.444000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "a04d0ecb-78cf-4d1b-a373-dbb3c61b0bd5"
+        },
+        "parameters": {
+          "original_file_name": "2023_CFR_40-503_Biosolids_Standards.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "8fc5e6e6-2a20-49b0-ba31-442077e91642",
+        "correlation_id": "a92ccb27-d7ff-4fcf-8235-46d09370e3e0",
+        "parent_job_execution_id": "a203fccc-3e5b-4b3a-a3d7-04535ed0c2e6",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:34.258000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "907a85e1-0504-4d04-a4fb-ddb332955115",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:34.306000Z",
+        "ended_at": "2025-08-16T09:28:28.261000Z",
+        "updated_at": "2025-08-16T09:28:28.269000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "c5136adb-f92a-40c1-a0aa-1d7d9d17cb29"
+        },
+        "parameters": {
+          "original_file_name": "2010_EPA_Permit_Writers_Manual.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "8fc5e6e6-2a20-49b0-ba31-442077e91642",
+        "correlation_id": "a92ccb27-d7ff-4fcf-8235-46d09370e3e0",
+        "parent_job_execution_id": "9b31914b-8245-4653-a273-009b032f4803",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:34.255000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "42fcd106-8c1e-4d76-9500-4fa373eab543",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:34.316000Z",
+        "ended_at": "2025-08-16T09:37:08.120000Z",
+        "updated_at": "2025-08-16T09:37:08.132000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "48255131-133b-4a92-8dbc-dd3d8d44af97"
+        },
+        "parameters": {
+          "original_file_name": "WAC_173-201A_Water_Quality_Surface_Waters.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "aa747370-9546-4301-9954-581181a1bc58",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:14.252000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "e75c6496-4da5-4c25-9bdc-0abdcd472287",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:14.305000Z",
+        "ended_at": "2025-08-16T09:28:57.005000Z",
+        "updated_at": "2025-08-16T09:28:57.014000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "cf6b7289-1a51-488c-b852-dfa0596f7140"
+        },
+        "parameters": {
+          "original_file_name": "WAC_173-221_Discharge_Limits_Domestic_Wastewater.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "535624b1-0b81-4bdc-9084-31b2b9e425f3",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:14.218000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "71805dde-0340-42d8-9b07-77785493b840",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:14.274000Z",
+        "ended_at": "2025-08-16T09:26:38.558000Z",
+        "updated_at": "2025-08-16T09:26:38.564000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "9a53ea93-87f3-458d-90b2-65f45ca53e37"
+        },
+        "parameters": {
+          "original_file_name": "RCW_90.54_Water_Resources_Act_1971.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "ee8d5997-86cb-4dbb-a648-fa7acd79ef80",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:14.204000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "adf74635-1596-4f4c-b739-7fb84cbc8f35",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:14.256000Z",
+        "ended_at": "2025-08-16T09:26:47.846000Z",
+        "updated_at": "2025-08-16T09:26:47.857000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "fae3d40c-768c-4dc0-8cc3-727c10b81e4c"
+        },
+        "parameters": {
+          "original_file_name": "RCW_90.52_Pollution_Disclosure_Act.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "98dc8dac-d25d-4c60-9b06-0ad9bc94936a",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:14.161000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "ea8c1f26-f4ee-4bd0-97ec-99d59d725730",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:14.210000Z",
+        "ended_at": "2025-08-16T09:26:30.062000Z",
+        "updated_at": "2025-08-16T09:26:30.070000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "7580a5ed-3be6-4093-8362-1464b31bffc6"
+        },
+        "parameters": {
+          "original_file_name": "DOE_T6_Criteria_Liners_Lagoons.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "ef3b44d1-f311-4a2f-af43-42a4deee0f9b",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:14.151000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "bd17121a-d6c2-4508-a768-ee94ce37a9d3",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:14.211000Z",
+        "ended_at": "2025-08-16T09:27:53.388000Z",
+        "updated_at": "2025-08-16T09:27:53.396000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "a5b97185-cdb8-4c24-b68e-20a47a36e94a"
+        },
+        "parameters": {
+          "original_file_name": "RCW_90.48_Water_Pollution_Control_Act.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "b5137c20-c78a-44c0-8931-ad6381fc6417",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:14.139000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "ac025c5b-136e-4e1e-87e3-6883dcfb7793",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:14.184000Z",
+        "ended_at": "2025-08-16T09:27:20.867000Z",
+        "updated_at": "2025-08-16T09:27:20.874000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "2c264708-9f0f-4358-bed8-4292f774832a"
+        },
+        "parameters": {
+          "original_file_name": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "3937606a-f7f6-4ed9-983a-77f768c6e86a",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:14.120000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "d2fdb029-a1a1-43cf-a6ae-5abed3567275",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:14.167000Z",
+        "ended_at": "2025-08-16T09:26:51.240000Z",
+        "updated_at": "2025-08-16T09:26:51.249000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "bf28e937-aa1c-4717-85e7-23c44d1cef05"
+        },
+        "parameters": {
+          "original_file_name": "DOE_General_Guidance.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "6207821e-9b53-40fd-9b92-064b682893e6",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:14.117000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "01363096-053d-4983-aa2f-af659cf402f2",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:14.174000Z",
+        "ended_at": "2025-08-16T09:28:31.161000Z",
+        "updated_at": "2025-08-16T09:28:31.168000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "1bb953f6-702d-461b-8b43-e711b0b89629"
+        },
+        "parameters": {
+          "original_file_name": "WAC_173-308_Biosolids_Management.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "ec101548-24b7-4d69-afd8-83481f758b2a",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:14.109000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "a00ebed7-f1b7-4994-8fcb-5b4806c438cd",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:14.170000Z",
+        "ended_at": "2025-08-16T09:32:26.015000Z",
+        "updated_at": "2025-08-16T09:32:26.028000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "c6aaf895-4011-4ff2-9581-f69151dfe545"
+        },
+        "parameters": {
+          "original_file_name": "RCW_90.46_Reclaimed_Water_Use.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "79feddfe-cee9-4049-a201-994ca02b1900",
+        "correlation_id": "bff030f1-45ce-4406-b45a-94d2348b8624",
+        "parent_job_execution_id": "c69a13b3-d1e8-4dd9-9ab6-835552faa922",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:26:14.090000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "79dfe91e-2942-40cf-99f4-a18922f7cfc2",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:26:14.147000Z",
+        "ended_at": "2025-08-16T09:26:57.710000Z",
+        "updated_at": "2025-08-16T09:26:57.723000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "b9526c59-3311-4e26-a516-d5e2694f0b6b"
+        },
+        "parameters": {
+          "original_file_name": "DOE_T6_Criteria_Liners_Lagoons.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "3f324b5d-78b5-4105-91a6-935c42d53153",
+        "correlation_id": "6289c40f-0103-4656-b74f-0f8af5fbc0ea",
+        "parent_job_execution_id": "5f6c140c-e12d-44e4-ab84-6f5fac5714f9",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:25:36.287000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "7cf07a69-c416-4e1e-a3a3-5fa4c113597d",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:25:36.343000Z",
+        "ended_at": "2025-08-16T09:28:06.459000Z",
+        "updated_at": "2025-08-16T09:28:06.468000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    },
+    {
+      "job_record": {
+        "webhook_configurations": null,
+        "job_name": "parse_raw_file_job",
+        "partitions": {
+          "file_parsing_id_partition": "64787df3-2991-476c-a3fe-0af5d2d6fc27"
+        },
+        "parameters": {
+          "original_file_name": "WAC_173-201A_Water_Quality_Surface_Waters.pdf",
+          "do_not_cache": false
+        },
+        "session_id": "3f324b5d-78b5-4105-91a6-935c42d53153",
+        "correlation_id": "6289c40f-0103-4656-b74f-0f8af5fbc0ea",
+        "parent_job_execution_id": "6be8a927-0d94-4b83-be79-d5ed41978944",
+        "user_id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "created_at": "2025-08-16T09:25:35.806000Z",
+        "project_id": "e81cf837-1b99-48bb-936b-7ff06d102b2e",
+        "id": "9b6efca6-297a-4f17-9ddc-d1acbd0c68c3",
+        "status": "SUCCESS",
+        "error_code": null,
+        "error_message": null,
+        "attempts": 1,
+        "started_at": "2025-08-16T09:25:35.859000Z",
+        "ended_at": "2025-08-16T09:28:33.710000Z",
+        "updated_at": "2025-08-16T09:28:33.716000Z"
+      },
+      "usage_metrics": null,
+      "user": {
+        "id": "fb:RlqFX5BOmGSJG4ClRUzthoesY2h1",
+        "name": "Jason Froelich"
+      }
+    }
+  ],
+  "total_count": 574,
+  "limit": 100,
+  "offset": 0
+}

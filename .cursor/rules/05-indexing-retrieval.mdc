@@ -1,0 +1,11 @@
+---
+description: Indexing, embeddings, BM25/hybrid retrieval, reranking, metadata filters.
+alwaysApply: false
+globs:
+  - "src/caliper_v2/**/*.py"
+  - "data_v2/indexes/**/*"
+---
+
+- Canonical rule source (do not edit this wrapper):
+  @.ide/rules/05-indexing-retrieval.md
+- To modify rules, edit the canonical file and re-run scripts/sync_ide_rules.py

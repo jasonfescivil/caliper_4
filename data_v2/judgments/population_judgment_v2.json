@@ -1,0 +1,2241 @@
+{
+  "type": "judgment_report",
+  "version": 2,
+  "created_at": "2025-09-05T03:41:00Z",
+  "context_path": "C:\\repos\\caliper_3\\data_v2\\context\\population_retry2.json",
+  "doc_path": "C:\\repos\\caliper_3\\population_procedure3.md",
+  "metrics": {
+    "total_claims": 100,
+    "support_rate": 0.09,
+    "strict_precision": 0.145,
+    "citation_coverage": 1.0,
+    "unique_sources_cited": 4,
+    "avg_evidence_per_claim": 0.417
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "heading": null,
+      "text": "﻿Top-to-bottom outline: Guidance for population projections to size wastewater treatment facilities",
+      "span": {
+        "start": 0,
+        "end": 99
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "## 3 QUANTITY OF WASTEWATER\n- 3.1 Introduction\n- 3.2 Design Period\n- 3.3 Population or Dwelling Unit Forecast\n- 3.4 Land Use and/or Employee Forecasts\n- 3.5 Average Unit Flows\n- 3.6 Average Flows\n- 3.7 Other\n- 3.8 Infiltration/Inflow\n- 3.9 Peak and Minimum Flows\n- 3.10 Uncertainty in Forecasts\n- References"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "*  unit water factors from Section 3.5 and/or peaking factors from Section 3.9.1. Engineers may then develop two or more wastewater forecasts, typically a maximum and a minimum, to see how those forecasts affect the choice of pipe size."
+        }
+      ],
+      "rationale": "There is an explicit, structured outline that includes population or dwelling unit forecasting and related wastewater quantity topics, and guidance that population forecasting is a key step for calculating wastewater flows. However, these excerpts are from a gravity sanitary sewer design manual and discuss impacts on pipe sizing, not explicitly sizing wastewater treatment facilities. Thus, the support for treatment facility sizing is indirect.",
+      "risk": "medium"
+    },
+    {
+      "id": "C2",
+      "heading": null,
+      "text": "regulatory basis",
+      "span": {
+        "start": 116,
+        "end": 132
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# Preface\nThis manual, updated from the 5th edition, continues its goal to be one of the principal references of contemporary practice for the design of municipal water resource recovery facilities (WRRFs). The manual was written for design professionals familiar with wastewater treatment concepts, the design process, and the regulatory basis of water pollution control. It is not intended to be a "
+        }
+      ],
+      "rationale": "The provided quote explicitly contains the phrase “regulatory basis,” directly supporting the claim.",
+      "risk": "low"
+    },
+    {
+      "id": "C3",
+      "heading": null,
+      "text": "General sewer plans must include “the population trend…",
+      "span": {
+        "start": 135,
+        "end": 190
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "42",
+          "section": "2.2.2. Developmental",
+          "quote": "* Existing populations and future population trends and density in the area to be served."
+        }
+      ],
+      "rationale": "None of the provided Washington regulatory snippets (WAC 173-240-050/-060 or Ecology guidance) explicitly state that a general sewer plan must include population trends. The only snippet mentioning population trends is from a technical design manual (WEF FD-5), which is indirect and not a regulatory requirement for general sewer plans. Therefore, the claim is only partially supported by the available evidence.",
+      "risk": "medium"
+    },
+    {
+      "id": "C4",
+      "heading": null,
+      "text": "the estimated future population”",
+      "span": {
+        "start": 195,
+        "end": 227
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "The claim is an incomplete phrase with no explicit assertion. While snippets mention forecasting or future population, none directly and explicitly state the claim as written.",
+      "risk": "low"
+    },
+    {
+      "id": "C5",
+      "heading": null,
+      "text": "describe methods with planning-agency concurrence [WAC 173-240-050(3)(e)] (“population trend… estimated future population… method… concurrence” [10]).",
+      "span": {
+        "start": 232,
+        "end": 382
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets directly quote or paraphrase WAC 173-240-050(3)(e) or otherwise state that a plan must describe the population forecasting method and include planning-agency concurrence. The only WAC 173-240-050 excerpt is truncated and does not reach subsection (3)(e). Other excerpts discuss mapping, engineering report contents, or general population forecasting concepts (non-WAC), but do not establish the cited WAC requirement.",
+      "risk": "high"
+    },
+    {
+      "id": "C6",
+      "heading": null,
+      "text": "Engineering reports must project “present",
+      "span": {
+        "start": 385,
+        "end": 426
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly state that engineering reports must project \"present\" (or similar). The excerpts reference general sewer plans addressing current conditions and other engineering report contents (e.g., outfall analysis, locations, topography), but do not directly support the specific claim.",
+      "risk": "medium"
+    },
+    {
+      "id": "C7",
+      "heading": null,
+      "text": "expected future quantity",
+      "span": {
+        "start": 431,
+        "end": 455
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Sewers and treatment facilities are designed around expected average and maximum flows. Excess storm and groundwater entering the sewer system through I&I robs the system of its valuable capacity, puts a burden on operation and maintenance, and reduces the life expectancy of the treatment facility. Sewer surcharging, back-ups and overflows all require emergency response and contribute t"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "## 3 QUANTITY OF WASTEWATER\n- 3.1 Introduction\n- 3.2 Design Period\n- 3.3 Population or Dwelling Unit Forecast\n- 3.4 Land Use and/or Employee Forecasts\n- 3.5 Average Unit Flows\n- 3.6 Average Flows\n- 3.7 Other\n- 3.8 Infiltration/Inflow\n- 3.9 Peak and Minimum Flows\n- 3.10 Uncertainty in Forecasts\n- References"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# QUANTITY OF WASTEWATER\n\nplanning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe.\nResidential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers"
+        }
+      ],
+      "rationale": "The sources discuss expected flows and forecasting within wastewater quantity planning, implying consideration of future quantities. However, none explicitly state the phrase or concept \"expected future quantity\" directly, so support is indirect.",
+      "risk": "low"
+    },
+    {
+      "id": "C8",
+      "heading": null,
+      "text": "be “sufficiently complete” for design [WAC 173-240-060] (“sufficiently complete… without substantial changes” [6]",
+      "span": {
+        "start": 473,
+        "end": 586
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently compl"
+        }
+      ],
+      "rationale": "No provided snippet from WAC 173-240-060 explicitly states that an engineering report must be “sufficiently complete” for design or that it enables proceeding “without substantial changes.” The only available direct “sufficiently complete” language is in WAC 173-240-050 regarding general sewer plans, which is related but not the cited section or full phrasing. Therefore, the claim is only indirectly supported.",
+      "risk": "medium"
+    },
+    {
+      "id": "C9",
+      "heading": null,
+      "text": "expected future quantity",
+      "span": {
+        "start": 431,
+        "end": 455
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+          "page": "7",
+          "section": "Summary",
+          "quote": "# Summary\n\nSewers and treatment facilities are designed around expected average and maximum flows. Excess storm and groundwater entering the sewer system through I&I robs the system of its valuable capacity, puts a burden on operation and maintenance, and reduces the life expectancy of the treatment facility. Sewer surcharging, back-ups and overflows all require emergency response and contribute t"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "11",
+          "section": "3 QUANTITY OF WASTEWATER",
+          "quote": "## 3 QUANTITY OF WASTEWATER\n- 3.1 Introduction\n- 3.2 Design Period\n- 3.3 Population or Dwelling Unit Forecast\n- 3.4 Land Use and/or Employee Forecasts\n- 3.5 Average Unit Flows\n- 3.6 Average Flows\n- 3.7 Other\n- 3.8 Infiltration/Inflow\n- 3.9 Peak and Minimum Flows\n- 3.10 Uncertainty in Forecasts\n- References"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "54",
+          "section": "QUANTITY OF WASTEWATER",
+          "quote": "# QUANTITY OF WASTEWATER\n\nplanning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe.\nResidential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers"
+        }
+      ],
+      "rationale": "The evidence indicates that wastewater systems are designed around expected flows and that planning involves forecasts and design periods, implying consideration of future quantities. However, no snippet directly and explicitly states the generic claim “expected future quantity,” making the support indirect.",
+      "risk": "low"
+    },
+    {
+      "id": "C10",
+      "heading": null,
+      "text": "Ecology guidance: provide OFM or local data",
+      "span": {
+        "start": 647,
+        "end": 690
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets mention Ecology guidance requiring the use of Washington OFM or local data. The excerpts address topics like sewer plan certification, mixing zone analysis, site risk considerations, notification planning, reclaimed water design criteria, and WAC requirements for receiving water descriptions, but do not reference OFM or local demographic/flow data requirements.",
+      "risk": "medium"
+    },
+    {
+      "id": "C11",
+      "heading": null,
+      "text": "“population projections… for the project design period” consistent with land-use planning [DOE Orange Book] (“Provide OFM… population projections… design period” [3]).",
+      "span": {
+        "start": 695,
+        "end": 862
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Instead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These d"
+        }
+      ],
+      "rationale": "The WEF FD-5 snippets directly state that population forecasts should be made for the design period and tied to land-use planning documents. However, none of the provided DOE Orange Book snippets explicitly mention population projections, OFM, or the requirement to align projections with land-use planning, so the claim is only partially supported by the available evidence.",
+      "risk": "medium"
+    },
+    {
+      "id": "C12",
+      "heading": null,
+      "text": "2) Define planning horizon / design period",
+      "span": {
+        "start": 864,
+        "end": 906
+      },
+      "supported": "supported",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Determine planning horizon or design period"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "planning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe."
+        }
+      ],
+      "rationale": "WEF FD-5 explicitly lists as Step 1 to determine the planning horizon/design period. Additional sections confirm it must be established first and note it relates to jurisdictional planning and pipe useful life, directly supporting the claim to define the planning horizon/design period.",
+      "risk": "high"
+    },
+    {
+      "id": "C13",
+      "heading": null,
+      "text": "Select a defensible design period",
+      "span": {
+        "start": 909,
+        "end": 942
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nTable 3-1. Summary of Forecasting Procedures\n\n...\nStep 1\n\nDetermine planning horizon or design period (Se"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# QUANTITY OF WASTEWATER\n\nplanning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe."
+        }
+      ],
+      "rationale": "The sources explicitly state that a planning horizon or design period must be determined/established for sewer design. However, they do not explicitly say it must be “defensible,” so the claim is only indirectly supported.",
+      "risk": "medium"
+    },
+    {
+      "id": "C14",
+      "heading": null,
+      "text": "WEF notes plans may span “as little as 10 years",
+      "span": {
+        "start": 944,
+        "end": 991
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided WEF snippets explicitly state that planning horizons may be as little as 10 years. The excerpts reference planning horizons generally but do not include the specific “as little as 10 years” language.",
+      "risk": "medium"
+    },
+    {
+      "id": "C15",
+      "heading": null,
+      "text": "as much as 50 years” [WEF] (“planning horizon… 10 years… 50 years” [31]).",
+      "span": {
+        "start": 996,
+        "end": 1069
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "The provided WEF snippets mention the concept of a planning horizon but do not state numerical values such as 10 years or up to 50 years. Without a direct quote specifying a 10–50 year range or \"as much as 50 years,\" the claim is not directly supported by the given evidence.",
+      "risk": "medium"
+    },
+    {
+      "id": "C16",
+      "heading": null,
+      "text": "Ecology typically expects future waste load estimates for “normally 20 years” [DOE Orange Book] (“estimate the future (normally 20 years)… waste load” [24]).",
+      "span": {
+        "start": 1072,
+        "end": 1229
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets from Ecology’s Orange Book (or other sources) directly state that Ecology expects estimating future waste loads for “normally 20 years.” The Orange Book excerpts shown address data requirements, planning consultation, and outfall analysis but do not mention a 20‑year planning horizon. Other included sources (e.g., WEF manual) discuss planning horizons generally, not Ecology’s specific 20‑year expectation.",
+      "risk": "medium"
+    },
+    {
+      "id": "C17",
+      "heading": null,
+      "text": "3) Data sources",
+      "span": {
+        "start": 1231,
+        "end": 1246
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "## 3.5. AVERAGE UNIT FLOWS\n\nOnce the population or dwelling unit (Section 3.3) and land use or employees (Section 3.4) have been forecast, the third step is to apply unit flows to obtain Qavg1 and Qavg2. Unit flows are typically based on volume per unit time per person, dwelling unit, floor area, land area, or employee. The best sources of unit flows are previous or current wastewater flow"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "* Historical and experience data relating to existing facilities which may affect proposed sanitary sewers."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "The analyzed data must include sufficient detail to demonstrate the degree of flow and loading variability experienced. It must also identify the location of influent and effluent sampling, the type of samples taken, and the locations of treatment process return streams. The report must rely on credible and accurate data, which requires the use of lab"
+        }
+      ],
+      "rationale": "One source explicitly identifies data sources for design (“best sources of unit flows are previous or current wastewater flow”). Another calls for use of historical and experience data from existing facilities. A third details requirements for analyzed data and sampling information. Together they speak to data sources and data requirements, but the claim as stated (“3) Data sources”) is too vague to be fully and explicitly supported.",
+      "risk": "low"
+    },
+    {
+      "id": "C18",
+      "heading": null,
+      "text": "Use jurisdiction planning documents (general plan land use, zoning, development phasing)",
+      "span": {
+        "start": 1266,
+        "end": 1354
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "55",
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "quote": "Instead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These d"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "54",
+          "section": "QUANTITY OF WASTEWATER",
+          "quote": "planning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe.\nResidential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers"
+        }
+      ],
+      "rationale": "WEF FD-5 explicitly recommends using documents from the jurisdiction’s planning department—specifically the general plan land use element, zoning ordinance, and development plans for the planning horizon/design period—to inform wastewater planning.",
+      "risk": "medium"
+    },
+    {
+      "id": "C19",
+      "heading": null,
+      "text": "consult planners/demographers",
+      "span": {
+        "start": 1356,
+        "end": 1385
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Instead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These d"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "planning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe.\nResidential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers"
+        }
+      ],
+      "rationale": "The sources explicitly direct using planning department documents and planning horizons, which supports consulting planners. However, none of the snippets mention demographers, so the claim is only partially supported.",
+      "risk": "medium"
+    },
+    {
+      "id": "C20",
+      "heading": null,
+      "text": "use “the most current versions” [WEF] (“use data… general plan… zoning… most current versions” [1]).",
+      "span": {
+        "start": 1390,
+        "end": 1490
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These d"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# QUANTITY OF WASTEWATER\n\nplanning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe.\nResidential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers"
+        }
+      ],
+      "rationale": "The WEF text supports using data from planning documents (general plan, zoning, development plans) but the provided snippets do not explicitly state to use “the most current versions.” The key phrase is truncated and not present in the evidence, so the claim is only partially supported.",
+      "risk": "low"
+    },
+    {
+      "id": "C21",
+      "heading": null,
+      "text": "Ensure consistency with local/regional planning agencies",
+      "span": {
+        "start": 1493,
+        "end": 1549
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "* Comprehensive regional master plans of other agencies, especially the Ocean Water Act (as amended) Section"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Permits should clarify that the permittee is required to develop, in consultation with appropriate authorities at the local, county, or state level (or any combination), a plan that describes how, under various overflow (and unanticipated bypass and upset) scenarios, the public, and other entities, would be notified of overflows that may endanger health."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "## G1-1.5 Local Government Permits and Approvals\nSome of the more common permits and approvals from local governments that may be required for construction of sewers, pump stations, or wastewater treatment facilities are desc"
+        }
+      ],
+      "rationale": "The sources indicate consideration of regional master plans, consultation with local/county/state authorities, and the need for local permits—implying coordination—but none explicitly state a requirement to ensure consistency with local or regional planning agencies.",
+      "risk": "medium"
+    },
+    {
+      "id": "C22",
+      "heading": null,
+      "text": "GMA capital facilities planning [DOE Orange Book] (“concurrence with… planning agencies” [17]",
+      "span": {
+        "start": 1554,
+        "end": 1647
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided DOE Orange Book snippets (or other candidate snippets) explicitly mention GMA capital facilities planning or the phrase “concurrence with… planning agencies.” The only GMA-related excerpt (DOE Orange Book p.35) states the planning requirements predate the Growth Management Act and apply statewide, and does not reference any concurrence requirement. Without a direct quote containing the claimed language, the claim is not supported.",
+      "risk": "medium"
+    },
+    {
+      "id": "C23",
+      "heading": null,
+      "text": "“must be… consistent with… comprehensive plan” [34]).",
+      "span": {
+        "start": 1649,
+        "end": 1702
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "The regulation specifically identifies “comprehensive sewage drainage basin plans, approved by the department of ecology” as a plan cities and counties should consider. Because of this connection, many cities and counties required to complete comprehensive plans under the GMA must review the adequacy of their general sewer plans discussed in G1-2.3 and make appropriate revisions."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "The laws also require development of the plans before the entity may provide sewer service. Chapter 90.48 RCW considers plans developed under the above laws as “plans” subject to Ecology’s review and approval under chapter 90.48.110 RCW. The above planning requirements predate the Growth Management Act and applies to all cities and counties regardless of size and growth potential."
+        }
+      ],
+      "rationale": "None of the provided snippets explicitly state that sewer or facility plans \"must be consistent with\" a jurisdiction’s comprehensive plan. The closest evidence notes that jurisdictions preparing GMA comprehensive plans should consider Ecology-approved basin plans and must review and revise their general sewer plans accordingly, which implies coordination but does not directly mandate consistency. Therefore, support is indirect rather than explicit.",
+      "risk": "medium"
+    },
+    {
+      "id": "C24",
+      "heading": null,
+      "text": "4) Residential projection method",
+      "span": {
+        "start": 1704,
+        "end": 1736
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "### 3.3. POPULATION OR DWELLING UNIT FORECAST\n\nOnce the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These d"
+        }
+      ],
+      "rationale": "The cited manual explicitly discusses forecasting population/dwelling units for residential wastewater design and recommends using planning documents over simple trend extrapolation. This supports the concept of a residential projection method, though the exact phrasing of the claim is not stated verbatim.",
+      "risk": "low"
+    },
+    {
+      "id": "C25",
+      "heading": null,
+      "text": "Use land-use-based density",
+      "span": {
+        "start": 1739,
+        "end": 1765
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Instead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These d"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Table 3-2. Example of a Residential Dwelling Unit (DU) or Population Forecast for a Subarea at the Beginning or End of the Design Period\n\n<table>\n  <thead>\n    <tr>\n      <th>Residential Land Use (1)</th>\n      <th>Area, acres (2)</th>\n      <th>DU/Acre (3)</th>\n      <th>No. of DUs (4) = (2) × (3)</th>\n      <th>Persons/ DU (5)</th>\n      <th>% Developed at End of Planni"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the population or dwelling unit (Section 3.3) and land use or employees (Section 3.4) have been forecast, the third step is to apply unit flows to obtain Qavg1 and Qavg2. Unit flows are typically based on volume per unit time per person, dwelling unit, floor area, land area, or employee. The best sources of unit flows are previous or current wastewater flow"
+        }
+      ],
+      "rationale": "Guidance recommends forecasting using residential land use data rather than trend extrapolation, and provides methods based on DU per acre and unit flows per land area. This directly supports using land-use-based density for design/forecasting.",
+      "risk": "high"
+    },
+    {
+      "id": "C26",
+      "heading": null,
+      "text": "occupancy: ranges of DU/acre with persons/DU [WEF] (“ranges of DU/acre… different persons/DU” [1]).",
+      "span": {
+        "start": 1770,
+        "end": 1869
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Table 3-2. Example of a Residential Dwelling Unit (DU) or Population Forecast for a Subarea at the Beginning or End of the Design Period\n\n<table>\n  <thead>\n    <tr>\n      <th>Residential Land Use (1)</th>\n      <th>Area, acres (2)</th>\n      <th>DU/Acre (3)</th>\n      <th>No. of DUs (4) = (2) × (3)</th>\n      <th>Persons/ DU (5)</th>\n      <th>% Developed at End of Planni"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period."
+        }
+      ],
+      "rationale": "The WEF manual explicitly references forecasting using both DU/acre and persons per dwelling unit, and shows a table with columns for DU/Acre and Persons/DU. However, the provided excerpts do not explicitly show ranges of DU/acre paired with different persons/DU values. Thus the claim that WEF provides ranges with corresponding persons/DU is only partially supported by the available quotes.",
+      "risk": "medium"
+    },
+    {
+      "id": "C27",
+      "heading": null,
+      "text": "Example factors: Low ≤4 DU/ac at 3.0 persons/DU",
+      "span": {
+        "start": 1870,
+        "end": 1917
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "The provided snippets reference an example table for forecasting dwelling units and persons per dwelling unit, but none directly state the specific values “Low ≤4 DU/ac” or “3.0 persons/DU.” Without a direct quote containing those numbers, the claim is not supported by the available excerpts.",
+      "risk": "medium"
+    },
+    {
+      "id": "C28",
+      "heading": null,
+      "text": "Medium 4–10 at 2.8",
+      "span": {
+        "start": 1919,
+        "end": 1937
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets directly or explicitly state the claim \"Medium 4–10 at 2.8.\" The excerpts discuss wastewater design topics, mapping scales, references, and regulatory guidance, but no passage mentions a medium classification with a 4–10 range at 2.8 or any phrasing that matches this claim.",
+      "risk": "low"
+    },
+    {
+      "id": "C29",
+      "heading": null,
+      "text": "High >10 at 2.5 [1].",
+      "span": {
+        "start": 1939,
+        "end": 1959
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly state the claim \"High >10 at 2.5 [1]\". The only mentions of \"2.5\" relate to drawing scale (2.5 meters to the centimeter) and \"10\" relates to 10 feet to the inch as a vertical scale; there is no statement tying \"High\" to an inequality \">10\" at \"2.5\".",
+      "risk": "medium"
+    },
+    {
+      "id": "C30",
+      "heading": null,
+      "text": "Adjust for vacancy: “Population forecasts may also be adjusted by a housing vacancy rate” [WEF] (“adjusted by a housing vacancy rate” [1]).",
+      "span": {
+        "start": 1962,
+        "end": 2101
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly state that population forecasts may be adjusted by a housing vacancy rate. The excerpts discuss forecasting population/dwelling units and uncertainties but do not mention vacancy rates.",
+      "risk": "medium"
+    },
+    {
+      "id": "C31",
+      "heading": null,
+      "text": "Include transients, group quarters,",
+      "span": {
+        "start": 2104,
+        "end": 2139
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly state that transients or group quarters should be included. The excerpts discuss general population/land-use data and forecasting/unit flows but do not mention transients or group quarters.",
+      "risk": "medium"
+    },
+    {
+      "id": "C32",
+      "heading": null,
+      "text": "seasonal populations",
+      "span": {
+        "start": 2144,
+        "end": 2164
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly mention seasonal populations; they discuss general population data, planning horizons, and wastewater flow components without reference to seasonality.",
+      "risk": "low"
+    },
+    {
+      "id": "C33",
+      "heading": null,
+      "text": "convert to “equivalent full-time residents” or include in institutional/commercial land uses [WEF] (“transients… converted to equivalent full-time residents” [1]).",
+      "span": {
+        "start": 2166,
+        "end": 2329
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating nonresidential wastewater flow is to forecast the land use and/or number of employees. Nonresidential wastewater is generated by employees in a manner similar to residential (i.e., toilets, sinks, showers, and so forth). In each case, the business does not co"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the population or dwelling unit (Section 3.3) and land use or employees (Section 3.4) have been forecast, the third step is to apply unit flows to obtain Qavg1 and Qavg2. Unit flows are typically based on volume per unit time per person, dwelling unit, floor area, land area, or employee. The best sources of unit flows are previous or current wastewater flow"
+        }
+      ],
+      "rationale": "WEF excerpts directly support including nonresidential (e.g., commercial/institutional) land uses and employee-based forecasts when estimating flows. However, the provided snippets do not mention transients or converting them to “equivalent full-time residents,” so only part of the claim is directly supported.",
+      "risk": "medium"
+    },
+    {
+      "id": "C34",
+      "heading": null,
+      "text": "Divide service area into subareas",
+      "span": {
+        "start": 2332,
+        "end": 2365
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Table 3-2. Example of a Residential Dwelling Unit (DU) or Population Forecast for a Subarea at the Beginning or End of the Design Period"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each."
+        }
+      ],
+      "rationale": "The WEF text explicitly uses the concept of a \"Subarea\" for forecasting, and the DOE guidance calls for mapping areas served by each sewer, implying segmentation of the service area. However, none of the provided snippets explicitly instructs to divide the service area into subareas, so the support is indirect.",
+      "risk": "medium"
+    },
+    {
+      "id": "C35",
+      "heading": null,
+      "text": "compute at start",
+      "span": {
+        "start": 2367,
+        "end": 2383
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period."
+        }
+      ],
+      "rationale": "The source explicitly states that calculations for residential wastewater flow include forecasting values for the time of start of service, indicating computation at the start. However, the claim is too vague (no context about what is computed), so support is only partial.",
+      "risk": "low"
+    },
+    {
+      "id": "C36",
+      "heading": null,
+      "text": "end of design period at key downstream points [WEF] (“divide[d] into subareas… beginning",
+      "span": {
+        "start": 2388,
+        "end": 2476
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Table 3-2. Example of a Residential Dwelling Unit (DU) or Population Forecast for a Subarea at the Beginning or End of the Design Period"
+        }
+      ],
+      "rationale": "The WEF FD-5 manual explicitly references forecasting for both the beginning (start of service) and end of the design period and provides an example framed at the subarea scale. However, the provided snippets do not mention calculating at “key downstream points” or instructing to divide the system into subareas; they only imply subarea-level forecasting via the table title. Therefore, the claim is only partially supported by the available evidence.",
+      "risk": "medium"
+    },
+    {
+      "id": "C37",
+      "heading": null,
+      "text": "end of the design period” [1]).",
+      "span": {
+        "start": 2481,
+        "end": 2512
+      },
+      "supported": "supported",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Table 3-2. Example of a Residential Dwelling Unit (DU) or Population Forecast for a Subarea at the Beginning or End of the Design Period"
+        }
+      ],
+      "rationale": "The exact phrase “end of the design period” appears explicitly in the WEF manual text and table title, directly confirming the claim.",
+      "risk": "low"
+    },
+    {
+      "id": "C38",
+      "heading": null,
+      "text": "Document in tables like WEF’s DU/acre-to-population example [WEF] (“Example… forecast for a subarea” [19]).",
+      "span": {
+        "start": 2515,
+        "end": 2622
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# QUANTITY OF WASTEWATER\n\nTable 3-2. Example of a Residential Dwelling Unit (DU) or Population Forecast for a Subarea at the Beginning or End of the Design Period\n\n<table>\n  <thead>\n    <tr>\n      <th>Residential Land Use (1)</th>\n      <th>Area, acres (2)</th>\n      <th>DU/Acre (3)</th>\n      <th>No. of DUs (4) = (2) × (3)</th>\n      <th>Persons/ DU (5)</th>\n      <th>% Developed at End of Planni"
+        }
+      ],
+      "rationale": "The WEF manual explicitly includes a table titled as an example of a DU/acre-to-population forecast for a subarea, showing columns such as DU/Acre, number of DUs, and Persons/DU, matching the claim.",
+      "risk": "low"
+    },
+    {
+      "id": "C39",
+      "heading": null,
+      "text": "5) Nonresidential projection method",
+      "span": {
+        "start": 2624,
+        "end": 2659
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating nonresidential wastewater flow is to forecast the land use and/or number of employees. Nonresidential wastewater is generated by employees in a manner similar to residential (i.e., toilets, sinks, showers, and so forth)."
+        }
+      ],
+      "rationale": "The cited source explicitly states that projecting nonresidential wastewater flows is based on forecasting land use and/or employee counts. However, the claim text is too terse to fully confirm specifics beyond identifying the general method, hence partial support.",
+      "risk": "medium"
+    },
+    {
+      "id": "C40",
+      "heading": null,
+      "text": "Forecast “land uses",
+      "span": {
+        "start": 2662,
+        "end": 2681
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating nonresidential wastewater flow is to forecast the land use and/or number of employees."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Forecasts of population, housing, land use, and/or employment described in Sections 3.3 and 3.4 may be based on the best available information, but are not statements of fact."
+        }
+      ],
+      "rationale": "The cited text explicitly states that forecasting land use is a step in the process and further discusses forecasts that include land use, directly supporting the claim.",
+      "risk": "medium"
+    },
+    {
+      "id": "C41",
+      "heading": null,
+      "text": "/or number of employees”",
+      "span": {
+        "start": 2685,
+        "end": 2709
+      },
+      "supported": "supported",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating nonresidential wastewater flow is to forecast the land use and/or number of employees."
+        }
+      ],
+      "rationale": "The cited source explicitly states the phrase “land use and/or number of employees,” directly matching the claim fragment.",
+      "risk": "low"
+    },
+    {
+      "id": "C42",
+      "heading": null,
+      "text": "floor area per employee",
+      "span": {
+        "start": 2724,
+        "end": 2747
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly mention or define \"floor area per employee.\" The closest reference is that unit flows may be based on floor area or on employee counts separately, but not as a combined metric of floor area per employee.",
+      "risk": "medium"
+    },
+    {
+      "id": "C43",
+      "heading": null,
+      "text": "treat manufacturing separately [WEF] (“forecast the land use",
+      "span": {
+        "start": 2749,
+        "end": 2809
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "56",
+          "section": "3.4. LAND USE AND/OR EMPLOYEE FORECASTS",
+          "quote": "## 3.4. LAND USE AND/OR EMPLOYEE FORECASTS\n\n<p>Once the design period or planning horizon has been established, the next step in calculating nonresidential wastewater flow is to forecast the land use and/or number of employees. Nonresidential wastewater is generated by employees in a manner similar to residential (i.e., toilets, sinks, showers, and so forth). In each case, the business does not co"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "11",
+          "section": "3 QUANTITY OF WASTEWATER",
+          "quote": "- 3.4 Land Use and/or Employee Forecasts"
+        }
+      ],
+      "rationale": "The WEF source explicitly states that nonresidential wastewater flow estimation should forecast land use and/or number of employees, supporting the “forecast the land use” portion of the claim. However, the provided excerpts do not explicitly state that manufacturing should be treated separately, so that part of the claim is not directly supported by the quoted text.",
+      "risk": "medium"
+    },
+    {
+      "id": "C44",
+      "heading": null,
+      "text": "/or number of employees” [20]).",
+      "span": {
+        "start": 2813,
+        "end": 2844
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating nonresidential wastewater flow is to forecast the land use and/or number of employees. Nonresidential wastewater is generated by employees in a manner similar to residential (i.e., toilets, sinks, showers, and so forth). In each case, the business does not co"
+        }
+      ],
+      "rationale": "The cited document explicitly uses the phrase “and/or number of employees,” directly matching the claim.",
+      "risk": "low"
+    },
+    {
+      "id": "C45",
+      "heading": null,
+      "text": "6) Convert projections to design flows (link to sizing)",
+      "span": {
+        "start": 2846,
+        "end": 2901
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "## 3.5. AVERAGE UNIT FLOWS\n\nOnce the population or dwelling unit (Section 3.3) and land use or employees (Section 3.4) have been forecast, the third step is to apply unit flows to obtain Qavg1 and Qavg2. Unit flows are typically based on volume per unit time per person, dwelling unit, floor area, land area, or employee. The best sources of unit flows are previous or current wastewater flow"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "## 3 QUANTITY OF WASTEWATER\n- 3.1 Introduction\n- 3.2 Design Period\n- 3.3 Population or Dwelling Unit Forecast\n- 3.4 Land Use and/or Employee Forecasts\n- 3.5 Average Unit Flows\n- 3.6 Average Flows\n- 3.7 Other\n- 3.8 Infiltration/Inflow\n- 3.9 Peak and Minimum Flows\n- 3.10 Uncertainty in Forecasts\n- References"
+        }
+      ],
+      "rationale": "The source explicitly states that after forecasting population/land use, unit flows are applied to obtain average flows (Qavg), which is the core step of converting projections to flows. However, the provided snippets do not explicitly state that these become final design flows or directly link them to sizing, nor do they provide details on deriving peak design flows in the quoted text, so support is partial.",
+      "risk": "medium"
+    },
+    {
+      "id": "C46",
+      "heading": null,
+      "text": "Apply unit flow factors to obtain average design flows Qavg1/Qavg2, then peaking for Qmax/Qmin [WEF] (“Determine average unit flows… develop average flows… develop… peak",
+      "span": {
+        "start": 2904,
+        "end": 3073
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "57",
+          "section": "3.5. AVERAGE UNIT FLOWS",
+          "quote": "## 3.5. AVERAGE UNIT FLOWS\n\nOnce the population or dwelling unit (Section 3.3) and land use or employees (Section 3.4) have been forecast, the third step is to apply unit flows to obtain Qavg1 and Qavg2. Unit flows are typically based on volume per unit time per person, dwelling unit, floor area, land area, or employee. The best sources of unit flows are previous or current wastewater flow"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "52",
+          "section": "QUANTITY OF WASTEWATER",
+          "quote": "# QUANTITY OF WASTEWATER\n\ndesign, the potential for sulfide-related corrosion, as discussed in Chapter 4, can be minimized. The most direct way of generating Q_min is with the equation $$Q_{\\min} = Q_{\\text{avg1}} \\times P_1$$, where \\(P_1\\) is a peaking factor discussed in Section 3.7.\n\n* The average daily flow, \\(Q_{\\text{avg2}}\\), for the design day for the system. Derivation of \\(Q_{\\text{avg2"
+        }
+      ],
+      "rationale": "WEF FD-5 explicitly instructs applying unit flow factors to obtain average flows Qavg1 and Qavg2, and it shows peaking is applied (via a peaking factor) to derive an extreme flow, specifically Qmin. However, the provided snippets do not explicitly show the corresponding peaking formulation for Qmax, so the claim is only partially supported by the available text.",
+      "risk": "high"
+    },
+    {
+      "id": "C47",
+      "heading": null,
+      "text": "minimum flows” [9]",
+      "span": {
+        "start": 3078,
+        "end": 3096
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "11",
+          "section": "3 QUANTITY OF WASTEWATER",
+          "quote": "## 3 QUANTITY OF WASTEWATER\n- 3.1 Introduction\n- 3.2 Design Period\n- 3.3 Population or Dwelling Unit Forecast\n- 3.4 Land Use and/or Employee Forecasts\n- 3.5 Average Unit Flows\n- 3.6 Average Flows\n- 3.7 Other\n- 3.8 Infiltration/Inflow\n- 3.9 Peak and Minimum Flows\n- 3.10 Uncertainty in Forecasts\n- References"
+        }
+      ],
+      "rationale": "The WEF FD-5 document explicitly lists a section titled “Peak and Minimum Flows,” directly confirming the presence of and consideration for minimum flows.",
+      "risk": "low"
+    },
+    {
+      "id": "C48",
+      "heading": null,
+      "text": "“Qmax = Qavg2 × P2” [12]).",
+      "span": {
+        "start": 3098,
+        "end": 3124
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly state the equation Qmax = Qavg2 × P2. The closest snippet mentions Qmin = Qavg1 × P1 and references Qavg2, but does not define Qmax or P2 or relate them via the claimed formula.",
+      "risk": "high"
+    },
+    {
+      "id": "C49",
+      "heading": null,
+      "text": "Do not rely solely on historical per-capita flows",
+      "span": {
+        "start": 3127,
+        "end": 3176
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "## Background  \nThere are three major components of wastewater flow in a sanitary sewer system, base sanitary (or wastewater) flow, groundwater infiltration and rainfall derived inflow and infiltration, more commonly referred to as inflow. Virtually every sewer system has some infiltration and/or inflow. Historically, small amounts of I&I are expected and tolerated. However, infiltration and inflo"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# Summary\n\nSewers and treatment facilities are designed around expected average and maximum flows. Excess storm and groundwater entering the sewer system through I&I robs the system of its valuable capacity, puts a burden on operation and maintenance, and reduces the life expectancy of the treatment facility. Sewer surcharging, back-ups and overflows all require emergency response and contribute t"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "The analyzed data must include sufficient detail to demonstrate the degree of flow and loading variability experienced. It must also identify the location of influent and effluent sampling, the type of samples taken, and the locations of treatment process return streams. The report must rely on credible and accurate data, which requires the use of lab"
+        }
+      ],
+      "rationale": "No snippet explicitly states “do not rely solely on historical per‑capita flows.” However, the EPA I&I guidance shows that wastewater systems must account for additional flow components (infiltration and inflow) and design for average and maximum conditions, and the DOE standard requires detailed analysis of flow and loading variability using credible data. These points indirectly support the idea that relying only on historical per‑capita values is insufficient.",
+      "risk": "high"
+    },
+    {
+      "id": "C50",
+      "heading": null,
+      "text": "account for lower indoor use",
+      "span": {
+        "start": 3178,
+        "end": 3206
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "The provided excerpts discuss wastewater flow components, minimum flow calculations, and land-use/employee-based forecasting, but none explicitly state that estimates should account for lower indoor water use.",
+      "risk": "medium"
+    },
+    {
+      "id": "C51",
+      "heading": null,
+      "text": "nonresidential/I&I effects [WEF] (“extrapolating historical per capita… is not the best practice” [12]).",
+      "span": {
+        "start": 3211,
+        "end": 3315
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided WEF snippets explicitly state that extrapolating historical per capita values is not best practice or tie this to nonresidential/I&I effects. The closest WEF excerpt (on forecasting nonresidential flows via land use/employee counts) is indirect and does not mention the per-capita extrapolation point, and the I&I content provided is from EPA, not WEF.",
+      "risk": "medium"
+    },
+    {
+      "id": "C52",
+      "heading": null,
+      "text": "Separately characterize I/I (not population-based)",
+      "span": {
+        "start": 3318,
+        "end": 3368
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+          "page": "1",
+          "section": "Background",
+          "quote": "There are three major components of wastewater flow in a sanitary sewer system, base sanitary (or wastewater) flow, groundwater infiltration and rainfall derived inflow and infiltration, more commonly referred to as inflow. Virtually every sewer system has some infiltration and/or inflow. Historically, small amounts of I&I are expected and tolerated. However, infiltration and inflo"
+        },
+        {
+          "file": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+          "page": "7",
+          "section": "Summary",
+          "quote": "Sewers and treatment facilities are designed around expected average and maximum flows. Excess storm and groundwater entering the sewer system through I&I robs the system of its valuable capacity, puts a burden on operation and maintenance, and reduces the life expectancy of the treatment facility. Sewer surcharging, back-ups and overflows all require emergency response and contribute t"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "57",
+          "section": "3.5. AVERAGE UNIT FLOWS",
+          "quote": "Once the population or dwelling unit (Section 3.3) and land use or employees (Section 3.4) have been forecast, the third step is to apply unit flows to obtain Qavg1 and Qavg2. Unit flows are typically based on volume per unit time per person, dwelling unit, floor area, land area, or employee. The best sources of unit flows are previous or current wastewater flow"
+        }
+      ],
+      "rationale": "The EPA guide explicitly separates wastewater flow components into base sanitary flow and I/I, implying these should be considered distinctly. The WEF text shows population- and employment-based unit flows are used to estimate sanitary/nonresidential wastewater, not I/I. However, none of the provided snippets explicitly state that I/I must be separately characterized or that it is not population-based, so support is indirect rather than explicit.",
+      "risk": "high"
+    },
+    {
+      "id": "C53",
+      "heading": null,
+      "text": "include climate change effects on unmitigated I/I [DOE/EPA/WEF] (“I/I quantities are not related to population” [12]",
+      "span": {
+        "start": 3386,
+        "end": 3502
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided DOE, EPA, or WEF snippets explicitly state that climate change effects should be included when considering unmitigated I/I, nor do they explicitly state that I/I quantities are not related to population. The EPA excerpts describe I/I components (rainfall and groundwater) but do not make the explicit population-independence statement, and the DOE snippet mentions tsunami inundation risk without linking climate change to I/I.",
+      "risk": "medium"
+    },
+    {
+      "id": "C54",
+      "heading": null,
+      "text": "“account for… climate change… on unmitigated I/I” [24]).",
+      "span": {
+        "start": 3504,
+        "end": 3560
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly state that analyses must account for climate change impacts on unmitigated infiltration/inflow (I/I). The excerpts discuss I/I generally, forecasting uncertainty, and site risks such as tsunamis, but do not mention climate change or unmitigated I/I.",
+      "risk": "medium"
+    },
+    {
+      "id": "C55",
+      "heading": null,
+      "text": "7) Uncertainty, scenarios,",
+      "span": {
+        "start": 3562,
+        "end": 3588
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "### 3.10. Uncertainty in Forecasts\n\nForecasts of population, housing, land use, and/or employment described in Sections 3.3 and 3.4 may be based on the best available information, but are not statements of fact. They are considered opinions about the future of a community that cannot be verified until the forecast dates arrive. Consequently, there is a level of uncertainty in forecasting. Engineer"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "* unit water factors from Section 3.5 and/or peaking factors from Section 3.9.1. Engineers may then develop two or more wastewater forecasts, typically a maximum and a minimum, to see how those forecasts affect the choice of pipe size.\n*  Sensitivity analysis. With judicious use of computer software, multiple planning scenarios can be analyzed quickly and efficiently. By"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Permits should clarify that the permittee is required to develop, in consultation with appropriate authorities at the local, county, or state level (or any combination), a plan that describes how, under various overflow (and unanticipated bypass and upset) scenarios, the public, and other entities, would be notified of overflows that may endanger health. The plan should identify all overflows that"
+        }
+      ],
+      "rationale": "The sources explicitly acknowledge uncertainty in forecasts and recommend analyzing multiple scenarios, including maximum/minimum wastewater forecasts and overflow scenarios.",
+      "risk": "low"
+    },
+    {
+      "id": "C56",
+      "heading": null,
+      "text": "Prepare multiple growth scenarios (high/medium/low)",
+      "span": {
+        "start": 3607,
+        "end": 3658
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Engineers may then develop two or more wastewater forecasts, typically a maximum and a minimum, to see how those forecasts affect the choice of pipe size."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Sensitivity analysis. With judicious use of computer software, multiple planning scenarios can be analyzed quickly and efficiently. By"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Forecasts of population, housing, land use, and/or employment described in Sections 3.3 and 3.4 may be based on the best available information, but are not statements of fact. They are considered opinions about the future of a community that cannot be verified until the forecast dates arrive. Consequently, there is a level of uncertainty in forecasting."
+        }
+      ],
+      "rationale": "Sources explicitly endorse creating multiple forecasts and analyzing multiple planning scenarios, which aligns with preparing several growth scenarios. However, they do not specifically mention the labels high/medium/low, so support is indirect.",
+      "risk": "low"
+    },
+    {
+      "id": "C57",
+      "heading": null,
+      "text": "phasing [DOE/WEF] (“consider high, medium,",
+      "span": {
+        "start": 3663,
+        "end": 3705
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided DOE or WEF excerpts mention project phasing or a high/medium/low phasing classification. The snippets address mixing zone analysis, tsunami inundation risk, data requirements, wastewater quantity forecasting, and treatment/disinfection notes, but do not reference phasing guidance or categorization.",
+      "risk": "medium"
+    },
+    {
+      "id": "C58",
+      "heading": null,
+      "text": "low growth profiles” [7]",
+      "span": {
+        "start": 3710,
+        "end": 3734
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly mention or state “low growth profiles” or an equivalent phrase. The excerpts discuss wastewater flows, forecasting uncertainty, and regulatory analyses, but do not directly reference low growth profiles.",
+      "risk": "medium"
+    },
+    {
+      "id": "C59",
+      "heading": null,
+      "text": "“Two or more planning scenarios” [28]).",
+      "span": {
+        "start": 3736,
+        "end": 3775
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "*  Sensitivity analysis. With judicious use of computer software, multiple planning scenarios can be analyzed quickly and efficiently. By"
+        }
+      ],
+      "rationale": "The cited source explicitly states that multiple planning scenarios can be analyzed, which directly implies two or more planning scenarios.",
+      "risk": "low"
+    },
+    {
+      "id": "C60",
+      "heading": null,
+      "text": "Use sensitivity analysis to test how variations in “population, employment, unit factors” affect sizing [WEF] (“Sensitivity analysis… varying… population, employment, unit factors” [8]).",
+      "span": {
+        "start": 3778,
+        "end": 3964
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# QUANTITY OF WASTEWATER\n\n* unit water factors from Section 3.5 and/or peaking factors from Section 3.9.1. Engineers may then develop two or more wastewater forecasts, typically a maximum and a minimum, to see how those forecasts affect the choice of pipe size.\n*  Sensitivity analysis. With judicious use of computer software, multiple planning scenarios can be analyzed quickly and efficiently. By"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "### 3.10. Uncertainty in Forecasts\n\nForecasts of population, housing, land use, and/or employment described in Sections 3.3 and 3.4 may be based on the best available information, but are not statements of fact. They are considered opinions about the future of a community that cannot be verified until the forecast dates arrive. Consequently, there is a level of uncertainty in forecasting. Engineer"
+        }
+      ],
+      "rationale": "WEF FD-5 explicitly mentions using sensitivity analysis and developing multiple wastewater forecasts to see how forecasts affect pipe sizing, and it identifies population and employment as uncertain forecast drivers. However, the provided excerpts do not explicitly state, in one place, that sensitivity analysis should vary population, employment, and unit factors specifically, so the claim is only partially supported by the available quotes.",
+      "risk": "medium"
+    },
+    {
+      "id": "C61",
+      "heading": null,
+      "text": "8) Documentation expectations (plans",
+      "span": {
+        "start": 3966,
+        "end": 4002
+      },
+      "supported": "supported",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "WAC 173-240-070 Plans and specifications. (1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility. The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de- ... (e) A description of the receiving water, applicable water quality standards, and how water quality standards will be met outside any applicable dilution zone. (f) The type of treatment process proposed, based upon the character of the wastewater to be handled, the method of disposal, the degree of treatment required, and a discussion of the alternatives evaluated and the reasons they are unaccep"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "(2) Plans and specifications for sewer line extensions shall include, as a separate report, an analysis of the existing collection and treatment system's ability to transport and treat additional flow and loading. (3) Two copies of the plans and specifications must be submitted to the department for approval before starting construction, except as waived under WAC 173-240-030(5)."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Permits should clarify that the permittee is required to develop, in consultation with appropriate authorities at the local, county, or state level (or any combination), a plan that describes how, under various overflow (and unanticipated bypass and upset) scenarios, the public, and other entities, would be notified of overflows that may endanger health."
+        }
+      ],
+      "rationale": "The cited regulations and guidance explicitly require specific documentation, including defined content for plans and specifications, a separate system capacity analysis for sewer extensions, and the development of a notification plan. These directly establish documentation expectations for plans.",
+      "risk": "medium"
+    },
+    {
+      "id": "C62",
+      "heading": null,
+      "text": "In general sewer plans: include service-area maps, existing/proposed sewers,",
+      "span": {
+        "start": 4018,
+        "end": 4094
+      },
+      "supported": "supported",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be serve"
+        }
+      ],
+      "rationale": "The cited section from the state’s Criteria for Sewage Works Design (Orange Book) explicitly lists plan elements that include service boundaries (service-area maps) and details of both existing and proposed sewers, which directly matches the claim about what general sewer plans should include.",
+      "risk": "medium"
+    },
+    {
+      "id": "C63",
+      "heading": null,
+      "text": "population trends/projections with methods",
+      "span": {
+        "start": 4099,
+        "end": 4141
+      },
+      "supported": "supported",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "### 3.3. POPULATION OR DWELLING UNIT FORECAST\n\nOnce the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period.\nPrevious versions of this Manual and other historical references gi"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These d"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "## 2.2.2. Developmental\n* Existing populations and future population trends and density in the area to be served.\n* Type of development (i.e., residential, commercial, or industrial).\n* Historical and experience data relating to existing facilities which may affect proposed sanitary sewers.\n* Comprehensive regional master plans of other agencies, especially the Ocean Water Act (as amended) Section"
+        }
+      ],
+      "rationale": "The manual explicitly calls for forecasting population/dwelling units for design periods, references consideration of future population trends, and recommends a specific projection method using planning department land use and zoning data rather than simple trend extrapolation.",
+      "risk": "high"
+    },
+    {
+      "id": "C64",
+      "heading": null,
+      "text": "concurrence [WAC/DOE] (“existing",
+      "span": {
+        "start": 4146,
+        "end": 4178
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major st"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be serve"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "(2) Plans and specifications for sewer line extensions shall include, as a separate report, an analysis of the existing collection and treatment system's ability to transport and treat additional flow and loading."
+        }
+      ],
+      "rationale": "Both WAC 173-240-060 and the DOE Orange Book require identification and analysis of existing (and proposed) infrastructure, indicating alignment on addressing 'existing' systems. However, no snippet explicitly states a formal concurrence between WAC and DOE, so support is indirect.",
+      "risk": "medium"
+    },
+    {
+      "id": "C65",
+      "heading": null,
+      "text": "proposed service boundaries” [10]",
+      "span": {
+        "start": 4183,
+        "end": 4216
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "3) The existing and proposed service boundaries."
+        }
+      ],
+      "rationale": "The cited design standards explicitly require inclusion of 'the existing and proposed service boundaries,' directly matching the claim phrase.",
+      "risk": "low"
+    },
+    {
+      "id": "C66",
+      "heading": null,
+      "text": "“Population trends…",
+      "span": {
+        "start": 4218,
+        "end": 4237
+      },
+      "supported": "supported",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "## 2.2.2. Developmental\n* Existing populations and future population trends and density in the area to be served.\n* Type of development (i.e., residential, commercial, or industrial).\n* Historical and experience data relating to existing facilities which may affect proposed sanitary sewers.\n* Comprehensive regional master plans of other agencies, especially the Ocean Water Act (as amended) Section"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Instead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These d"
+        }
+      ],
+      "rationale": "The document explicitly references both “future population trends” and the use of “past trends” for extrapolating population, confirming that population trends are directly discussed.",
+      "risk": "low"
+    },
+    {
+      "id": "C67",
+      "heading": null,
+      "text": "… method” [17]).",
+      "span": {
+        "start": 4241,
+        "end": 4257
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "The claim text is incomplete (“… method” [17]) and none of the provided snippets directly contain or state this claim. Without a clear, explicit statement matching the claim, support cannot be established.",
+      "risk": "low"
+    },
+    {
+      "id": "C68",
+      "heading": null,
+      "text": "In engineering reports: provide the basis of future loads (20-year), tied to zoning",
+      "span": {
+        "start": 4260,
+        "end": 4343
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "planning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe.\nResidential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Instead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These d"
+        }
+      ],
+      "rationale": "The provided snippets support using zoning/land-use documents and a planning horizon to project future flows, which aligns with tying future loads to zoning. However, none of the snippets explicitly state that an engineering report must provide the basis of future loads for a 20-year period, nor do they explicitly tie this requirement to engineering report content. Therefore, the claim is only indirectly supported.",
+      "risk": "medium"
+    },
+    {
+      "id": "C69",
+      "heading": null,
+      "text": "historical trends,",
+      "span": {
+        "start": 4348,
+        "end": 4366
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "* Historical and experience data relating to existing facilities which may affect proposed sanitary sewers."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "* Existing populations and future population trends and density in the area to be served."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Previous versions of this Manual and other historical references gi"
+        }
+      ],
+      "rationale": "The sources explicitly mention using historical data/references and discuss future population trends. However, none directly state \"historical trends\" as such, so the claim is only indirectly supported.",
+      "risk": "low"
+    },
+    {
+      "id": "C70",
+      "heading": null,
+      "text": "consider water conservation impacts on per-capita flow/strength [DOE] (“Base the estimates on… zoning… historical population trends” [24]",
+      "span": {
+        "start": 4371,
+        "end": 4508
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Instead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period."
+        }
+      ],
+      "rationale": "No provided DOE snippet explicitly instructs designers to consider water conservation impacts on per-capita flow or strength, nor to base estimates on historical population trends. The only direct support among the snippets is from WEF, which recommends using zoning and planning documents for population/land-use-based forecasting. Therefore, the claim is only partially supported: the “zoning” aspect is supported (by WEF, not DOE), while the DOE-specific water conservation/per-capita requirement and reliance on historical population trends are not substantiated by the given excerpts.",
+      "risk": "medium"
+    },
+    {
+      "id": "C71",
+      "heading": null,
+      "text": "“consider… water conservation measures” [24]).",
+      "span": {
+        "start": 4510,
+        "end": 4556
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly mention considering or implementing water conservation measures. The excerpts focus on receiving water descriptions, treatment process selection, flow/load analysis, startup/commissioning plans, and other engineering/reporting requirements, but do not state a requirement to consider water conservation.",
+      "risk": "medium"
+    },
+    {
+      "id": "C72",
+      "heading": null,
+      "text": "9) Good practices checklist",
+      "span": {
+        "start": 4558,
+        "end": 4585
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "No provided snippet explicitly mentions or includes a 'good practices checklist.' The excerpts relate to regulatory review standards, engineering design criteria, references, and planning/submission requirements, but none directly state or present a checklist of good practices.",
+      "risk": "low"
+    },
+    {
+      "id": "C73",
+      "heading": null,
+      "text": "Use current land-use plans",
+      "span": {
+        "start": 4588,
+        "end": 4614
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Instead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Residential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers"
+        }
+      ],
+      "rationale": "The sources explicitly advise using land-use information from official planning documents (general plan land use elements, zoning ordinances, development plans) instead of extrapolating from past trends, which aligns with using land-use plans. However, they do not explicitly state that those plans must be the 'current' versions, so the claim is only partially supported.",
+      "risk": "medium"
+    },
+    {
+      "id": "C74",
+      "heading": null,
+      "text": "zoning densities [1].",
+      "span": {
+        "start": 4619,
+        "end": 4640
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Instead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These d"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Residential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers"
+        }
+      ],
+      "rationale": "The sources reference using zoning ordinances and land use documents for planning and forecasting, which often include density information, but they do not explicitly mention \"zoning densities.\" Therefore, support is indirect rather than explicit.",
+      "risk": "medium"
+    },
+    {
+      "id": "C75",
+      "heading": null,
+      "text": "Coordinate with planners/demographers",
+      "span": {
+        "start": 4643,
+        "end": 4680
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Instead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These d"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "planning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe.\nResidential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers"
+        }
+      ],
+      "rationale": "The cited guidance directs practitioners to rely on data and planning horizons from the jurisdiction’s planning department, which implies coordination with planners. However, it does not explicitly instruct to ‘coordinate’ nor does it mention demographers, so the support is indirect.",
+      "risk": "low"
+    },
+    {
+      "id": "C76",
+      "heading": null,
+      "text": "obtain OFM/local forecasts [3], [17].",
+      "span": {
+        "start": 4682,
+        "end": 4719
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Instead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period."
+        }
+      ],
+      "rationale": "No snippet mentions OFM explicitly. One snippet advises using jurisdiction planning department documents for population/land-use data for a planning horizon, which aligns with obtaining local forecasts. Therefore the claim is only partially supported (local forecasts supported; OFM not supported).",
+      "risk": "medium"
+    },
+    {
+      "id": "C77",
+      "heading": null,
+      "text": "Include vacancy, transients,",
+      "span": {
+        "start": 4722,
+        "end": 4750
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly mention including vacancy rates or transient populations. The excerpts discuss general forecasting methods (land use, employees) and I&I, but do not directly state to include vacancy or transients.",
+      "risk": "medium"
+    },
+    {
+      "id": "C78",
+      "heading": null,
+      "text": "group quarters [1].",
+      "span": {
+        "start": 4755,
+        "end": 4774
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly mention or define 'group quarters'; the excerpts address wastewater planning and unit flows without referencing group quarters.",
+      "risk": "low"
+    },
+    {
+      "id": "C79",
+      "heading": null,
+      "text": "Subarea-based computations at start/end of period [1].",
+      "span": {
+        "start": 4777,
+        "end": 4831
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "56",
+          "section": "QUANTITY OF WASTEWATER",
+          "quote": "# QUANTITY OF WASTEWATER\n\nTable 3-2. Example of a Residential Dwelling Unit (DU) or Population Forecast for a Subarea at the Beginning or End of the Design Period\n\n<table>\n  <thead>\n    <tr>\n      <th>Residential Land Use (1)</th>\n      <th>Area, acres (2)</th>\n      <th>DU/Acre (3)</th>\n      <th>No. of DUs (4) = (2) × (3)</th>\n      <th>Persons/ DU (5)</th>\n      <th>% Developed at End of Planni"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "54",
+          "section": "3.3. POPULATION OR DWELLING UNIT FORECAST",
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period."
+        }
+      ],
+      "rationale": "WEF FD-5 explicitly presents a subarea forecast table for the beginning or end of the design period and states that forecasts should be made for both the start of service and the end of the design period, confirming subarea-based computations at those times.",
+      "risk": "medium"
+    },
+    {
+      "id": "C80",
+      "heading": null,
+      "text": "Develop residential",
+      "span": {
+        "start": 4834,
+        "end": 4853
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "* Type of development (i.e., residential, commercial, or industrial)."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "<th>Residential Wastewater</th>"
+        }
+      ],
+      "rationale": "The sources acknowledge residential as a development type and discuss planning and forecasting for residential wastewater, which is related to residential development. However, none explicitly state the directive or claim to \"Develop residential\"; thus the support is indirect rather than explicit.",
+      "risk": "low"
+    },
+    {
+      "id": "C81",
+      "heading": null,
+      "text": "employment-based nonresidential projections [20].",
+      "span": {
+        "start": 4858,
+        "end": 4907
+      },
+      "supported": "supported",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "56",
+          "section": "3.4. LAND USE AND/OR EMPLOYEE FORECASTS",
+          "quote": "## 3.4. LAND USE AND/OR EMPLOYEE FORECASTS\n\n<p>Once the design period or planning horizon has been established, the next step in calculating nonresidential wastewater flow is to forecast the land use and/or number of employees. Nonresidential wastewater is generated by employees in a manner similar to residential (i.e., toilets, sinks, showers, and so forth). In each case, the business does co"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "75",
+          "section": "3.10. Uncertainty in Forecasts",
+          "quote": "### 3.10. Uncertainty in Forecasts\n\nForecasts of population, housing, land use, and/or employment described in Sections 3.3 and 3.4 may be based on the best available information, but are not statements of fact."
+        }
+      ],
+      "rationale": "The WEF manual explicitly states that calculating nonresidential wastewater flow requires forecasting the number of employees, and it references employment forecasts as part of the projections. This directly supports employment-based nonresidential projections.",
+      "risk": "medium"
+    },
+    {
+      "id": "C82",
+      "heading": null,
+      "text": "Separate I/I analysis",
+      "span": {
+        "start": 4910,
+        "end": 4931
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "9",
+          "section": "Operation and Maintenance Manual Requirements",
+          "quote": "(2) Plans and specifications for sewer line extensions shall include, as a separate report, an analysis of the existing collection and treatment system's ability to transport and treat additional flow and loading."
+        },
+        {
+          "file": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+          "page": "1",
+          "section": "Background",
+          "quote": "There are three major components of wastewater flow in a sanitary sewer system, base sanitary (or wastewater) flow, groundwater infiltration and rainfall derived inflow and infiltration, more commonly referred to as inflow. Virtually every sewer system has some infiltration and/or inflow."
+        }
+      ],
+      "rationale": "No snippet explicitly requires a separate I/I (infiltration/inflow) analysis. One regulation requires a separate report analyzing system capacity for sewer extensions, and EPA guidance identifies I/I as distinct flow components that affect capacity. This indirectly suggests I/I should be analyzed, but does not explicitly mandate a standalone I/I analysis.",
+      "risk": "low"
+    },
+    {
+      "id": "C83",
+      "heading": null,
+      "text": "do not embed in per-capita [12], [14].",
+      "span": {
+        "start": 4933,
+        "end": 4971
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets mention “per-capita,” an instruction to “do not embed,” or references [12] or [14]. Therefore, there is no direct and explicit support for the claim in the candidate evidence.",
+      "risk": "low"
+    },
+    {
+      "id": "C84",
+      "heading": null,
+      "text": "Provide scenario/sensitivity analyses to bound uncertainty [8], [28].",
+      "span": {
+        "start": 4974,
+        "end": 5043
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# QUANTITY OF WASTEWATER\n\n* unit water factors from Section 3.5 and/or peaking factors from Section 3.9.1. Engineers may then develop two or more wastewater forecasts, typically a maximum and a minimum, to see how those forecasts affect the choice of pipe size.\n*  Sensitivity analysis. With judicious use of computer software, multiple planning scenarios can be analyzed quickly and efficiently. By"
+        }
+      ],
+      "rationale": "The cited guidance explicitly recommends sensitivity analysis and developing multiple planning scenarios, including maximum and minimum forecasts, which are standard methods to bound uncertainty.",
+      "risk": "medium"
+    },
+    {
+      "id": "C85",
+      "heading": null,
+      "text": "Key supporting quotes",
+      "span": {
+        "start": 5045,
+        "end": 5066
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "The claim is not a concrete, verifiable statement; none of the provided snippets directly and explicitly state 'Key supporting quotes.' Without a specific claim to evaluate, support cannot be determined.",
+      "risk": "low"
+    },
+    {
+      "id": "C86",
+      "heading": null,
+      "text": "“Provide OFM… population data… Include population projections… for the project design period” (DOE Orange Book, p.48) [3].",
+      "span": {
+        "start": 5069,
+        "end": 5191
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "* Existing populations and future population trends and density in the area to be served."
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Instead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period."
+        }
+      ],
+      "rationale": "No provided snippet from DOE Orange Book p.48 explicitly requires providing OFM population data or including population projections. However, WEF FD-5 guidance indirectly supports the need to include population forecasts for the design period. Because the specific Orange Book/OFM requirement is not evidenced in the snippets, support is partial.",
+      "risk": "medium"
+    },
+    {
+      "id": "C87",
+      "heading": null,
+      "text": "“Population trend…",
+      "span": {
+        "start": 5194,
+        "end": 5212
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "The claim is incomplete and ambiguous (“Population trend…”). Without a specific assertion, none of the provided snippets can directly and explicitly support it.",
+      "risk": "low"
+    },
+    {
+      "id": "C88",
+      "heading": null,
+      "text": "the estimated future population… method… concurrence” (WAC 173-240-050(3)(e)) [10].",
+      "span": {
+        "start": 5217,
+        "end": 5300
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly show the text of WAC 173-240-050(3)(e) or language requiring that the estimated future population, the method used, and concurrence be included. The snippet from WAC 173-240-050 is truncated and does not contain subsection (3)(e), and the other excerpts are from different sections or documents.",
+      "risk": "high"
+    },
+    {
+      "id": "C89",
+      "heading": null,
+      "text": "“Use data on population",
+      "span": {
+        "start": 5303,
+        "end": 5326
+      },
+      "supported": "supported",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These d"
+        }
+      ],
+      "rationale": "The cited text explicitly recommends using data on population (and land use) for planning/design, directly confirming the claim.",
+      "risk": "medium"
+    },
+    {
+      "id": "C90",
+      "heading": null,
+      "text": "residential land use… general plan… zoning ordinance” (WEF, p.55) [1].",
+      "span": {
+        "start": 5331,
+        "end": 5401
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "55",
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "quote": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These d"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "54",
+          "section": "QUANTITY OF WASTEWATER",
+          "quote": "# QUANTITY OF WASTEWATER\n\nplanning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe.\nResidential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers"
+        }
+      ],
+      "rationale": "WEF FD-5 explicitly states that data on population and residential land use should be taken from planning documents such as the general plan land use element and the zoning ordinance, directly matching the claim.",
+      "risk": "low"
+    },
+    {
+      "id": "C91",
+      "heading": null,
+      "text": "“Ranges of DU/acre",
+      "span": {
+        "start": 5404,
+        "end": 5422
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly list or describe ranges of dwelling units per acre (DU/acre). The only relevant excerpt references a table column labeled DU/Acre but does not present any values or ranges.",
+      "risk": "medium"
+    },
+    {
+      "id": "C92",
+      "heading": null,
+      "text": "each range may have different persons/DU” (WEF, p.55) [1].",
+      "span": {
+        "start": 5427,
+        "end": 5485
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Table 3-2. Example of a Residential Dwelling Unit (DU) or Population Forecast for a Subarea at the Beginning or End of the Design Period\n\n<table>\n  <thead>\n    <tr>\n      <th>Residential Land Use (1)</th>\n      <th>Area, acres (2)</th>\n      <th>DU/Acre (3)</th>\n      <th>No. of DUs (4) = (2) × (3)</th>\n      <th>Persons/ DU (5)</th>\n      <th>% Developed at End of Planni"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Once the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period."
+        }
+      ],
+      "rationale": "The provided WEF excerpts reference 'persons per dwelling unit' and include a table column labeled 'Persons/ DU (5),' implying this factor can vary by land-use row. However, none of the snippets explicitly state that 'each range may have different persons/DU,' nor do they confirm this statement appears on page 55 specifically. Therefore the claim is only indirectly supported.",
+      "risk": "low"
+    },
+    {
+      "id": "C93",
+      "heading": null,
+      "text": "“Population forecasts may also be adjusted by a housing vacancy rate” (WEF, p.55) [1].",
+      "span": {
+        "start": 5488,
+        "end": 5574
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly state that population forecasts may be adjusted by a housing vacancy rate. The page 55 excerpt discusses using planning data for population and residential land use but does not mention vacancy rate adjustments.",
+      "risk": "medium"
+    },
+    {
+      "id": "C94",
+      "heading": null,
+      "text": "“Transients… converted to equivalent full-time residents” (WEF, p.55) [1].",
+      "span": {
+        "start": 5577,
+        "end": 5651
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets, including the WEF document on page 55, contain any mention of transients or guidance to convert transient populations to equivalent full-time residents. Therefore, there is no direct textual support for the claim in the given evidence.",
+      "risk": "medium"
+    },
+    {
+      "id": "C95",
+      "heading": null,
+      "text": "“Applied at many key points… area… divided into subareas” (WEF, p.55) [1].",
+      "span": {
+        "start": 5654,
+        "end": 5728
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "Table 3-2. Example of a Residential Dwelling Unit (DU) or Population Forecast for a Subarea at the Beginning or End of the Design Period"
+        }
+      ],
+      "rationale": "The provided WEF excerpts do not show the phrase “Applied at many key points” nor do they explicitly state on p.55 that the area is divided into subareas. However, the adjacent p.56 table title explicitly references a “Subarea,” which indirectly supports the notion of dividing an area into subareas for forecasting. No snippet directly confirms the “applied at many key points” portion or attributes this to p.55.",
+      "risk": "low"
+    },
+    {
+      "id": "C96",
+      "heading": null,
+      "text": "“estimate the future (normally 20 years)… waste load” (DOE Orange Book, p.49) [24].",
+      "span": {
+        "start": 5731,
+        "end": 5814
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets explicitly state that the DOE Orange Book (p.49) requires estimating future waste load over a “normally 20 years” period. The Orange Book excerpt from p.49 only discusses data analysis details, and other snippets reference planning horizons generally without the specific 20-year requirement attributed to p.49.",
+      "risk": "medium"
+    },
+    {
+      "id": "C97",
+      "heading": null,
+      "text": "“extrapolating historical per capita wastewater flow is not the best practice” (WEF, p.52) [12].",
+      "span": {
+        "start": 5817,
+        "end": 5913
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets, including the WEF page 52 excerpt, directly state that extrapolating historical per capita wastewater flow is not best practice. The available quotes are either unrelated (flow equations, forecasting steps) or truncated and do not explicitly support the claim.",
+      "risk": "medium"
+    },
+    {
+      "id": "C98",
+      "heading": null,
+      "text": "“consider high, medium,",
+      "span": {
+        "start": 5916,
+        "end": 5939
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "The claim is incomplete (“consider high, medium,”) and none of the provided snippets explicitly mention categorizing or considering items as high/medium. Without a complete statement or direct textual support, the claim cannot be verified.",
+      "risk": "low"
+    },
+    {
+      "id": "C99",
+      "heading": null,
+      "text": "low growth profiles” (DOE Orange Book, p.54) [7].",
+      "span": {
+        "start": 5944,
+        "end": 5993
+      },
+      "supported": "false",
+      "citations_valid": true,
+      "evidence": [],
+      "rationale": "None of the provided snippets mention “low growth profiles.” The only snippet from DOE Orange Book page 54 discusses outfall analysis and mixing zones, not growth profiles. Therefore, the claim that page 54 contains “low growth profiles” is not supported by the available evidence.",
+      "risk": "low"
+    },
+    {
+      "id": "C100",
+      "heading": null,
+      "text": "“Sensitivity analysis… varying… population, employment, unit factors” (WEF, p.76) [8].",
+      "span": {
+        "start": 5996,
+        "end": 6082
+      },
+      "supported": "partial",
+      "citations_valid": true,
+      "evidence": [
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "# QUANTITY OF WASTEWATER\n\n* unit water factors from Section 3.5 and/or peaking factors from Section 3.9.1. Engineers may then develop two or more wastewater forecasts, typically a maximum and a minimum, to see how those forecasts affect the choice of pipe size.\n*  Sensitivity analysis. With judicious use of computer software, multiple planning scenarios can be analyzed quickly and efficiently. By"
+        },
+        {
+          "file": null,
+          "page": null,
+          "section": null,
+          "quote": "### 3.10. Uncertainty in Forecasts\n\nForecasts of population, housing, land use, and/or employment described in Sections 3.3 and 3.4 may be based on the best available information, but are not statements of fact. They are considered opinions about the future of a community that cannot be verified until the forecast dates arrive. Consequently, there is a level of uncertainty in forecasting. Engineer"
+        }
+      ],
+      "rationale": "The text explicitly mentions performing sensitivity analysis and developing multiple wastewater forecasts, and elsewhere discusses forecasts of population and employment. However, the provided quotes do not explicitly state that sensitivity analysis is done by varying population, employment, and unit factors together, leaving the claim only indirectly supported.",
+      "risk": "medium"
+    }
+  ],
+  "follow_up_retrieves": [
+    "poetry run caliper_v2 retrieve \"﻿Top-to-bottom outline: Guidance for population projections to size wastewater treatment facilities\" --indexes \"federal,state,design_standards\" --cloud --search-mode hybrid --top-k 40 --rerank-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C1.json\"",
+    "poetry run caliper_v2 retrieve \"regulatory basis\" --indexes \"federal,state,design_standards\" --cloud --search-mode hybrid --top-k 40 --rerank-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C2.json\"",
+    "poetry run caliper_v2 retrieve \"General sewer plans must include “the population trend…\" --indexes \"federal,state,design_standards\" --cloud --search-mode hybrid --top-k 40 --rerank-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C3.json\"",
+    "poetry run caliper_v2 retrieve \"the estimated future population”\" --indexes \"federal,state,design_standards\" --cloud --search-mode hybrid --top-k 40 --rerank-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C4.json\"",
+    "poetry run caliper_v2 retrieve \"describe methods with planning-agency concurrence [WAC 173-240-050(3)(e)] (“population trend… estimated future populatio…\" --indexes \"federal,state,design_standards\" --cloud --search-mode hybrid --top-k 40 --rerank-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C5.json\"",
+    "poetry run caliper_v2 retrieve \"Engineering reports must project “present\" --indexes \"federal,state,design_standards\" --cloud --search-mode hybrid --top-k 40 --rerank-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C6.json\"",
+    "poetry run caliper_v2 retrieve \"expected future quantity\" --indexes \"federal,state,design_standards\" --cloud --search-mode hybrid --top-k 40 --rerank-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C7.json\"",
+    "poetry run caliper_v2 retrieve \"be “sufficiently complete” for design [WAC 173-240-060] (“sufficiently complete… without substantial changes” [6]\" --indexes \"federal,state,design_standards\" --cloud --search-mode hybrid --top-k 40 --rerank-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C8.json\"",
+    "poetry run caliper_v2 retrieve \"expected future quantity\" --indexes \"federal,state,design_standards\" --cloud --search-mode hybrid --top-k 40 --rerank-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C9.json\"",
+    "poetry run caliper_v2 retrieve \"Ecology guidance: provide OFM or local data\" --indexes \"federal,state,design_standards\" --cloud --search-mode hybrid --top-k 40 --rerank-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C10.json\""
+  ]
+}

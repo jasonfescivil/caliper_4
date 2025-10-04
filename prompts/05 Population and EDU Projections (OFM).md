@@ -1,0 +1,8 @@
+poetry run caliper_v2 --llm-provider cohere --llm-model command-a-reasoning-2025 retrieve "Build a population/EDU projection template for small WA communities (<1000): OFM sources, seasonal population, vacancy, institutional loads, EDU factors, uncertainty bands, and reconciliation of billing vs census vs meters. Map to report sections & design flow derivations; cite sources." --indexes "federal,state,design_standards" --cloud --top-k 60 --reranker cohere --rerank-top-n 24  --out data_v2/context/q05_population_edu_0913.json
+
+poetry run caliper_v2 --llm-provider openai --llm-model gpt-5 generate data_v2/context/q05_population_edu_0913.json --style strict-citation --format md outputs/q05_population_edu.md
+
+poetry run caliper_v2 --llm-provider openai --llm-model gpt-5 judge --context data_v2/context/q05_population_edu.json --generation outputs/q05_population_edu_0913.md  --strict --out data_v2/judgments/q05_population_edu_0913_judge.json
+
+
+poetry run caliper_v2 --llm-provider cohere --llm-model command-a-reasoning-2025 retrieve "I/I plan for small WA systems: monitoring periods; SSES phases; smoke/dye; night-flow isolation; rainfall correlation; QA/QC; deliverables; instrumentation specs — cite EPA SSES, WEF FD-6, WA Orange Book/WAC." --indexes "federal,state,design_standards" --cloud --dense-k 12 --sparse-k 24 --alpha 0.45 --reranker cohere --rerank-top-n 20 --rerank-min-score 0.55 --include-terms "SSES,smoke testing,dye testing,night flow isolation,flow monitoring,wet weather duration,QA/QC,deliverables,WAC 173-240" --exclude-sections "acknowledgements,abbreviations,publication history,references,list of figures" --out data_v2/context/q06_ii_plan_tuned.json

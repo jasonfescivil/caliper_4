@@ -1,0 +1,1892 @@
+{
+  "type": "review_report",
+  "version": 1,
+  "doc_path": "C:\\repos\\caliper_3\\outputs\\drafts\\q02_crosswalk.md",
+  "context_path": "C:\\repos\\caliper_3\\data_v2\\context\\q02_crosswalk.json",
+  "summary": {
+    "blocking": 2,
+    "high_risk": 0,
+    "inconsistencies": 5,
+    "coverage_score": 1.0
+  },
+  "issues": [
+    {
+      "id": "B1",
+      "severity": "blocking",
+      "kind": "missing_required",
+      "message": "Required content missing: design_period",
+      "suggestion": "Add material satisfying: design period|planning horizon|20[- ]year",
+      "where": null
+    },
+    {
+      "id": "B2",
+      "severity": "blocking",
+      "kind": "missing_required",
+      "message": "Required content missing: flows_link",
+      "suggestion": "Add material satisfying: Q\\s*avg|ADWF|Q\\s*max|peaking factor|Q\\s*min",
+      "where": null
+    },
+    {
+      "id": "A-WAC",
+      "severity": "medium",
+      "kind": "acronym",
+      "message": "Acronym 'WAC' appears multiple times without definition.",
+      "suggestion": "Define 'WAC' on first use.",
+      "where": null
+    },
+    {
+      "id": "A-CFR",
+      "severity": "medium",
+      "kind": "acronym",
+      "message": "Acronym 'CFR' appears multiple times without definition.",
+      "suggestion": "Define 'CFR' on first use.",
+      "where": null
+    },
+    {
+      "id": "A-WEF",
+      "severity": "medium",
+      "kind": "acronym",
+      "message": "Acronym 'WEF' appears multiple times without definition.",
+      "suggestion": "Define 'WEF' on first use.",
+      "where": null
+    },
+    {
+      "id": "A-ASCE",
+      "severity": "medium",
+      "kind": "acronym",
+      "message": "Acronym 'ASCE' appears multiple times without definition.",
+      "suggestion": "Define 'ASCE' on first use.",
+      "where": null
+    },
+    {
+      "id": "A-AWWA",
+      "severity": "medium",
+      "kind": "acronym",
+      "message": "Acronym 'AWWA' appears multiple times without definition.",
+      "suggestion": "Define 'AWWA' on first use.",
+      "where": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "heading": null,
+      "text": "assistant: | Topic | WA Requirement | Federal Baseline | Design Notes | Citations |",
+      "span": {
+        "start": 0,
+        "end": 83
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "18",
+          "section": "G1-1.3.3  Corps of Engineers",
+          "quote": "Sequence of Planning, Design, and Construction\n- Table G1-1. Explanation of Engineering Report Requirements\n- Figure G1-2. Example of a Process Flow Diagram\n\n## ADA Accessibility\n\nThe Department of Ecology is committed to providing people with disabilities access to information and services by meeting or exceeding the requirements of the Americans with Disabilities Act (ADA), Section 504 and 508 of the Rehabilitation Act, and Washington State Policy #188.\nTo request ADA Accommodation, contact Wa"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "29",
+          "section": "G1-1.5.1 On-site Sewage Systems",
+          "quote": "Ecology issues NPDES permits and an accompanying fact sheet with five-year effective periods. The permits specify discharge limits, monitoring schedules, and other general and special conditions necessary to protect waters of the state. Nearly all municipal wastewater treatment plants that discharge to surface water must obtain an individual NPDES permit to authorize the discharge. The rare exception to this would be where a facility discharges to a surface water of the state that does not quali"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C2",
+      "heading": null,
+      "text": "| --- | --- | --- | --- | --- |",
+      "span": {
+        "start": 84,
+        "end": 115
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C3",
+      "heading": null,
+      "text": "| Regulatory Framework | WAC 173-240-050/-060: General sewer plans, engineering reports, plans/specs, O&M manuals for domestic wastewater facilities | 40 CFR 133: Ocean Discharge Criteria | Washington adds specific requirements for engineering reports",
+      "span": {
+        "start": 116,
+        "end": 367
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C4",
+      "heading": null,
+      "text": "general sewer plans, which must be approved by the Department of Ecology.",
+      "span": {
+        "start": 372,
+        "end": 445
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "48",
+          "section": null,
+          "quote": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C5",
+      "heading": null,
+      "text": "| [1,2,3,5,6,7,8,11] |",
+      "span": {
+        "start": 446,
+        "end": 468
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C6",
+      "heading": null,
+      "text": "| | WAC 173-221: Surface water discharge standards for domestic wastewater treatment facilities | 40 CFR 133: Ocean Discharge Criteria | Washington's standards are based on \"all known, available,",
+      "span": {
+        "start": 469,
+        "end": 664
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C7",
+      "heading": null,
+      "text": "reasonable methods of prevention, control,",
+      "span": {
+        "start": 669,
+        "end": 711
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C8",
+      "heading": null,
+      "text": "treatment\" (AKART)",
+      "span": {
+        "start": 716,
+        "end": 734
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "5",
+          "section": "Chapter C2, Sewage Pump Stations",
+          "quote": "The goals of the manual are:\n\n1. To ensure that the design of sewage collection and treatment systems is consistent with public health, water quality, and biosolids management objectives of Washington State.\n2. To establish a basis for the design and review of plans and specifications for sewage treatment works and sewerage systems.\n3. To establish the minimum requirements and limiting factors utilized by the Washington Department of Ecology and the Washington State Department of Health for revi"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C9",
+      "heading": null,
+      "text": "may be superseded by water quality standards in WAC 173-201A.",
+      "span": {
+        "start": 739,
+        "end": 800
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "29",
+          "section": "G1-1.5.1 On-site Sewage Systems",
+          "quote": "Ecology issues NPDES permits and an accompanying fact sheet with five-year effective periods. The permits specify discharge limits, monitoring schedules, and other general and special conditions necessary to protect waters of the state. Nearly all municipal wastewater treatment plants that discharge to surface water must obtain an individual NPDES permit to authorize the discharge. The rare exception to this would be where a facility discharges to a surface water of the state that does not quali"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C10",
+      "heading": null,
+      "text": "| | WAC 173-201A: Water quality standards for surface waters of the state of Washington | N/A | Washington classifies surface waters based on present/potential beneficial uses",
+      "span": {
+        "start": 813,
+        "end": 988
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "29",
+          "section": "G1-1.5.1 On-site Sewage Systems",
+          "quote": "Ecology issues NPDES permits and an accompanying fact sheet with five-year effective periods. The permits specify discharge limits, monitoring schedules, and other general and special conditions necessary to protect waters of the state. Nearly all municipal wastewater treatment plants that discharge to surface water must obtain an individual NPDES permit to authorize the discharge. The rare exception to this would be where a facility discharges to a surface water of the state that does not quali"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C11",
+      "heading": null,
+      "text": "sets specific criteria for dissolved oxygen, fecal coliform, temperature, pH, turbidity,",
+      "span": {
+        "start": 993,
+        "end": 1081
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "48",
+          "section": null,
+          "quote": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C12",
+      "heading": null,
+      "text": "toxic substances.",
+      "span": {
+        "start": 1086,
+        "end": 1103
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "48",
+          "section": null,
+          "quote": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C13",
+      "heading": null,
+      "text": "| | WAC 173-200: Water quality standards for ground waters of the state of Washington | N/A | N/A | [1] |",
+      "span": {
+        "start": 1116,
+        "end": 1221
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "29",
+          "section": "G1-1.5.1 On-site Sewage Systems",
+          "quote": "Ecology issues NPDES permits and an accompanying fact sheet with five-year effective periods. The permits specify discharge limits, monitoring schedules, and other general and special conditions necessary to protect waters of the state. Nearly all municipal wastewater treatment plants that discharge to surface water must obtain an individual NPDES permit to authorize the discharge. The rare exception to this would be where a facility discharges to a surface water of the state that does not quali"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C14",
+      "heading": null,
+      "text": "| | WAC 173-216: State Waste Discharge Permit Program | N/A | N/A | [1] |",
+      "span": {
+        "start": 1222,
+        "end": 1295
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "29",
+          "section": "G1-1.5.1 On-site Sewage Systems",
+          "quote": "Ecology issues NPDES permits and an accompanying fact sheet with five-year effective periods. The permits specify discharge limits, monitoring schedules, and other general and special conditions necessary to protect waters of the state. Nearly all municipal wastewater treatment plants that discharge to surface water must obtain an individual NPDES permit to authorize the discharge. The rare exception to this would be where a facility discharges to a surface water of the state that does not quali"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C15",
+      "heading": null,
+      "text": "| | WAC 173-240: Submission of plans",
+      "span": {
+        "start": 1296,
+        "end": 1332
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "5",
+          "section": "Chapter C2, Sewage Pump Stations",
+          "quote": "The goals of the manual are:\n\n1. To ensure that the design of sewage collection and treatment systems is consistent with public health, water quality, and biosolids management objectives of Washington State.\n2. To establish a basis for the design and review of plans and specifications for sewage treatment works and sewerage systems.\n3. To establish the minimum requirements and limiting factors utilized by the Washington Department of Ecology and the Washington State Department of Health for revi"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C16",
+      "heading": null,
+      "text": "reports for construction of wastewater facilities | N/A | N/A | [1,7,8,11] |",
+      "span": {
+        "start": 1337,
+        "end": 1413
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "29",
+          "section": "G1-1.5.1 On-site Sewage Systems",
+          "quote": "Ecology issues NPDES permits and an accompanying fact sheet with five-year effective periods. The permits specify discharge limits, monitoring schedules, and other general and special conditions necessary to protect waters of the state. Nearly all municipal wastewater treatment plants that discharge to surface water must obtain an individual NPDES permit to authorize the discharge. The rare exception to this would be where a facility discharges to a surface water of the state that does not quali"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C17",
+      "heading": null,
+      "text": "| | WAC 173-802: State Environmental Policy Act | N/A | N/A | [1] |",
+      "span": {
+        "start": 1414,
+        "end": 1481
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "18",
+          "section": "G1-1.3.3  Corps of Engineers",
+          "quote": "Sequence of Planning, Design, and Construction\n- Table G1-1. Explanation of Engineering Report Requirements\n- Figure G1-2. Example of a Process Flow Diagram\n\n## ADA Accessibility\n\nThe Department of Ecology is committed to providing people with disabilities access to information and services by meeting or exceeding the requirements of the Americans with Disabilities Act (ADA), Section 504 and 508 of the Rehabilitation Act, and Washington State Policy #188.\nTo request ADA Accommodation, contact Wa"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C18",
+      "heading": null,
+      "text": "| | RCW 90.48: Water Pollution Control Act | N/A | Washington's Water Pollution Control Act contains requirements for general sewer plans",
+      "span": {
+        "start": 1482,
+        "end": 1619
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C19",
+      "heading": null,
+      "text": "engineering reports, which are reviewed",
+      "span": {
+        "start": 1624,
+        "end": 1663
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "48",
+          "section": null,
+          "quote": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C20",
+      "heading": null,
+      "text": "approved by the Department of Ecology.",
+      "span": {
+        "start": 1668,
+        "end": 1706
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "48",
+          "section": null,
+          "quote": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "18",
+          "section": "G1-1.3.3  Corps of Engineers",
+          "quote": "Sequence of Planning, Design, and Construction\n- Table G1-1. Explanation of Engineering Report Requirements\n- Figure G1-2. Example of a Process Flow Diagram\n\n## ADA Accessibility\n\nThe Department of Ecology is committed to providing people with disabilities access to information and services by meeting or exceeding the requirements of the Americans with Disabilities Act (ADA), Section 504 and 508 of the Rehabilitation Act, and Washington State Policy #188.\nTo request ADA Accommodation, contact Wa"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C21",
+      "heading": null,
+      "text": "| Permitting Requirements | WAC 173-226: Construction Stormwater General Permit | N/A | Operators of construction sites disturbing ≥1 acre or contaminated sites must obtain coverage under this permit.",
+      "span": {
+        "start": 1717,
+        "end": 1917
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "29",
+          "section": "G1-1.5.1 On-site Sewage Systems",
+          "quote": "Ecology issues NPDES permits and an accompanying fact sheet with five-year effective periods. The permits specify discharge limits, monitoring schedules, and other general and special conditions necessary to protect waters of the state. Nearly all municipal wastewater treatment plants that discharge to surface water must obtain an individual NPDES permit to authorize the discharge. The rare exception to this would be where a facility discharges to a surface water of the state that does not quali"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "18",
+          "section": "G1-1.3.3  Corps of Engineers",
+          "quote": "Sequence of Planning, Design, and Construction\n- Table G1-1. Explanation of Engineering Report Requirements\n- Figure G1-2. Example of a Process Flow Diagram\n\n## ADA Accessibility\n\nThe Department of Ecology is committed to providing people with disabilities access to information and services by meeting or exceeding the requirements of the Americans with Disabilities Act (ADA), Section 504 and 508 of the Rehabilitation Act, and Washington State Policy #188.\nTo request ADA Accommodation, contact Wa"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C22",
+      "heading": null,
+      "text": "| | WAC 173-240-050/-060: General sewer plans, engineering reports | N/A | Washington requires specific content",
+      "span": {
+        "start": 1926,
+        "end": 2037
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "48",
+          "section": null,
+          "quote": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "5",
+          "section": "Chapter C2, Sewage Pump Stations",
+          "quote": "The goals of the manual are:\n\n1. To ensure that the design of sewage collection and treatment systems is consistent with public health, water quality, and biosolids management objectives of Washington State.\n2. To establish a basis for the design and review of plans and specifications for sewage treatment works and sewerage systems.\n3. To establish the minimum requirements and limiting factors utilized by the Washington Department of Ecology and the Washington State Department of Health for revi"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C23",
+      "heading": null,
+      "text": "format for general sewer plans",
+      "span": {
+        "start": 2042,
+        "end": 2072
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "1",
+          "section": "Purpose of Manual",
+          "quote": "# Criteria for Sewage Works Design\nWater Quality Program\nAugust 2008\n\nPublication # 98-37 WQ\n\nPlease recycle\n\n<table>\n  <thead>\n    <tr><th>General</th><th>Collection</th><th>Treatment</th><th>Effluent</th><th>Solids</th></tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>G1<br/>G2<br/>G3</td>\n      <td>C1<br/>C2<br/>C3</td>\n      <td>T1<br/>T2<br/>T3<br/>T4<br/>T5<br/>T6</td>\n      <td>E1<br/>E2<br/>E3</td>\n      <td>S</td>\n    </tr>\n  </tbody>\n</table>\n\nDEPARTMENT OF ECOLOGY\nState of Washington\n\n\\n-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "48",
+          "section": null,
+          "quote": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C24",
+      "heading": null,
+      "text": "engineering reports, which must be approved by the Department of Ecology.",
+      "span": {
+        "start": 2077,
+        "end": 2150
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "48",
+          "section": null,
+          "quote": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C25",
+      "heading": null,
+      "text": "| | WAC 173-240-070: Plans",
+      "span": {
+        "start": 2170,
+        "end": 2196
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "5",
+          "section": "Chapter C2, Sewage Pump Stations",
+          "quote": "The goals of the manual are:\n\n1. To ensure that the design of sewage collection and treatment systems is consistent with public health, water quality, and biosolids management objectives of Washington State.\n2. To establish a basis for the design and review of plans and specifications for sewage treatment works and sewerage systems.\n3. To establish the minimum requirements and limiting factors utilized by the Washington Department of Ecology and the Washington State Department of Health for revi"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C26",
+      "heading": null,
+      "text": "specifications | N/A | Washington requires plans",
+      "span": {
+        "start": 2201,
+        "end": 2249
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "5",
+          "section": "Chapter C2, Sewage Pump Stations",
+          "quote": "The goals of the manual are:\n\n1. To ensure that the design of sewage collection and treatment systems is consistent with public health, water quality, and biosolids management objectives of Washington State.\n2. To establish a basis for the design and review of plans and specifications for sewage treatment works and sewerage systems.\n3. To establish the minimum requirements and limiting factors utilized by the Washington Department of Ecology and the Washington State Department of Health for revi"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "48",
+          "section": null,
+          "quote": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C27",
+      "heading": null,
+      "text": "specifications to be submitted to the Department of Ecology for approval.",
+      "span": {
+        "start": 2254,
+        "end": 2327
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "5",
+          "section": "Chapter C2, Sewage Pump Stations",
+          "quote": "The goals of the manual are:\n\n1. To ensure that the design of sewage collection and treatment systems is consistent with public health, water quality, and biosolids management objectives of Washington State.\n2. To establish a basis for the design and review of plans and specifications for sewage treatment works and sewerage systems.\n3. To establish the minimum requirements and limiting factors utilized by the Washington Department of Ecology and the Washington State Department of Health for revi"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C28",
+      "heading": null,
+      "text": "| | 40 CFR 503: Standards for the Use or Disposal of Sewage Sludge | N/A | N/A | N/A |",
+      "span": {
+        "start": 2336,
+        "end": 2422
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "1",
+          "section": "Purpose of Manual",
+          "quote": "# Criteria for Sewage Works Design\nWater Quality Program\nAugust 2008\n\nPublication # 98-37 WQ\n\nPlease recycle\n\n<table>\n  <thead>\n    <tr><th>General</th><th>Collection</th><th>Treatment</th><th>Effluent</th><th>Solids</th></tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>G1<br/>G2<br/>G3</td>\n      <td>C1<br/>C2<br/>C3</td>\n      <td>T1<br/>T2<br/>T3<br/>T4<br/>T5<br/>T6</td>\n      <td>E1<br/>E2<br/>E3</td>\n      <td>S</td>\n    </tr>\n  </tbody>\n</table>\n\nDEPARTMENT OF ECOLOGY\nState of Washington\n\n\\n-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "29",
+          "section": "G1-1.5.1 On-site Sewage Systems",
+          "quote": "Ecology issues NPDES permits and an accompanying fact sheet with five-year effective periods. The permits specify discharge limits, monitoring schedules, and other general and special conditions necessary to protect waters of the state. Nearly all municipal wastewater treatment plants that discharge to surface water must obtain an individual NPDES permit to authorize the discharge. The rare exception to this would be where a facility discharges to a surface water of the state that does not quali"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C29",
+      "heading": null,
+      "text": "| Design References | N/A | WEF/ASCE/AWWA Manuals | Washington references WEF/ASCE/AWWA manuals for specific definitions",
+      "span": {
+        "start": 2423,
+        "end": 2543
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C30",
+      "heading": null,
+      "text": "| | N/A | WEF Manual of Practice No.",
+      "span": {
+        "start": 2566,
+        "end": 2602
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "1",
+          "section": "Purpose of Manual",
+          "quote": "# Criteria for Sewage Works Design\nWater Quality Program\nAugust 2008\n\nPublication # 98-37 WQ\n\nPlease recycle\n\n<table>\n  <thead>\n    <tr><th>General</th><th>Collection</th><th>Treatment</th><th>Effluent</th><th>Solids</th></tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>G1<br/>G2<br/>G3</td>\n      <td>C1<br/>C2<br/>C3</td>\n      <td>T1<br/>T2<br/>T3<br/>T4<br/>T5<br/>T6</td>\n      <td>E1<br/>E2<br/>E3</td>\n      <td>S</td>\n    </tr>\n  </tbody>\n</table>\n\nDEPARTMENT OF ECOLOGY\nState of Washington\n\n\\n-"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C31",
+      "heading": null,
+      "text": "11 | Washington references WEF's Manual of Practice No.",
+      "span": {
+        "start": 2603,
+        "end": 2658
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "1",
+          "section": "Purpose of Manual",
+          "quote": "# Criteria for Sewage Works Design\nWater Quality Program\nAugust 2008\n\nPublication # 98-37 WQ\n\nPlease recycle\n\n<table>\n  <thead>\n    <tr><th>General</th><th>Collection</th><th>Treatment</th><th>Effluent</th><th>Solids</th></tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>G1<br/>G2<br/>G3</td>\n      <td>C1<br/>C2<br/>C3</td>\n      <td>T1<br/>T2<br/>T3<br/>T4<br/>T5<br/>T6</td>\n      <td>E1<br/>E2<br/>E3</td>\n      <td>S</td>\n    </tr>\n  </tbody>\n</table>\n\nDEPARTMENT OF ECOLOGY\nState of Washington\n\n\\n-"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C32",
+      "heading": null,
+      "text": "11 for a comprehensive list of acronyms",
+      "span": {
+        "start": 2659,
+        "end": 2698
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "1",
+          "section": "Purpose of Manual",
+          "quote": "# Criteria for Sewage Works Design\nWater Quality Program\nAugust 2008\n\nPublication # 98-37 WQ\n\nPlease recycle\n\n<table>\n  <thead>\n    <tr><th>General</th><th>Collection</th><th>Treatment</th><th>Effluent</th><th>Solids</th></tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>G1<br/>G2<br/>G3</td>\n      <td>C1<br/>C2<br/>C3</td>\n      <td>T1<br/>T2<br/>T3<br/>T4<br/>T5<br/>T6</td>\n      <td>E1<br/>E2<br/>E3</td>\n      <td>S</td>\n    </tr>\n  </tbody>\n</table>\n\nDEPARTMENT OF ECOLOGY\nState of Washington\n\n\\n-"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C33",
+      "heading": null,
+      "text": "symbols used in wastewater engineering.",
+      "span": {
+        "start": 2703,
+        "end": 2742
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "48",
+          "section": null,
+          "quote": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C34",
+      "heading": null,
+      "text": "| | N/A | WEF Manual of Practice No.",
+      "span": {
+        "start": 2751,
+        "end": 2787
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "1",
+          "section": "Purpose of Manual",
+          "quote": "# Criteria for Sewage Works Design\nWater Quality Program\nAugust 2008\n\nPublication # 98-37 WQ\n\nPlease recycle\n\n<table>\n  <thead>\n    <tr><th>General</th><th>Collection</th><th>Treatment</th><th>Effluent</th><th>Solids</th></tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>G1<br/>G2<br/>G3</td>\n      <td>C1<br/>C2<br/>C3</td>\n      <td>T1<br/>T2<br/>T3<br/>T4<br/>T5<br/>T6</td>\n      <td>E1<br/>E2<br/>E3</td>\n      <td>S</td>\n    </tr>\n  </tbody>\n</table>\n\nDEPARTMENT OF ECOLOGY\nState of Washington\n\n\\n-"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C35",
+      "heading": null,
+      "text": "22 | Washington references WEF's Manual of Practice No.",
+      "span": {
+        "start": 2788,
+        "end": 2843
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "1",
+          "section": "Purpose of Manual",
+          "quote": "# Criteria for Sewage Works Design\nWater Quality Program\nAugust 2008\n\nPublication # 98-37 WQ\n\nPlease recycle\n\n<table>\n  <thead>\n    <tr><th>General</th><th>Collection</th><th>Treatment</th><th>Effluent</th><th>Solids</th></tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>G1<br/>G2<br/>G3</td>\n      <td>C1<br/>C2<br/>C3</td>\n      <td>T1<br/>T2<br/>T3<br/>T4<br/>T5<br/>T6</td>\n      <td>E1<br/>E2<br/>E3</td>\n      <td>S</td>\n    </tr>\n  </tbody>\n</table>\n\nDEPARTMENT OF ECOLOGY\nState of Washington\n\n\\n-"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C36",
+      "heading": null,
+      "text": "22 on odor control in wastewater treatment plants.",
+      "span": {
+        "start": 2844,
+        "end": 2894
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "29",
+          "section": "G1-1.5.1 On-site Sewage Systems",
+          "quote": "Ecology issues NPDES permits and an accompanying fact sheet with five-year effective periods. The permits specify discharge limits, monitoring schedules, and other general and special conditions necessary to protect waters of the state. Nearly all municipal wastewater treatment plants that discharge to surface water must obtain an individual NPDES permit to authorize the discharge. The rare exception to this would be where a facility discharges to a surface water of the state that does not quali"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C37",
+      "heading": null,
+      "text": "| | N/A | ASCE Manuals",
+      "span": {
+        "start": 2903,
+        "end": 2925
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C38",
+      "heading": null,
+      "text": "Reports on Engineering Practice | Washington references ASCE manuals for sulfide in wastewater collection",
+      "span": {
+        "start": 2930,
+        "end": 3035
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C39",
+      "heading": null,
+      "text": "treatment systems",
+      "span": {
+        "start": 3040,
+        "end": 3057
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "5",
+          "section": "Chapter C2, Sewage Pump Stations",
+          "quote": "The goals of the manual are:\n\n1. To ensure that the design of sewage collection and treatment systems is consistent with public health, water quality, and biosolids management objectives of Washington State.\n2. To establish a basis for the design and review of plans and specifications for sewage treatment works and sewerage systems.\n3. To establish the minimum requirements and limiting factors utilized by the Washington Department of Ecology and the Washington State Department of Health for revi"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "1",
+          "section": "Purpose of Manual",
+          "quote": "# Criteria for Sewage Works Design\nWater Quality Program\nAugust 2008\n\nPublication # 98-37 WQ\n\nPlease recycle\n\n<table>\n  <thead>\n    <tr><th>General</th><th>Collection</th><th>Treatment</th><th>Effluent</th><th>Solids</th></tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>G1<br/>G2<br/>G3</td>\n      <td>C1<br/>C2<br/>C3</td>\n      <td>T1<br/>T2<br/>T3<br/>T4<br/>T5<br/>T6</td>\n      <td>E1<br/>E2<br/>E3</td>\n      <td>S</td>\n    </tr>\n  </tbody>\n</table>\n\nDEPARTMENT OF ECOLOGY\nState of Washington\n\n\\n-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C40",
+      "heading": null,
+      "text": "open channel hydraulics.",
+      "span": {
+        "start": 3062,
+        "end": 3086
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "175",
+          "section": "G3-2 Identifying and Securing Resources",
+          "quote": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et a"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "177",
+          "section": "G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington",
+          "quote": "Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2. General Facilities Charge\n  - G3-2.2.2 Grant and Loan Programs\n    - A. Department of Ecology\n    - B. Department of Community, Trade, and Economic Development (CTED)\n    - C. United States Department of Agriculture/Rural Development (USDA/RD)\n- G3-2.3 Small Town Environment Program\n\n## G3-3 Wastewater Treatment Technologies\n\n- G3-"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    }
+  ],
+  "metrics": {
+    "total_claims": 40,
+    "support_rate": 0.0,
+    "strict_precision": 0.0,
+    "citation_coverage": 1.0,
+    "unique_sources_cited": 3,
+    "avg_evidence_per_claim": 1.0
+  },
+  "follow_up_retrieves": [
+    "poetry run caliper_v2 retrieve \"assistant: | Topic | WA Requirement | Federal Baseline | Design Notes | Citations |\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C1.json\"",
+    "poetry run caliper_v2 retrieve \"| --- | --- | --- | --- | --- |\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C2.json\"",
+    "poetry run caliper_v2 retrieve \"| Regulatory Framework | WAC 173-240-050/-060: General sewer plans, engineering reports, plans/specs, O&M manuals for do…\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C3.json\"",
+    "poetry run caliper_v2 retrieve \"general sewer plans, which must be approved by the Department of Ecology.\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C4.json\"",
+    "poetry run caliper_v2 retrieve \"| [1,2,3,5,6,7,8,11] |\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C5.json\"",
+    "poetry run caliper_v2 retrieve \"| | WAC 173-221: Surface water discharge standards for domestic wastewater treatment facilities | 40 CFR 133: Ocean Disc…\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C6.json\"",
+    "poetry run caliper_v2 retrieve \"reasonable methods of prevention, control,\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C7.json\"",
+    "poetry run caliper_v2 retrieve \"treatment\\\" (AKART)\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C8.json\"",
+    "poetry run caliper_v2 retrieve \"may be superseded by water quality standards in WAC 173-201A.\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C9.json\"",
+    "poetry run caliper_v2 retrieve \"| | WAC 173-201A: Water quality standards for surface waters of the state of Washington | N/A | Washington classifies su…\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C10.json\""
+  ]
+}

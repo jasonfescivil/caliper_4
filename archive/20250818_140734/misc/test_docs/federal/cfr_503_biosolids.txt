@@ -1,0 +1,33 @@
+Title 40 CFR Part 503 - Standards for the Use or Disposal of Sewage Sludge
+
+Section 503.13 - Pollutant Limits
+
+(a) Sewage sludge - Ceiling concentration limits
+The concentration of each pollutant listed in Table 1 of this section in sewage sludge shall not exceed the applicable ceiling concentration limit.
+
+Table 1 - Ceiling Concentration Limits
+Pollutant | Ceiling concentration (mg/kg dry weight)
+Arsenic | 75
+Cadmium | 85
+Copper | 4,300
+Lead | 840
+Mercury | 57
+Nickel | 420
+Selenium | 100
+Zinc | 7,500
+
+Section 503.32 - Pathogens
+
+(a) Class A - Pathogen Requirements
+The density of fecal coliform in the sewage sludge shall be less than 1,000 Most Probable Number (MPN) per gram of total solids (dry weight basis), or the density of Salmonella sp. bacteria in sewage sludge shall be less than 3 MPN per 4 grams of total solids.
+
+(b) Class B - Pathogen Requirements
+The geometric mean of the density of fecal coliform shall be less than 2,000,000 MPN per gram or CFU per gram of total solids (dry weight basis).
+
+Section 503.15 - Management Practices
+
+(a) Bulk sewage sludge shall not be applied to agricultural land, forest, a public contact site, or a reclamation site that is 10 meters or less from waters of the United States.
+
+(b) Bulk sewage sludge shall not be applied to agricultural land, forest, or a reclamation site that has a slope greater than 10 percent.
+
+(c) Bulk sewage sludge shall not be applied to agricultural land, forest, a public contact site, or a reclamation site that is flooded, frozen, or snow-covered.

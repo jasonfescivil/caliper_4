@@ -1,0 +1,218 @@
+{
+  "type": "enhanced_retrieval",
+  "version": 1,
+  "created_at": "2025-09-13T07:24:04Z",
+  "source_file": "C:\\repos\\caliper_3\\data_v2\\context\\pop.json",
+  "question": "generate a top to bottom outline which summarizes the guidance for how to perform population projections with the purpose of using the population projections to size wastewater treatment facilities",
+  "indexes": [
+    "design",
+    "federal",
+    "state"
+  ],
+  "search_mode": "hybrid",
+  "requested_top_k": 75,
+  "final_kept": 57,
+  "diagnostics": {
+    "per_index_counts": {
+      "unknown": 57
+    },
+    "per_source_counts": {
+      "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf": 10,
+      "WEF_FD-16_Facilities_Design.pdf": 5,
+      "WAC_173-240_Wastewater_Submission_Plans.pdf": 4,
+      "DOE_Orange_Book_Design_Standards.pdf": 8,
+      "WAC_173-240-050_Engineering_Reports.pdf": 1,
+      "EPA_Guide_Estimating_Infiltration_Inflow.pdf": 3,
+      "EPA_Infiltration_Inflow_Review.pdf": 5,
+      "2010_EPA_Permit_Writers_Manual.pdf": 9,
+      "EPA_Sanitary_Sewer_Evaluation_9100WGB6.pdf": 12
+    },
+    "diversity": {
+      "unique_files": 9,
+      "dominance_ratio": 0.211
+    }
+  },
+  "outline": {
+    "sections": [
+      {
+        "id": "S1",
+        "title": "Purpose and Scope",
+        "description": "Section on purpose and scope tailored to: generate a top to bottom outline which summarizes the guidance for how to perform population projections with the purpos",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+            "page": "54",
+            "section": "3.3. POPULATION OR DWELLING UNIT FORECAST"
+          },
+          {
+            "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+            "page": "56",
+            "section": "QUANTITY OF WASTEWATER"
+          }
+        ],
+        "priority": 0.9
+      },
+      {
+        "id": "S2",
+        "title": "Regulatory Framework and Citations",
+        "description": "Section on regulatory framework and citations tailored to: generate a top to bottom outline which summarizes the guidance for how to perform population projections with the purpos",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "WEF_FD-16_Facilities_Design.pdf",
+            "page": "99",
+            "section": "5.3.1 Wastewater Flows"
+          },
+          {
+            "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+            "page": "55",
+            "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION"
+          }
+        ],
+        "priority": 0.9
+      },
+      {
+        "id": "S3",
+        "title": "Methodologies for Population Projection",
+        "description": "Section on methodologies for population projection tailored to: generate a top to bottom outline which summarizes the guidance for how to perform population projections with the purpos",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+            "page": "51",
+            "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION"
+          },
+          {
+            "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+            "page": "6",
+            "section": "WAC 173-240-060 Engineering report"
+          }
+        ],
+        "priority": 0.5
+      },
+      {
+        "id": "S4",
+        "title": "Design Years and Planning Horizon",
+        "description": "Section on design years and planning horizon tailored to: generate a top to bottom outline which summarizes the guidance for how to perform population projections with the purpos",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "DOE_Orange_Book_Design_Standards.pdf",
+            "page": "48",
+            "section": null
+          },
+          {
+            "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+            "page": "56",
+            "section": "3.4. LAND USE AND/OR EMPLOYEE FORECASTS"
+          }
+        ],
+        "priority": 0.5
+      },
+      {
+        "id": "S5",
+        "title": "Per Capita Flow and Peaking Factors",
+        "description": "Section on per capita flow and peaking factors tailored to: generate a top to bottom outline which summarizes the guidance for how to perform population projections with the purpos",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+            "page": "11",
+            "section": "3 QUANTITY OF WASTEWATER"
+          },
+          {
+            "file": "WAC_173-240-050_Engineering_Reports.pdf",
+            "page": "1",
+            "section": "WAC 173-240-050: Planning and Compliance"
+          }
+        ],
+        "priority": 0.5
+      },
+      {
+        "id": "S6",
+        "title": "Special Considerations (Seasonal, Institutions, Inflow)",
+        "description": "Section on special considerations (seasonal, institutions, inflow) tailored to: generate a top to bottom outline which summarizes the guidance for how to perform population projections with the purpos",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+            "page": "7",
+            "section": "References"
+          },
+          {
+            "file": "EPA_Infiltration_Inflow_Review.pdf",
+            "page": "28",
+            "section": null
+          }
+        ],
+        "priority": 0.5
+      },
+      {
+        "id": "S7",
+        "title": "Sensitivity and Uncertainty",
+        "description": "Section on sensitivity and uncertainty tailored to: generate a top to bottom outline which summarizes the guidance for how to perform population projections with the purpos",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+            "page": "7",
+            "section": "WAC 173-240-070 Plans and specifications. (1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility. The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de-"
+          },
+          {
+            "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+            "page": "75",
+            "section": "3.10. Uncertainty in Forecasts"
+          }
+        ],
+        "priority": 0.5
+      },
+      {
+        "id": "S8",
+        "title": "Documentation, Assumptions, and Citations",
+        "description": "Section on documentation, assumptions, and citations tailored to: generate a top to bottom outline which summarizes the guidance for how to perform population projections with the purpos",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "DOE_Orange_Book_Design_Standards.pdf",
+            "page": "12",
+            "section": "G1 General Engineering Requirements"
+          }
+        ],
+        "priority": 0.5
+      }
+    ]
+  },
+  "gap_analysis": {
+    "topics_missing": [],
+    "coverage_score": 0.789
+  },
+  "suggestions": {
+    "follow_up_retrieves": [
+      "poetry run caliper_v2 retrieve \"generate a top to bottom outline which summarizes the guidance for how to perform population projections with the purpose of using the population projections to size wastewater treatment facilities planning horizon and design year definitions\" --indexes design --cloud --search-mode hybrid --dense-k 12 --sparse-k 12 --alpha 0.5 --top-k 40 --rerank-top-n 24 --out C:\\repos\\caliper_3\\data_v2\\context\\followup_1.json",
+      "poetry run caliper_v2 retrieve \"generate a top to bottom outline which summarizes the guidance for how to perform population projections with the purpose of using the population projections to size wastewater treatment facilities per capita flows and peaking factors guidance\" --indexes design --cloud --search-mode hybrid --dense-k 12 --sparse-k 12 --alpha 0.5 --top-k 40 --rerank-top-n 24 --out C:\\repos\\caliper_3\\data_v2\\context\\followup_2.json",
+      "poetry run caliper_v2 retrieve \"generate a top to bottom outline which summarizes the guidance for how to perform population projections with the purpose of using the population projections to size wastewater treatment facilities methodology: cohort trend land-use comparison\" --indexes design --cloud --search-mode hybrid --dense-k 12 --sparse-k 12 --alpha 0.5 --top-k 50 --rerank-top-n 24 --out C:\\repos\\caliper_3\\data_v2\\context\\followup_3.json"
+    ]
+  },
+  "spore": {
+    "original": {
+      "summary": "Top sources selected based on hybrid similarity and coverage of relevant sections.",
+      "rationale_bullets": [
+        "Covers primary regulatory sections referenced by the question",
+        "Includes adjacent sections providing upstream/downstream context",
+        "Combines lexical and semantic matches to reduce out-of-context risk"
+      ],
+      "confidence": 0.7
+    },
+    "rewritten": {
+      "summary": "Top sources selected based on hybrid similarity and coverage of relevant sections.",
+      "rationale_bullets": [
+        "Covers primary regulatory sections referenced by the question",
+        "Includes adjacent sections providing upstream/downstream context",
+        "Combines lexical and semantic matches to reduce out-of-context risk",
+        "Covers: Purpose and Scope, Regulatory Framework and Citations, Methodologies for Population Projection, Design Years and Planning Horizon, Per Capita Flow and Peaking Factors"
+      ],
+      "confidence": 0.7
+    }
+  }
+}

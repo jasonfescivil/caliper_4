@@ -1,0 +1,36 @@
+{
+  "name": "caliper_3",
+  "version": "1.0.0",
+  "description": "A command-line tool for information retrieval and generation using hybrid cloud retrieval and GraphRAG.",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs",
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "playwright test",
+    "test:basic": "playwright test tests/e2e/multi-provider-retrieve-generate.spec.ts",
+    "test:advanced": "playwright test tests/e2e/advanced-functions.spec.ts",
+    "test:performance": "playwright test tests/e2e/performance-reliability.spec.ts",
+    "test:cli": "playwright test tests/e2e/cli-integration.spec.ts",
+    "test:ui": "playwright test tests/e2e/ui-validation.spec.ts",
+    "test:headed": "playwright test --headed",
+    "test:debug": "playwright test --debug",
+    "test:report": "playwright show-report",
+    "install-browsers": "playwright install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jasonfescivil/caliper_2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jasonfescivil/caliper_2/issues"
+  },
+  "homepage": "https://github.com/jasonfescivil/caliper_2#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.55.1"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "type": "review_trace",
+  "version": 1,
+  "created_at": "2025-09-13T05:22:57Z",
+  "context": "C:\\repos\\caliper_3\\data_v2\\context\\q03_data_inventory.json",
+  "draft": "C:\\repos\\caliper_3\\outputs\\drafts\\q03_data_inventory.md",
+  "out_json": "C:\\repos\\caliper_3\\outputs\\reviews\\q03_data_inventory.json",
+  "out_md": "C:\\repos\\caliper_3\\outputs\\reviews\\q03_data_inventory.md",
+  "timings": {
+    "total_ms": 3331
+  }
+}

@@ -1,0 +1,9 @@
+---
+description: Caliper service boundaries, RAG patterns, persistence, and retrieval architecture.
+alwaysApply: false
+globs: []
+---
+
+- Canonical rule source (do not edit this wrapper):
+  @.ide/rules/03-rag-architecture.md
+- To modify rules, edit the canonical file and re-run scripts/sync_ide_rules.py

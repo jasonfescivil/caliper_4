@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git switch:*)",
+      "WebSearch",
+      "WebFetch(domain:docs.x.ai)",
+      "WebFetch(domain:x.ai)",
+      "Bash(poetry run:*)",
+      "WebFetch(domain:docs.cohere.com)",
+      "WebFetch(domain:cohere.com)",
+      "WebFetch(domain:medium.com)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}

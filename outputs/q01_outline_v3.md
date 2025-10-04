@@ -1,0 +1,68 @@
+assistant: Outline — Washington Wastewater Facilities Feasibility Report (Ecology G1/G2; WEF/EPA)
+
+1) Scope and Objectives [5] [16] [3] [7] [12]
+- Purpose, planning area, and project objectives; consistency with an approved general sewer plan (or identify updates needed) [5] [11] [13]
+- Regulatory and policy context (RCW 90.48/90.52/90.54; reclaimed water under RCW 90.46) [4]
+- Requirement to evaluate reclaimed water opportunities during comprehensive water/sewer planning [7]
+- Note: Engineering report is the technical basis for design; PER may be required for federal funding and is recognized as best practice [12] [17]
+
+2) Existing Conditions [5] [11] [13] [4] [10] [7]
+- Service area, facilities, flows/loads, and permit status; protection of state waters framework [4] [5]
+- Inventory of potable water suppliers serving generation, storage, distribution, and use areas; summarize coordination and cross-connection prevention in design/operations [10]
+- Summary of applicable, existing plans/studies that may supplement or replace new analyses (to avoid duplication) [3] [7] [11]
+
+3) Needs Assessment [5] [11] [4] [7]
+- Capacity, condition, regulatory compliance, reliability, and growth drivers identified in general sewer planning [5] [11]
+- Public health and environmental protection needs tied to effluent limits and permits [4]
+- Reclaimed water demand/opportunity assessment per state laws and rules [7]
+
+4) Alternatives [8] [6] [7] [3]
+- Include a no action alternative and its consequences [8]
+- Technology/process options: conventional, advanced, land treatment/lagoons (where appropriate), regional treatment, alternate siting, no discharge, reclaimed water, and nonstructural/operational changes [8]
+- Conservation elements: water, energy, and waste conservation measures, where appropriate [8]
+- Site selection work plan: criteria (environmental, technical, institutional, costs), site area needs, screening and comparative analysis, cost comparison, and final selection; incorporate early public participation [6]
+- Early consultation with lead/nonlead agencies to flag infeasibility and align expectations [7]
+
+5) Evaluation Criteria and Method [8] [6]
+- Environmental impacts (include community-defined criteria) [8]
+- Present worth/cost-effectiveness [8]
+- Technical complexity, operator certification/availability [8]
+- Project risks; legal/regulatory barriers [8]
+- Site selection qualitative/quantitative assessments per the work plan [6]
+
+6) Preferred Alternative [8] [4] [3]
+- Rationale against evaluation criteria and public/stakeholder input [8]
+- Consistency with Ecology design standards and permit/effluent protection goals [4]
+- Note any process elements requiring additional validation (e.g., technologies not in the Orange Book; virus inactivation for proposed disinfection) [3]
+
+7) Basis of Design [4] [3] [10] [9] [17]
+- Design assumptions/criteria consistent with Ecology’s Orange Book and accepted engineering practice [4]
+- Source-water facility report linkage as required (unless source water is raw sewage) [17]
+- Cross-connection prevention provisions and potable water supplier coordination [10]
+- Management of solids: prevent return to reclaimed water or discharge to waters of the state; describe solids handling/disposal strategy [9]
+- Initial assessment of potential water quality/quantity impairments with prevention/mitigation strategies [10]
+- Contingency planning: alternative use, storage, or release of reclaimed/inadequately treated water; temporary/permanent reversion to wastewater facilities and alternative water supply, as applicable [10]
+
+8) Implementation Plan [11] [16] [12]
+- Phasing, schedule, and funding strategy; federal PER alignment if seeking federal/state funds [12]
+- Required submittals and approvals: Feasibility Analysis; Engineering Report (sufficiently complete for plans/specs without substantial changes); Plans and Specifications [11] [16]
+- O&M Manual submission prior to completing construction [16]
+- Construction change management: define “substantial changes” and obtain lead agency approval before implementing [16]
+- Construction completion: Declaration of Construction Completion per WAC 173-240-095 [16]
+
+9) Permitting and Environmental Review (SEPA/NEPA/SERP) [2] [9] [1]
+- SEPA: include compliance statement; attach SEPA checklist and adopted SEPA determination (DNS/mitigated DNS/EIS, etc.); SEPA is triggered by adoption of the engineering report/recommended project; consult Ecology SEPA guidance [2] [9]
+- NEPA: required for projects with federal funding/approvals; append NEPA EA/FEIS reference for federally funded projects (excluding SRF loans) [1] [9]
+- CWSRF/SERP: CWSRF projects require NEPA-consistent reviews; states may implement a SERP under 40 CFR Part 35 Subpart K documenting legal authority, using an interdisciplinary approach, fully documenting decisions, providing public notice/participation before decisions, and considering alternatives during development [1]
+- Prepare an environmental report identifying potential impacts to accompany submittals [9]
+
+10) Public Involvement [2] [6] [8]
+- Early and continuous public participation; decisions on land use and environmental justice may be irreversible once built [2]
+- Engage closely to identify potential impacts; integrate outreach into site selection to minimize opposition [2] [6]
+- Document outreach methods, input received, and how input influenced alternatives and the preferred solution [8]
+
+Key references (WA Ecology G1/G2; WEF/EPA) [15] [12] [6] [18] [4]
+- WA Ecology Orange Book G1/G2 guidance and design standards [4] [15]
+- Interagency Preliminary Engineering Report template (USDA-RD/EPA/HUD/IHS) recognized by Ecology [12]
+- WEF Manuals of Practice (e.g., MOP 8 for siting process and public participation) [6]
+- EPA and allied references (e.g., Recommended Standards for Wastewater Facilities; Clean Watershed Needs Survey) [18]

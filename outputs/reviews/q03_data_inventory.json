@@ -1,0 +1,555 @@
+{
+  "type": "review_report",
+  "version": 1,
+  "doc_path": "C:\\repos\\caliper_3\\outputs\\drafts\\q03_data_inventory.md",
+  "context_path": "C:\\repos\\caliper_3\\data_v2\\context\\q03_data_inventory.json",
+  "summary": {
+    "blocking": 2,
+    "high_risk": 0,
+    "inconsistencies": 1,
+    "coverage_score": 1.0
+  },
+  "issues": [
+    {
+      "id": "B1",
+      "severity": "blocking",
+      "kind": "missing_required",
+      "message": "Required content missing: design_period",
+      "suggestion": "Add material satisfying: design period|planning horizon|20[- ]year",
+      "where": null
+    },
+    {
+      "id": "B2",
+      "severity": "blocking",
+      "kind": "missing_required",
+      "message": "Required content missing: flows_link",
+      "suggestion": "Add material satisfying: Q\\s*avg|ADWF|Q\\s*max|peaking factor|Q\\s*min",
+      "where": null
+    },
+    {
+      "id": "A-SCADA",
+      "severity": "medium",
+      "kind": "acronym",
+      "message": "Acronym 'SCADA' appears multiple times without definition.",
+      "suggestion": "Define 'SCADA' on first use.",
+      "where": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "heading": null,
+      "text": "assistant: **Data Inventory & Client-Request Checklist",
+      "span": {
+        "start": 0,
+        "end": 54
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "WEF_FD-16_Facilities_Design.pdf",
+          "page": "72",
+          "section": "1.0 INTRODUCTION",
+          "quote": "# 1.0 INTRODUCTION\n\nSubsurface wastewater infiltration systems (SWISs) are buried land-application systems that treat settled or more highly pretreated wastewater. They are well suited for treatment of daily wastewater flows of up to 380 m3/d (100 000 gpd). Small SWISs, commonly referred to as septic systems, traditionally are used in unsewered areas to provide wastewater treatment for individual homes, restaurants, and other commercial establishments as well as mobile home parks and campgrounds"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "15",
+          "section": "WAC 173-240-140 Plans and specifications",
+          "quote": "Also, a discussion on the effects of the proposed industrial discharge on the use or disposal of municipal sludge;\n* (p) Where discharge is through land application, including seepage lagoons, irrigation, and subsurface disposal, a geohydrologic evaluation of factors such as:\n  - (i) Depth to groundwater and groundwater movement during different times of the year;\n  - (ii) Water balance analysis of the proposed discharge area;\n  - (iii) Overall effects of the proposed facility upon the groundwat"
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "201",
+          "section": null,
+          "quote": "Permits should clarify that the permittee is required to develop, in consultation with appropriate authorities at the local, county, or state level (or any combination), a plan that describes how, under various overflow (and unanticipated bypass and upset) scenarios, the public, and other entities, would be notified of overflows that may endanger health. The plan should identify all overflows that would be reported, to whom they should be reported, the specific information that would be reported"
+        },
+        {
+          "file": "WEF_FD-6_Sanitary_Sewer_Rehabilitation.pdf",
+          "page": "149",
+          "section": null,
+          "quote": "TABLE 4.3 Model Data Requirements\n\\n---\\n\n\n<table>\n  <thead>\n    <tr>\n      <th>Model Type</th>\n      <th>Macro<br>(Skeletonized) Model</th>\n      <th>Micro<br>(Master Planning) Model</th>\n      <th>Detailed Design Model</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>General pipe data<br>(i.e., diameter, elevations, material, etc.)</td>\n      <td>Use existing, available records such as GIS database or as-built records; missing data can be skeletonized or estimated.</td>\n      <td>Use exi"
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "179",
+          "section": "8.4 Reporting Monitoring Results",
+          "quote": "## 8.4 Reporting Monitoring Results\n\nThe NPDES regulations require the permittee to maintain records and periodically report on monitoring activities. The regulations at § 122.41(l)(4)(i) require that monitoring results must be reported on a DMR. Data reported include both data required by the permit and any additional data the permittee has collected consistent with permit requirements. All facilities must submit reports (on discharges and sludge use or disposal) at least annually, as required "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C2",
+      "heading": null,
+      "text": "| **Data Type** | **Minimum Span** | **Format** | **Citations** |",
+      "span": {
+        "start": 58,
+        "end": 123
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "48",
+          "section": null,
+          "quote": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "7",
+          "section": "WAC 173-240-070 Plans and specifications. (1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility. The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de-",
+          "quote": "(e) A description of the receiving water, applicable water quality standards, and how water quality standards will be met outside any applicable dilution zone.\n\n(f) The type of treatment process proposed, based upon the character of the wastewater to be handled, the method of disposal, the degree of treatment required, and a discussion of the alternatives evaluated and the reasons they are unacceptable.\n\n(g) The basic design data and sizing calculations of each unit of the treatment works. Expec"
+        },
+        {
+          "file": "WEF_FD-6_Sanitary_Sewer_Rehabilitation.pdf",
+          "page": "149",
+          "section": null,
+          "quote": "TABLE 4.3 Model Data Requirements\n\\n---\\n\n\n<table>\n  <thead>\n    <tr>\n      <th>Model Type</th>\n      <th>Macro<br>(Skeletonized) Model</th>\n      <th>Micro<br>(Master Planning) Model</th>\n      <th>Detailed Design Model</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>General pipe data<br>(i.e., diameter, elevations, material, etc.)</td>\n      <td>Use existing, available records such as GIS database or as-built records; missing data can be skeletonized or estimated.</td>\n      <td>Use exi"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "49",
+          "section": null,
+          "quote": "</td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The analyzed data must include sufficient detail to demonstrate the degree of flow and loading variability experienced. It must also identify the location of influent and effluent sampling, the type of samples taken, and the locations of treatment process return streams. The report must rely on credible and accurate data, which requires the use of laboratory data obtained from an Ecology-accredited laboratory and flow data obtained from meters with "
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "63",
+          "section": "4.6.1 Permit File Review",
+          "quote": "### 4.6.1 Permit File Review\n\nBefore developing the draft permit and fact sheet, the permit writer should assemble and review any additional background information on the facility. If the permit writer is reissuing an existing permit, much of the information should be available in the permit file. Such information would typically include\n\n* The current permit.\n* The fact sheet or statement of basis for the current permit.\n* Discharge monitoring reports (DMRs).\n* Compliance inspection reports.\n* "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C3",
+      "heading": null,
+      "text": "| Inflow/effluent history | 3 years | DMRs | [1,2,10,12,13,17,24,25,28,30,32,39,43,49] |",
+      "span": {
+        "start": 142,
+        "end": 230
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "10",
+          "section": null,
+          "quote": ".......................................................................................... 6-38  \n* Exhibit 6-22 Example of mass-balance equation for a WET reasonable potential analysis ........... 6-39  \n* Exhibit 7-1 Developing effluent limitations ....................................................................................... 7-1  \n* Exhibit 7-2 Application of anti-backsliding rules ............................................................................... 7-5  \n* Exhibit 7-3 Bac"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "60",
+          "section": "QUANTITY OF WASTEWATER",
+          "quote": "# QUANTITY OF WASTEWATER\n\n.asp, accessed October 27, 2005). Although this is for residential use, it can be adapted to nonresidential use with number of employees instead of residents.\n\nMany engineers use unit flows from textbooks or figures from other jurisdictions. These data may be secondary sources quoting from older references and should be used with caution. These older data may not reflect (1) recent water conservation measures and installation of fixtures and appliances that use less wat"
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "10",
+          "section": null,
+          "quote": "............................................................................... 8-10  \n* Exhibit 9-1 Example BMP plan requirement ..................................................................................... 9-6  \n* Exhibit 9-2 Categories of CSO permitting conditions ..................................................................... 9-17  \n* Exhibit 9-3 Nine minimum CSO controls ........................................................................................ 9-17  \n* Exhibit 9"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WEF_FD-16_Facilities_Design.pdf",
+          "page": "413",
+          "section": "8.4 Fisherman Bay, Washington",
+          "quote": "## 8.4 Fisherman Bay, Washington\n\nFisherman Bay is located on Lopez Island in San Juan County, Washington, approximately 160 km (100 miles) northwest of Seattle at an elevation slightly above sea level. Influent water temperatures rang from 7 °C (44 °F) in the winter to 22 °C (72 °F) in the summer. The wastewater treatment plant serves approximately 250 people with an average design flowrate of 129 m3/d (34,000 gpd). A septic tank effluent pumping system serves the entire area and, because of BO"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C4",
+      "heading": null,
+      "text": "| Flow/level logs | 3 years | DMRs | [1,2,10,12,13,17,24,25,28,30,32,39,43,49] |",
+      "span": {
+        "start": 231,
+        "end": 311
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "WEF_FD-16_Facilities_Design.pdf",
+          "page": "413",
+          "section": "8.4 Fisherman Bay, Washington",
+          "quote": "## 8.4 Fisherman Bay, Washington\n\nFisherman Bay is located on Lopez Island in San Juan County, Washington, approximately 160 km (100 miles) northwest of Seattle at an elevation slightly above sea level. Influent water temperatures rang from 7 °C (44 °F) in the winter to 22 °C (72 °F) in the summer. The wastewater treatment plant serves approximately 250 people with an average design flowrate of 129 m3/d (34,000 gpd). A septic tank effluent pumping system serves the entire area and, because of BO"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "60",
+          "section": "QUANTITY OF WASTEWATER",
+          "quote": "# QUANTITY OF WASTEWATER\n\n.asp, accessed October 27, 2005). Although this is for residential use, it can be adapted to nonresidential use with number of employees instead of residents.\n\nMany engineers use unit flows from textbooks or figures from other jurisdictions. These data may be secondary sources quoting from older references and should be used with caution. These older data may not reflect (1) recent water conservation measures and installation of fixtures and appliances that use less wat"
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "10",
+          "section": null,
+          "quote": ".......................................................................................... 6-38  \n* Exhibit 6-22 Example of mass-balance equation for a WET reasonable potential analysis ........... 6-39  \n* Exhibit 7-1 Developing effluent limitations ....................................................................................... 7-1  \n* Exhibit 7-2 Application of anti-backsliding rules ............................................................................... 7-5  \n* Exhibit 7-3 Bac"
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "10",
+          "section": null,
+          "quote": "............................................................................... 8-10  \n* Exhibit 9-1 Example BMP plan requirement ..................................................................................... 9-6  \n* Exhibit 9-2 Categories of CSO permitting conditions ..................................................................... 9-17  \n* Exhibit 9-3 Nine minimum CSO controls ........................................................................................ 9-17  \n* Exhibit 9"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "4",
+          "section": "Section (b) through (m)",
+          "quote": "WSR 00-15-021 (Order 00-09), § 173-240-035, filed 7/11/00, effective 8/11/00. Statutory Authority: Chapters 43.21A and 90.48 RCW. WSR 83-23-063 (Order DE 83-30), § 173-240-030, filed 11/16/83. Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-030, filed 1/23/79. Formerly chapter 372-20 WAC.]\n\n\\n---\\n\n\n# WAC 173-240-040 Review standards\n\n- (1) The department will review general sewer plans, engineering reports, plans and specifications, and operation and maintenance ma"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C5",
+      "heading": null,
+      "text": "| Rainfall | 3 years | Weather records | [12,21,27,43] |",
+      "span": {
+        "start": 312,
+        "end": 368
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "WEF_FD-6_Sanitary_Sewer_Rehabilitation.pdf",
+          "page": "149",
+          "section": null,
+          "quote": "TABLE 4.3 Model Data Requirements\n\\n---\\n\n\n<table>\n  <thead>\n    <tr>\n      <th>Model Type</th>\n      <th>Macro<br>(Skeletonized) Model</th>\n      <th>Micro<br>(Master Planning) Model</th>\n      <th>Detailed Design Model</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>General pipe data<br>(i.e., diameter, elevations, material, etc.)</td>\n      <td>Use existing, available records such as GIS database or as-built records; missing data can be skeletonized or estimated.</td>\n      <td>Use exi"
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "179",
+          "section": "8.5 Recordkeeping Requirements",
+          "quote": "## 8.5 Recordkeeping Requirements\n\nGenerally, the permit writer is required by § 122.41(j) to include in the permit the requirement to retain records for at least three years, subject to extension by the State Director. Recordkeeping requirements for sewage sludge [§ 122.41(j)] and the CAFO program [§ 122.42(e)(2)] require records be kept five years or longer if required by the State Director. The permit writer should designate in the permit where records should be kept.\n\nMonitoring records must"
+        },
+        {
+          "file": "EPA_Infiltration_Inflow_Review.pdf",
+          "page": "8",
+          "section": "List of Acronyms and Abbreviations",
+          "quote": "# List of Acronyms and Abbreviations\n\n* ASCE  \n  American Society of Civil Engineers\n\n* BWF  \n  Base wastewater flow\n\n* CDM  \n  Camp Dresser & McKee Inc.\n\n* CMOM  \n  Capacity, Management, Operation and Maintenance\n\n* CRADA  \n  Cooperation Research and Development Agreement\n\n* DWF  \n  Dry-weather flow\n\n* EPA  \n  U.S. Environmental Protection Agency\n\n* GWI  \n  Groundwater infiltration\n\n* I/I  \n  Infiltration/inflow\n\n* LP  \n  Linear programming\n\n* MCES  \n  Metropolitan Council Environmental Service"
+        },
+        {
+          "file": "EPA_Infiltration_Inflow_Review.pdf",
+          "page": "19",
+          "section": null,
+          "quote": "of rainfall\n</td>\n<td>Equivalent to less than one overflow per 10 years period</td>\n</tr>\n<tr>\n<td>Kentucky</td>\n<td>Use Ten States Standards</td>\n<td>\n- Design storm not specified as SSO is not permitted<br>\n- Trickle I/I study when\n</td>\n<td>\n- SSO communities are required to develop a SSO plan and schedule (guidelines provided) to eliminate overflows\n</td>\n</tr>\n</tbody>\n</table>\n\n\n---\n\n\n<table>\n<thead>\n<tr>\n<th>State/<br>Municipality</th>\n<th>Design Flows/Peaking<br>Factors for New Sewers<br"
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "179",
+          "section": "8.4 Reporting Monitoring Results",
+          "quote": "## 8.4 Reporting Monitoring Results\n\nThe NPDES regulations require the permittee to maintain records and periodically report on monitoring activities. The regulations at § 122.41(l)(4)(i) require that monitoring results must be reported on a DMR. Data reported include both data required by the permit and any additional data the permittee has collected consistent with permit requirements. All facilities must submit reports (on discharges and sludge use or disposal) at least annually, as required "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C6",
+      "heading": null,
+      "text": "| Water use/billing | 3 years | Billing records | [12,43] |",
+      "span": {
+        "start": 369,
+        "end": 428
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "179",
+          "section": "8.4 Reporting Monitoring Results",
+          "quote": "## 8.4 Reporting Monitoring Results\n\nThe NPDES regulations require the permittee to maintain records and periodically report on monitoring activities. The regulations at § 122.41(l)(4)(i) require that monitoring results must be reported on a DMR. Data reported include both data required by the permit and any additional data the permittee has collected consistent with permit requirements. All facilities must submit reports (on discharges and sludge use or disposal) at least annually, as required "
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "179",
+          "section": "8.5 Recordkeeping Requirements",
+          "quote": "## 8.5 Recordkeeping Requirements\n\nGenerally, the permit writer is required by § 122.41(j) to include in the permit the requirement to retain records for at least three years, subject to extension by the State Director. Recordkeeping requirements for sewage sludge [§ 122.41(j)] and the CAFO program [§ 122.42(e)(2)] require records be kept five years or longer if required by the State Director. The permit writer should designate in the permit where records should be kept.\n\nMonitoring records must"
+        },
+        {
+          "file": "WAC_173-219_Reclaimed_Water_Use.pdf",
+          "page": "20",
+          "section": "Reclaimed Water Facility – Requirements (e) through (q)",
+          "quote": "- (c) Applicable requirements of chapter 70.118, 70.118A, 70.118B, 70.119, 70.119A, or 43.20 RCW with respect to on-site sewage systems or public water systems.\n\n[Statutory Authority: RCW 90.46.015. WSR 18-03-166 (Order 06-12), § 173-219-200, filed 1/23/18, effective 2/23/18.]\n\n## WAC 173-219-210 Engineering report\n\n### (1) Submission of engineering report to lead agency\nThe engineering report is the technical basis for the design of a proposed reclaimed water facility. A generator must comply w"
+        },
+        {
+          "file": "WEF_FD-16_Facilities_Design.pdf",
+          "page": "30",
+          "section": "8.12 Monthly data for influent and effluent BOD5 and TSS from rotary disk filter and water hyacinth ponds and pond BOD5 loading for the period from October 1994 through September 1995",
+          "quote": "## 8.12 Monthly data for influent and effluent BOD5 and TSS from rotary disk filter and water hyacinth ponds and pond BOD5 loading for the period from October 1994 through September 1995"
+        },
+        {
+          "file": "WEF_FD-6_Sanitary_Sewer_Rehabilitation.pdf",
+          "page": "149",
+          "section": null,
+          "quote": "TABLE 4.3 Model Data Requirements\n\\n---\\n\n\n<table>\n  <thead>\n    <tr>\n      <th>Model Type</th>\n      <th>Macro<br>(Skeletonized) Model</th>\n      <th>Micro<br>(Master Planning) Model</th>\n      <th>Detailed Design Model</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>General pipe data<br>(i.e., diameter, elevations, material, etc.)</td>\n      <td>Use existing, available records such as GIS database or as-built records; missing data can be skeletonized or estimated.</td>\n      <td>Use exi"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C7",
+      "heading": null,
+      "text": "| Septic connections | N/A | Asset records | [1,2,10,12,13,17,28,30,32,39,43,49] |",
+      "span": {
+        "start": 429,
+        "end": 511
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "10",
+          "section": null,
+          "quote": "............................................................................... 8-10  \n* Exhibit 9-1 Example BMP plan requirement ..................................................................................... 9-6  \n* Exhibit 9-2 Categories of CSO permitting conditions ..................................................................... 9-17  \n* Exhibit 9-3 Nine minimum CSO controls ........................................................................................ 9-17  \n* Exhibit 9"
+        },
+        {
+          "file": "WEF_FD-16_Facilities_Design.pdf",
+          "page": "413",
+          "section": "8.4 Fisherman Bay, Washington",
+          "quote": "## 8.4 Fisherman Bay, Washington\n\nFisherman Bay is located on Lopez Island in San Juan County, Washington, approximately 160 km (100 miles) northwest of Seattle at an elevation slightly above sea level. Influent water temperatures rang from 7 °C (44 °F) in the winter to 22 °C (72 °F) in the summer. The wastewater treatment plant serves approximately 250 people with an average design flowrate of 129 m3/d (34,000 gpd). A septic tank effluent pumping system serves the entire area and, because of BO"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "10",
+          "section": null,
+          "quote": ".......................................................................................... 6-38  \n* Exhibit 6-22 Example of mass-balance equation for a WET reasonable potential analysis ........... 6-39  \n* Exhibit 7-1 Developing effluent limitations ....................................................................................... 7-1  \n* Exhibit 7-2 Application of anti-backsliding rules ............................................................................... 7-5  \n* Exhibit 7-3 Bac"
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "179",
+          "section": "8.5 Recordkeeping Requirements",
+          "quote": "## 8.5 Recordkeeping Requirements\n\nGenerally, the permit writer is required by § 122.41(j) to include in the permit the requirement to retain records for at least three years, subject to extension by the State Director. Recordkeeping requirements for sewage sludge [§ 122.41(j)] and the CAFO program [§ 122.42(e)(2)] require records be kept five years or longer if required by the State Director. The permit writer should designate in the permit where records should be kept.\n\nMonitoring records must"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C8",
+      "heading": null,
+      "text": "| Asset records | N/A | Asset records | [1,2,10,12,13,17,28,30,32,39,43,49] |",
+      "span": {
+        "start": 512,
+        "end": 589
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "10",
+          "section": null,
+          "quote": "............................................................................... 8-10  \n* Exhibit 9-1 Example BMP plan requirement ..................................................................................... 9-6  \n* Exhibit 9-2 Categories of CSO permitting conditions ..................................................................... 9-17  \n* Exhibit 9-3 Nine minimum CSO controls ........................................................................................ 9-17  \n* Exhibit 9"
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "179",
+          "section": "8.5 Recordkeeping Requirements",
+          "quote": "## 8.5 Recordkeeping Requirements\n\nGenerally, the permit writer is required by § 122.41(j) to include in the permit the requirement to retain records for at least three years, subject to extension by the State Director. Recordkeeping requirements for sewage sludge [§ 122.41(j)] and the CAFO program [§ 122.42(e)(2)] require records be kept five years or longer if required by the State Director. The permit writer should designate in the permit where records should be kept.\n\nMonitoring records must"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "179",
+          "section": "8.4 Reporting Monitoring Results",
+          "quote": "## 8.4 Reporting Monitoring Results\n\nThe NPDES regulations require the permittee to maintain records and periodically report on monitoring activities. The regulations at § 122.41(l)(4)(i) require that monitoring results must be reported on a DMR. Data reported include both data required by the permit and any additional data the permittee has collected consistent with permit requirements. All facilities must submit reports (on discharges and sludge use or disposal) at least annually, as required "
+        },
+        {
+          "file": "WEF_FD-6_Sanitary_Sewer_Rehabilitation.pdf",
+          "page": "149",
+          "section": null,
+          "quote": "TABLE 4.3 Model Data Requirements\n\\n---\\n\n\n<table>\n  <thead>\n    <tr>\n      <th>Model Type</th>\n      <th>Macro<br>(Skeletonized) Model</th>\n      <th>Micro<br>(Master Planning) Model</th>\n      <th>Detailed Design Model</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>General pipe data<br>(i.e., diameter, elevations, material, etc.)</td>\n      <td>Use existing, available records such as GIS database or as-built records; missing data can be skeletonized or estimated.</td>\n      <td>Use exi"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C9",
+      "heading": null,
+      "text": "| SCADA trends | 3 years | SCADA data | [6,11,23,36,38] |",
+      "span": {
+        "start": 590,
+        "end": 647
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "MOP8_Combined_part01.pdf",
+          "page": "21",
+          "section": "2.2.1.1 Project Team",
+          "quote": "## 2.2.1.1 Project Team\n\nThe project team will include designers from a range of disciplines, including process/mechanical and civil engineers, structural engineers and architects, building mechanical and plumbing engineers, electrical engineers, site design and landscape architects, and instrumentation and controls specialists. Depending on the level of automation desired, a supervisory control and data acquisition (SCADA) system integrator may also be needed. Fluid communication between team m"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "89",
+          "section": "Wastewater",
+          "quote": "Switchgear\n  - 7. System Expansion\n- D. Starting Current\n- E. Uninterruptible Power Supplies (UPS)\n  - 1. Ground Fault Sensors\n  - 2. Switching Equipment\n  - 3. Grounding Circuits\n  - 4. Grounding Dual‑Fed Services\n- F. Parts\n  - 1. Standard Parts\n- G. Replacement Parts\n- Flooding\n  - 1. Equipment\n  - 2. Conduits\n- H. Miscellaneous\n  - 1. Oil‑Insulated Equipment\n  - 2. Equipment Protection\n  - 3. Restart\n  - 4. Temperature Detectors\n\n## G2-6.4 Instrumentation and Control Systems\n### G2-6.4.1 Gen"
+        },
+        {
+          "file": "MOP8_Combined_part01.pdf",
+          "page": "13",
+          "section": "4.0 References",
+          "quote": "## 4.0 References\n\n- Burian, S. J.; Durrans, S.; Rocky, S. (2000) Urban Wastewater Management in the United States: Past, Present, and Future. J. Urban Technol., 7(3), 33–62.\n- Food and Agriculture Organization of the United Nations. AQUASTAT Main Database. http://www.fao.org/nr/water/aquastat/main/index.stm (accessed September 2016).\n- Global Water Intelligence (2015) Analysts’ Report: The Global Water Market in 2016, Capital Expenditure Trends in Municipal and Industrial Water to 2019.\n- Great"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": "1",
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "quote": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C10",
+      "heading": null,
+      "text": "| Power events | 3 years | Power data | [6,11,23,36,38] |",
+      "span": {
+        "start": 648,
+        "end": 705
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "89",
+          "section": "Wastewater",
+          "quote": "Switchgear\n  - 7. System Expansion\n- D. Starting Current\n- E. Uninterruptible Power Supplies (UPS)\n  - 1. Ground Fault Sensors\n  - 2. Switching Equipment\n  - 3. Grounding Circuits\n  - 4. Grounding Dual‑Fed Services\n- F. Parts\n  - 1. Standard Parts\n- G. Replacement Parts\n- Flooding\n  - 1. Equipment\n  - 2. Conduits\n- H. Miscellaneous\n  - 1. Oil‑Insulated Equipment\n  - 2. Equipment Protection\n  - 3. Restart\n  - 4. Temperature Detectors\n\n## G2-6.4 Instrumentation and Control Systems\n### G2-6.4.1 Gen"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "15",
+          "section": "WAC 173-240-140 Plans and specifications",
+          "quote": "Also, a discussion on the effects of the proposed industrial discharge on the use or disposal of municipal sludge;\n* (p) Where discharge is through land application, including seepage lagoons, irrigation, and subsurface disposal, a geohydrologic evaluation of factors such as:\n  - (i) Depth to groundwater and groundwater movement during different times of the year;\n  - (ii) Water balance analysis of the proposed discharge area;\n  - (iii) Overall effects of the proposed facility upon the groundwat"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "4",
+          "section": "Section (b) through (m)",
+          "quote": "WSR 00-15-021 (Order 00-09), § 173-240-035, filed 7/11/00, effective 8/11/00. Statutory Authority: Chapters 43.21A and 90.48 RCW. WSR 83-23-063 (Order DE 83-30), § 173-240-030, filed 11/16/83. Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-030, filed 1/23/79. Formerly chapter 372-20 WAC.]\n\n\\n---\\n\n\n# WAC 173-240-040 Review standards\n\n- (1) The department will review general sewer plans, engineering reports, plans and specifications, and operation and maintenance ma"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "7",
+          "section": "WAC 173-240-070 Plans and specifications. (1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility. The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de-",
+          "quote": "(e) A description of the receiving water, applicable water quality standards, and how water quality standards will be met outside any applicable dilution zone.\n\n(f) The type of treatment process proposed, based upon the character of the wastewater to be handled, the method of disposal, the degree of treatment required, and a discussion of the alternatives evaluated and the reasons they are unacceptable.\n\n(g) The basic design data and sizing calculations of each unit of the treatment works. Expec"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C11",
+      "heading": null,
+      "text": "| Past studies | N/A | Reports | [1,2,10,11,12,13,17,21,23,24,25,28,30,32,36,38,39,43,49] |",
+      "span": {
+        "start": 706,
+        "end": 797
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "4",
+          "section": "Section (b) through (m)",
+          "quote": "WSR 00-15-021 (Order 00-09), § 173-240-035, filed 7/11/00, effective 8/11/00. Statutory Authority: Chapters 43.21A and 90.48 RCW. WSR 83-23-063 (Order DE 83-30), § 173-240-030, filed 11/16/83. Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-030, filed 1/23/79. Formerly chapter 372-20 WAC.]\n\n\\n---\\n\n\n# WAC 173-240-040 Review standards\n\n- (1) The department will review general sewer plans, engineering reports, plans and specifications, and operation and maintenance ma"
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "10",
+          "section": null,
+          "quote": ".......................................................................................... 6-38  \n* Exhibit 6-22 Example of mass-balance equation for a WET reasonable potential analysis ........... 6-39  \n* Exhibit 7-1 Developing effluent limitations ....................................................................................... 7-1  \n* Exhibit 7-2 Application of anti-backsliding rules ............................................................................... 7-5  \n* Exhibit 7-3 Bac"
+        },
+        {
+          "file": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": "10",
+          "section": null,
+          "quote": "............................................................................... 8-10  \n* Exhibit 9-1 Example BMP plan requirement ..................................................................................... 9-6  \n* Exhibit 9-2 Categories of CSO permitting conditions ..................................................................... 9-17  \n* Exhibit 9-3 Nine minimum CSO controls ........................................................................................ 9-17  \n* Exhibit 9"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "15",
+          "section": "WAC 173-240-140 Plans and specifications",
+          "quote": "Also, a discussion on the effects of the proposed industrial discharge on the use or disposal of municipal sludge;\n* (p) Where discharge is through land application, including seepage lagoons, irrigation, and subsurface disposal, a geohydrologic evaluation of factors such as:\n  - (i) Depth to groundwater and groundwater movement during different times of the year;\n  - (ii) Water balance analysis of the proposed discharge area;\n  - (iii) Overall effects of the proposed facility upon the groundwat"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    }
+  ],
+  "metrics": {
+    "total_claims": 11,
+    "support_rate": 0.0,
+    "strict_precision": 0.0,
+    "citation_coverage": 1.0,
+    "unique_sources_cited": 10,
+    "avg_evidence_per_claim": 1.0
+  },
+  "follow_up_retrieves": [
+    "poetry run caliper_v2 retrieve \"assistant: **Data Inventory & Client-Request Checklist\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C1.json\"",
+    "poetry run caliper_v2 retrieve \"| **Data Type** | **Minimum Span** | **Format** | **Citations** |\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C2.json\"",
+    "poetry run caliper_v2 retrieve \"| Inflow/effluent history | 3 years | DMRs | [1,2,10,12,13,17,24,25,28,30,32,39,43,49] |\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C3.json\"",
+    "poetry run caliper_v2 retrieve \"| Flow/level logs | 3 years | DMRs | [1,2,10,12,13,17,24,25,28,30,32,39,43,49] |\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C4.json\"",
+    "poetry run caliper_v2 retrieve \"| Rainfall | 3 years | Weather records | [12,21,27,43] |\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C5.json\"",
+    "poetry run caliper_v2 retrieve \"| Water use/billing | 3 years | Billing records | [12,43] |\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C6.json\"",
+    "poetry run caliper_v2 retrieve \"| Septic connections | N/A | Asset records | [1,2,10,12,13,17,28,30,32,39,43,49] |\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C7.json\"",
+    "poetry run caliper_v2 retrieve \"| Asset records | N/A | Asset records | [1,2,10,12,13,17,28,30,32,39,43,49] |\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C8.json\"",
+    "poetry run caliper_v2 retrieve \"| SCADA trends | 3 years | SCADA data | [6,11,23,36,38] |\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C9.json\"",
+    "poetry run caliper_v2 retrieve \"| Power events | 3 years | Power data | [6,11,23,36,38] |\" --indexes \"federal,state,design_standards\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C10.json\""
+  ]
+}

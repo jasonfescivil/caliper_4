@@ -1,0 +1,21 @@
+Let me quickly scan the repo to validate and correct Codex’s claims before commenting.
+Search files...
+Ran tool
+Search files...
+- Mostly accurate. A few precise clarifications:
+  - .env loading is real: `src/caliper_v2/cli.py` calls `dotenv.load_dotenv()` at startup, and `src/caliper_v2/core/config.py` sets `env_file = ".env"` in Pydantic `Settings`. So env keys are available when running the v2 CLI, even if your shell didn’t export them.
+  - Persistence details are correct: `data_v2/indexes/<index>/faiss/`, BM25 pickle at `bm25_index.pkl`, extra `meta/`. There’s also a `HashCache` SQLite at `data_v2/app_v2.db` for idempotent ingest.
+  - The v1 tree exists but is effectively dormant; v2 is the active codepath.
+  - CLI commands are broader than the summary implies: v2 also has `retrieval_audit`, `wizard`, and agent tool safety checks that keep operations inside `knowledge_base`.
+  - Provider resolution is applied early in CLI: `_setup_environment()` maps Pydantic settings to env vars if missing, then `_apply_llm_provider` is invoked from flags.
+  - Reranking and hybrid search toggles are there, but some flags are “placeholders” in parts of the code. The common flows (ingest, retrieve, query) are functional.
+
+- What’s different vs your workflow:
+  - You’re not modifying Caliper to add metadata yet. We built a separate `scripts/build_llamacloud_metadata.py` that prepares a LlamaCloud Import Metadata CSV and doesn’t touch v2 code.
+  - Your bulk LlamaCloud downloads are handled by `bulk_llamacloud_download.ps1`, not the v2 CLI.
+
+- If you want a “day‑1” checklist based on this repo’s actual state:
+  - Ensure `.env` has OPENAI_API_KEY (and LLAMA_CLOUD_API_KEY if using cloud retrieval/parsing).
+  - Ingest sample docs to `data_v2/indexes/<name>` with `run_caliper_v2.py ingest ... --persist`.
+  - Try `retrieve` to persist a context JSON, then `generate` to render an answer from that JSON.
+  - For metadata upload, run the standalone builder we added and import its CSV in LlamaCloud.

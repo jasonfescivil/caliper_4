@@ -1,0 +1,13 @@
+$Q = "Using the provided file flowload_template.md (which contains YAML inputs and a markdown outline), write the complete engineering report Chapter 4: Population, Flow, and Loading Projections for a new municipal WWTP in Washington State.
+
+Strictly follow the template’s structure and table list. Parse the YAML first, then:
+1) Validate inputs; if any REQUIRED field is missing, insert a clearly labeled placeholder ('TBD – awaiting data') and proceed.  Validate the methods against the guidance provided in the indexes.
+2) Reconcile population projections across methods (per capita, EDU/housing unit, employment, regression/return-ratio, and cohort/official forecasts). Explain the reconciliation logic and select a planning series per the template’s decision rules.
+3) Compute Average Day (ADWF/DADF), Maximum Day (MDDF), Maximum Week Dry-Weather Flow (MWDF if used), and Peak Hour Flow (PHF/PHDF) using the specified peaking methodology (Harmon, Ten States, fixed PFs) and the template’s parameters. Distinguish base wastewater flow (BWF), groundwater infiltration (GWI), and rainfall-dependent inflow & infiltration (RDII). Apply seasonal adjustments and safety/contingency factors as provided.
+4) Compute BOD₅, TSS, Total Nitrogen (TN), Total Phosphorus (TP), and ammonia-N (NH₃–N) loadings using L = Q × C and the per-capita/EDU/industrial factors and concentrations in the YAML. Where ammonia requires partitioning (TKN → NH₃ at operating temperature/season), state the assumption used.
+5) Produce all tables enumerated in the outline with consistent units (flows in mgd and gpd as indicated; loads in lb/d and kg/d where specified). Include footnotes citing data sources and assumptions drawn from YAML.
+6) Map governing design values to each process unit per the template (e.g., hydraulics/headworks by PHF/PHDF; primary/secondary/tertiary by MDDF or MWDF as specified). If local criteria differ, note and justify.
+7) Include brief regulatory conformance checks (WAC 173-240, AKART, Ecology CSWD ‘Orange Book’, applicable EPA/WEF guidance) referencing the YAML’s regulation tags. Do not fabricate citations—use the tags and titles verbatim.
+8) Maintain engineering clarity: show key equations once, define symbols, and round flows to 0.01 mgd (or per YAML), loads to whole lb/d unless otherwise specified. Provide scenario tables (Base/Low/High) if defined.
+
+Output only the final Chapter 4 content in Markdown: use the exact headings and subsection order from the template; include all required tables with captions and notes. Do not echo this instruction, do not print the YAML, and do not invent data beyond explicit defaults in the YAML."

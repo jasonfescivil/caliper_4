@@ -1,0 +1,151 @@
+{
+  "type": "enhanced_retrieval",
+  "version": 1,
+  "created_at": "2025-09-13T10:07:38Z",
+  "source_file": "data_v2\\context\\q01_outline_cloud.json",
+  "question": "poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (<1000) WA wastewater treatment feasibility report. Map each section to WAC 173-240, the Criteria for Sewage Works Design (Orange Book), and federal refs; include purpose per section and citation anchors.\" \\\n  --indexes \"federal,state,design_standards\" --cloud --top-k 60 --reranker cohere --rerank-top-n 24 \\\n  --llm-provider cohere --llm-model command-a-reasoning-2025 \\\n  --out data_v2/context/q01_outline.json\n\npoetry run caliper_v2 generate data_v2/context/q01_outline.json \\\n  --style strict-citation --format md --llm-provider openai --llm-model gpt-5 > outputs/q01_outline.md\n\npoetry run caliper_v2 judge --context data_v2/context/q01_outline.json --generation outputs/q01_outline.md \\\n  --llm-provider google --llm-model gemini-2.5-pro --strict \\\n  --out data_v2/judgments/q01_outline.json",
+  "indexes": [
+    "federal",
+    "state",
+    "design_standards"
+  ],
+  "search_mode": "hybrid",
+  "requested_top_k": 60,
+  "final_kept": 3,
+  "diagnostics": {
+    "per_index_counts": {
+      "unknown": 3
+    },
+    "per_source_counts": {
+      "DOE_Orange_Book_Design_Standards.pdf": 2,
+      "2023_CFR_40-503_Biosolids_Standards.pdf": 1
+    },
+    "diversity": {
+      "unique_files": 2,
+      "dominance_ratio": 0.667
+    }
+  },
+  "outline": {
+    "sections": [
+      {
+        "id": "S1",
+        "title": "Purpose and Scope",
+        "description": "Section on purpose and scope tailored to: poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (<1000) WA wastewater treatment feasibili",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "DOE_Orange_Book_Design_Standards.pdf",
+            "page": "1",
+            "section": "Criteria for Sewage Works Design"
+          },
+          {
+            "file": "DOE_Orange_Book_Design_Standards.pdf",
+            "page": "1",
+            "section": "Criteria for Sewage Works Design"
+          }
+        ],
+        "priority": 0.9
+      },
+      {
+        "id": "S2",
+        "title": "Regulatory Framework and Citations",
+        "description": "Section on regulatory framework and citations tailored to: poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (<1000) WA wastewater treatment feasibili",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "2023_CFR_40-503_Biosolids_Standards.pdf",
+            "page": "1",
+            "section": "PROCEDURE:"
+          }
+        ],
+        "priority": 0.9
+      },
+      {
+        "id": "S3",
+        "title": "Methodologies for Population Projection",
+        "description": "Section on methodologies for population projection tailored to: poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (<1000) WA wastewater treatment feasibili",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [],
+        "priority": 0.5
+      },
+      {
+        "id": "S4",
+        "title": "Design Years and Planning Horizon",
+        "description": "Section on design years and planning horizon tailored to: poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (<1000) WA wastewater treatment feasibili",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [],
+        "priority": 0.5
+      },
+      {
+        "id": "S5",
+        "title": "Per Capita Flow and Peaking Factors",
+        "description": "Section on per capita flow and peaking factors tailored to: poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (<1000) WA wastewater treatment feasibili",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [],
+        "priority": 0.5
+      },
+      {
+        "id": "S6",
+        "title": "Special Considerations (Seasonal, Institutions, Inflow)",
+        "description": "Section on special considerations (seasonal, institutions, inflow) tailored to: poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (<1000) WA wastewater treatment feasibili",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [],
+        "priority": 0.5
+      },
+      {
+        "id": "S7",
+        "title": "Sensitivity and Uncertainty",
+        "description": "Section on sensitivity and uncertainty tailored to: poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (<1000) WA wastewater treatment feasibili",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [],
+        "priority": 0.5
+      },
+      {
+        "id": "S8",
+        "title": "Documentation, Assumptions, and Citations",
+        "description": "Section on documentation, assumptions, and citations tailored to: poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (<1000) WA wastewater treatment feasibili",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [],
+        "priority": 0.5
+      }
+    ]
+  },
+  "gap_analysis": {
+    "topics_missing": [],
+    "coverage_score": 0.33299999999999996
+  },
+  "suggestions": {
+    "follow_up_retrieves": [
+      "poetry run caliper_v2 retrieve \"poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (<1000) WA wastewater treatment feasibility report. Map each section to WAC 173-240, the Criteria for Sewage Works Design (Orange Book), and federal refs; include purpose per section and citation anchors.\" \\\n  --indexes \"federal,state,design_standards\" --cloud --top-k 60 --reranker cohere --rerank-top-n 24 \\\n  --llm-provider cohere --llm-model command-a-reasoning-2025 \\\n  --out data_v2/context/q01_outline.json\n\npoetry run caliper_v2 generate data_v2/context/q01_outline.json \\\n  --style strict-citation --format md --llm-provider openai --llm-model gpt-5 > outputs/q01_outline.md\n\npoetry run caliper_v2 judge --context data_v2/context/q01_outline.json --generation outputs/q01_outline.md \\\n  --llm-provider google --llm-model gemini-2.5-pro --strict \\\n  --out data_v2/judgments/q01_outline.json planning horizon and design year definitions\" --indexes federal --cloud --search-mode hybrid --dense-k 12 --sparse-k 12 --alpha 0.5 --top-k 40 --rerank-top-n 24 --out data_v2\\context\\enhanced\\followup_1.json",
+      "poetry run caliper_v2 retrieve \"poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (<1000) WA wastewater treatment feasibility report. Map each section to WAC 173-240, the Criteria for Sewage Works Design (Orange Book), and federal refs; include purpose per section and citation anchors.\" \\\n  --indexes \"federal,state,design_standards\" --cloud --top-k 60 --reranker cohere --rerank-top-n 24 \\\n  --llm-provider cohere --llm-model command-a-reasoning-2025 \\\n  --out data_v2/context/q01_outline.json\n\npoetry run caliper_v2 generate data_v2/context/q01_outline.json \\\n  --style strict-citation --format md --llm-provider openai --llm-model gpt-5 > outputs/q01_outline.md\n\npoetry run caliper_v2 judge --context data_v2/context/q01_outline.json --generation outputs/q01_outline.md \\\n  --llm-provider google --llm-model gemini-2.5-pro --strict \\\n  --out data_v2/judgments/q01_outline.json per capita flows and peaking factors guidance\" --indexes federal --cloud --search-mode hybrid --dense-k 12 --sparse-k 12 --alpha 0.5 --top-k 40 --rerank-top-n 24 --out data_v2\\context\\enhanced\\followup_2.json",
+      "poetry run caliper_v2 retrieve \"poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (<1000) WA wastewater treatment feasibility report. Map each section to WAC 173-240, the Criteria for Sewage Works Design (Orange Book), and federal refs; include purpose per section and citation anchors.\" \\\n  --indexes \"federal,state,design_standards\" --cloud --top-k 60 --reranker cohere --rerank-top-n 24 \\\n  --llm-provider cohere --llm-model command-a-reasoning-2025 \\\n  --out data_v2/context/q01_outline.json\n\npoetry run caliper_v2 generate data_v2/context/q01_outline.json \\\n  --style strict-citation --format md --llm-provider openai --llm-model gpt-5 > outputs/q01_outline.md\n\npoetry run caliper_v2 judge --context data_v2/context/q01_outline.json --generation outputs/q01_outline.md \\\n  --llm-provider google --llm-model gemini-2.5-pro --strict \\\n  --out data_v2/judgments/q01_outline.json methodology: cohort trend land-use comparison\" --indexes federal --cloud --search-mode hybrid --dense-k 12 --sparse-k 12 --alpha 0.5 --top-k 50 --rerank-top-n 24 --out data_v2\\context\\enhanced\\followup_3.json"
+    ]
+  },
+  "spore": {
+    "original": {
+      "summary": "Retrieved 3 nodes covering 0 regulations, 0 standards, addressing 'poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (...'",
+      "rationale_bullets": [
+        "Covers 1 relevant topics: effluent requirements",
+        "Includes content from jurisdictions: US, WA",
+        "Sources selected based on semantic and lexical relevance to query",
+        "Includes upstream/downstream context for comprehensive coverage"
+      ],
+      "confidence": 0.5
+    },
+    "rewritten": {
+      "summary": "Retrieved 3 nodes covering 0 regulations, 0 standards, addressing 'poetry run caliper_v2 retrieve \"Produce a master outline for a small-community (...'",
+      "rationale_bullets": [
+        "Covers 1 relevant topics: effluent requirements",
+        "Includes content from jurisdictions: US, WA",
+        "Sources selected based on semantic and lexical relevance to query",
+        "Covers: Purpose and Scope, Regulatory Framework and Citations, Methodologies for Population Projection, Design Years and Planning Horizon, Per Capita Flow and Peaking Factors"
+      ],
+      "confidence": 0.5
+    }
+  },
+  "spores_review": {
+    "total": 3,
+    "changed": 0,
+    "rewritten": []
+  }
+}

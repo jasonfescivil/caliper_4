@@ -1,0 +1,27 @@
+{
+  "graph_version": "1.0.0",
+  "build_timestamp": "2025-09-20T18:50:27.714946",
+  "corpus_dir": "knowledge_base\\08_Projects\\tekoa_wastewater",
+  "relation_mode": "heuristic",
+  "k_hop_depth": 1,
+  "min_entity_conf": 0.5,
+  "min_relation_conf": 0.6,
+  "predicate_weights": {
+    "cooccurs_in": 0.4,
+    "refers_to": 0.8,
+    "defined_in": 0.9,
+    "governs": 0.9,
+    "cites": 0.7,
+    "mentions": 0.6
+  },
+  "stats": {
+    "documents": 78,
+    "sections": 161,
+    "entities": 1094,
+    "edges": 55293,
+    "edge_types": {
+      "mentions": 54665,
+      "cooccurs_in": 628
+    }
+  }
+}

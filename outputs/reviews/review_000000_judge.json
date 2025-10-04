@@ -1,0 +1,17 @@
+{
+  "type": "judgment_report",
+  "version": 2,
+  "created_at": "",
+  "context_path": "C:\\repos\\caliper_3\\data_v2\\context\\graph_LS_deisgn.json",
+  "doc_path": "C:\\repos\\caliper_3\\outputs\\drafts\\grok4fast.md",
+  "metrics": {
+    "total_claims": 0,
+    "support_rate": 0.0,
+    "strict_precision": 0.0,
+    "citation_coverage": 0.0,
+    "unique_sources_cited": 0,
+    "avg_evidence_per_claim": 0.0
+  },
+  "claims": [],
+  "follow_up_retrieves": []
+}

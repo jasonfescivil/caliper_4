@@ -1,0 +1,12 @@
+name: Test Actions Work
+on:
+  workflow_dispatch:
+  push:
+    branches: [ cohere-support ]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Test step
+      run: echo "GitHub Actions is working!"

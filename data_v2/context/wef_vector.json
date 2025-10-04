@@ -1,0 +1,346 @@
+{
+  "type": "retrieval_session",
+  "version": 1,
+  "created_at": "2025-09-05T02:55:46Z",
+  "question": "Outline WEF design standards for infiltration/percolation of treated effluent to groundwater (loading rates, pretreatment, monitoring).",
+  "indexes": [
+    "wef"
+  ],
+  "search_mode": "vector",
+  "top_k": 20,
+  "reranker": "none",
+  "retrieval": {
+    "nodes": [
+      {
+        "node_id": "1d319a3d-f215-4c3a-ab0e-21ec2f872455",
+        "document_id": "did_020a245d1456d8c7",
+        "passage_id": "pid_0b34ad05501eba53814363b2",
+        "parent_id": null,
+        "score": null,
+        "text": "Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "text_raw": "Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "text_clean": "Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "char_count": 122,
+        "token_count": 33,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 122,
+          "source_file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "Cover",
+          "section": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "file_path": "C:\\repos\\caliper_3\\knowledge_base\\06_design_standards\\wef\\2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "Cover",
+          "section": null,
+          "breadcrumbs": "C:\\repos\\caliper_3\\knowledge_base\\06_design_standards\\wef\\2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": "2013-01-01",
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "author": null,
+          "publisher": "Water Environment Federation",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        }
+      },
+      {
+        "node_id": "48c4bd6f-a6f1-4278-a28e-f22583f48bec",
+        "document_id": "did_020a245d1456d8c7",
+        "passage_id": "pid_048dd34503b91bb69324e74c",
+        "parent_id": null,
+        "score": null,
+        "text": "Gravity \nSanitary Sewer \nDesign\nand Construction\nSecond Edition\nPrepared by a Joint Task Force of the\nEnvironmental and Water Resources Institute and the\nPipeline Division Committee on Pipeline Planning of the\nAmerican Society of Civil Engineers\nand the\nCollection Systems Subcommittee of the\nTechnical Practice Committee of the \nWater Environment Federation\nEdited by Paul Bizier\nASCE Manuals and Reports on Engineering Practice No. 60\nWEF Manual of Practice No. FD-5\n Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "text_raw": "Gravity \nSanitary Sewer \nDesign\nand Construction\nSecond Edition\nPrepared by a Joint Task Force of the\nEnvironmental and Water Resources Institute and the\nPipeline Division Committee on Pipeline Planning of the\nAmerican Society of Civil Engineers\nand the\nCollection Systems Subcommittee of the\nTechnical Practice Committee of the \nWater Environment Federation\nEdited by Paul Bizier\nASCE Manuals and Reports on Engineering Practice No. 60\nWEF Manual of Practice No. FD-5\n Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "text_clean": "Gravity Sanitary Sewer Design and Construction Second Edition Prepared by a Joint Task Force of the Environmental and Water Resources Institute and the Pipeline Division Committee on Pipeline Planning of the American Society of Civil Engineers and the Collection Systems Subcommittee of the Technical Practice Committee of the Water Environment Federation Edited by Paul Bizier ASCE Manuals and Reports on Engineering Practice No. 60 WEF Manual of Practice No. FD-5 Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "char_count": 588,
+        "token_count": 113,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 592,
+          "source_file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "i",
+          "section": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "file_path": "C:\\repos\\caliper_3\\knowledge_base\\06_design_standards\\wef\\2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "i",
+          "section": null,
+          "breadcrumbs": "C:\\repos\\caliper_3\\knowledge_base\\06_design_standards\\wef\\2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": "2013-01-01",
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "author": null,
+          "publisher": "Water Environment Federation",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        }
+      },
+      {
+        "node_id": "c22232c9-a69b-4b15-bdff-4f0ce99318e9",
+        "document_id": "did_020a245d1456d8c7",
+        "passage_id": "pid_9516df08dbaa280f76691ef0",
+        "parent_id": null,
+        "score": null,
+        "text": "Library of Congress Cataloging-in-Publication Data\nGravity sanitary sewer design and construction : ASCE manuals and reports on engineering\npractice no. 60 wef manual of practice no. fd-5/ Prepared by the Joint Task Force on Sanitary\nSewers of the American Society of Civil Engineers and the Water Environment Federation\np. cm  —  (Wef manual ; no. 60)\nIncludes bibliographical references and index.\nISBN 13: 978-0-7844-0900-8\nISBN 10: 0-7844-0900-5\n1. Sewerage—Design and construction. I. Bizier, Paul. II. American Society of Civil\nEngineers. III. Water Environment Federation.\nTD678.G715 2007\n628′.2—dc22\n2007015717\nPublished by American Society of Civil Engineers\n1801 Alexander Bell Drive\nReston, Virginia 20191\nwww.pubs.asce.org\nAny statements expressed in these materials are those of the individual authors and do\nnot necessarily represent the views of ASCE or WEF, which take no responsibility for any\nstatement made herein. No reference made in this publication to any specific method, prod-\nuct, process, or service constitutes or implies an endorsement, recommendation, or warranty\nthereof by ASCE or WEF. The materials are for general information only and do not repre-\nsent a standard of ASCE or WEF, nor are they intended as a reference in purchase specifica-\ntions, contracts, regulations, statutes, or any other legal document.\nASCE and WEF make no representation or warranty of any kind, whether express or\nimplied, concerning the accuracy, completeness, suitability, or utility of any information,\napparatus, product, or process discussed in this publication, and assume no liability therefor.\nThis information should not be used without first securing competent advice with respect to\nits suitability for any general or specific application. Anyone utilizing this information\nassumes all liability arising from such use, including but not limited to infringement of any\npatent or patents.\nASCE and American Society of Civil Engineers—Registered in U.S. Patent and Trademark\nOffice.\nWater Environment Research, WEF, and WEFTEC are registered trademarks of the Water\nEnvironment Federation.\nPhotocopies and reprints. You can obtain instant permission to photocopy ASCE publica-\ntions by using ASCE’s online permission service (www.pubs.asce.org/authors/Rightslink\nWelcomePage.htm). Requests for 100 copies or more should be submitted to the Reprints\nDepartment, Publications Division, ASCE (address above); email: permissions@asce.org. A\nreprint order form can be found at www.pubs.asce.org/authors/reprints.html.\nCopyright © 2007 by the American Society of Civil Engineers and the Water Environ-\nment Federation. Permission to copy must be obtained from both ASCE and WEF.\nAll Rights Reserved.\nISBN 978-0-7844-0900-8\nISBN 978-1-57278-240-2\nManufactured in the United States of America.\n Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "text_raw": "Library of Congress Cataloging-in-Publication Data\nGravity sanitary sewer design and construction : ASCE manuals and reports on engineering\npractice no. 60 wef manual of practice no. fd-5/ Prepared by the Joint Task Force on Sanitary\nSewers of the American Society of Civil Engineers and the Water Environment Federation\np. cm  —  (Wef manual ; no. 60)\nIncludes bibliographical references and index.\nISBN 13: 978-0-7844-0900-8\nISBN 10: 0-7844-0900-5\n1. Sewerage—Design and construction. I. Bizier, Paul. II. American Society of Civil\nEngineers. III. Water Environment Federation.\nTD678.G715 2007\n628′.2—dc22\n2007015717\nPublished by American Society of Civil Engineers\n1801 Alexander Bell Drive\nReston, Virginia 20191\nwww.pubs.asce.org\nAny statements expressed in these materials are those of the individual authors and do\nnot necessarily represent the views of ASCE or WEF, which take no responsibility for any\nstatement made herein. No reference made in this publication to any specific method, prod-\nuct, process, or service constitutes or implies an endorsement, recommendation, or warranty\nthereof by ASCE or WEF. The materials are for general information only and do not repre-\nsent a standard of ASCE or WEF, nor are they intended as a reference in purchase specifica-\ntions, contracts, regulations, statutes, or any other legal document.\nASCE and WEF make no representation or warranty of any kind, whether express or\nimplied, concerning the accuracy, completeness, suitability, or utility of any information,\napparatus, product, or process discussed in this publication, and assume no liability therefor.\nThis information should not be used without first securing competent advice with respect to\nits suitability for any general or specific application. Anyone utilizing this information\nassumes all liability arising from such use, including but not limited to infringement of any\npatent or patents.\nASCE and American Society of Civil Engineers—Registered in U.S. Patent and Trademark\nOffice.\nWater Environment Research, WEF, and WEFTEC are registered trademarks of the Water\nEnvironment Federation.\nPhotocopies and reprints. You can obtain instant permission to photocopy ASCE publica-\ntions by using ASCE’s online permission service (www.pubs.asce.org/authors/Rightslink\nWelcomePage.htm). Requests for 100 copies or more should be submitted to the Reprints\nDepartment, Publications Division, ASCE (address above); email: permissions@asce.org. A\nreprint order form can be found at www.pubs.asce.org/authors/reprints.html.\nCopyright © 2007 by the American Society of Civil Engineers and the Water Environ-\nment Federation. Permission to copy must be obtained from both ASCE and WEF.\nAll Rights Reserved.\nISBN 978-0-7844-0900-8\nISBN 978-1-57278-240-2\nManufactured in the United States of America.\n Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "text_clean": "Library of Congress Cataloging-in-Publication Data Gravity sanitary sewer design and construction : ASCE manuals and reports on engineering practice no. 60 wef manual of practice no. fd-5/ Prepared by the Joint Task Force on Sanitary Sewers of the American Society of Civil Engineers and the Water Environment Federation p. cm — (Wef manual ; no. 60) Includes bibliographical references and index. ISBN 13: 978-0-7844-0900-8 ISBN 10: 0-7844-0900-5 1. Sewerage—Design and construction. I. Bizier, Paul. II. American Society of Civil Engineers. III. Water Environment Federation. TD678.G715 2007 628′.2—dc22 2007015717 Published by American Society of Civil Engineers 1801 Alexander Bell Drive Reston, Virginia 20191 www.pubs.asce.org Any statements expressed in these materials are those of the individual authors and do not necessarily represent the views of ASCE or WEF, which take no responsibility for any statement made herein. No reference made in this publication to any specific method, prod- uct, process, or service constitutes or implies an endorsement, recommendation, or warranty thereof by ASCE or WEF. The materials are for general information only and do not repre- sent a standard of ASCE or WEF, nor are they intended as a reference in purchase specifica- tions, contracts, regulations, statutes, or any other legal document. ASCE and WEF make no representation or warranty of any kind, whether express or implied, concerning the accuracy, completeness, suitability, or utility of any information, apparatus, product, or process discussed in this publication, and assume no liability therefor. This information should not be used without first securing competent advice with respect to its suitability for any general or specific application. Anyone utilizing this information assumes all liability arising from such use, including but not limited to infringement of any patent or patents. ASCE and American Society of Civil Engineers—Registered in U.S. Patent and Trademark Office. Water Environment Research, WEF, and WEFTEC are registered trademarks of the Water Environment Federation. Photocopies and reprints. You can obtain instant permission to photocopy ASCE publica- tions by using ASCE’s online permission service (www.pubs.asce.org/authors/Rightslink WelcomePage.htm). Requests for 100 copies or more should be submitted to the Reprints Department, Publications Division, ASCE (address above); email: permissions@asce.org. A reprint order form can be found at www.pubs.asce.org/authors/reprints.html. Copyright © 2007 by the American Society of Civil Engineers and the Water Environ- ment Federation. Permission to copy must be obtained from both ASCE and WEF. All Rights Reserved. ISBN 978-0-7844-0900-8 ISBN 978-1-57278-240-2 Manufactured in the United States of America. Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "char_count": 2925,
+        "token_count": 660,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 2928,
+          "source_file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "ii",
+          "section": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "file_path": "C:\\repos\\caliper_3\\knowledge_base\\06_design_standards\\wef\\2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "ii",
+          "section": null,
+          "breadcrumbs": "C:\\repos\\caliper_3\\knowledge_base\\06_design_standards\\wef\\2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": "2013-01-01",
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": [
+            {
+              "key": "Gravity sanitary sewer design and construction",
+              "value": "ASCE manuals and reports on engineering"
+            },
+            {
+              "key": "ISBN 13",
+              "value": "978-0-7844-0900-8"
+            },
+            {
+              "key": "ISBN 10",
+              "value": "0-7844-0900-5"
+            }
+          ],
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "author": null,
+          "publisher": "Water Environment Federation",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        }
+      },
+      {
+        "node_id": "35edcc3e-179e-4d94-ac26-1cc0c35d4b23",
+        "document_id": "did_020a245d1456d8c7",
+        "passage_id": "pid_0fd1fed62b12dbbb57311a50",
+        "parent_id": null,
+        "score": null,
+        "text": "American Society of Civil Engineers/\nEnvironmental and Water Resources Institute\nFounded in 1852, the American Society of Civil Engineers (ASCE) rep-\nresents more than 140,000 members of the civil engineering profession\nworldwide, and is America’s oldest national engineering society. Created\nin 1999, the Environmental and Water Resources Institute (EWRI) is an\nInstitute of ASCE. EWRI services are designed to complement ASCE’s tra-\nditional civil engineering base and to attract new categories of members\n(non-civil engineer allied professionals) who seek to enhance their profes-\nsional and technical development.\nFor information on membership, publications, and conferences, contact\nASCE/EWRI\n1801 Alexander Bell Drive\nReston, VA 20191-4400\n(703) 295-6000\nhttp://www.asce.org\nWater Environment Federation\nFormed in 1928, the Water Environment Federation (WEF) is a not-for-\nprofit technical and educational organization with 32,000 individual\nmembers and 80 affiliated Member Associations representing an addi-\ntional 50,000 water quality professionals throughout the world. WEF and\nits member associations proudly work to achieve our mission of preserv-\ning and enhancing the global water environment.\nFor information on membership, publications, and conferences, contact\nWater Environment Federation\n601 Wythe Street\nAlexandria, VA 22314-1994 USA\n(703) 684-2400\nhttp://www.wef.org\n Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "text_raw": "American Society of Civil Engineers/\nEnvironmental and Water Resources Institute\nFounded in 1852, the American Society of Civil Engineers (ASCE) rep-\nresents more than 140,000 members of the civil engineering profession\nworldwide, and is America’s oldest national engineering society. Created\nin 1999, the Environmental and Water Resources Institute (EWRI) is an\nInstitute of ASCE. EWRI services are designed to complement ASCE’s tra-\nditional civil engineering base and to attract new categories of members\n(non-civil engineer allied professionals) who seek to enhance their profes-\nsional and technical development.\nFor information on membership, publications, and conferences, contact\nASCE/EWRI\n1801 Alexander Bell Drive\nReston, VA 20191-4400\n(703) 295-6000\nhttp://www.asce.org\nWater Environment Federation\nFormed in 1928, the Water Environment Federation (WEF) is a not-for-\nprofit technical and educational organization with 32,000 individual\nmembers and 80 affiliated Member Associations representing an addi-\ntional 50,000 water quality professionals throughout the world. WEF and\nits member associations proudly work to achieve our mission of preserv-\ning and enhancing the global water environment.\nFor information on membership, publications, and conferences, contact\nWater Environment Federation\n601 Wythe Street\nAlexandria, VA 22314-1994 USA\n(703) 684-2400\nhttp://www.wef.org\n Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "text_clean": "American Society of Civil Engineers/ Environmental and Water Resources Institute Founded in 1852, the American Society of Civil Engineers (ASCE) rep- resents more than 140,000 members of the civil engineering profession worldwide, and is America’s oldest national engineering society. Created in 1999, the Environmental and Water Resources Institute (EWRI) is an Institute of ASCE. EWRI services are designed to complement ASCE’s tra- ditional civil engineering base and to attract new categories of members (non-civil engineer allied professionals) who seek to enhance their profes- sional and technical development. For information on membership, publications, and conferences, contact ASCE/EWRI 1801 Alexander Bell Drive Reston, VA 20191-4400 (703) 295-6000 http://www.asce.org Water Environment Federation Formed in 1928, the Water Environment Federation (WEF) is a not-for- profit technical and educational organization with 32,000 individual members and 80 affiliated Member Associations representing an addi- tional 50,000 water quality professionals throughout the world. WEF and its member associations proudly work to achieve our mission of preserv- ing and enhancing the global water environment. For information on membership, publications, and conferences, contact Water Environment Federation 601 Wythe Street Alexandria, VA 22314-1994 USA (703) 684-2400 http://www.wef.org Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "char_count": 1510,
+        "token_count": 327,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 1511,
+          "source_file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "iii",
+          "section": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "file_path": "C:\\repos\\caliper_3\\knowledge_base\\06_design_standards\\wef\\2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "iii",
+          "section": null,
+          "breadcrumbs": "C:\\repos\\caliper_3\\knowledge_base\\06_design_standards\\wef\\2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": "2013-01-01",
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": [
+            {
+              "key": "http",
+              "value": "//www.asce.org"
+            },
+            {
+              "key": "http",
+              "value": "//www.wef.org"
+            }
+          ],
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "author": null,
+          "publisher": "Water Environment Federation",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        }
+      },
+      {
+        "node_id": "1f6970df-ee17-4e96-ae1c-e25e53d496ca",
+        "document_id": "did_020a245d1456d8c7",
+        "passage_id": "pid_1d76bd16374de155f2f42c36",
+        "parent_id": null,
+        "score": null,
+        "text": "MANUALS AND REPORTS \nON ENGINEERING PRACTICE\n(As developed by the ASCE Technical Procedures Committee, July 1930,\nand revised March 1935, February 1962, and April 1982)\nA manual or report in this series consists of an orderly presentation of\nfacts on a particular subject, supplemented by an analysis of limitations\nand applications of these facts. It contains information useful to the aver-\nage engineer in his or her everyday work, rather than findings that may\nbe useful only occasionally or rarely. It is not in any sense a “standard,”\nhowever; nor is it so elementary or so conclusive as to provide a “rule of\nthumb” for nonengineers.\nFurthermore, material in this series, in distinction from a paper (which\nexpresses only one person’s observations or opinions), is the work of a\ncommittee or group selected to assemble and express information on a\nspecific topic. As often as practicable, the committee is under the direction\nof one or more of the Technical Divisions and Councils, and the product\nevolved has been subjected to review by the Executive Committee of\nthe Division or Council. As a step in the process of this review, proposed\nmanuscripts are often brought before the members of the Technical Divi-\nsions and Councils for comment, which may serve as the basis for\nimprovement. When published, each work shows the names of the com-\nmittees by which it was compiled and indicates clearly the several pro-\ncesses through which it has passed in review, in order that its merit may\nbe definitely understood.\nIn February 1962 (and revised in April 1982) the Board of Direction\nvoted to establish a series entitled “Manuals and Reports on Engineering\nPractice,” to include the Manuals published and authorized to date, future\nManuals of Professional Practice, and Reports on Engineering Practice. All\nsuch Manual or Report material of the Society would have been refereed in\na manner approved by the Board Committee on Publications and would\nbe bound, with applicable discussion, in books similar to past Manuals.\nNumbering would be consecutive and would be a continuation of present\nManual numbers. In some cases of reports of joint committees, bypassing\nof Journal publications may be authorized.\n Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "text_raw": "MANUALS AND REPORTS \nON ENGINEERING PRACTICE\n(As developed by the ASCE Technical Procedures Committee, July 1930,\nand revised March 1935, February 1962, and April 1982)\nA manual or report in this series consists of an orderly presentation of\nfacts on a particular subject, supplemented by an analysis of limitations\nand applications of these facts. It contains information useful to the aver-\nage engineer in his or her everyday work, rather than findings that may\nbe useful only occasionally or rarely. It is not in any sense a “standard,”\nhowever; nor is it so elementary or so conclusive as to provide a “rule of\nthumb” for nonengineers.\nFurthermore, material in this series, in distinction from a paper (which\nexpresses only one person’s observations or opinions), is the work of a\ncommittee or group selected to assemble and express information on a\nspecific topic. As often as practicable, the committee is under the direction\nof one or more of the Technical Divisions and Councils, and the product\nevolved has been subjected to review by the Executive Committee of\nthe Division or Council. As a step in the process of this review, proposed\nmanuscripts are often brought before the members of the Technical Divi-\nsions and Councils for comment, which may serve as the basis for\nimprovement. When published, each work shows the names of the com-\nmittees by which it was compiled and indicates clearly the several pro-\ncesses through which it has passed in review, in order that its merit may\nbe definitely understood.\nIn February 1962 (and revised in April 1982) the Board of Direction\nvoted to establish a series entitled “Manuals and Reports on Engineering\nPractice,” to include the Manuals published and authorized to date, future\nManuals of Professional Practice, and Reports on Engineering Practice. All\nsuch Manual or Report material of the Society would have been refereed in\na manner approved by the Board Committee on Publications and would\nbe bound, with applicable discussion, in books similar to past Manuals.\nNumbering would be consecutive and would be a continuation of present\nManual numbers. In some cases of reports of joint committees, bypassing\nof Journal publications may be authorized.\n Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "text_clean": "MANUALS AND REPORTS ON ENGINEERING PRACTICE (As developed by the ASCE Technical Procedures Committee, July 1930, and revised March 1935, February 1962, and April 1982) A manual or report in this series consists of an orderly presentation of facts on a particular subject, supplemented by an analysis of limitations and applications of these facts. It contains information useful to the aver- age engineer in his or her everyday work, rather than findings that may be useful only occasionally or rarely. It is not in any sense a “standard,” however; nor is it so elementary or so conclusive as to provide a “rule of thumb” for nonengineers. Furthermore, material in this series, in distinction from a paper (which expresses only one person’s observations or opinions), is the work of a committee or group selected to assemble and express information on a specific topic. As often as practicable, the committee is under the direction of one or more of the Technical Divisions and Councils, and the product evolved has been subjected to review by the Executive Committee of the Division or Council. As a step in the process of this review, proposed manuscripts are often brought before the members of the Technical Divi- sions and Councils for comment, which may serve as the basis for improvement. When published, each work shows the names of the com- mittees by which it was compiled and indicates clearly the several pro- cesses through which it has passed in review, in order that its merit may be definitely understood. In February 1962 (and revised in April 1982) the Board of Direction voted to establish a series entitled “Manuals and Reports on Engineering Practice,” to include the Manuals published and authorized to date, future Manuals of Professional Practice, and Reports on Engineering Practice. All such Manual or Report material of the Society would have been refereed in a manner approved by the Board Committee on Publications and would be bound, with applicable discussion, in books similar to past Manuals. Numbering would be consecutive and would be a continuation of present Manual numbers. In some cases of reports of joint committees, bypassing of Journal publications may be authorized. Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "char_count": 2333,
+        "token_count": 474,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 2335,
+          "source_file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "iv",
+          "section": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "file_path": "C:\\repos\\caliper_3\\knowledge_base\\06_design_standards\\wef\\2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "iv",
+          "section": null,
+          "breadcrumbs": "C:\\repos\\caliper_3\\knowledge_base\\06_design_standards\\wef\\2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": "2013-01-01",
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "author": null,
+          "publisher": "Water Environment Federation",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        }
+      },
+      {
+        "node_id": "af6d0720-bcad-4cc8-bf83-0f2075919ff2",
+        "document_id": "did_020a245d1456d8c7",
+        "passage_id": "pid_c496973ba2023cc96c61f632",
+        "parent_id": null,
+        "score": null,
+        "text": "13 Filtering Materials for Sewage Treat-\nment Plants\n14 Accommodation of Utility Plant Within\nthe Rights-of-Way of Urban Streets\nand Highways\n35 A List of Translations of Foreign Litera-\nture on Hydraulics\n40 Ground Water Management\n41 Plastic Design in Steel: A Guide and\nCommentary\n45 How to Work Effectively with Consult-\ning Engineers\n46 Pipeline Route Selection for Rural and\nCross-Country Pipelines\n47 Selected Abstracts on Structural Appli-\ncations of Plastics\n49 Urban Planning Guide\n50 Planning and Design Guidelines for\nSmall Craft Harbors\n51 Survey of Current Structural Research\n52 Guide for the Design of Steel Transmis-\nsion Towers\n53 Criteria for Maintenance of Multilane\nHighways\n54 Sedimentation Engineering\n55 Guide to Employment Conditions for\nCivil Engineers\n57 Management, Operation and Mainte-\nnance of Irrigation and Drainage\nSystems\n59 Computer Pricing Practices\n60 Gravity Sanitary Sewer Design and Con-\nstruction (Second Edition)\n62 Existing Sewer Evaluation and\nRehabilitation\n63 Structural Plastics Design Manual\n64 Manual on Engineering Surveying\n65 Construction Cost Control\n66 Structural Plastics Selection Manual\n67 Wind Tunnel Studies of Buildings and\nStructures\n68 Aeration: A Wastewater Treatment\nProcess\n69 Sulfide in Wastewater Collection and\nTreatment Systems\n70 Evapotranspiration and Irrigation Water\nRequirements\n71 Agricultural Salinity Assessment and\nManagement\n72 Design of Steel Transmission Pole\nStructures\n73 Quality in the Constructed Project: \nA Guide for Owners, Designers, and\nConstructors\n74 Guidelines for Electrical Transmission\nLine Structural Loading\n76 Design of Municipal Wastewater Treat-\nment Plants\n77 Design and Construction of Urban\nStormwater Management Systems\n78 Structural Fire Protection\n179 Steel Penstocks\n180 Ship Channel Design\n181 Guidelines for Cloud Seeding to Aug-\nment Precipitation\n182 Odor Control in Wastewater Treat-\nment Plants\n183 Environmental Site Investigation\n184 Mechanical Connections in Wood\nStructures\n185 Quality of Ground Water\n186 Operation and Maintenance of Ground\nWater Facilities\n187 Urban Runoff Quality Manual\n188 Management of Water Treatment Plant\nResiduals\n189 Pipeline Crossings\n190 Guide to Structural Optimization\n191 Design of Guyed Electrical Transmis-\nsion Structures\n192 Manhole Inspection and Rehabilitation\n193 Crane Safety on Construction Sites\n194 Inland Navigation: Locks, Dams, and\nChannels\n195 Urban Subsurface Drainage\n196 Guide to Improved Earthquake Perfor-\nmance of Electric Power Systems\n197 Hydraulic Modeling: Concepts and\nPractice\n198 Conveyance of Residuals from Water\nand Wastewater Treatment\n199 Environmental Site Characterization\nand Remediation Design Guidance\n100 Groundwater Contamination by\nOrganic Pollutants: Analysis and\nRemediation\n101 Underwater Investigations\n102 Design Guide for FRP Composite Con-\nnections\n103 Guide to Hiring and Retaining Great\nCivil Engineers\n104 Recommended Practice for Fiber-\nReinforced Polymer Products for\nOverhead Utility Line Structures\n105 Animal Waste Containment in\nLagoons\n106 Horizontal Auger Boring Projects\n107 Ship Channel Design\n108 Pipeline Design for Installation by\nHorizontal Directional Drilling\n109 Biological Nutrient Removal (BNR)\nOperation in Wastewater Treatment\nPlants\n110 Sedimentaion Engineering: Processes,\nMeasurments, Modeling, and\nPractice\n111 Reliability-Based Design of Utility Pole\nStructures\n112 Pipe Bursting Projects\n113 Substation Structure Design Guide\nMANUALS AND REPORTS \nON ENGINEERING PRACTICE\nNo. Title No. Title\n Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "text_raw": "13 Filtering Materials for Sewage Treat-\nment Plants\n14 Accommodation of Utility Plant Within\nthe Rights-of-Way of Urban Streets\nand Highways\n35 A List of Translations of Foreign Litera-\nture on Hydraulics\n40 Ground Water Management\n41 Plastic Design in Steel: A Guide and\nCommentary\n45 How to Work Effectively with Consult-\ning Engineers\n46 Pipeline Route Selection for Rural and\nCross-Country Pipelines\n47 Selected Abstracts on Structural Appli-\ncations of Plastics\n49 Urban Planning Guide\n50 Planning and Design Guidelines for\nSmall Craft Harbors\n51 Survey of Current Structural Research\n52 Guide for the Design of Steel Transmis-\nsion Towers\n53 Criteria for Maintenance of Multilane\nHighways\n54 Sedimentation Engineering\n55 Guide to Employment Conditions for\nCivil Engineers\n57 Management, Operation and Mainte-\nnance of Irrigation and Drainage\nSystems\n59 Computer Pricing Practices\n60 Gravity Sanitary Sewer Design and Con-\nstruction (Second Edition)\n62 Existing Sewer Evaluation and\nRehabilitation\n63 Structural Plastics Design Manual\n64 Manual on Engineering Surveying\n65 Construction Cost Control\n66 Structural Plastics Selection Manual\n67 Wind Tunnel Studies of Buildings and\nStructures\n68 Aeration: A Wastewater Treatment\nProcess\n69 Sulfide in Wastewater Collection and\nTreatment Systems\n70 Evapotranspiration and Irrigation Water\nRequirements\n71 Agricultural Salinity Assessment and\nManagement\n72 Design of Steel Transmission Pole\nStructures\n73 Quality in the Constructed Project: \nA Guide for Owners, Designers, and\nConstructors\n74 Guidelines for Electrical Transmission\nLine Structural Loading\n76 Design of Municipal Wastewater Treat-\nment Plants\n77 Design and Construction of Urban\nStormwater Management Systems\n78 Structural Fire Protection\n179 Steel Penstocks\n180 Ship Channel Design\n181 Guidelines for Cloud Seeding to Aug-\nment Precipitation\n182 Odor Control in Wastewater Treat-\nment Plants\n183 Environmental Site Investigation\n184 Mechanical Connections in Wood\nStructures\n185 Quality of Ground Water\n186 Operation and Maintenance of Ground\nWater Facilities\n187 Urban Runoff Quality Manual\n188 Management of Water Treatment Plant\nResiduals\n189 Pipeline Crossings\n190 Guide to Structural Optimization\n191 Design of Guyed Electrical Transmis-\nsion Structures\n192 Manhole Inspection and Rehabilitation\n193 Crane Safety on Construction Sites\n194 Inland Navigation: Locks, Dams, and\nChannels\n195 Urban Subsurface Drainage\n196 Guide to Improved Earthquake Perfor-\nmance of Electric Power Systems\n197 Hydraulic Modeling: Concepts and\nPractice\n198 Conveyance of Residuals from Water\nand Wastewater Treatment\n199 Environmental Site Characterization\nand Remediation Design Guidance\n100 Groundwater Contamination by\nOrganic Pollutants: Analysis and\nRemediation\n101 Underwater Investigations\n102 Design Guide for FRP Composite Con-\nnections\n103 Guide to Hiring and Retaining Great\nCivil Engineers\n104 Recommended Practice for Fiber-\nReinforced Polymer Products for\nOverhead Utility Line Structures\n105 Animal Waste Containment in\nLagoons\n106 Horizontal Auger Boring Projects\n107 Ship Channel Design\n108 Pipeline Design for Installation by\nHorizontal Directional Drilling\n109 Biological Nutrient Removal (BNR)\nOperation in Wastewater Treatment\nPlants\n110 Sedimentaion Engineering: Processes,\nMeasurments, Modeling, and\nPractice\n111 Reliability-Based Design of Utility Pole\nStructures\n112 Pipe Bursting Projects\n113 Substation Structure Design Guide\nMANUALS AND REPORTS \nON ENGINEERING PRACTICE\nNo. Title No. Title\n Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "text_clean": "13 Filtering Materials for Sewage Treat- ment Plants 14 Accommodation of Utility Plant Within the Rights-of-Way of Urban Streets and Highways 35 A List of Translations of Foreign Litera- ture on Hydraulics 40 Ground Water Management 41 Plastic Design in Steel: A Guide and Commentary 45 How to Work Effectively with Consult- ing Engineers 46 Pipeline Route Selection for Rural and Cross-Country Pipelines 47 Selected Abstracts on Structural Appli- cations of Plastics 49 Urban Planning Guide 50 Planning and Design Guidelines for Small Craft Harbors 51 Survey of Current Structural Research 52 Guide for the Design of Steel Transmis- sion Towers 53 Criteria for Maintenance of Multilane Highways 54 Sedimentation Engineering 55 Guide to Employment Conditions for Civil Engineers 57 Management, Operation and Mainte- nance of Irrigation and Drainage Systems 59 Computer Pricing Practices 60 Gravity Sanitary Sewer Design and Con- struction (Second Edition) 62 Existing Sewer Evaluation and Rehabilitation 63 Structural Plastics Design Manual 64 Manual on Engineering Surveying 65 Construction Cost Control 66 Structural Plastics Selection Manual 67 Wind Tunnel Studies of Buildings and Structures 68 Aeration: A Wastewater Treatment Process 69 Sulfide in Wastewater Collection and Treatment Systems 70 Evapotranspiration and Irrigation Water Requirements 71 Agricultural Salinity Assessment and Management 72 Design of Steel Transmission Pole Structures 73 Quality in the Constructed Project: A Guide for Owners, Designers, and Constructors 74 Guidelines for Electrical Transmission Line Structural Loading 76 Design of Municipal Wastewater Treat- ment Plants 77 Design and Construction of Urban Stormwater Management Systems 78 Structural Fire Protection 179 Steel Penstocks 180 Ship Channel Design 181 Guidelines for Cloud Seeding to Aug- ment Precipitation 182 Odor Control in Wastewater Treat- ment Plants 183 Environmental Site Investigation 184 Mechanical Connections in Wood Structures 185 Quality of Ground Water 186 Operation and Maintenance of Ground Water Facilities 187 Urban Runoff Quality Manual 188 Management of Water Treatment Plant Residuals 189 Pipeline Crossings 190 Guide to Structural Optimization 191 Design of Guyed Electrical Transmis- sion Structures 192 Manhole Inspection and Rehabilitation 193 Crane Safety on Construction Sites 194 Inland Navigation: Locks, Dams, and Channels 195 Urban Subsurface Drainage 196 Guide to Improved Earthquake Perfor- mance of Electric Power Systems 197 Hydraulic Modeling: Concepts and Practice 198 Conveyance of Residuals from Water and Wastewater Treatment 199 Environmental Site Characterization and Remediation Design Guidance 100 Groundwater Contamination by Organic Pollutants: Analysis and Remediation 101 Underwater Investigations 102 Design Guide for FRP Composite Con- nections 103 Guide to Hiring and Retaining Great Civil Engineers 104 Recommended Practice for Fiber- Reinforced Polymer Products for Overhead Utility Line Structures 105 Animal Waste Containment in Lagoons 106 Horizontal Auger Boring Projects 107 Ship Channel Design 108 Pipeline Design for Installation by Horizontal Directional Drilling 109 Biological Nutrient Removal (BNR) Operation in Wastewater Treatment Plants 110 Sedimentaion Engineering: Processes, Measurments, Modeling, and Practice 111 Reliability-Based Design of Utility Pole Structures 112 Pipe Bursting Projects 113 Substation Structure Design Guide MANUALS AND REPORTS ON ENGINEERING PRACTICE No. Title No. Title Downloaded from ascelibrary.org by Jason Froelich on 02/23/25. Copyright ASCE. For personal use only; all rights reserved.",
+        "char_count": 3641,
+        "token_count": 753,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 3644,
+          "source_file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "v",
+          "section": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "file_path": "C:\\repos\\caliper_3\\knowledge_base\\06_design_standards\\wef\\2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "v",
+          "section": null,
+          "breadcrumbs": "C:\\repos\\caliper_3\\knowledge_base\\06_design_standards\\wef\\2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": "2013-01-01",
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": [
+            {
+              "key": "41 Plastic Design in Steel",
+              "value": "A Guide and"
+            },
+            {
+              "key": "68 Aeration",
+              "value": "A Wastewater Treatment"
+            },
+            {
+              "key": "194 Inland Navigation",
+              "value": "Locks, Dams, and"
+            },
+            {
+              "key": "197 Hydraulic Modeling",
+              "value": "Concepts and"
+            },
+            {
+              "key": "Organic Pollutants",
+              "value": "Analysis and"
+            }
+          ],
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "author": null,
+          "publisher": "Water Environment Federation",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        }
+      }
+    ],
+    "spore": {
+      "summary": "Top sources selected based on hybrid similarity and coverage of relevant sections.",
+      "rationale_bullets": [
+        "Covers primary regulatory sections referenced by the question",
+        "Includes adjacent sections providing upstream/downstream context",
+        "Combines lexical and semantic matches to reduce out-of-context risk"
+      ],
+      "confidence": 0.7
+    },
+    "citations": [
+      {
+        "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+        "page": "Cover",
+        "section": null
+      },
+      {
+        "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+        "page": "i",
+        "section": null
+      },
+      {
+        "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+        "page": "ii",
+        "section": null
+      },
+      {
+        "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+        "page": "iii",
+        "section": null
+      },
+      {
+        "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+        "page": "iv",
+        "section": null
+      },
+      {
+        "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+        "page": "v",
+        "section": null
+      }
+    ]
+  }
+}

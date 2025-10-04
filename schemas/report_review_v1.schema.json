@@ -1,0 +1,63 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "ReviewReportV1",
+  "type": "object",
+  "required": [
+    "type",
+    "version",
+    "doc_path",
+    "context_path",
+    "summary",
+    "issues",
+    "claims",
+    "metrics",
+    "follow_up_retrieves"
+  ],
+  "properties": {
+    "type": { "const": "review_report" },
+    "version": { "const": 1 },
+    "doc_path": { "type": "string" },
+    "context_path": { "type": "string" },
+    "summary": {
+      "type": "object",
+      "required": ["blocking", "high_risk", "inconsistencies"],
+      "properties": {
+        "blocking": { "type": "integer" },
+        "high_risk": { "type": "integer" },
+        "inconsistencies": { "type": "integer" },
+        "coverage_score": { "type": "number" }
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["severity", "kind", "message"],
+        "properties": {
+          "id": { "type": ["string", "null"] },
+          "severity": { "type": "string" },
+          "kind": { "type": "string" },
+          "message": { "type": "string" },
+          "suggestion": { "type": ["string", "null"] },
+          "where": { "type": ["object", "null"] }
+        }
+      }
+    },
+    "claims": { "type": "array" },
+    "metrics": {
+      "type": "object",
+      "properties": {
+        "total_claims": { "type": "integer" },
+        "support_rate": { "type": "number" },
+        "strict_precision": { "type": "number" },
+        "citation_coverage": { "type": "number" },
+        "unique_sources_cited": { "type": "integer" },
+        "avg_evidence_per_claim": { "type": "number" }
+      }
+    },
+    "follow_up_retrieves": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}

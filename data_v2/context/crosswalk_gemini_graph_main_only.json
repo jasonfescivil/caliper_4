@@ -1,0 +1,11 @@
+{
+  "type": "retrieval_session",
+  "question": "Create a regulatory crosswalk for small WWTPs in Washington: WAC 173-240/173-221/173-200/201A/173-308, RCW 90.48 vs federal (40 CFR 133, 40 CFR 503) and WEF/ASCE/AWWA texts. Output: matrix topic → WA requirement → federal baseline → design notes → citations.",
+  "retrieval": {
+    "nodes": []
+  },
+  "source": {
+    "graph": "data_v2/graph",
+    "mixed": false
+  }
+}

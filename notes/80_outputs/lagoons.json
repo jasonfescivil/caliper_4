@@ -1,0 +1,280 @@
+{
+  "type": "retrieval_session",
+  "version": 1,
+  "created_at": "2025-08-19T00:45:50Z",
+  "question": "What guidance documents do washington state and federal regulations recommend or require in the design of wastewater treatment lagoons, and what permits may be required in constructing such a treatment facility? G1 General Sewer Plan Engineering Report Plans and Specifications WAC 173-240-050 WAC 173-240-060 WAC 173-240-070 SEPA NEPA SERP G1 General Sewer Plan Engineering Report Plans and Specifications WAC 173-240-050 WAC 173-240-060 WAC 173-240-070 SEPA NEPA SERP G1 General Sewer Plan Engineering Report Plans and Specifications WAC 173-240-050 WAC 173-240-060 WAC 173-240-070 SEPA NEPA SERP",
+  "indexes": [
+    "federal",
+    "state",
+    "design"
+  ],
+  "search_mode": "vector",
+  "top_k": 12,
+  "reranker": "cohere",
+  "retrieval": {
+    "nodes": [
+      {
+        "node_id": "e838b078-4bda-4571-aaaf-631102ce5498",
+        "parent_id": null,
+        "score": 0.74318707,
+        "text": "# COMMENTS REQUESTED ON THIS PART 503 RULE GUIDANCE\n\nPlease let us know what you think about this guidance. Please offer any suggestions you might have for future improvement using this comment sheet. Please send your comments to us at the U.S. Environmental Protection Agency, Office of Wastewater Management, Municipal Technology Branch (4204), Washington, DC 20460.\n\n<table>\n  <tr>\n    <td>1. Is this Part 503 rule guidance useful to you?</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n</table>\n\n<table>\n  <tr>\n    <td>2. Please indicate what you like about the guidance.</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n</table>\n\n<table>\n  <tr>\n    <td>3. Please also indicate what you do not like about the guidance.</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n</table>\n\n<table>\n  <tr>\n    <td>4. Please offer suggestions for improvement of the guidance.</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n</table>\n\n<table>\n  <tr>\n    <td>5. Please offer suggestions for development of other materials that you believe would be helpful.</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n</table>\n\n<table>\n  <tr>\n    <td>6. Name and phone number (optional).</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n<tr>\n    <td>__________________________________________________________________________________________</td>\n  </tr>\n</table>\n\n\n---\n\nU.S. Environmental Protection Agency  \nOffice of Wastewater Management  \nMunicipal Technology Branch  \n(4204)  \nWashington, DC 20460  \n\n[Affix Postage Here]\n\n---",
+        "metadata": {
+          "file_name": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "file_path": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "page": 181,
+          "section": "COMMENTS REQUESTED ON THIS PART 503 RULE GUIDANCE",
+          "breadcrumbs": null,
+          "index": "federal",
+          "document_title": "EPA Guide Part503 Biosolids Rule",
+          "author": null,
+          "publisher": "WA Ecology"
+        },
+        "spore": {
+          "reason": "This node references the EPA's Part 503 rule guidance, which is relevant to federal regulations for biosolids management in wastewater treatment, but it does not specifically address Washington state guidance documents, design requirements, or permitting processes for wastewater lagoons.",
+          "confidence": 0.3
+        }
+      },
+      {
+        "node_id": "348a016d-41a6-41b9-bf2d-3116d5a0cbbb",
+        "parent_id": null,
+        "score": 0.74004334,
+        "text": "# Permits",
+        "metadata": {
+          "file_name": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "file_path": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "page": 22,
+          "section": "Permits",
+          "breadcrumbs": null,
+          "index": "federal",
+          "document_title": "EPA Guide Part503 Biosolids Rule",
+          "author": null,
+          "publisher": "WA Ecology"
+        },
+        "spore": {
+          "reason": "The source document (EPA_Guide_Part503_Biosolids_Rule.pdf) is likely to address federal requirements for biosolids and may discuss permitting processes relevant to wastewater treatment facilities, which can help identify required permits and guidance documents at the federal level, though it may not cover all Washington state-specific regulations.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "f5511396-c770-416c-9eec-645a3432e278",
+        "parent_id": null,
+        "score": 0.72907686,
+        "text": "# Sources of Additional Information on Sampling and Analysis of Biosolids\n\n**Environmental Regulations and Technology: Control of Pathogens and Vector Attraction in Sewage Sludge**  \nU.S. EPA, Office of Research and Development, Cincinnati, OH. Phone (614) 292-6717. EPA/625/R-92/013, December 1992.\n\n**POTW Sludge Sampling and Analysis Guidance Document**  \nU.S. EPA, Permits Division, Washington, DC. 1st edition, August 1989.  \nNTIS PB 93-227957. Phone (800) 553-6847. Revised 2nd edition scheduled for publication in September 1994.\n\n---\n\n\n<table>\n<thead>\n<tr>\n<th colspan=\"2\">TABLE 6-7<br>Analytical Methods for Biosolids Sampling<sup>a</sup></th>\n</tr>\n<tr>\n<th>Sample Type</th>\n<th>Method</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><strong>Enteric Viruses</strong></td>\n<td>ASTM Designation: D 4994-89, Standard Practice for Recovery of Viruses from Wastewater Sludges, Annual Book of ASTM Standards: Section 11. Water and Environmental Technology, ASTM, Philadelphia, PA, 1992.</td>\n</tr>\n<tr>\n<td><strong>Fecal Coliform</strong></td>\n<td>Part 9221 E or Part 922 D, Standard Methods for the Examination of Water and Wastewater, 18th edition, American Public Health Association, Washington, DC, 1992.</td>\n</tr>\n<tr>\n<td><strong>Helminth Ova</strong></td>\n<td>Yanko, W.A., Occurrence of Pathogens in Distribution and Marketing Municipal Sludges, EPA/600/1-87/014, 1987. PB 88-154273/AS, National Technical Information Service, Springfield, VA; (800) 553-6847.</td>\n</tr>\n<tr>\n<td><strong>Inorganic Pollutants</strong></td>\n<td>Test Methods for Evaluating Solid Waste, Physical/Chemical Methods, EPA Publication SW-846, 3rd edition (1986) with Revision I. 2nd edition. PB 87-120291, National Technical Information Service, Springfield, VA. 3rd edition Doc. No. 955-001-00000-1, Superintendent of Documents, Government Printing Office, Washington, DC.</td>\n</tr>\n<tr>\n<td><strong><em>Salmonella</em> sp. Bacteria</strong></td>\n<td>Part 9260 D, Standard Methods for Examination of Water and Wastewater, 18th edition, American Public Health Association, Washington, DC, 1992; or, Kenner, B.A. and H.P. Clark, Detection and Enumeration of <em>Salmonella</em> and <em>Pseudomonas aeruginosa</em>, J. Water Pollution Control Federation, 46(9):2163-2171, 1974.</td>\n</tr>\n<tr>\n<td><strong>Specific Oxygen Uptake Rate</strong></td>\n<td>Part 2710 B, Standard Methods for the Examination of Water and Wastewater, 18th edition, American Public Health Association, Washington, DC, 1992.</td>\n</tr>\n<tr>\n<td><strong>Total, Fixed, and Volatile Solids</strong></td>\n<td>Part 2540 G, Standard Methods for the Examination of Water and Wastewater, 18th edition, American Public Health Association, Washington, DC, 1992.</td>\n</tr>\n<tr>\n<td><strong>Percent Volatile Solids Reduction Calculation<sup>b</sup></strong></td>\n<td>Environmental Regulations and Technology—Control of Pathogens and Vectors in Sewage Sludge, EPA/625/R-92/013, U.S. Environmental Protection Agency, Cincinnati, OH, 1992; (614) 292-6717.</td>\n</tr>\n</tbody>\n</table>\n\n<sup>a</sup> These analytical methods are required by the Part 503 rule.  \n<sup>b</sup> This analytical method is provided as guidance in the Part 503 rule.\n\n---",
+        "metadata": {
+          "file_name": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "file_path": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "page": 154,
+          "section": "Sources of Additional Information on Sampling and Analysis of Biosolids",
+          "breadcrumbs": null,
+          "index": "federal",
+          "document_title": "EPA Guide Part503 Biosolids Rule",
+          "author": null,
+          "publisher": "WA Ecology"
+        },
+        "spore": {
+          "reason": "This node provides references to EPA guidance documents related to sampling and analysis of biosolids, which are relevant to federal regulatory requirements for wastewater treatment lagoons, but it does not directly address Washington state-specific guidance documents or permitting requirements for lagoon design and construction.",
+          "confidence": 0.4
+        }
+      },
+      {
+        "node_id": "296ab2ac-08b1-4b18-b32d-c891fba41551",
+        "parent_id": null,
+        "score": 0.72698855,
+        "text": "# Appendix A—Permit Application Requirements",
+        "metadata": {
+          "file_name": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "file_path": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "page": 10,
+          "section": "Appendix A—Permit Application Requirements",
+          "breadcrumbs": null,
+          "index": "federal",
+          "document_title": "EPA Guide Part503 Biosolids Rule",
+          "author": null,
+          "publisher": "WA Ecology"
+        },
+        "spore": {
+          "reason": "The mention of 'Appendix A—Permit Application Requirements' in the EPA guide is relevant because it likely outlines the federal permit application process and documentation needed for wastewater treatment facilities, which aligns with the question about required permits and guidance documents.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "73035321-fb77-46ab-a398-4f4fe91fb042",
+        "parent_id": null,
+        "score": 0.725824,
+        "text": "# Who Issues the Permit?\n\nAt the time this guidance document was published, the permitting authority for Part 503 was EPA. Thus, applications for a Federal biosolids permit must be submitted to the appropriate EPA Regional Office, not the State. This will remain the case until the biosolids management programs of individual States are approved by EPA. Until a State has an EPA-approved program, EPA will remain the permitting authority.\n\n> **Note that State laws regarding the use or disposal of biosolids, including permit requirements, must be complied with, even if the State program has not received Federal approval.**",
+        "metadata": {
+          "file_name": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "file_path": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "page": 25,
+          "section": "Who Issues the Permit?",
+          "breadcrumbs": null,
+          "index": "federal",
+          "document_title": "EPA Guide Part503 Biosolids Rule",
+          "author": null,
+          "publisher": "WA Ecology"
+        },
+        "spore": {
+          "reason": "This node clarifies that, for federal biosolids permits under Part 503, the EPA is the permitting authority unless a state has an EPA-approved program, and that state laws and permit requirements must also be followed, which is relevant to understanding the permitting process for wastewater treatment lagoons.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "13963a52-81c7-4bea-8c8f-4fdc79686c03",
+        "parent_id": null,
+        "score": 0.7185356,
+        "text": "## Who Must Report\n\nThe Part 503 rule includes reporting requirements only for the following types of facilities:\n\n* Publicly owned treatment works (POTWs) with a design flow rate equal to or greater than 1 mgd;\n\n---\n\nPOTWs that serve a population of 10,000 or greater, and  \n**Class 1 [biosolids] management facilities** that are POTWs required to have an approved pretreatment program (5 mgd or greater as per 40 CFR Part 403.3[a]) and POTWs located in states that have elected to assume local program responsibilities for pretreatment (140 CFR 403.10[e]), and treatment works processing domestic sewage (TWTDS) that EPA and/or the State have classified as Class 1 because of the potential to negatively affect public health and the environment.",
+        "metadata": {
+          "file_name": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "file_path": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "page": 26,
+          "section": "Who Must Report",
+          "breadcrumbs": null,
+          "index": "federal",
+          "document_title": "EPA Guide Part503 Biosolids Rule",
+          "author": null,
+          "publisher": "WA Ecology"
+        },
+        "spore": {
+          "reason": "This node provides information about federal reporting requirements for certain wastewater treatment facilities under the EPA's Part 503 biosolids rule, which is relevant to understanding federal regulatory requirements and potential permitting for wastewater treatment lagoons, especially for larger facilities.",
+          "confidence": 0.6
+        }
+      },
+      {
+        "node_id": "831a750d-f565-4833-b375-9fc55aa996e9",
+        "parent_id": null,
+        "score": 0.5760895,
+        "text": "Golden, J.B. (1996). “An Introduction to Sanitary Sewer Overflows.” National Conference in Sanitary Sewer Overflows, Seminar Publication, EPA/625/R-96/007, EPA, Washington, D.C.\n\nHarmon, W. G. (1918). “Forecasting Sewage at Toledo under Dry-Weather Conditions.” *Engineering New Records*, 80, 1233.\n\nHealth Education Service (HES). (1997). Recommended Standards for Wastewater Facilities. A Report of Committee of the Great Lakes - Upper Mississippi River, Board of State and Provincial Public Health and Environmental Managers, Albany, NY 12224. www.hes.org.\n\nHuber, W.C., and Dickinson, R.E. (1988). Storm Water Management Model Version 4, User’s Manual, EPA/600/3 88/001a (NTIS PB88 236641/AS), EPA, Athens, GA.\n\nJenq, K., Bagstad, M.J., and Chang, J. (1996). “New Collection System Modeling Techniques Used in Houston.” National Conference in Sanitary Sewer Overflows, Seminar Publication, EPA/625/R-96/007, EPA, Washington, D.C.\n\nLai, F.-h., Field, R., Fan, C.-Y., and Sullivan, D. (2000). Collection System Modeling for Planning/Design of Sanitary Sewer Overflow (SSO) Control, *Proceedings of the 2000 Joint Conference on Water Resources Engineering and Water Resources Planning & Management*, Minneapolis, MN, August.\n\nLai, F.-h., Claytor, R, and Field, R. (2001). “Planning for SSO Control: Henrico County, VA- Case Study.” Proceedings of the World Water and Environmental Resources Congress, May 20-24, Orlando, FL.\n\nLai, F.-h. and Field, R. (2002). “USEPA Research on Infiltration/Inflow Control.” *Proceedings of the WEF 2001 Collection System Odyssey*, Bellevue, WA, July 8-11.\n\nMauro, J. T. (2001). “Review of Design Standards and Criteria for Sizing Sanitary Sewers.” Proceedings of 2001 A Collection Systems Odyssey: Combining Wet Weather Solutions, July 8-11, Bellevue, WA.\n\nMetcalf and Eddy. (1928). American Sewerage Practice. Vol.1 Design of Sewers, 2nd Edition, MaCraw-Hill Book Company.\n\nMiles, S.W., Dorn, J.L., and Tarker, R.E. (1996). “An I/I Analysis and Prediction Method to Help Guide Separate Sanitary Sewer Improvement Programs.” In Urban Wet weather Pollution: Controlling Sewer Overflows and Stormwater Runoff. Water Environment Federation, Alexandria, VA.\n\nNational Council on Public Works Improvement (NCPWI). (1988). Fragile Foundations: A Report on\n\n---\n\nAmerica's Public Works, Final Report to the President and Congress. Washington, D.C.\n\nNew England Interstate Water Pollution Control Commission (NEIWPCC). (1998). Guides for the Design of Wastewater Treatment Works, Technical Report #16\n\nParsons Engineering Science, Inc. (2000). Review of Design Standards/Criteria for Sizing Sanitary Sewers: New Installation and Rehabilitation Efforts. A draft report prepared for USEPA Office of Water, personal communication with Joseph Mauro.\n\nRawn, A.M. (1936). “What Cost Leaking Manholes.” Water Works and Sewerage, December.\n\nRoesner, L.A., Aldrich, J.A., and Dickinson, R.E. (1988). Storm Water Management Model User’s Manual, Version 4: Extram Addendum, EPA/600/3-88/001b (NTIS PB 88-236658/AS), EPA, Athens, GA.\n\nSchladweiler, J. C. (2001). “Tracking Down the Roots of Our Sanitary Sewers.” Proceedings of 2001 A Collection Systems Odyssey: Integrating O&M and Wet Weather Solutions, Water Environment Federation, Bellevue, WA, July 8-11.\n\nSchultz, N., Wood, D., Adderly, V., and Bennet, D. (2001). “RDII Quantification Research Results.” Proceedings of the World Water and Environmental Resources Congress, May 20-24, Orlando, FL.\n\nU.S. Environmental Protection Agency (EPA). (1991). Handbook, Sewer System Infrastructure Analysis and Rehabilitation, Report No.",
+        "metadata": {
+          "file_name": "EPA_Infiltration_Inflow_Review.pdf",
+          "file_path": "EPA_Infiltration_Inflow_Review.pdf",
+          "page": 28,
+          "section": null,
+          "breadcrumbs": null,
+          "index": "federal",
+          "document_title": "EPA Infiltration Inflow Review",
+          "author": null,
+          "publisher": "EPA"
+        },
+        "spore": {
+          "reason": "The source lists the 'Recommended Standards for Wastewater Facilities' (commonly known as 'Ten State Standards'), which are widely referenced guidance documents for wastewater lagoon design and are often recommended or required by state and federal regulations, supporting the answer regarding required guidance documents.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "34de3cc5-43f4-4f0b-a4d2-db4a09fa7a83",
+        "parent_id": null,
+        "score": 0.5303587,
+        "text": "# References\n\nArbour, R. and K. Kerri. (1998). Collection Systems: Methods for Evaluating and Improving Performance, California State University - Sacramento, USEPA Grant No. CX924908-01-0.\n\nAmerican Society of Civil Engineers (ASCE). (1962). Design and Construction of Sanitary and Storm Sewers, Manuals and Reports on Engineering Practice - No. 37.\n\nAmerican Society of Civil Engineers (ASCE). (1982). Gravity Sanitary Sewer Design and Construction, Manuals and Reports on Engineering Practice - No. 60.\n\nAmerican Society of Civil Engineers. (1994). Federal Infrastructure Research & Development Technology Transfer: Meeting State and Local Public Works Needs, Civil Engineering Research Foundation.\n\nBabbitt, H.E. (1947). Sewerage and Sewage Treatment, 6th Edition, John Wiley & Sons, Inc.\n\nBennet, D., Rowe, R., Strum, M., Wood, D. (1999). Using Flow Prediction Technologies to Control Sanitary Sewer Overflows, Water Environment Research Foundation (WERF), Project 97-CTS-8.\n\nBlack & Veatch. (1999). Optimization of Collection System Maintenance Frequencies and System Performance, ASCE, EPA Cooperative Agreement #CX 824902-01-0.\n\nCamp Dresser & McKee Inc. (CDM), F.E. Jordan Associates, Inc., James M. Montgomery, Consulting Engineers. (1985). East Bay Infiltration/Inflow Study Manual for Cost-Effectiveness Analysis. East Bay Municipal Utility District (EBMUD), Oakland, CA.\n\nCesareo, D. J., and Field, R. (1975). “Infiltration-Inflow Analysis.” *Journal of the Environmental Engineering Division*, ASCE, Vol. 101, No. EE5, Proc. Paper 11645, 775-785.\n\nCrawford, D., Eckley, P., and Pier, E. (1999). “Methods for Estimating Inflow and Infiltration into Sanitary Sewers.” In James, W. (ed.). *New Applications in Modeling Urban Water Systems*, Monograph 7, CHI, Guelph, Ontario, Canada.\n\nFan, C., Field, R., and Lai, F-h. (2003). \"Sewer-Sediment Control: Overview of an EPA Wet-Weather Flow Research Program.\" Published in a special issue \"Hydraulics of Sediment Movement in Urban Drainage Systems\" of the *ASCE Journal of Hydraulic Engineering*. 129(4): 253-259, May.\n\nFan, C.-Y., Field, R., Lai, F.h., and Sullivan, D. (2000). “Sewer-Sediment Control: Overview of an EPA Wet-Weather Flow (WWF) Research Program,” Proceedings of the 2000 Joint Conference on Water Resources Engineering and Water Resources Planning & Management, Minneapolis, MN, August.\n\nFan, C.-Y., Field, R., Pisano, W. C., Barsanti, J., Joyce, J.J., and Sorenson, H. (2001). “Sewer and Tank\n\n---\n\nFlushing for Corrosion and Pollution Control” Published in a special issue “Mini-Symposium on Urban Drainage” of the *ASCE Journal of Water Resources Planning and Management*, 127(3): 194-201.\n\nField, R., and E.J. Struzeski, Jr. (1972). “Management and Control of Combined Sewer Overflows,” *Journal of the Water Pollution Control Federation*, Vol. 44(7), p. 1393-1415, July.\n\nGiguere, P.R. and Riek, G.C. (1983). “Infiltration/Inflow Modeling the East Bay (Oakland-Berkeley Area) I/I Study.” Proceedings of the 1983 International Symposium on Urban Hydrology, Hydraulics and Sediment Control., University of Kentucky, Lexington, KY, July 25-28.\n\nGolden, J.B. (1996). “An Introduction to Sanitary Sewer Overflows.” National Conference in Sanitary Sewer Overflows, Seminar Publication, EPA/625/R-96/007, EPA, Washington, D.C.\n\nHarmon, W. G. (1918). “Forecasting Sewage at Toledo under Dry-Weather Conditions.” *Engineering New Records*, 80, 1233.\n\nHealth Education Service (HES). (1997). Recommended Standards for Wastewater Facilities.",
+        "metadata": {
+          "file_name": "EPA_Infiltration_Inflow_Review.pdf",
+          "file_path": "EPA_Infiltration_Inflow_Review.pdf",
+          "page": 27,
+          "section": "References",
+          "breadcrumbs": null,
+          "index": "federal",
+          "document_title": "EPA Infiltration Inflow Review",
+          "author": null,
+          "publisher": "EPA"
+        },
+        "spore": {
+          "reason": "This node lists reference documents related to the design and construction of sanitary and storm sewers, which are relevant to the engineering standards and guidance documents that may be recommended or required by state and federal regulations for wastewater treatment lagoon design.",
+          "confidence": 0.6
+        }
+      },
+      {
+        "node_id": "9d70d859-7c49-40dd-b2e1-aa86b47d0a98",
+        "parent_id": null,
+        "score": 0.48206395,
+        "text": "# Notice\n\nThe U.S. Environmental Protection Agency (EPA) through its Office of Research and Development performed and managed the research described here. It has been subjected to the Agency’s peer and administrative review and has been approved for publication as an EPA document. Any opinions expressed in this report are those of the authors and do not, necessarily, reflect the official positions and policies of the EPA. Any mention of products or trade names does not constitute recommendation for use by the EPA.\n\n---",
+        "metadata": {
+          "file_name": "EPA_Infiltration_Inflow_Review.pdf",
+          "file_path": "EPA_Infiltration_Inflow_Review.pdf",
+          "page": 3,
+          "section": "Notice",
+          "breadcrumbs": null,
+          "index": "federal",
+          "document_title": "EPA Infiltration Inflow Review",
+          "author": null,
+          "publisher": "EPA"
+        },
+        "spore": {
+          "reason": "This node provides information about the EPA's involvement in research and publication of guidance documents, which supports the relevance of federal guidance in wastewater treatment lagoon design, but it does not directly specify the required documents or permits for Washington State or federal regulations.",
+          "confidence": 0.3
+        }
+      },
+      {
+        "node_id": "36b42bc7-fae7-44ee-8c1a-1f80dfc6902b",
+        "parent_id": null,
+        "score": 0.47431523,
+        "text": "Section 2.3.1.5 of this manual and EPA’s Sanitary Sewer Overflows Website provide more information on SSOs.\n\n----\n\n1. U.S. Environmental Protection Agency. 1999. *Toxicity Reduction Evaluation Guidance for Municipal Wastewater Treatment Plants*. EPA/833B-99/002. U.S. Environmental Protection Agency, Office of Wastewater Management, Washington, DC. [<](http://www.epa.gov/npdes/sso/ssotoolbox)www.epa.gov/npdes/pubs/tre.pdf>.\n\n2. U.S. Environmental Protection Agency. 2001. Clarifications Regarding Toxicity Reduction and Identification Evaluations in the National Pollutant Discharge Elimination System Program. U.S. Environmental Protection Agency, Office of Wastewater Management and Office of Regulatory Enforcement, Washington, DC. [<](http://www.epa.gov/npdes/sso)www.epa.gov/npdes/pubs/owmfinaltretie.pdf>.\n\n3. U.S. Environmental Protection Agency. 1989. *Generalized Methodology for Conducting Industrial Toxicity Reduction Evaluations (TREs)*. EPA-600/2-88-070. U.S. Environmental Protection Agency, Water Engineering Research Laboratory, Cincinnati, OH. Publication available on NEPIS Website [<](http://www.epa.gov/npdes/pubs/tre.pdf)www.epa.gov/nscep/> as document 600288070.\n\n4. U.S. Environmental Protection Agency. 1991. *Methods for Aquatic Toxicity Identification Evaluations: Phase I Toxicity Characterization Procedures. Second Edition*. EPA-600/6-91-003. U.S. Environmental Protection Agency, Office of Research and Development, Washington, DC. [<](http://www.epa.gov/npdes/pubs/owmfinaltretie.pdf)www.epa.gov/npdes/pubs/owm0330.pdf>.\n\n5. U.S. Environmental Protection Agency. 1992. *Toxicity Identification Evaluation: Characterization of Chronically Toxic Effluents, Phase I*. EPA-600/6-91-005F. U.S. Environmental Protection Agency, Environmental Research Laboratory, Duluth, MN. [<]([http://www.epa.gov/nscep/](http://www.epa.gov/nscep/))www.epa.gov/npdes/pubs/owm0255.pdf>.\n\n6. U.S. Environmental Protection Agency. 1993. *Methods for Aquatic Toxicity Identification Evaluations: Phase II Toxicity Identification Procedures for Samples Exhibiting Acute and Chronic Toxicity*. EPA-600/R-92-080. U.S. Environmental Protection Agency, Environmental Research Laboratory, Duluth, MN. [<](http://www.epa.gov/npdes/pubs/owm0330.pdf)www.epa.gov/npdes/pubs/owm0343.pdf>.\n\n7. U.S. Environmental Protection Agency. 1993. *Methods for Aquatic Toxicity Identification Evaluations: Phase III Confirmation Procedures for Samples Exhibiting Acute and Chronic Toxicity*. EPA-600/R-92-081. U.S. Environmental Protection Agency, Environmental Research Laboratory, Duluth, MN. [<](http://www.epa.gov/npdes/pubs/owm0255.pdf)www.epa.gov/npdes/pubs/owm0341.pdf>.\n\n8. U.S. Environmental Protection Agency. 1995. *Great Lakes Water Quality Initiative Technical Support Document for the Procedure to Determine Bioaccumulation Factors*. EPA-820/B-95-005. U.S.",
+        "metadata": {
+          "file_name": "2010_EPA_Permit_Writers_Manual.pdf",
+          "file_path": "2010_EPA_Permit_Writers_Manual.pdf",
+          "page": 202,
+          "section": null,
+          "breadcrumbs": null,
+          "index": "federal",
+          "document_title": "2010 EPA Permit Writers Manual",
+          "author": null,
+          "publisher": "WA Ecology"
+        },
+        "spore": {
+          "reason": "The node references EPA guidance documents relevant to municipal wastewater treatment plants, which are often required or recommended by federal regulations in the design and permitting of wastewater treatment lagoons. These documents support compliance with federal permitting processes such as NPDES, which is necessary for constructing and operating such facilities.",
+          "confidence": 0.8
+        }
+      },
+      {
+        "node_id": "f5dd18e8-5412-4374-9de5-3742af739959",
+        "parent_id": null,
+        "score": 0.38498205,
+        "text": "## Dewatering\n\nJim Smith (513) 569-7355",
+        "metadata": {
+          "file_name": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "file_path": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "page": 28,
+          "section": "Dewatering",
+          "breadcrumbs": null,
+          "index": "federal",
+          "document_title": "EPA Guide Part503 Biosolids Rule",
+          "author": null,
+          "publisher": "WA Ecology"
+        },
+        "spore": {
+          "reason": "The provided text from the source only mentions 'Dewatering' and a contact name, without referencing any guidance documents, regulations, or permits related to the design or construction of wastewater treatment lagoons. Therefore, it does not help answer the question.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "bf7b6089-1fed-446e-8546-b9e90e52a7b8",
+        "parent_id": null,
+        "score": 0.38248792,
+        "text": "## Reporting Requirements for Biosolids Incineration\n\nAll Class 1 treatment works, treatment works serving a population of 10,000 or more, and treatment works with a 1 mgd or greater design flow, as described in the first chapter of this guidance, have to report the type of information contained in Table 4-7 every February 19th to the permitting authority.\n\n---",
+        "metadata": {
+          "file_name": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "file_path": "EPA_Guide_Part503_Biosolids_Rule.pdf",
+          "page": 112,
+          "section": "Reporting Requirements for Biosolids Incineration",
+          "breadcrumbs": null,
+          "index": "federal",
+          "document_title": "EPA Guide Part503 Biosolids Rule",
+          "author": null,
+          "publisher": "WA Ecology"
+        },
+        "spore": {
+          "reason": "This node discusses federal reporting requirements for certain wastewater treatment works under the EPA's biosolids regulations, which is relevant to federal regulatory guidance and permitting for wastewater treatment facilities, but it does not directly address Washington state-specific guidance documents or permits for lagoon design.",
+          "confidence": 0.4
+        }
+      }
+    ],
+    "spore": {
+      "summary": "The selected sources provide federal regulatory context for wastewater treatment lagoon design and permitting, referencing EPA biosolids rules, engineering requirements, and permit guidance. They collectively address both technical design standards and the permitting process, which are relevant to the requirements outlined in Washington State regulations and federal guidance.",
+      "rationale_bullets": [
+        "EPA_Guide_Part503_Biosolids_Rule.pdf pages cover federal biosolids management, which is integral to lagoon design and operation compliance.",
+        "Multiple pages from the EPA biosolids guide address engineering, operational, and permitting considerations, aligning with the requirements in WAC 173-240 and related Washington State guidance.",
+        "EPA_Infiltration_Inflow_Review.pdf provides context on system design and inflow/infiltration issues, relevant to lagoon planning and regulatory compliance.",
+        "2010_EPA_Permit_Writers_Manual.pdf offers direct insight into the permitting process for wastewater facilities, supporting the identification of required permits such as NPDES, SEPA, and NEPA."
+      ],
+      "confidence": 0.85
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir:*)",
+      "Bash(python -m poetry install:*)",
+      "Bash(pip install:*)",
+      "Bash(wsl poetry run caliper_v2 query \"What are BOD limits?\" --index federal)",
+      "Bash(wsl poetry run python:*)",
+      "Bash(wsl poetry run caliper_v2 agent \"What are the BOD limits?\" --indexes federal --verbose)",
+      "Bash(wsl poetry run caliper_v2 agent \"What are the BOD limits?\" --indexes federal)",
+      "Bash(wsl poetry run caliper_v2 ingest test_docs/federal --index federal --persist)",
+      "Bash(wsl poetry run caliper_v2 ingest test_docs/federal --index federal_test --persist)",
+      "Bash(wsl poetry run caliper_v2 query:*)",
+      "Bash(wsl cat .env)",
+      "Bash(wsl ls:*)",
+      "Bash(wsl find knowledge_base/01_federal_regulations -name \"*.pdf\" -o -name \"*.txt\")",
+      "Bash(wsl poetry run caliper_v2 ingest knowledge_base/01_federal_regulations --index federal_prod --persist)",
+      "Bash(GOOGLE_APPLICATION_CREDENTIALS=/mnt/c/dev/caliper/google-credentials.json wsl poetry run caliper_v2 query \"What are BOD limits?\" --index federal --llm-provider gemini --llm-model gemini-1.5-flash)",
+      "Bash(wsl bash:*)",
+      "Bash(poetry run caliper_v2:*)"
+    ],
+    "deny": []
+  }
+}

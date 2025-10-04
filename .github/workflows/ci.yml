@@ -1,0 +1,198 @@
+name: CI Pipeline
+
+on:
+  push:
+    branches: [ master, main, develop, cohere-support ]
+  pull_request:
+    branches: [ master, main ]
+
+env:
+  PYTHON_VERSION: "3.12"
+  CALIPER_BASE_DIR: ${{ github.workspace }}/tmp_caliper
+
+jobs:
+  test:
+    name: Test and Coverage
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Cache Poetry installation
+      uses: actions/cache@v4
+      with:
+        path: |
+          ~/.local/share/pypoetry
+          ~/.cache/pypoetry
+        key: poetry-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
+        restore-keys: |
+          poetry-${{ runner.os }}-
+
+    - name: Install Poetry
+      uses: snok/install-poetry@v1
+      with:
+        version: latest
+        virtualenvs-create: true
+        virtualenvs-in-project: true
+
+    - name: Cache dependencies
+      uses: actions/cache@v4
+      with:
+        path: .venv
+        key: venv-${{ runner.os }}-${{ hashFiles('**/poetry.lock') }}
+        restore-keys: |
+          venv-${{ runner.os }}-
+
+    - name: Install dependencies
+      run: |
+        poetry install --with dev,local_embeddings,heavy
+
+    - name: Create test directories
+      run: |
+        mkdir -p $CALIPER_BASE_DIR/logs $CALIPER_BASE_DIR/outputs $CALIPER_BASE_DIR/data
+
+    - name: Run tests with coverage
+      run: |
+        poetry run pytest tests/ \
+          --cov=src/caliper \
+          --cov-branch \
+          --cov-report=xml \
+          --cov-report=term-missing \
+          --junit-xml=test-results.xml \
+          -v \
+          --tb=short \
+          --timeout=60
+
+    - name: Upload coverage to Codecov
+      uses: codecov/codecov-action@v4
+      if: always()
+      with:
+        file: ./coverage.xml
+        flags: unittests
+        name: codecov-umbrella
+        fail_ci_if_error: false
+
+    - name: Upload test results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: test-results
+        path: |
+          test-results.xml
+          coverage.xml
+          htmlcov/
+
+  mutation:
+    name: Mutation Testing
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    needs: test
+    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up Python
+      uses: actions/setup-python@v5
+      with:
+        python-version: ${{ env.PYTHON_VERSION }}
+
+    - name: Install Poetry
+      uses: snok/install-poetry@v1
+      with:
+        version: latest
+        virtualenvs-create: true
+        virtualenvs-in-project: true
+
+    - name: Install dependencies
+      run: |
+        poetry install --with dev,local_embeddings,heavy
+        poetry add mutmut
+
+    - name: Run mutation tests (core modules only)
+      run: |
+        poetry run mutmut run \
+          --paths-to-mutate=src/caliper/utils/file_ops.py,src/caliper/core/config.py \
+          --tests-dir=tests/ \
+          --runner="poetry run pytest -x --tb=no -q" \
+          --timeout=300
+      continue-on-error: true
+
+    - name: Generate mutation report
+      run: |
+        poetry run mutmut results > mutation-report.txt
+        poetry run mutmut show > mutation-details.txt
+      continue-on-error: true
+
+    - name: Upload mutation results
+      uses: actions/upload-artifact@v4
+      if: always()
+      with:
+        name: mutation-results
+        path: |
+          mutation-report.txt
+          mutation-details.txt
+
+  badges:
+    name: Update Badges
+    runs-on: ubuntu-latest
+    needs: [test, mutation]
+    if: always() && github.event_name == 'push' && github.ref == 'refs/heads/master'
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Download test artifacts
+      uses: actions/download-artifact@v4
+      with:
+        name: test-results
+
+    - name: Extract coverage percentage
+      id: coverage
+      run: |
+        if [ -f coverage.xml ]; then
+          COVERAGE=$(python -c "
+          import xml.etree.ElementTree as ET
+          try:
+              tree = ET.parse('coverage.xml')
+              root = tree.getroot()
+              coverage = root.attrib.get('line-rate', '0')
+              print(f'{float(coverage)*100:.1f}')
+          except:
+              print('0.0')
+          ")
+          echo "percentage=$COVERAGE" >> $GITHUB_OUTPUT
+        else
+          echo "percentage=0.0" >> $GITHUB_OUTPUT
+        fi
+
+    - name: Create coverage badge
+      uses: schneegans/dynamic-badges-action@v1.7.0
+      with:
+        auth: ${{ secrets.GITHUB_TOKEN }}
+        gistID: ${{ secrets.GIST_ID }}
+        filename: caliper-coverage.json
+        label: Coverage
+        message: ${{ steps.coverage.outputs.percentage }}%
+        color: ${{ steps.coverage.outputs.percentage > 60 && 'green' || steps.coverage.outputs.percentage > 40 && 'yellow' || 'red' }}
+
+    - name: Create build badge
+      uses: schneegans/dynamic-badges-action@v1.7.0
+      with:
+        auth: ${{ secrets.GITHUB_TOKEN }}
+        gistID: ${{ secrets.GIST_ID }}
+        filename: caliper-build.json
+        label: Build
+        message: ${{ needs.test.result == 'success' && 'passing' || 'failing' }}
+        color: ${{ needs.test.result == 'success' && 'green' || 'red' }}

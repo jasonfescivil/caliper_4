@@ -1,0 +1,34 @@
+# Cline context hygiene
+# Ignore large or generated artifacts to keep context focused and fast.
+# Adjust as needed.
+
+# Python caches & envs
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node/JS
+node_modules/
+**/node_modules/
+
+# Build / coverage
+build/
+dist/
+coverage/
+
+# Editor/OS
+.DS_Store
+Thumbs.db
+
+# Data artifacts (keep indexes, not source docs)
+data_v2/indexes/
+outputs/
+
+# Secrets
+.env
+google-credentials.json
+
+# Large binaries
+*.pdf
+*.docx

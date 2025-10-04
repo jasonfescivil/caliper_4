@@ -1,0 +1,58 @@
+services:
+  # Service for the Weaviate vector database
+  weaviate:
+    image: semitechnologies/weaviate:1.24.1 # Use a specific, recent Weaviate version
+    ports:
+      - "8080:8080" # Expose Weaviate REST API port to host
+      - "50051:50051" # Expose Weaviate gRPC port (optional, depends on client)
+    volumes:
+      - weaviate_data:/var/lib/weaviate # Persist Weaviate data using a named volume
+    restart: on-failure:0 # Or 'unless-stopped'
+    environment:
+      QUERY_DEFAULTS_LIMIT: 25
+      AUTHENTICATION_ANONYMOUS_ACCESS_ENABLED: 'true' # For easy local dev setup
+      PERSISTENCE_DATA_PATH: '/var/lib/weaviate'
+      DEFAULT_VECTORIZER_MODULE: 'none' # Crucial: Embeddings done in Python app
+      ENABLE_MODULES: '' # No modules needed if embedding externally
+      CLUSTER_HOSTNAME: 'node1' # Default setting
+
+  # Unified Caliper application service (CLI + UI)
+  app:
+    image: ghcr.io/jasonfescivil/caliper:latest # Pull the pre-built image from GHCR
+    depends_on:
+      - weaviate # Ensure Weaviate is started before the app
+    ports:
+      - "8050:8050"  # Dash UI port (can be started on demand)
+    volumes:
+      # Core application directories
+      - ./src:/app/src
+      - ./tests:/app/tests
+      - ./prompts:/app/prompts:ro
+      - ./docs:/app/docs:ro
+      - ./knowledge_base:/app/knowledge_base:ro
+      - ./outputs:/app/outputs
+      # Configuration files
+      - ./.env:/app/.env:ro
+      - ./google-credentials.json:/app/google-credentials.json:ro
+      # Simplified config directory mount (for future use)
+      - ./configs:/app/configs:ro
+    environment:
+      # Pass environment variables needed by the application
+      - LOG_LEVEL=${LOG_LEVEL:-INFO} # Use LOG_LEVEL from host env/.env file, default to INFO
+      - WEAVIATE_URL=http://weaviate:8080 # App connects to weaviate using its service name
+      - OPENAI_API_KEY=${OPENAI_API_KEY} # Example: Pass API keys from host env/.env
+      - DEFAULT_PROVIDER=google # Explicitly set default provider
+      - GOOGLE_APPLICATION_CREDENTIALS=/app/google-credentials.json
+      # Add any other necessary env vars
+    tty: true           # Allocate a pseudo-TTY
+    stdin_open: true    # Keep STDIN open. Allows interaction with the CLI inside the container
+    # Override the ENTRYPOINT defined in the Dockerfile (if any)
+    entrypoint: ""
+    # Run this command instead of the original ENTRYPOINT/CMD to keep container alive for 'exec'
+    # Use 'docker compose exec app poetry run caliper ...' for CLI commands
+    # Use 'docker compose exec app poetry run python src/caliper_v2/ui_dash/app.py' for Dash UI (runs on port 8050)
+    command: tail -f /dev/null
+
+# Named volume for Weaviate data persistence
+volumes:
+  weaviate_data:

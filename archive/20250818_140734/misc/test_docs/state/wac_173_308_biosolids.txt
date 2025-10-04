@@ -1,0 +1,43 @@
+Washington Administrative Code
+Chapter 173-308 WAC - Biosolids Management
+
+WAC 173-308-160 - Biosolids pollutant limits
+
+(1) Biosolids sold or given away in a bag or other container or biosolids that are land applied must meet:
+(a) Ceiling concentration limits in Table 1; and
+(b) One of the following:
+    (i) Table 3 pollutant concentration limits; or
+    (ii) Cumulative pollutant loading rates in Table 2 and annual pollutant loading rates in Table 4.
+
+Table 1 - Ceiling Concentration Limits (same as federal)
+Table 3 - Pollutant Concentration Limits
+Pollutant | Monthly average (mg/kg dry weight)
+Arsenic | 41
+Cadmium | 39
+Copper | 1,500
+Lead | 300
+Mercury | 17
+Nickel | 420
+Selenium | 36
+Zinc | 2,800
+
+WAC 173-308-170 - Pathogen reduction
+
+(1) All biosolids that are land applied must be treated by a process to significantly reduce pathogens (PSRP) or a process to further reduce pathogens (PFRP).
+
+(2) Class A biosolids - Pathogen density requirements
+(a) The density of fecal coliform must be less than 1,000 MPN per gram of total solids (dry weight), or
+(b) The density of Salmonella sp. bacteria must be less than 3 MPN per 4 grams of total solids (dry weight).
+
+(3) Class B biosolids - Pathogen density requirements
+The density of fecal coliform must be less than 2,000,000 MPN per gram or CFU per gram of total solids (dry weight).
+
+WAC 173-308-210 - Sampling and analysis
+
+(1) Representative samples - Samples must be collected and analyzed in accordance with the methods referenced in WAC 173-308-120.
+
+(2) Frequency of monitoring
+(a) Facilities that prepare less than 290 dry metric tons per year must monitor at least once per year.
+(b) Facilities that prepare 290 to 1,500 dry metric tons per year must monitor at least once per quarter.
+(c) Facilities that prepare 1,500 to 15,000 dry metric tons per year must monitor at least once per 60 days.
+(d) Facilities that prepare 15,000 dry metric tons or more per year must monitor at least once per month.

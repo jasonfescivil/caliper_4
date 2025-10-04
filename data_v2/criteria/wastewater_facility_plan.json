@@ -1,0 +1,118 @@
+{
+  "focus_areas": [
+    "Compliance with WAC 173-240-060 requirements",
+    "Adequacy of flow and loading projections",
+    "Completeness of alternatives analysis",
+    "Clarity of cost estimates and funding strategy",
+    "Appropriateness of selected treatment technology",
+    "Compliance with water quality standards",
+    "Adequacy of operation and maintenance planning"
+  ],
+  "required_sections": [
+    "Executive Summary",
+    "Project Background and Description",
+    "Planning Considerations",
+    "Flow and Loading Analysis",
+    "Existing Facility Evaluation",
+    "Future Conditions and Facility Needs",
+    "Alternatives Analysis",
+    "Recommended Alternative",
+    "Implementation Plan",
+    "Financial Analysis",
+    "Operation and Maintenance Requirements",
+    "Environmental Review"
+  ],
+  "required_topics": [
+    "Service area description and population projections",
+    "Regulatory requirements and permits",
+    "Infiltration and inflow analysis",
+    "Wastewater characterization",
+    "Receiving water quality standards",
+    "Treatment process design criteria",
+    "Hydraulic profile",
+    "Solids handling and disposal",
+    "Cost estimates (capital and O&M)",
+    "Implementation schedule",
+    "Funding strategy",
+    "Environmental impacts"
+  ],
+  "citation_requirements": [
+    "All regulatory requirements must cite specific WAC/RCW sections",
+    "Population projections must cite official sources (OFM, Census)",
+    "Design criteria must reference accepted standards (Ten States, WEF, etc.)",
+    "Water quality data must cite monitoring reports or studies",
+    "Cost estimates must reference source of unit costs"
+  ],
+  "technical_requirements": [
+    "Flow projections must include average, maximum month, and peak",
+    "Loading projections must include BOD, TSS, and nutrients if applicable",
+    "Alternatives analysis must include lifecycle cost analysis",
+    "Present worth calculations must use current discount rates",
+    "Design criteria must meet reliability standards",
+    "Treatment process must achieve required effluent quality"
+  ],
+  "style_requirements": [
+    "Define all acronyms on first use",
+    "Use consistent units throughout (MGD for flow, mg/L for concentrations)",
+    "Include tables for numerical data",
+    "Include figures for process flow diagrams",
+    "Use active voice for recommendations",
+    "Clearly distinguish between existing and proposed facilities"
+  ],
+  "custom_patterns": [
+    {
+      "name": "design_period",
+      "pattern": "design period|planning horizon|20[- ]year",
+      "required": true,
+      "severity": "high"
+    },
+    {
+      "name": "flow_projections",
+      "pattern": "average daily flow|maximum month|peak hour|peaking factor",
+      "required": true,
+      "severity": "high"
+    },
+    {
+      "name": "loading_projections",
+      "pattern": "BOD|TSS|nitrogen|phosphorus|loading",
+      "required": true,
+      "severity": "high"
+    },
+    {
+      "name": "alternatives_analysis",
+      "pattern": "alternatives|options|evaluation criteria",
+      "required": true,
+      "severity": "high"
+    },
+    {
+      "name": "lifecycle_cost",
+      "pattern": "present worth|lifecycle cost|annual cost",
+      "required": true,
+      "severity": "medium"
+    },
+    {
+      "name": "regulatory_compliance",
+      "pattern": "effluent limits|water quality standards|NPDES",
+      "required": true,
+      "severity": "high"
+    },
+    {
+      "name": "implementation_schedule",
+      "pattern": "schedule|timeline|phasing",
+      "required": true,
+      "severity": "medium"
+    },
+    {
+      "name": "funding_strategy",
+      "pattern": "funding|financing|rates|fees",
+      "required": true,
+      "severity": "medium"
+    },
+    {
+      "name": "environmental_review",
+      "pattern": "SEPA|environmental assessment|impacts",
+      "required": true,
+      "severity": "high"
+    }
+  ]
+}

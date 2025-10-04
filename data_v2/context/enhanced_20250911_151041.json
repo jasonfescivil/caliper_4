@@ -1,0 +1,217 @@
+{
+  "type": "enhanced_retrieval",
+  "version": 1,
+  "created_at": "2025-09-11T21:22:34Z",
+  "source_file": "data_v2\\context\\20250911T212556Z_Task.json",
+  "question": "Identify and retrieve the governing requirements and definitions for Washington State wastewater facility planning and design relevant to AKART and feasibility plan or Engineering Report (G1) expectations. Focus on: \n\n- Required contents of an Engineering Report (e.g., G1)\n- Definitions and use of design flows (ADWF, PDWF, peaking factors; any recommended percentile choices)\n- Any Ecology/WA guidance that informs AKART compliance and design criteria\n- Cross-references to WAC 173-240-050 / -060 / -070 and Ecology \"AKART\" guidance\n\nThe goal is to surface the correct sections/pages across WAC, Ecology guidance, and the `design_standards` corpus, not to compute numbers.",
+  "indexes": [
+    "federal",
+    "state",
+    "design_standards"
+  ],
+  "search_mode": "hybrid",
+  "requested_top_k": 16,
+  "final_kept": 16,
+  "diagnostics": {
+    "per_index_counts": {
+      "unknown": 16
+    },
+    "per_source_counts": {
+      "WAC_173-240_Wastewater_Submission_Plans.pdf": 6,
+      "DOE_Orange_Book_Design_Standards.pdf": 4,
+      "EPA_Infiltration_Inflow_Review.pdf": 3,
+      "EPA_Sanitary_Sewer_Evaluation_9100WGB6.pdf": 2,
+      "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf": 1
+    },
+    "diversity": {
+      "unique_files": 5,
+      "dominance_ratio": 0.375
+    }
+  },
+  "outline": {
+    "sections": [
+      {
+        "id": "S1",
+        "title": "Purpose and Scope",
+        "description": "Section on purpose and scope tailored to: Identify and retrieve the governing requirements and definitions for Washington State wastewater facility planning and d",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+            "page": 3,
+            "section": "WAC 173-240-035 Restrictions—Subsurface disposal systems"
+          },
+          {
+            "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+            "page": 1,
+            "section": "Definitions"
+          }
+        ],
+        "priority": 0.9
+      },
+      {
+        "id": "S2",
+        "title": "Regulatory Framework and Citations",
+        "description": "Section on regulatory framework and citations tailored to: Identify and retrieve the governing requirements and definitions for Washington State wastewater facility planning and d",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+            "page": 4,
+            "section": "Section (b) through (m)"
+          },
+          {
+            "file": "DOE_Orange_Book_Design_Standards.pdf",
+            "page": 5,
+            "section": "Chapter C2, Sewage Pump Stations"
+          }
+        ],
+        "priority": 0.9
+      },
+      {
+        "id": "S3",
+        "title": "Methodologies for Population Projection",
+        "description": "Section on methodologies for population projection tailored to: Identify and retrieve the governing requirements and definitions for Washington State wastewater facility planning and d",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+            "page": 2,
+            "section": "DOMESTIC WASTEWATER FACILITIES"
+          },
+          {
+            "file": "EPA_Infiltration_Inflow_Review.pdf",
+            "page": 12,
+            "section": null
+          }
+        ],
+        "priority": 0.5
+      },
+      {
+        "id": "S4",
+        "title": "Design Years and Planning Horizon",
+        "description": "Section on design years and planning horizon tailored to: Identify and retrieve the governing requirements and definitions for Washington State wastewater facility planning and d",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+            "page": 7,
+            "section": "WAC 173-240-070 Plans and specifications. (1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility. The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de-"
+          },
+          {
+            "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+            "page": 6,
+            "section": "WAC 173-240-060 Engineering report"
+          }
+        ],
+        "priority": 0.5
+      },
+      {
+        "id": "S5",
+        "title": "Per Capita Flow and Peaking Factors",
+        "description": "Section on per capita flow and peaking factors tailored to: Identify and retrieve the governing requirements and definitions for Washington State wastewater facility planning and d",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "DOE_Orange_Book_Design_Standards.pdf",
+            "page": 45,
+            "section": "Table G1-1. Explanation of Engineering Report Requirements"
+          },
+          {
+            "file": "EPA_Sanitary_Sewer_Evaluation_9100WGB6.pdf",
+            "page": 3,
+            "section": "PHASE II - FIELD INVESTIGATION AND SURVEY"
+          }
+        ],
+        "priority": 0.5
+      },
+      {
+        "id": "S6",
+        "title": "Special Considerations (Seasonal, Institutions, Inflow)",
+        "description": "Section on special considerations (seasonal, institutions, inflow) tailored to: Identify and retrieve the governing requirements and definitions for Washington State wastewater facility planning and d",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+            "page": 44,
+            "section": "Surveys and Investigations"
+          },
+          {
+            "file": "EPA_Sanitary_Sewer_Evaluation_9100WGB6.pdf",
+            "page": 20,
+            "section": "PHASE II - FIELD INVESTIGATION AND SURVEY"
+          }
+        ],
+        "priority": 0.5
+      },
+      {
+        "id": "S7",
+        "title": "Sensitivity and Uncertainty",
+        "description": "Section on sensitivity and uncertainty tailored to: Identify and retrieve the governing requirements and definitions for Washington State wastewater facility planning and d",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "EPA_Infiltration_Inflow_Review.pdf",
+            "page": 29,
+            "section": null
+          },
+          {
+            "file": "DOE_Orange_Book_Design_Standards.pdf",
+            "page": 48,
+            "section": null
+          }
+        ],
+        "priority": 0.5
+      },
+      {
+        "id": "S8",
+        "title": "Documentation, Assumptions, and Citations",
+        "description": "Section on documentation, assumptions, and citations tailored to: Identify and retrieve the governing requirements and definitions for Washington State wastewater facility planning and d",
+        "expected_content": "Summarize retrieved guidance; include numbered citations.",
+        "citations": [
+          {
+            "file": "DOE_Orange_Book_Design_Standards.pdf",
+            "page": 37,
+            "section": "G1-2.6 Submission of Electronic Documents"
+          }
+        ],
+        "priority": 0.5
+      }
+    ]
+  },
+  "gap_analysis": {
+    "topics_missing": [],
+    "coverage_score": 0.625
+  },
+  "suggestions": {
+    "follow_up_retrieves": [
+      "poetry run caliper_v2 retrieve \"Identify and retrieve the governing requirements and definitions for Washington State wastewater facility planning and design relevant to AKART and feasibility plan or Engineering Report (G1) expectations. Focus on: \n\n- Required contents of an Engineering Report (e.g., G1)\n- Definitions and use of design flows (ADWF, PDWF, peaking factors; any recommended percentile choices)\n- Any Ecology/WA guidance that informs AKART compliance and design criteria\n- Cross-references to WAC 173-240-050 / -060 / -070 and Ecology \"AKART\" guidance\n\nThe goal is to surface the correct sections/pages across WAC, Ecology guidance, and the `design_standards` corpus, not to compute numbers. planning horizon and design year definitions\" --indexes federal --cloud --search-mode hybrid --dense-k 12 --sparse-k 12 --alpha 0.5 --top-k 40 --rerank-top-n 24 --out data_v2\\context\\followup_1.json",
+      "poetry run caliper_v2 retrieve \"Identify and retrieve the governing requirements and definitions for Washington State wastewater facility planning and design relevant to AKART and feasibility plan or Engineering Report (G1) expectations. Focus on: \n\n- Required contents of an Engineering Report (e.g., G1)\n- Definitions and use of design flows (ADWF, PDWF, peaking factors; any recommended percentile choices)\n- Any Ecology/WA guidance that informs AKART compliance and design criteria\n- Cross-references to WAC 173-240-050 / -060 / -070 and Ecology \"AKART\" guidance\n\nThe goal is to surface the correct sections/pages across WAC, Ecology guidance, and the `design_standards` corpus, not to compute numbers. per capita flows and peaking factors guidance\" --indexes federal --cloud --search-mode hybrid --dense-k 12 --sparse-k 12 --alpha 0.5 --top-k 40 --rerank-top-n 24 --out data_v2\\context\\followup_2.json",
+      "poetry run caliper_v2 retrieve \"Identify and retrieve the governing requirements and definitions for Washington State wastewater facility planning and design relevant to AKART and feasibility plan or Engineering Report (G1) expectations. Focus on: \n\n- Required contents of an Engineering Report (e.g., G1)\n- Definitions and use of design flows (ADWF, PDWF, peaking factors; any recommended percentile choices)\n- Any Ecology/WA guidance that informs AKART compliance and design criteria\n- Cross-references to WAC 173-240-050 / -060 / -070 and Ecology \"AKART\" guidance\n\nThe goal is to surface the correct sections/pages across WAC, Ecology guidance, and the `design_standards` corpus, not to compute numbers. methodology: cohort trend land-use comparison\" --indexes federal --cloud --search-mode hybrid --dense-k 12 --sparse-k 12 --alpha 0.5 --top-k 50 --rerank-top-n 24 --out data_v2\\context\\followup_3.json"
+    ]
+  },
+  "spore": {
+    "original": {
+      "summary": "These sources were selected to span the full lifecycle of wastewater system planning and design: regulatory submittal requirements (WAC 173-240), state design standards (DOE Orange Book), federal evaluation guidance (EPA), and industry design practice (WEF FD-5). The WAC pages (pp.1–7) establish upstream legal requirements for facility plans and engineering reports, while the Orange Book (pp.5, 45) bridges into design criteria. EPA documents (SSES and I/I, pp.3, 12, 20) provide downstream diagnostic and compliance methods for infiltration/inflow and condition assessment. WEF FD-5 (p.44) supplies detailed gravity sewer design practices that implement the standards in real designs.",
+      "rationale_bullets": [
+        "WAC_173-240_Wastewater_Submission_Plans.pdf (pp.1–7: [2], [5], [1], [3], [8], [7]) defines scope, submittal content, and regulatory thresholds that anchor all planning and report requirements (upstream context).",
+        "DOE_Orange_Book_Design_Standards.pdf (p.5: [4]) provides overarching state design principles that translate regulatory intent into engineering criteria.",
+        "DOE_Orange_Book_Design_Standards.pdf (p.45: [9]) offers detailed sewer design parameters, linking planning mandates to practical design choices (midstream bridge).",
+        "EPA_Sanitary_Sewer_Evaluation_9100WGB6.pdf (pp.3, 20: [10], [12]) outlines SSES program elements and methods, guiding downstream field investigations and compliance verification.",
+        "EPA_Infiltration_Inflow_Review.pdf (p.12: [6]) supplies federal guidance on I/I analysis, thresholds, and corrective action planning (downstream performance assessment).",
+        "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf (p.44: [11]) provides industry best practices for gravity sewer design that operationalize the standards and support remediation designs."
+      ],
+      "confidence": 0.86
+    },
+    "rewritten": {
+      "summary": "These sources were selected to span the full lifecycle of wastewater system planning and design: regulatory submittal requirements (WAC 173-240), state design standards (DOE Orange Book), federal evaluation guidance (EPA), and industry design practice (WEF FD-5). The WAC pages (pp.1–7) establish upstream legal requirements for facility plans and engineering reports, while the Orange Book (pp.5, 45) bridges into design criteria. EPA documents (SSES and I/I, pp.3, 12, 20) provide downstream diagnostic and compliance methods for infiltration/inflow and condition assessment. WEF FD-5 (p.44) supplies detailed gravity sewer design practices that implement the standards in real designs.",
+      "rationale_bullets": [
+        "WAC_173-240_Wastewater_Submission_Plans.pdf (pp.1–7: [2], [5], [1], [3], [8], [7]) defines scope, submittal content, and regulatory thresholds that anchor all planning and report requirements (upstream context).",
+        "DOE_Orange_Book_Design_Standards.pdf (p.5: [4]) provides overarching state design principles that translate regulatory intent into engineering criteria.",
+        "DOE_Orange_Book_Design_Standards.pdf (p.45: [9]) offers detailed sewer design parameters, linking planning mandates to practical design choices (midstream bridge).",
+        "Covers: Purpose and Scope, Regulatory Framework and Citations, Methodologies for Population Projection, Design Years and Planning Horizon, Per Capita Flow and Peaking Factors"
+      ],
+      "confidence": 0.86
+    }
+  }
+}

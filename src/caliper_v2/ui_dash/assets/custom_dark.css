@@ -1,0 +1,134 @@
+/* Caliper Dash UI – Modern Dark Theme Overrides */
+
+/* Global */
+html, body {
+  background-color: #0f1115;
+  color: #e6e6e6;
+}
+
+.container, .container-fluid {
+  padding-top: 12px;
+  padding-bottom: 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #f1f3f5;
+}
+
+/* Cards */
+.card {
+  border-radius: 12px !important;
+  border: 1px solid #2a2f36 !important;
+  background: linear-gradient(180deg, #151a20 0%, #12161b 100%) !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35) !important;
+}
+.card-header {
+  background: transparent !important;
+  border-bottom: 1px solid #2a2f36 !important;
+  color: #e6e6e6 !important;
+}
+
+/* Buttons */
+.btn {
+  border-radius: 10px !important;
+}
+.btn:focus, .btn:active {
+  box-shadow: 0 0 0 0.2rem rgba(13, 110, 253, 0.35) !important; /* primary glow */
+}
+
+/* Inputs and textareas (dcc + dbc) */
+textarea, pre, code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace !important;
+}
+textarea, input[type="text"], input[type="number"], input[type="file"], .form-control, .form-select {
+  color: #e6e6e6 !important;
+  background-color: #0f1318 !important;
+  border: 1px solid #2a2f36 !important;
+}
+textarea::placeholder, input::placeholder {
+  color: #9aa4ad !important;
+}
+.form-control:focus, .form-select:focus, textarea:focus, input[type="text"]:focus, input[type="number"]:focus {
+  border-color: #3b82f6 !important;
+  box-shadow: 0 0 0 0.2rem rgba(59, 130, 246, 0.25) !important;
+}
+
+/* Tabs */
+#tabs {
+  margin-top: 8px;
+}
+#tabs .tab {
+  background: #1c1f24;
+  color: #cfd3da;
+  border: 1px solid #2a2f36;
+  border-bottom: none;
+  padding: 10px 16px;
+  margin-right: 6px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  transition: background 0.2s ease, color 0.2s ease, transform 0.1s ease;
+}
+#tabs .tab:hover {
+  background: #242a31;
+  color: #ffffff;
+}
+#tabs .tab--selected {
+  background: #0d6efd;
+  color: #ffffff;
+  border-color: #0d6efd;
+}
+
+/* Accordion */
+.accordion-item {
+  background-color: transparent !important;
+  border: 1px solid #2a2f36 !important;
+  border-radius: 12px !important;
+}
+.accordion-button {
+  background-color: #151a20 !important;
+  color: #e6e6e6 !important;
+}
+.accordion-button:not(.collapsed) {
+  color: #ffffff !important;
+  background-color: #0d6efd !important;
+}
+.accordion-body {
+  background-color: #12161b !important;
+}
+
+/* Scrollbars (WebKit) */
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-track {
+  background: #13161b;
+}
+*::-webkit-scrollbar-thumb {
+  background: #2b2f36;
+  border-radius: 10px;
+}
+*::-webkit-scrollbar-thumb:hover {
+  background: #3a4048;
+}
+
+/* Links */
+a, a:visited {
+  color: #66b2ff;
+}
+a:hover {
+  color: #93c8ff;
+}
+
+/* Monospace preview areas */
+#ret-command, #ret-logs, #rev-md-preview {
+  background-color: #0f1318 !important;
+  border: 1px solid #2a2f36 !important;
+  color: #e6e6e6 !important;
+  border-radius: 10px !important;
+}
+
+/* Subtle helper text */
+.text-muted, .form-text {
+  color: #9aa4ad !important;
+}

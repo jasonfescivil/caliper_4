@@ -1,0 +1,411 @@
+{
+  "type": "retrieval_session",
+  "version": 1,
+  "created_at": "2025-09-04T01:31:02Z",
+  "question": "﻿Washington State Chapter 4 \"Population, Flow, and Loading Projections\": definitions and formulas for ADWF, MDDF, MWDF, Peak Hour Flow; required tables and columns; Design Year. G1 Engineering Report Plans and Specifications WAC 173-240-050 WAC 173-240-060 WAC 173-240-070 SEPA NEPA SERP G1 General Sewer Plan Engineering Report Plans and Specifications WAC 173-240-050 WAC 173-240-060 WAC 173-240-070 SEPA NEPA SERP G1 Engineering Report Plans and Specifications WAC 173-240-050 WAC 173-240-060 WAC 173-240-070 SEPA NEPA SERP G1 General Sewer Plan Engineering Report Plans and Specifications WAC 173-240-050 WAC 173-240-060 WAC 173-240-070 SEPA NEPA SERP G1 Engineering Report Plans and Specifications WAC 173-240-050 WAC 173-240-060 WAC 173-240-070 SEPA NEPA SERP G1 General Sewer Plan Engineering Report Plans and Specifications WAC 173-240-050 WAC 173-240-060 WAC 173-240-070 SEPA NEPA SERP",
+  "indexes": [
+    "federal",
+    "state",
+    "design_standards"
+  ],
+  "search_mode": "vector",
+  "top_k": 12,
+  "reranker": "cohere,st-mini",
+  "retrieval": {
+    "nodes": [
+      {
+        "node_id": "b2a02d22-1a4a-49f9-b0f9-597e16b2c818",
+        "parent_id": null,
+        "score": 0.7112304,
+        "text": "WSR 00-15-021 (Order 00-09), § 173-240-035, filed 7/11/00, effective 8/11/00. Statutory Authority: Chapters 43.21A and 90.48 RCW. WSR 83-23-063 (Order DE 83-30), § 173-240-030, filed 11/16/83. Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-030, filed 1/23/79. Formerly chapter 372-20 WAC.]\n\n\\n---\\n\n\n# WAC 173-240-040 Review standards\n\n- (1) The department will review general sewer plans, engineering reports, plans and specifications, and operation and maintenance manuals for domestic wastewater facilities to determine whether the proposed facilities will be designed, constructed, operated, and maintained to meet effluent limitations and other requirements of an NPDES or state waste discharge permit, if applicable, and to meet the policies and requirements of chapters 90.48 and 90.54 RCW pertaining to prevention and control of pollution of waters of the state.\n\n- (2) In addition to the above, the department will review documents submitted under this chapter to determine whether they are reasonably consistent with the appropriate sections of the state of Washington, \"Criteria for sewage works design.\" Additional references may include, but are not limited to, the following:\n  - (a) Manuals of Practice, Water Pollution Control Federation.\n  - (b) Manuals of Engineering Practice, American Society of Civil Engineering.\n  - (c) Standard Specifications for Municipal Public Works Construction, American Public Works Association.\n  - (d) Considerations for Preparation of Operation and Maintenance Manuals, United States Environmental Protection Agency.\n  - (e) Process Design Manuals, United States Environmental Protection Agency.\n  - (f) Design Criteria for Mechanical, Electric, and Fluid System and Component Reliability, United States Environmental Protection Agency.\n  - (g) Design Manual: Onsite Wastewater Treatment and Disposal Systems, U.S.E.P.A. October 1980.\n  - (h) Guidelines for Larger On-Site Sewage Disposal Systems, Washington State Department of Social and Health Services and Department of Ecology.\n\n[Statutory Authority: RCW 90.48.110. WSR 00-15-021 (Order 00-09), § 173-240-040, filed 7/11/00, effective 8/11/00. Statutory Authority: Chapters 43.21A and 90.48 RCW. WSR 83-23-063 (Order DE 83-30), § 173-240-040, filed 11/16/83. Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order 78-10), § 173-240-040, filed 1/23/79. Formerly chapter 372-20 WAC.]\n\n# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept and basic considerations.\n\n- (3) The general sewer plan shall include the following information together with any other relevant data as requested by the department. To satisfy the requirements of the local government jurisdiction, additional information may be necessary.\n\n  - (a) The purpose and need for the proposed plan.\n\n\\n---\\n\n# Section (b) through (m)\n\n- (b) A discussion of who will own, operate, and maintain the systems.\n\n- (c) The existing and proposed service boundaries.\n\n- (d) Layout map including the following:\n  - (i) Boundaries. The boundary lines of the municipality or special district to be sewered, including a vicinity map;\n  - (ii) Existing sewers. The location, size, slope, capacity, direction of flow of all existing trunk sewers, and the boundaries of the areas served by each;\n  - (iii) Proposed sewers. The location, size, slope, capacity, direction of flow of all proposed trunk sewers, and the boundaries of the areas to be served by each;\n  - (iv) Existing and proposed pump stations and force mains. The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if any. All existing and potential discharge locations should be noted; and\n  - (vii) Water systems.",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 4554,
+          "source_file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 4,
+          "section": "Section (b) through (m)",
+          "document_title": "WAC 173-240 Wastewater Submission Plans",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "file_path": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 4,
+          "section": "Section (b) through (m)",
+          "breadcrumbs": null,
+          "index": null,
+          "document_title": "WAC 173-240 Wastewater Submission Plans",
+          "author": null,
+          "publisher": "WA Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Relevant to the query scope.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "9a656317-215d-4470-b813-53f6cc0f7463",
+        "parent_id": null,
+        "score": 0.6989463,
+        "text": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept and basic considerations.\n\n- (3) The general sewer plan shall include the following information together with any other relevant data as requested by the department. To satisfy the requirements of the local government jurisdiction, additional information may be necessary.\n\n  - (a) The purpose and need for the proposed plan.\n  - (b) A discussion of who will own, operate, and maintain the system.\n  - (c) The existing and proposed service boundaries.\n  - (d) Layout map including the following:\n    - (i) Boundaries. The boundary lines of the municipality or special district to be sewered, including a vicinity map;\n    - (ii) Existing sewers. The location, size, slope, capacity, direction of flow of all existing trunk sewers, and the boundaries of the areas served by each;\n    - (iii) Proposed sewers. The location, size, slope, capacity, direction of flow of all proposed trunk sewers, and the boundaries of the areas to be served by each;\n    - (iv) Existing and proposed pump stations and force mains. The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n    - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n    - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if any. All existing and potential discharge locations should be noted; and\n    - (vii) Water systems. The location of wells or other sources of water supply, water storage reservoirs and treatment plants, and water transmission facilities.\n  - (e) The population trend as indicated by available records, and the estimated future population for the stated design period. Briefly describe the method used to determine future population trends and the concurrence of any applicable local or regional planning agencies.\n  - (f) Any existing domestic or industrial wastewater facilities within twenty miles of the general plan area and within the same topographical drainage basin containing the general plan area.\n  - (g) A discussion of any infiltration and inflow problems and a discussion of actions that will alleviate these problems in the future.\n  - (h) A statement regarding provisions for treatment and discussion of the adequacy of the treatment.\n  - (i) List of all establishments producing industrial wastewater, the quantity of wastewater and periods of production, and the character of the industrial wastewater insofar as it may affect the sewer system or treatment plant. Consideration must be given to future industrial expansion.\n  - (j) Discussion of the location of all existing private and public wells, or other sources of water supply, and distribution structures.\n\\n---\\n\n# WAC 173-240-050: Planning and Compliance\n\nas they are related to both existing and proposed domestic wastewater treatment facilities.\n\n* (k) Discussion of the various alternatives evaluated, and a determination of the alternative chosen, if applicable.\n* (l) A discussion, including a table, that shows the cost per service in terms of both debt service and operation and maintenance costs, of all facilities (existing and proposed) during the planning period.\n* (m) A statement regarding compliance with any adopted water quality management plan under the Federal Water Pollution Control Act as amended.\n* (n) A statement regarding compliance with the State Environmental Policy Act (SEPA) and the National Environmental Policy Act (NEPA), if applicable.\n\n> [Statutory Authority: RCW 90.48.110. WSR 00-15-021 (Order 00-09), § 173-240-050, filed 7/11/00, effective 8/11/00. Statutory Authority: Chapters 43.21A and 90.48 RCW. WSR 83-23-063 (Order DE 83-30), § 173-240-050, filed 11/16/83. Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-050, filed 1/23/79. Formerly chapter 372-20 WAC.]",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 4523,
+          "source_file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": 1,
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "document_title": "WAC 173-240-050 Engineering Reports",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "WAC_173-240-050_Engineering_Reports.pdf",
+          "file_path": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": 1,
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "breadcrumbs": null,
+          "index": null,
+          "document_title": "WAC 173-240-050 Engineering Reports",
+          "author": null,
+          "publisher": "WA Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Relevant to the query scope.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "d0306776-2243-4efc-be93-8a4c0f540a7f",
+        "parent_id": null,
+        "score": 0.648355,
+        "text": "# Chapter 173-240 WAC\nSUBMISSION OF PLANS AND REPORTS FOR CONSTRUCTION OF WASTEWATER FACILITIES\n\n- WAC 173-240-010 Purpose and scope.\n- 173-240-020 Definitions.\n  - DOMESTIC WASTEWATER FACILITIES\n- 173-240-030 Submission of plans and reports.\n- 173-240-035 Restrictions—Subsurface disposal systems.\n- 173-240-040 Review standards.\n- 173-240-050 General sewer plan.\n- 173-240-060 Engineering report.\n- 173-240-070 Plans and specifications.\n- 173-240-075 Construction quality assurance plan.\n- 173-240-080 Operation and maintenance manual.\n- 173-240-090 Declaration of construction completion.\n- 173-240-095 Form—Declaration of construction of water pollution control facilities.\n- 173-240-100 Requirement for certified operator.\n- 173-240-104 Ownership and operation and maintenance.\n  - INDUSTRIAL WASTEWATER FACILITIES\n- 173-240-110 Submission of plans and reports.\n- 173-240-120 Review standards.\n- 173-240-130 Engineering report.\n- 173-240-140 Plans and specifications.\n- 173-240-150 Operation and maintenance manual.\n  - DOMESTIC AND INDUSTRIAL WASTEWATER FACILITIES\n- 173-240-160 Requirement for professional engineer.\n- 173-240-170 Right of inspection.\n- 173-240-180 Approval of construction changes.\n-  DISPOSITION OF SECTIONS FORMERLY CODIFIED IN THIS CHAPTER\n- 173-240-105 Form—Certificate of construction of water pollution control facilities.  [Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-105, filed 1/23/79. Formerly chapter 372-20 WAC.] Repealed by WSR 83-23-063 (Order DE 83-30), filed 11/16/83. Statutory Authority: Chapters 43.21A and 90.48 RCW.\n\nWAC 173-240-010 Purpose and scope. The purpose of this chapter is to implement RCW 90.48.110. The department interprets \"plans and specifications\" as mentioned in RCW 90.48.110 as including \"engineering reports,\" \"plans and specifications,\" and \"general sewer plans,\" all as defined in WAC 173-240-020. This chapter also includes provisions for review and approval of proposed methods of operation and maintenance.\n[Statutory Authority: Chapters 43.21A and 90.48 RCW. WSR 83-23-063 (Order DE 83-30), § 173-240-010, filed 11/16/83. Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-010, filed 1/23/79. Formerly chapter 372-20 WAC.]\n\nWAC 173-240-020 Definitions. (1) \"Approval\" means written approval. (2) \"Construction quality assurance plan\" means a plan describing the methods by which the professional engineer in responsible charge of inspection of the project will determine that the facilities were constructed without significant change from the department approved plans and specifications. (3) \"Department\" means the Washington state department of ecology. (4) \"Domestic wastewater\" means water carrying human wastes, including kitchen, bath, and laundry wastes from residences, buildings,\n\\n---\\n\n# Definitions\n\n(5) **\"Domestic wastewater facility\"** means all structures, equipment, or processes required to collect, carry away, treat, reclaim or dispose of domestic wastewater together with the industrial waste that may be present. In the case of subsurface sewage treatment and disposal, the term is restricted to mean those facilities treating and disposing of domestic wastewater only from:\n\n- (a) A septic tank system with subsurface sewage treatment and disposal and an ultimate design capacity exceeding fourteen thousand five hundred gallons per day at any common point; or\n- (b) A mechanical treatment system or lagoon followed by subsurface disposal with an ultimate design capacity exceeding three thousand five hundred gallons per day at any common point.\n\nWhere the proposed system using subsurface disposal has received a state construction grant or a federal construction grant under the Federal Water Pollution Control Act as amended, such a system is a **\"domestic wastewater facility\"** regardless of size.\n\n(6) **\"Engineering report\"** means a document that thoroughly examines the engineering and administrative aspects of a particular domestic or industrial wastewater facility. The report shall contain the appropriate information required in WAC 173-240-060 or 173-240-130. In the case of a domestic wastewater facility project, the report describes the recommended financing method.\n\nThe facility plan described in federal regulation 40 C.F.R. 35 is an **\"engineering report.\"** This federal regulation describes the Environmental Protection Agency's municipal wastewater construction grants program.",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 4460,
+          "source_file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 1,
+          "section": "Definitions",
+          "document_title": "WAC 173-240 Wastewater Submission Plans",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "file_path": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 1,
+          "section": "Definitions",
+          "breadcrumbs": null,
+          "index": null,
+          "document_title": "WAC 173-240 Wastewater Submission Plans",
+          "author": null,
+          "publisher": "WA Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Relevant to the query scope.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "f77542fb-2898-4d47-b051-0ac35193b500",
+        "parent_id": null,
+        "score": 0.6091173,
+        "text": "(e) A description of the receiving water, applicable water quality standards, and how water quality standards will be met outside any applicable dilution zone.\n\n(f) The type of treatment process proposed, based upon the character of the wastewater to be handled, the method of disposal, the degree of treatment required, and a discussion of the alternatives evaluated and the reasons they are unacceptable.\n\n(g) The basic design data and sizing calculations of each unit of the treatment works. Expected efficiencies of each unit and also of the entire plant, and the character of effluent anticipated.\n\n(h) Discussion of the various sites available and the advantages and disadvantages of the site or sites recommended. The proximity of residences or developed areas to any treatment works. The relationship of the twenty-five-year and one hundred-year flood to the treatment plant site and the various plant units.\n\n(i) A flow diagram that shows general layout of the various units, the location of the effluent discharge, and a hydraulic profile of the system that is the subject of the engineering report and any hydraulically related portions.\n\\n---\\n\n## WAC 173-240-060\n\n- (j) A discussion of infiltration and inflow problems, overflows and bypasses, and proposed corrections and controls.\n- (k) A discussion of any special provisions for treating industrial wastes, including any pretreatment requirements for significant industrial sources.\n- (l) Detailed outfall analysis or other disposal method selected.\n- (m) A discussion of the method of final sludge disposal and any alternatives considered.\n- (n) Provision for future needs.\n- (o) Staffing and testing requirements for the facilities.\n- (p) An estimate of the costs and expenses of the proposed facilities and the method of assessing costs and expenses. The total amount shall include both capital costs and also operation and maintenance costs for the life of the project, and must be presented in terms of total annual cost and present worth.\n- (q) A statement regarding compliance with any applicable state or local water quality management plan or any plan adopted under the Federal Water Pollution Control Act as amended.\n- (r) A statement regarding compliance with the State Environmental Policy Act (SEPA) and the National Environmental Policy Act (NEPA), if applicable.\n\n### (4) The engineering report for projects that use land application, including seepage lagoons, irrigation, and subsurface disposal, shall include information on the following together with appropriate parts of subsection (3) of this section, as determined by the department:\n\n- (a) Soils and their permeability;\n- (b) Geohydrologic evaluation of factors such as:\n  - (i) Depth to groundwater and groundwater movement during different times of the year;\n  - (ii) Water balance analysis of the proposed discharge area;\n  - (iii) Overall effects of the proposed facility upon the groundwater in conjunction with any other land application facilities that may be present;\n- (c) Availability of public sewers;\n- (d) Reserve areas for additional subsurface disposal.\n\n### (5) The engineering report for projects funded by the Environmental Protection Agency shall, in addition to the requirements of subsection (3) or (4) of this section, follow EPA facility plan guidelines contained in the EPA publication, \"Guidance for Preparing a Facility Plan\" (MCD-46), and shall indicate how the special requirements contained in 40 C.F.R. 35.719-1 will be met.\n\n> [Statutory Authority: RCW 90.48.110. WSR 00-15-021 (Order 00-09), § 173-240-060, filed 7/11/00, effective 8/11/00. Statutory Authority: Chapters 43.21A and 90.48 RCW. WSR 83-23-063 (Order DE 83-30), § 173-240-060, filed 11/16/83. Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-060, filed 1/23/79. Formerly chapter 372-20 WAC.]\n\n### WAC 173-240-070 Plans and specifications. (1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility. The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de-\n\\n---\\n\ndesign criteria and a plan for interim operation of facilities during construction.\n(2) Plans and specifications for sewer line extensions shall include, as a separate report, an analysis of the existing collection and treatment system's ability to transport and treat additional flow and loading.\n(3) Two copies of the plans and specifications must be submitted to the department for approval before starting construction, except as waived under WAC 173-240-030(5).\n\n[Statutory Authority: RCW 90.48.110. WSR 00-15-021 (Order 00-09), § 173-240-070, filed 7/11/00, effective 8/11/00. Statutory Authority: Chapters 43.21A and 90.48 RCW.",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 4911,
+          "source_file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 7,
+          "section": "WAC 173-240-070 Plans and specifications. (1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility. The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de-",
+          "document_title": "WAC 173-240 Wastewater Submission Plans",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "file_path": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 7,
+          "section": "WAC 173-240-070 Plans and specifications. (1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility. The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de-",
+          "breadcrumbs": null,
+          "index": null,
+          "document_title": "WAC 173-240 Wastewater Submission Plans",
+          "author": null,
+          "publisher": "WA Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Relevant to the query scope.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "dc344f34-ecd1-46ac-9dd4-7a7fe9e6d6b6",
+        "parent_id": null,
+        "score": 0.35097733,
+        "text": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if any. All existing and potential discharge locations should be noted; and\n  - (vii) Water systems. The location of wells or other sources of supply, water storage reservoirs and treatment plants, and water transmission facilities.\n\n- (e) The population trend as indicated by available records, and the estimated future population for the stated design period. Briefly describe the method used to determine future population trends and the concurrence of any applicable local or regional planning agencies.\n\n- (f) Any existing domestic or industrial wastewater facilities within twenty miles of the general plan area and within the same topographical drainage basin containing the general plan area.\n\n- (g) A discussion of any infiltration and inflow problems and a discussion of actions that will alleviate these problems in the future.\n\n- (h) A statement regarding provisions for treatment and discussion of the adequacy of the treatment.\n\n- (i) List of all establishments producing industrial wastewater, the quantity of wastewater and periods of production, and the character of the industrial wastewater insofar as it may affect the sewer system or treatment plant. Consideration must be given to future industrial expansion.\n\n- (j) Discussion of the location of all existing private and public wells, or other sources of water supply, and distribution structures as they are related to both existing and proposed domestic wastewater treatment facilities.\n\n- (k) Discussion of the various alternatives evaluated, and a determination of the alternative chosen, if applicable.\n\n- (l) A discussion, including a table, that shows the cost per service in terms of both debt service and operation and maintenance costs, of all facilities (existing and proposed) during the planning period.\n\n- (m) A statement regarding compliance with any adopted water quality management plan under the Federal Water Pollution Control Act as amended.\n\\n---\\n\n# WAC 173-240-060 Engineering report\n\n(n) A statement regarding compliance with the State Environmental Policy Act (SEPA) and the National Environmental Policy Act (NEPA), if applicable.\n\n> [Statutory Authority: RCW 90.48.110. WSR 00-15-021 (Order 00-09), § 173-240-050, filed 7/11/00, effective 8/11/00. Statutory Authority: Chapters 43.21A and 90.48 RCW. WSR 83-23-063 (Order DE 83-30), § 173-240-050, filed 11/16/83. Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-050, filed 1/23/79. Formerly chapter 372-20 WAC.]\n\nfor WAC 173-240-060 Engineering report. (1) The engineering report for a domestic wastewater facility shall include each appropriate (as determined by the department) item required in WAC 173-240-050 for general sewer plans unless an up-to-date general sewer plan is on file with the department. Normally, an engineering report is not required for sewer line extensions or pump stations. See WAC 173-240-020(13) and 173-240-030(5). The facility plan described in federal rule 40 C.F.R. 35 is an \"engineering report.\"\n\n(2) The engineering report must be sufficiently complete so that plans and specifications can be developed from it without substantial changes. Three copies of the report must be submitted to the department for approval, except as waived under WAC 173-240-030(5).\n\n(3) The engineering report shall include the following information together with any other relevant data as requested by the department:\n\n(a) The name, address, and telephone number of the owner of the proposed facilities, and the owner's authorized representative.\n\n(b) A project description that includes a location map and a map of the present and proposed service area.\n\n(c) A statement of the present and expected future quantity and quality of wastewater, including any industrial wastes that may be present or expected in the sewer system.\n\n(d) The degree of treatment required based upon applicable permits and rules, the receiving body of water, the amount and strength of wastewater to be treated, and other influencing factors.\n\n(e) A description of the receiving water, applicable water quality standards, and how water quality standards will be met outside any applicable dilution zone.\n\n(f) The type of treatment process proposed, based upon the character of the wastewater to be handled, the method of disposal, the degree of treatment required, and a discussion of the alternatives evaluated and the reasons they are unacceptable.\n\n(g) The basic design data and sizing calculations of each unit of the treatment works. Expected efficiencies of each unit and also of the entire plant, and the character of effluent anticipated.\n\n(h) Discussion of the various sites available and the advantages and disadvantages of the site or sites recommended.",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 5232,
+          "source_file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 6,
+          "section": "WAC 173-240-060 Engineering report",
+          "document_title": "WAC 173-240 Wastewater Submission Plans",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "file_path": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 6,
+          "section": "WAC 173-240-060 Engineering report",
+          "breadcrumbs": null,
+          "index": null,
+          "document_title": "WAC 173-240 Wastewater Submission Plans",
+          "author": null,
+          "publisher": "WA Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Relevant to the query scope.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "619947be-4a45-42b4-9bcc-c0591bcb9623",
+        "parent_id": null,
+        "score": 0.30074558,
+        "text": "### *Sanitary Flow Contribution*  \nSanitary flows are largely a function of population, population density, water consumption, and land uses. Hence, sanitary flow estimation usually involves a study of existing and projected land uses and demographic data, and water consumption from which to estimate per capita daily water consumption. The per capita wastewater flows are usually expressed as percentages (or “return ratio”) of per capita water consumptions. The “return ratios” for residential and non-residential uses may vary. These ratios can be determined from a careful analysis of a long-term (e.g., a full year) monitored sewer flow data and water consumption data taking into consideration of groundwater infiltration flows. In estimating probable future per capita wastewater contributions, changes in indoor and outdoor water use habits from the growing water conservation ethic and associated requirements should be considered. Special consideration needs to be given to industrial contributions as the rates vary with the type, size, and operation of the industry. Furthermore, peak discharges may be the result of flows contributed over a short operation time of the industry. Flows important to the design of sanitary sewers are daily minimum and maximum, daily average, and peak flow. Peak flows estimated for the end of the design period\n\n---\n\nusually determine the desired hydraulic capacities of sanitary sewers, pumps, and some treatment plant conduits (ASCE, 1982).\n\n**Groundwater Infiltration (GWI)**  \nGWI refers to that portion of wastewater embedded in the monitored dry‑weather flow (DWF) data at a sewage pump station or a treatment facility. The rate of GWI depends on the number and size of defects within a sewer and the hydraulic head available and hence is greater in wet spring high groundwater table season than in other seasons. As sewer pipes age and deteriorate, GWI is expected to increase in amount and scope. GWI problems can be particularly severe in areas where sewer systems are installed below the groundwater table. This unwanted flow results in the need for larger sewerage and increased O&M costs for pumping and treatment. Hence, in the design of sewers, it is customary to include a rate of about 1,000 gal/acre·d, some to require as high as 2,000 gal/acre·d (ASCE, 1982).\n\nGWI rates can vary a great deal in a sewer system and local flow monitoring data are needed for determination of GWI rates that meaningfully reflect the gross site‑specific conditions. If permanent monitoring stations do not already exist, temporary monitoring stations are installed for flow data collection. The best time for flow monitoring for BWF and GWI determinations would be in early spring when groundwater table is high and outdoor water uses are low. During this time, wastewater from a residential area may be assumed to be the same as the billed water use and the GWI can be calculated as the difference between the measured DWF and the wastewater flow determined from the billed water use.\n\n**Rainfall-Derived Infiltration/Inflow (RDII)**  \nRDII is that portion of a sewer flow hydrograph above the normal dry‑weather base flow pattern. It is a sewer flow response to rainfall or snowmelt in a sewershed. The term of “I/I” probably first appeared in the 1960s. Prior to that time, the main focus was the determination of “infiltration” in DWF. “Inflow,” referred to as the “stormwater” contribution, was recognized but was only casually addressed (ASCE, 1962; HES, 1968). With the influx of federal money and enforcement of federal requirements in mid‑1970s, the amount of “I/I” data surged as did the interest of flow prediction of RDII from monitoring data particularly since late 1980s.\n\nRDII has long been recognized as a major factor in the sizing of sewer pipes and treatment plants. It was found by tests that as much as 150 gal/min may leak through a manhole cover as stormwater inflow (Rawn, 1936). With manholes placed 300 to 500 ft apart, this would amount to 3.5 to 2.0 Mgal/mi∙d of sewer pipe (Babbitt, 1947). It was recognized in the early 20th century that improper connections of roof drains, street inlets, and foundation and cellar drains to sanitary sewers, in combination with poor quality of house lateral construction, depleted the reserved sewer capacities that were usually built‑in for the future growth of an area.",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 4380,
+          "source_file": "EPA_Infiltration_Inflow_Review.pdf",
+          "page": 14,
+          "section": "*Sanitary Flow Contribution*",
+          "document_title": "EPA Infiltration Inflow Review",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "EPA_Infiltration_Inflow_Review.pdf",
+          "file_path": "EPA_Infiltration_Inflow_Review.pdf",
+          "page": 14,
+          "section": "*Sanitary Flow Contribution*",
+          "breadcrumbs": null,
+          "index": null,
+          "document_title": "EPA Infiltration Inflow Review",
+          "author": null,
+          "publisher": "EPA",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Relevant to the query scope.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "35203add-8dad-4737-8cf3-846fc719bbd3",
+        "parent_id": null,
+        "score": 0.2893717,
+        "text": "(4) The biological treatment plant must treat all of the flows up to MWDF for secondary treatment limits, and up to MDDF for treatment plants with toxics.\n\n(5) In all cases, the engineer must justify that the wastewater treatment plant design proposal includes an appropriate safety factor that ensures compliance with permit limits and water quality standards at the maximum flow and loading conditions.\n\n(6) If the peak hour treatment plant flow and solids loading values are at least three times the average dry weather flow and loading values, multiple parallel trains of unit processes must be included in the design of the treatment plant.\n\\n---\\n\n## Table G2-1. Design Condition Summary\n\n<table>\n  <thead>\n    <tr>\n      <th>Unit Processes</th>\n      <th>Flow (F)</th>\n      <th>Organic or Solids Loading (L)</th>\n      <th>Effluent standards which determine the applicable design flows &amp; loadings</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>All plant pumping, conveyance channels, pipes, and flow structures</td>\n      <td>PIDF</td>\n      <td>N/A</td>\n      <td>N/A</td>\n    </tr>\n<tr>\n      <td>Primary and secondary clarifiers</td>\n      <td>PHDF +<br>recirculation flow for overflow rate and weir loading rate.</td>\n      <td>*PHDL (total suspended solids loading rate to clarifiers)</td>\n      <td>N/A</td>\n    </tr>\n<tr>\n      <td>Biological reactor</td>\n      <td>MWDF</td>\n      <td>*MWDL (BOD5 loading to reactor(s))</td>\n      <td>Secondary treatment and/or nutrient removal and/or reuse</td>\n    </tr>\n<tr>\n      <td>Biological reactor</td>\n      <td>MDDF</td>\n      <td>*MDDL (BOD5 loading to reactors)</td>\n      <td>Toxics removal and/or reuse</td>\n    </tr>\n<tr>\n      <td>Aeration equipment for substrate removal</td>\n      <td>N/A</td>\n      <td>*PHDL (BOD5 and for nitrifying systems, TKN loading rate to biological reactor(s))</td>\n      <td>N/A</td>\n    </tr>\n<tr>\n      <td>Plant liquid stream pumping equipment</td>\n      <td>PIDF</td>\n      <td>N/A</td>\n      <td>N/A</td>\n    </tr>\n<tr>\n      <td>Filters/screens used in the liquid stream for secondary clarification</td>\n      <td>Pass all flows</td>\n      <td>N/A</td>\n      <td>N/A</td>\n    </tr>\n<tr>\n      <td>Filters used for secondary effluent polishing</td>\n      <td>Pass all flows requiring tertiary treatment</td>\n      <td>N/A</td>\n      <td>Secondary treatment and/or nutrient removal and/or toxics removal and/or reuse</td>\n    </tr>\n<tr>\n      <td>Equalization basins/surge basins</td>\n      <td>**Continuous flow routing analysis</td>\n      <td>N/A</td>\n      <td>N/A</td>\n    </tr>\n<tr>\n      <td>Primary and secondary sludge wasting equipment</td>\n      <td>N/A</td>\n      <td>*MDDL (BOD5 and TSS loading to primary clarifiers and/or biological reactor(s))</td>\n      <td>N/A</td>\n    </tr>\n<tr>\n      <td>Sludge digestion and dewatering equipment</td>\n      <td>N/A</td>\n      <td>*MDDL (BOD5 loading to reactor(s))</td>\n      <td>N/A</td>\n    </tr>\n<tr>\n      <td>Disinfection (non-reuse &amp; non-reliability class I plants)</td>\n      <td>N/A</td>\n      <td>MDDF (for disinfection requirements, PHDF (for hydraulic considerations))</td>\n      <td>N/A</td>\n    </tr>\n<tr>\n      <td>Disinfection (reuse &amp; reliability class I plants)</td>\n      <td>All flows</td>\n      <td>N/A</td>\n      <td>Reuse, shellfish harvest protection</td>\n    </tr>\n  </tbody>\n</table>\n\n<p><strong>*Organic or solids loading parameters are to be computed with the same time intervals as hydraulic loadings.</strong></p>\n<p><strong>**Continuous flow routing analysis to insure the discharge from the equalization basin does not exceed the hydraulic design limit for the downstream unit processes.</strong></p>\n\\n---\\n\n# General Considerations\n\nThe hydraulic capacity of the treatment works should be based on the maximum expected flow. The process design of treatment units should be based on either the average design flow or the peak design flow, whichever is controlling. The following items should be determined from the observed rate of flow during the significant period of discharge. Items to be considered in determining design flows are as follows:\n* Peak flow rates continuing over a length of time sufficient to adversely affect the detention time of treatment units or the flow characteristics in conduits.\n* Applicable data from similar municipalities.\n* Wet weather flows.\n* Recirculation and inplant recycle flows.",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 4425,
+          "source_file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 94,
+          "section": "General Considerations",
+          "document_title": "DOE Orange Book Design Standards",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "DOE_Orange_Book_Design_Standards.pdf",
+          "file_path": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 94,
+          "section": "General Considerations",
+          "breadcrumbs": null,
+          "index": null,
+          "document_title": "DOE Orange Book Design Standards",
+          "author": null,
+          "publisher": "WA Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Relevant to the query scope.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "f28ffe20-1d28-44d7-b546-c7363a84994e",
+        "parent_id": null,
+        "score": 0.2441827,
+        "text": "The goals of the manual are:\n\n1. To ensure that the design of sewage collection and treatment systems is consistent with public health, water quality, and biosolids management objectives of Washington State.\n2. To establish a basis for the design and review of plans and specifications for sewage treatment works and sewerage systems.\n3. To establish the minimum requirements and limiting factors utilized by the Washington Department of Ecology and the Washington State Department of Health for review of sewage treatment works and sewerage system plans and specifications.\n4. To assist the owner or the authorized engineer in the preparation of plans, specifications, reports, and other data.\n5. To guide departments in their determination of whether an approval, permit, and/or a certificate for a sewage treatment works or sewerage system should be issued.\n\nThe CSWD provides guidance, prepared by Ecology, for the benefit of agency staff and the designers, owners, and operators of sewage treatment works and sewerage systems. The intent of the CSWD manual is to address requirements that will lead to approvable plans and specifications for sewage treatment works and sewerage systems. Although this manual is not regulation, state regulation (WAC 173-240-040) requires reasonable consistency with the CSWD requirements.\n\nEcology intends to revise sections of this manual as updated information becomes available. Ecology will make the revisions available electronically. A list of the revisions with dates is provided below.\n\n## List of recent revisions\n\nEcology has made the following revisions to the 1998 publication:\n\n### 2006 Updates and Revisions\n* Purpose of Manual (Introduction)\n* State Agencies (G1-1.4.1D)\n* Environmental Review; SEPA, NEPA, SERP (G1-2.6)\n* Operation and Maintenance Manual (G1-4.4)\n* Design loading, treatment plants (G2-1.2)\n* Ponds and Aerated Lagoons (G3-3.5)\n* Sewer System Rehabilitation/Replacement Techniques (C1-8)\n* Special Requirements (C1-9)\n* MBR (New section in Treatment Chapter)\n* Residual Solids Management (Chapter S)\n* Treatment Technologies (E1-4)\n* Distribution and Storage (E1-5)\n\nEcology appreciates contributions and reviews from the following firms and local government agencies:\n\n<table>\n<tr><td>King County</td><td>Lakehaven Utility District</td></tr>\n<tr><td>Enviroquip.</td><td>Gray & Osborne</td></tr>\n<tr><td>Kennedy Jenks</td><td>Brown & Caldwell</td></tr>\n<tr><td>Zenon</td><td>HDR</td></tr>\n</table>\n\n### 2007 Updates and Revisions\n\\n---\\n\n# Criteria for Sewage Works Design\n\n- General Engineering Requirements (Table G1‑2 Explanation of Engineering Report Requirements)\n- General Engineering Requirements (Chapter G1 – Section G1‑5.4.2 Facility Rerating Procedures)\n- Sewers (Chapter C1‑7 – Assessment of Structural Conditions and Infiltrations/Inflow)\n- Biological Treatment (Chapter T3 – Section T3‑3.1.2 Batch Treatment [Sequencing Batch Reactor])\n- Disinfection (Chapter T5 – Section T5‑2 Ultraviolet Light [Sub‑sections Tr‑2.2, T5‑2.3, T5‑2.4, T5‑2.5, and T5‑2.6])\n\n2008 Updates and Revisions\n\n- General Considerations (Chapter G2 – Sections 2 and 5)\n- Sewers (Chapter C1 – Sections 5 and 10)\n- Sewage Pump Stations (Chapter C2 – Section 3)\n- Preliminary Treatment/Septage and Other Liquid Hauled Wastes (Chapter T1 – Section 1)\n- Water Reclamation and Reuse (Chapter E1 – Added Section 5.2.7)\n- Residual Solids Management (Chapter S – Sections 1 and 2)\n\\n---\\n\n# Acknowledgements (1998)\n\nThis manual was developed for the Washington State Department of Ecology with the generous assistance of many government agencies, sewer and water districts, consulting engineering firms, and wastewater treatment professionals.\n\n## Editorial/Coordination Board members\n* Louthain, Jerry (Project Manager)\n* Berschauer, Doug\n* Cole, Mark\n* Foulk, Jamie\n* Lowe, Susan\n* Meriwether, Cam\n* Nitz, Bill\n* Olson, Karen\n* Perry, Don\n* Skillings, Tom\n* Vivolo, Tony\n\n## Chapter G3, Special Considerations for Small Community Systems\n* Meriwether, Cam (Coordinator)\n* Milton, Jim (Leader)\n* Alexander, Ken\n* Arts, Chris\n* Bergstrom, Eric\n* Berschauer, Doug\n* Johnstone, Charles\n* Nichols, Don\n* Nunnallee, David\n* Riegert, Larry\n* Riley, Dick\n* Sherwood, Kim\n* Skillings, Tom\n* Tom, Andy\n* Vivolo, Tony\n\n## Chapter C1, Sewers\n## Chapter C2, Sewage Pump Stations\n* Vivolo, Tony (Coordinator)\n* Thetford, Tom (Leader)\n* Bickel, Scott\n* Brown, Lisa\n* Browne, Roger\n* Cardwell, Bruce\n* Carlsen, Jim\n* Chambers, Craig\n* Davison, Eric\n* Eliasson, John\n* Gagnon, Richard\n* Hammond,",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 4528,
+          "source_file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 5,
+          "section": "Chapter C2, Sewage Pump Stations",
+          "document_title": "DOE Orange Book Design Standards",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "DOE_Orange_Book_Design_Standards.pdf",
+          "file_path": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 5,
+          "section": "Chapter C2, Sewage Pump Stations",
+          "breadcrumbs": null,
+          "index": null,
+          "document_title": "DOE Orange Book Design Standards",
+          "author": null,
+          "publisher": "WA Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Relevant to the query scope.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "c0a726bc-2f88-42dd-9c40-5f82fe6063e3",
+        "parent_id": null,
+        "score": 0.22695492,
+        "text": "## Chapter 3 Past and Current Sewer Design Practices to Provide Capacities for I/I .................................3-9\n\n* Historical Practices ...............................................................................................................................3-9\n* Current Practices ..................................................................................................................................3-9\n\n---\n\n*The “Ten-State” Standards (1997 Edition)* ............................................................................................ 3-9\n\n*State and Local Design Requirements* .................................................................................................. 3-10\n\nChapter 4 RDII Prediction Methods ......................................................................................................... 4-13\n* Introduction ........................................................................................................................................ 4-13\n* Unit Hydrograph ................................................................................................................................ 4-13\n* Literature Review .............................................................................................................................. 4-13\n  - *WERF Report (1999)* .................................................................................................................. 4-13\n  - *Review by Crawford, et al. (1999)* ............................................................................................ 4-15\n  - *Review by Wright et al. (2001)* .................................................................................................. 4-15\n* Recommended RDII Prediction Method for SSOAP ........................................................................ 4-16\n\nReferences ............................................................................................................................................. 4-19\n\n---",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 2037,
+          "source_file": "EPA_Infiltration_Inflow_Review.pdf",
+          "page": 6,
+          "section": "Chapter 3 Past and Current Sewer Design Practices to Provide Capacities for I/I .................................3-9",
+          "document_title": "EPA Infiltration Inflow Review",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "EPA_Infiltration_Inflow_Review.pdf",
+          "file_path": "EPA_Infiltration_Inflow_Review.pdf",
+          "page": 6,
+          "section": "Chapter 3 Past and Current Sewer Design Practices to Provide Capacities for I/I .................................3-9",
+          "breadcrumbs": null,
+          "index": null,
+          "document_title": "EPA Infiltration Inflow Review",
+          "author": null,
+          "publisher": "EPA",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Relevant to the query scope.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "17206306-1625-4af7-918a-7e59b3ddaecd",
+        "parent_id": null,
+        "score": 0.18922126,
+        "text": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In addition to those listed below, explanations of some infrequently used acronyms and abbreviations are given in the text where they appear. See the Water Environment Federation’s Operation of Municipal Wastewater Treatment Plants, Fifth Edition, Manual of Practice No. 11, Volume 3, pg. 1,247 for a comprehensive list of acronyms and symbols commonly used in wastewater engineering.\n\n- AKART All known, available, and reasonable methods of prevention, control, and treatment\n- ANSI American National Standards Institute\n- APHA American Public Health Association\n- APWA American Public Works Association\n- ASCE American Society of Civil Engineers\n- ASTM American Society of Testing and Materials\n- AWWA American Water Works Association\n- BOD biochemical oxygen demand\n- CAA Comprehensive Alternatives Analysis\n- CCP Composite Correction Plan\n- CCWF Centennial Clean Water Fund\n- CDBG Community Development Block Grant\n- CFR Code of Federal Regulations\n- CSO combined sewer overflow\n- CTED State Department of Community, Trade and Economic Development\n- DAF dissolved air flotation\n- DNR Washington State Department of Natural Resources\n- DOH Washington State Department of Health\n- EPA US Environmental Protection Agency\n- FEMA Federal Emergency Management Agency\n- GMA Growth Management Act\n- HDPE high-density polyethylene pipe\n- HPA Hydraulic Project Approval\n- HVAC heating/ventilation/air conditioning\n- I/I infiltration and inflow\n\n- IAMPO International Association of Plumbing and Mechanical Officials\n- ICS Instrumentation and Control Systems\n- IEEE Institute of Electrical and Electronic Engineers\n- IES Illuminating Engineering Society\n- IPCEA Insulated Power Conductor Engineering Association\n- ISA Instrument Society of America\n- L&I Washington State Department of Labor and Industries\n- MSDS Material Safety Data Sheets\n- NEC National Electrical Code\n- NEMA National Electrical Manufacturers Association\n- NEPA National Environmental Policy Act\n- NESC National Electric Safety Code\n- NFIP National Flood Insurance Program\n- NFPA National Fire Protection Association\n- NIOSH National Institute of Occupational Safety and Health\n- NOI Notice of Intent for Construction Activity\n- NPDES National Pollutant Discharge Elimination System\n- OSHA Occupational Safety and Health Act\n- P&ID process and instrumentation diagram/drawing\n- RCRA Resource Conservation and Recovery Act\n- RCW Revised Code of Washington\n- RGF/RSF recirculating gravel filter/recirculating sand filter\n- RMP Risk Management Plan/Planning\n- RO reverse osmosis\n- SEPA State Environmental Policy Act\n- SERP State Environmental Review Process\n- SIZ Sediment Impact Zone\n- SRF State Revolving Fund\n- SS suspended solids\n- SSO sanitary sewer overflow\n- STEP Small Town Environment Program\n- SWD State Waste Discharge\n- TSS total suspended solids\n\\n---\\n\n# Abbreviations\n\n* UBC Uniform Building Code\n* UFC Uniform Fire Code\n* UL Underwriters Laboratories\n* USDA US Department of Agriculture\n* USGS US Geological Survey\n* VOC volatile organic compound\n* WAC Washington Administrative Code\n* WDFW Washington State Department of Fisheries and Wildlife\n* WEF Water Environment Federation (formerly WPCF)\n* WISHA Washington Industrial Safety and Health Act\n* WPCF Water Pollution Control Federation (now WEF)\n* WSDOT Washington State Department of Transportation\n* WWTP wastewater treatment plant\n\\n---\\n\n# G1 General Engineering Requirements\n*Chapter last revised 04/2023*\n\nThis chapter describes Ecology’s engineering approval requirements, permitting requirements and the agencies involved, and the process and steps involved from planning through completion of construction for a domestic wastewater collection and treatment facility. General and site-specific planning, design, construction, and operation and maintenance requirements are all addressed in Chapter G1. Exceptions and variations to the normal review and approval process are also discussed in this chapter. While this chapter may generally apply to projects that will produce and distribute reclaimed water, the reader must refer to and follow the guidance in Chapter 5 of Ecology’s [“](https://apps.ecology.wa.gov/publications/documents/1510024.pdf)Reclaimed Water Facilities Manual – The Purple Book¹” when planning and designing reclaimed water facilities.\n\n[Except ](https://apps.ecology.wa.gov/publications/documents/1510024.pdf)as delegated to local units of government (see G1-5.2), Ecology will review general sewer plans, engineering reports, plans and specifications, and operation and maintenance manuals for domestic wastewater facilities. The purpose of Ecology’s review is to ascertain that the proposed facilities will be designed, constructed, operated, and maintained to meet the effluent limitations and other wastewater discharge permit terms and conditions necessary to protect public health and the environment. The policies for providing this protection are established in Chapters 90.48, 90.52, and 90.54 RCW pertaining to the prevention and control of pollution to state waters. Ecology also relies on requirements established in Chapter 90.46 RCW for projects producing and distributing reclaimed water.",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 5661,
+          "source_file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 12,
+          "section": "G1 General Engineering Requirements",
+          "document_title": "DOE Orange Book Design Standards",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "DOE_Orange_Book_Design_Standards.pdf",
+          "file_path": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 12,
+          "section": "G1 General Engineering Requirements",
+          "breadcrumbs": null,
+          "index": null,
+          "document_title": "DOE Orange Book Design Standards",
+          "author": null,
+          "publisher": "WA Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Relevant to the query scope.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "1d13f15a-2ded-4081-a357-58c0c07ac9f9",
+        "parent_id": null,
+        "score": 0.18787657,
+        "text": "08/2008)\n\n## C1-10.1 GRINDER PUMP, SEPTIC TANK EFFLUENT PUMP, AND SEPTIC TANK EFFLUENT FILTER/SMALL DIAMETER GRAVITY SYSTEMS\n\n### C1-10.1.1 APPLICATION\n\n### C1-10.1.2 DESIGN CONSIDERATIONS\n\n- A. PEAK DESIGN FLOWS\n- B. INFILTRATION AND INFLOW CONSIDERATIONS\n\n### C1-10.1.3 HYDRAULIC GRADELINE/PIPELINE SIZING\n\n- A. SDG HYDRAULIC GRADELINE\n- B. STEP/GP HYDRAULIC GRADELINE\n\n### C1-10.1.4 MINIMUM VELOCITY\n\\n---\\n\n## C1-10.1.5 TANK/VESSEL TYPE AND SIZING\n* A. TANK CONFIGURATION STEP/SDG\n* B. DETENTION VOLUME STEP/SDG\n* C. WORKING VOLUME STEP/GP\n* D. STORAGE VOLUME\n* E. POWER OUTAGES\n\n## C1-10.2 SYSTEM COMPONENTS\n### C1-10.2.1 PIPELINE\n* A. SERVICE LINE/CHECK VALVES\n* B. CLEANOUTS/PIG PORTS\n* C. VALVES\n* D. AIR RELEASE ASSEMBLIES\n* E. PIPELINE MATERIAL AND PRESSURE TESTING\n* F. DISCHARGE TO A GRAVITY COLLECTION SYSTEM\n* G. DISCHARGE TO A CONVENTIONAL FORCE MAIN\n\n### C1-10.2.2 PUMP OR SDG ASSEMBLY\n* A. PUMPS\n* B. PUMP/EFFLUENT VAULT (SCREEN) STEP/SDG\n* C. CONTROL PANEL/LEVEL CONTROL\n* D. ELECTRICAL REQUIREMENTS\n* E. VENTILATION\n\n### C1-10.2.3 VACUUM SEWER SYSTEM\n* A. INTRODUCTION\n* B. PRINCIPLES OF OPERATION\n* C. SYSTEM DESIGN CRITERIA\n\n### C1-10.2.4 LONG-TERM SYSTEM MANAGEMENT\n* A. OWNERSHIP, OPERATION AND MAINTENANCE\n* B. MAINTENANCE PROGRAM\n* C. PERSONNEL QUALIFICATIONS\n* D. SYSTEM MONITORING\n* E. EASEMENTS FOR MUNICIPALITIES\n* F. REPLACEMENT PARTS\n\\n---\\n\n# References\n\\n---\\n\n## List of Figures/Tables\n* FIGURE C1-1. RATIO OF PEAK HOURLY FLOW TO DESIGN AVERAGE FLOW................................. 11\n* TABLE C1-1. MINIMUM SLOPE OF SEWERS, BY SIZE (ASSUMING FULL FLOW)............................ 13\n* TABLE C1- 2. FACTORS TO CONSIDER WHEN PLANNING A TV INSPECTION PROJECT ................. 26\n* TABLE C1-3. REHABILITATION/REPLACEMENT TECHNIQUES FOR SEWER MAINS ....................... 29\n* FIGURE C1-2 REQUIRED SEPARATION BETWEEN POTABLE WATER LINES, RECLAIMED WATER LINES, AND SANITARY SEWERS, PARALLEL CONSTRUCTION ................................... 32\n* FIGURE C1-3 REQUIRED SEPARATION BETWEEN WATER LINES AND SANITARY SEWERS, UNUSUAL CONDITIONS PARALLEL CONSTRUCTION................................................ 33\n* TABLE C1- 4 RECOMMENDED PIPE MATERIAL FOR UNUSUAL CONDITIONS ............................... 34\n\n## ADA Accessibility\nThe Department of Ecology is committed to providing people with disabilities access to information and services by meeting or exceeding the requirements of the Americans with Disabilities Act (ADA), Section 504 and 508 of the Rehabilitation Act, and Washington State Policy #188.\nTo request ADA Accommodation, contact Water Quality Reception at 360-407-6600. For Washington Relay Service or TTY call 711 or 877-833-6341. Visit Ecology's accessibility webpage[1] for more information.\n[For document](https://ecology.wa.gov/About-us/Accountability-transparency/Our-website/Accessibility) translation services, call Water Quality Reception at 360-407-6600. Por publicaciones en espanol, por favor llame Water Quality Reception al 360-407-6600.\n\n[1]: [https://ecology.wa.gov/About-us/Accountability-transparency/Our-website/Accessibility](https://ecology.wa.gov/About-us/Accountability-transparency/Our-website/Accessibility)\n\\n---\\n\n# C1-1 GENERAL REQUIREMENTS\n\n## C1-1.1 APPROVALS\nDesigns of new sewer systems or extensions of existing systems must provide for:\n* Adequately processing the added hydraulic and organic load; or\n* Adequately providing treatment facilities on a time schedule acceptable to Ecology.\nSee Chapter G1 for additional information on approvals.\n\n## C1-1.2 OWNERSHIP (CERTIFICATION BY THE ENGINEER OR THE OWNER)\nSewer systems shall be owned and operated by a public entity demonstrating the capability to operate and maintain the sewer system.\n\n## C1-1.3 DESIGN\nSewer systems shall be designed and constructed to achieve total containment of sanitary wastes and maximum exclusion of infiltration and inflow (I/I). No new combined sewers will be approved.",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 3938,
+          "source_file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 203,
+          "section": "C1-1.3 DESIGN",
+          "document_title": "DOE Orange Book Design Standards",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "DOE_Orange_Book_Design_Standards.pdf",
+          "file_path": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 203,
+          "section": "C1-1.3 DESIGN",
+          "breadcrumbs": null,
+          "index": null,
+          "document_title": "DOE Orange Book Design Standards",
+          "author": null,
+          "publisher": "WA Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Relevant to the query scope.",
+          "confidence": 0.7
+        }
+      },
+      {
+        "node_id": "1e4b4fce-f348-43b1-bc2e-e135a02189ac",
+        "parent_id": null,
+        "score": 0.17384852,
+        "text": "# Definitions of terms used in Calculating Inflow and Infiltration\n\n**Average Annual Flow** - The total annual volume divided by 365 days. This value is approximated by the mean of the twelve monthly average flows.\n\n**Average Annual Infiltration** - The average of the monthly minimum flows.\n\n**Average Annual Inflow** - From the average annual flow, subtract the base sanitary flow and average annual infiltration.\n\n**Average Dry Weather Flow (ADW)** - Flow during a period of extended dry weather (7 to 14 days) and seasonally high groundwater. Flow includes sanitary flow and infiltration, and excludes significant industrial and commercial flows (assumes no inflow during dry weather conditions).\n\n**Base Sanitary Flow (BSF)** - The portion of wastewater which includes domestic, commercial, institutional, and industrial sewage and specifically excludes infiltration and inflow. (See Estimating Base Flow, below).\n\n**Delayed Inflow volume** - The portion of total inflow which is generated from indirect connections to the collection system or connections which produce inflow after a significant time delay from the beginning of a storm. Delayed inflow sources include:\n- sump pumps,\n- foundation drains,\n- indirect sewer/drain cross-connections, etc.\n\nRainfall-induced infiltration cannot be distinguished from delayed inflow and is therefore included as part of delayed inflow. Delayed inflow sources have a gradual impact on the collection system and flow decreases gradually upon conclusion of the rainfall event, and after peak inflow caused by direct connections.\n\n**Direct Inflow Volume** - The portion of total inflow volume which is from direct connections to the collection system such as catch basins, roof leaders, manhole covers, etc. These inflow sources allow stormwater runoff to rapidly impact the collection system.\n\n**Dry Weather Flow (DWF)** - All flow in a sewer (includes sanitary flow and infiltration) except that caused directly by rainfall. Measured during a period of extended dry weather (7 to 14 days) and seasonally high groundwater.\n\n**Groundwater Infiltration (GWI)** – Measured during average dry weather flow period (see above). The average of the low nighttime flows (midnight to 6 am) per day for the same time period, minus significant industrial or commercial nighttime flows.\n\n**Hydrograph** - A graph showing stage (the height of a water surface above an established datum plane), flow, velocity, or other property of water with respect to time.\n\n**Infiltration** - Water other than sanitary wastewater that enters a sewer system from the ground through defective pipes, pipe joints, connections, or manholes. Infiltration does not include inflow.\n\n**Inflow** - Water other than sanitary wastewater that enters a sewer system from sources such as roof leaders, cellar/foundation drains, yard drains, area drains, drains\n\n---\n\nfrom springs and swampy areas, manhole covers, cross connections between storm sewers and sanitary sewers, and catch basins. Inflow does not include infiltration.\n\n**Inflow volume** - The total volume of inflow from a single storm event including both direct and delayed inflow. Total inflow is the area between the storm event hydrograph and the dry weather hydrograph.\n\n**Maximum Daily Flow** - The highest flow during a 24 hour period.\n\n**Maximum Daily Infiltration** - The highest daily flow at seasonal high groundwater after a dry period of three days or more minus the base sanitary flow.\n\n**Maximum Weekly Infiltration** - The highest 7 day average flow at high groundwater after a dry period of three or more days minus the base sanitary flow.\n\n**Maximum Monthly Infiltration** - The highest monthly average flow during dry or minimal rain period minus the base sanitary flow.\n\n**Maximum Daily Inflow** - The highest daily wet weather flow minus the base sanitary flow and the infiltration prior to the rain event.\n\n**Maximum Weekly Inflow (includes delayed infiltration)** - The highest 7 day average wet weather flow minus the base sanitary flow and the infiltration prior to the rain event.\n\n**Maximum Monthly Inflow** - The highest monthly flow after subtracting the base sanitary flow and infiltration.\n\n**Peak Hourly Dry Weather Flow** - The highest one hour flow after a dry period of three or more days.\n\n**Peak Hourly Inflow** - The highest one hour flow rate during wet weather minus the base sanitary flow and the infiltration prior to the rain event.\n\n**Peak Hourly Wet Weather Flow** – The highest one hour flow during a significant rain event.\n\n**Peak Infiltration** - The highest nighttime (midnight to 6 am) flow during high groundwater (usually in early spring).\n\n**Peak Instantaneous Wet Weather Flow** - The peak flow during a significant rain event day when the ground water is seasonally high.\n\n**Peaking Factor** - The ratio of peak hourly flow to average daily flow.\n\n**Rainfall-Induced Infiltration** - The short-term increase in infiltration which is the result of a rain event. Rainfall-induced infiltration is a portion of delayed inflow.",
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 5046,
+          "source_file": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+          "page": 3,
+          "section": "Definitions of terms used in Calculating Inflow and Infiltration",
+          "document_title": "EPA Guide Estimating Infiltration Inflow",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+          "file_path": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+          "page": 3,
+          "section": "Definitions of terms used in Calculating Inflow and Infiltration",
+          "breadcrumbs": null,
+          "index": null,
+          "document_title": "EPA Guide Estimating Infiltration Inflow",
+          "author": null,
+          "publisher": "EPA",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Relevant to the query scope.",
+          "confidence": 0.7
+        }
+      }
+    ],
+    "spore": {
+      "summary": "Top sources selected based on hybrid similarity and coverage of relevant sections.",
+      "rationale_bullets": [
+        "Covers primary regulatory sections referenced by the question",
+        "Includes adjacent sections providing upstream/downstream context",
+        "Combines lexical and semantic matches to reduce out-of-context risk"
+      ],
+      "confidence": 0.7
+    }
+  }
+}

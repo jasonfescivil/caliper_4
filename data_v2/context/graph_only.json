@@ -1,0 +1,11 @@
+{
+  "type": "retrieval_session",
+  "question": "What are the requirements for wastewater facility feasibility studies?",
+  "retrieval": {
+    "nodes": []
+  },
+  "source": {
+    "graph": "C:\\repos\\caliper_3\\data_v2\\graph",
+    "mixed": false
+  }
+}

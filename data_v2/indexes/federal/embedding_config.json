@@ -1,0 +1,8 @@
+{
+  "provider": "cohere",
+  "model": "embed-english-v3.0",
+  "dimension": 1024,
+  "similarity": "cosine",
+  "index_input_type": "search_document",
+  "created_at": "2025-09-05T00:17:28.613993Z"
+}

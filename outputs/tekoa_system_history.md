@@ -1,0 +1,15 @@
+assistant: System history (2006–present) — collection system and I&I
+
+2006–2010: Citywide I&I and river‐influence assessment established that Hangman (Latah) Creek stage correlates with sewer flows; floodplain location and high groundwater drive infiltration in adjacent corridors. A recurring late winter/spring wet‑weather pattern was documented (I&I & River Influence Study). These findings set the long‑term basis for seasonal wet‑weather behavior (Tekoa WWTP — I&I and System History (2006 → Present), 2006–2010; p.1 [1]; tekoa_ii_system_history_2006_to_present.csv, 2006–2010; p.1 [2]).
+
+2017: Targeted flow monitoring at D1, B7N, A25, and F1N (5‑min intervals) recorded sharp RDII pulses; D1 and B7N surcharged (weirs maxed; AV velocity methods applied). The four basins produced about 69% of system I/I while serving ~45% of ERUs; spring flows exceeded plant design, confirming a small number of basins dominate RDII (Tekoa WWTP — I&I and System History, 2017; p.1 [1]; tekoa_ii_system_history_2006_to_present.csv, 2017; p.1 [2]).
+
+2018: Design advanced targeted fixes: relocating mains out of marsh/athletic fields and seasonal stream alignments; rehabilitating brick manholes in wet areas with emphasis on the D‑line near Crosby/Ramsey (Figure 2 — 2018 Sewer Improvements, Sheet 1 of 2; p.1 [6]; tekoa_ii_system_history_2006_to_present.csv, 2018; p.1 [2]; Tekoa WWTP — I&I and System History, 2018; p.1 [1]).
+
+2019–2021: DMRs show seasonal I&I without extremes—no daily totals >0.9 MGD; AADF ~0.11–0.12 MGD—indicating improved day‑to‑day performance during this interval (Tekoa WWTP — I&I and System History, 2019–2021; p.1 [1]; tekoa_ii_system_history_2006_to_present.csv, 2019–2021; p.1 [2]). Broader planning documents attribute ongoing operational challenges primarily to severe I&I, with improvements aiding compliance but residual issues remaining (Facility Plan Draft, p.22 [4]).
+
+2020–2021: Influent lift station Basis of Design set design PHF as ADWF×PF(3)+I&I, compounded 1%/yr to ~404 gpm. Project abandoned a 10‑inch siphon (likely major I&I source), installed a new 12‑inch C900 inlet, and provided a triplex VFD station (two pumps ≈650 gpm total) (Tekoa WWTP — I&I and System History, 2020–2021; p.1 [1]; tekoa_ii_system_history_2006_to_present.csv, 2020–2021; p.1 [2]).
+
+2022–2024: Daily influent spikes >0.9 MGD reappear and align with rainfall, consistent with 2017 RDII behavior and persistent hotspot basins (A25, B7N, D1, F1N). Despite spikes, average daily flows trend downward: 134,520 gpd (2022), 117,452 gpd (2023), 100,486 gpd (2024) at ~460 ERUs (Facility Plan Draft, Table 5.3‑1; p.69 [3]; Tekoa WWTP — I&I and System History, 2022–2024; p.1 [1]; tekoa_ii_system_history_2006_to_present.csv, 2022–2024; p.1 [2]).
+
+2024–2025 characterization: Using OFM‑based flat AADF, top RDII events were ranked and synthetic hourly hydrographs developed; EQ envelopes prepared for Q_allow caps of 180–240 gpm to manage pulses from hotspot basins. River‑stage influence remains a consideration (Tekoa WWTP — I&I and System History, 2024–2025; p.1 [1]; tekoa_ii_system_history_2006_to_present.csv, 2024–2025; p.1 [2]).

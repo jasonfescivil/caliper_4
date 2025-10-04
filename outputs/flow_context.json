@@ -1,0 +1,499 @@
+{
+  "type": "retrieval_session",
+  "version": 1,
+  "created_at": "2025-09-15T09:04:38Z",
+  "question": "Rewrite/check and complete the following report section to the extent possible using the provided files:\n\n5.3\tWastewater Flow Summary\nWAC 173-240-050(3)(g))\nDischarge Monitoring Reports (DMRs) from 2022 through 2024 were analyzed to determine historical influent flows to WWTP for the design period. This data, which represents actual measured flows to and from the facility (taken daily), provides the basis for characterizing system hydraulics in this report. The flow data along with OFM population data, was used to generate Table 5.3-1, which summarizes total system flows, average daily flows, estimated total Equivalent Residential Units (ERUs), and the average daily flow per ERU. The table is followed by a\nTable 5 3 Summary of Annual Wastewater Flow and ERUs 2022 to 2024 \nYear\tTotal Flow Entire System \n(MG/Year)\tAverage Daily Flow (ADF) \n(gpd)\tTotal Equivalent Residential Units (",
+  "indexes": [
+    "state",
+    "design"
+  ],
+  "search_mode": "hybrid",
+  "requested_top_k": 48,
+  "final_kept": 9,
+  "top_k": 9,
+  "reranker": "cohere",
+  "retrieval": {
+    "nodes": [
+      {
+        "node_id": "25860744-88ba-49d3-9496-23dfa71c693e",
+        "document_id": "077fe0a1578ee625d5cdcdf6ed163321293ebf0a9b4cadabc8",
+        "passage_id": "pid_192a07c5216e4b74b28a0cb2",
+        "parent_id": null,
+        "score": 0.73891455,
+        "text": "# Table 3-1. Assessment using Ecology infiltration and inflow criteria\n\n<table>\n<thead>\n<tr>\n<th>Wastewater parameter</th>\n<th colspan=\"4\">Previous discharge permit</th>\n<th colspan=\"5\">Current discharge permit</th>\n</tr>\n<tr>\n<th></th>\n<th>2014</th><th>2015</th><th>2016</th><th>2017</th><th>2018</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th>\n</tr>\n</thead>\n<tbody>\n<tr><td colspan=\"10\">Service area characteristics</td></tr>\n<tr><td>Estimated service area population, no.</td><td>29,026</td><td>29,144</td><td>29,263</td><td>29,381</td><td>29,499</td><td>34,705</td><td>36,546</td><td>36,692</td><td>36,837</td></tr>\n<tr><td>Estimated service area, acres</td><td>3,877</td><td>3,877</td><td>3,877</td><td>3,877</td><td>3,877</td><td>4,191</td><td>4,295</td><td>4,295</td><td>4,295</td></tr>\n<tr><td>Annual precipitation, in.</td><td>53.72</td><td>42.70</td><td>52.69</td><td>48.70</td><td>45.75</td><td>35.55</td><td>50.61</td><td>48.41</td><td>46.38</td></tr>\n<tr><td colspan=\"10\">Wastewater flow</td></tr>\n<tr><td>Average dry weather flow, mgd</td><td>1.99</td><td>1.92</td><td>2.32</td><td>1.97</td><td>1.94</td><td>2.26</td><td>2.38</td><td>2.27</td><td>2.40</td></tr>\n<tr><td>Minimum month average flow, mgd</td><td>1.91</td><td>1.87</td><td>2.27</td><td>1.86</td><td>1.86</td><td>2.19</td><td>2.27</td><td>2.23</td><td>2.20</td></tr>\n<tr><td>Average annual flow, mgd</td><td>2.19</td><td>2.19</td><td>2.60</td><td>2.23</td><td>2.15</td><td>2.32</td><td>2.52</td><td>2.50</td><td>2.53</td></tr>\n<tr><td>Average annual I/I, mgd</td><td>0.28</td><td>0.32</td><td>0.33</td><td>0.37</td><td>0.28</td><td>0.13</td><td>0.25</td><td>0.27</td><td>0.33</td></tr>\n<tr><td>Average I/I, gpad</td><td>71.9</td><td>82.9</td><td>84.5</td><td>96.0</td><td>72.8</td><td>31.1</td><td>57.3</td><td>62.6</td><td>77.3</td></tr>\n<tr><td>Average wet weather flow, mgd</td><td>2.40</td><td>2.47</td><td>2.83</td><td>2.35</td><td>2.35</td><td>2.37</td><td>2.66</td><td>2.69</td><td>2.70</td></tr>\n<tr><td>Maximum month average flow, mgd</td><td>2.70</td><td>3.00</td><td>3.01</td><td>2.81</td><td>2.59</td><td>2.61</td><td>2.95</td><td>3.10</td><td>3.08</td></tr>\n<tr><td>Peak day flow, mgd</td><td>3.82</td><td>3.81</td><td>4.23</td><td>3.55</td><td>3.27</td><td>4.58</td><td>4.82</td><td>4.",
+        "text_raw": "# Table 3-1. Assessment using Ecology infiltration and inflow criteria\n\n<table>\n<thead>\n<tr>\n<th>Wastewater parameter</th>\n<th colspan=\"4\">Previous discharge permit</th>\n<th colspan=\"5\">Current discharge permit</th>\n</tr>\n<tr>\n<th></th>\n<th>2014</th><th>2015</th><th>2016</th><th>2017</th><th>2018</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th>\n</tr>\n</thead>\n<tbody>\n<tr><td colspan=\"10\">Service area characteristics</td></tr>\n<tr><td>Estimated service area population, no.</td><td>29,026</td><td>29,144</td><td>29,263</td><td>29,381</td><td>29,499</td><td>34,705</td><td>36,546</td><td>36,692</td><td>36,837</td></tr>\n<tr><td>Estimated service area, acres</td><td>3,877</td><td>3,877</td><td>3,877</td><td>3,877</td><td>3,877</td><td>4,191</td><td>4,295</td><td>4,295</td><td>4,295</td></tr>\n<tr><td>Annual precipitation, in.</td><td>53.72</td><td>42.70</td><td>52.69</td><td>48.70</td><td>45.75</td><td>35.55</td><td>50.61</td><td>48.41</td><td>46.38</td></tr>\n<tr><td colspan=\"10\">Wastewater flow</td></tr>\n<tr><td>Average dry weather flow, mgd</td><td>1.99</td><td>1.92</td><td>2.32</td><td>1.97</td><td>1.94</td><td>2.26</td><td>2.38</td><td>2.27</td><td>2.40</td></tr>\n<tr><td>Minimum month average flow, mgd</td><td>1.91</td><td>1.87</td><td>2.27</td><td>1.86</td><td>1.86</td><td>2.19</td><td>2.27</td><td>2.23</td><td>2.20</td></tr>\n<tr><td>Average annual flow, mgd</td><td>2.19</td><td>2.19</td><td>2.60</td><td>2.23</td><td>2.15</td><td>2.32</td><td>2.52</td><td>2.50</td><td>2.53</td></tr>\n<tr><td>Average annual I/I, mgd</td><td>0.28</td><td>0.32</td><td>0.33</td><td>0.37</td><td>0.28</td><td>0.13</td><td>0.25</td><td>0.27</td><td>0.33</td></tr>\n<tr><td>Average I/I, gpad</td><td>71.9</td><td>82.9</td><td>84.5</td><td>96.0</td><td>72.8</td><td>31.1</td><td>57.3</td><td>62.6</td><td>77.3</td></tr>\n<tr><td>Average wet weather flow, mgd</td><td>2.40</td><td>2.47</td><td>2.83</td><td>2.35</td><td>2.35</td><td>2.37</td><td>2.66</td><td>2.69</td><td>2.70</td></tr>\n<tr><td>Maximum month average flow, mgd</td><td>2.70</td><td>3.00</td><td>3.01</td><td>2.81</td><td>2.59</td><td>2.61</td><td>2.95</td><td>3.10</td><td>3.08</td></tr>\n<tr><td>Peak day flow, mgd</td><td>3.82</td><td>3.81</td><td>4.23</td><td>3.55</td><td>3.27</td><td>4.58</td><td>4.82</td><td>4.",
+        "text_clean": "# Table 3-1. Assessment using Ecology infiltration and inflow criteria <table> <thead> <tr> <th>Wastewater parameter</th> <th colspan=\"4\">Previous discharge permit</th> <th colspan=\"5\">Current discharge permit</th> </tr> <tr> <th></th> <th>2014</th><th>2015</th><th>2016</th><th>2017</th><th>2018</th><th>2019</th><th>2020</th><th>2021</th><th>2022</th> </tr> </thead> <tbody> <tr><td colspan=\"10\">Service area characteristics</td></tr> <tr><td>Estimated service area population, no.</td><td>29,026</td><td>29,144</td><td>29,263</td><td>29,381</td><td>29,499</td><td>34,705</td><td>36,546</td><td>36,692</td><td>36,837</td></tr> <tr><td>Estimated service area, acres</td><td>3,877</td><td>3,877</td><td>3,877</td><td>3,877</td><td>3,877</td><td>4,191</td><td>4,295</td><td>4,295</td><td>4,295</td></tr> <tr><td>Annual precipitation, in.</td><td>53.72</td><td>42.70</td><td>52.69</td><td>48.70</td><td>45.75</td><td>35.55</td><td>50.61</td><td>48.41</td><td>46.38</td></tr> <tr><td colspan=\"10\">Wastewater flow</td></tr> <tr><td>Average dry weather flow, mgd</td><td>1.99</td><td>1.92</td><td>2.32</td><td>1.97</td><td>1.94</td><td>2.26</td><td>2.38</td><td>2.27</td><td>2.40</td></tr> <tr><td>Minimum month average flow, mgd</td><td>1.91</td><td>1.87</td><td>2.27</td><td>1.86</td><td>1.86</td><td>2.19</td><td>2.27</td><td>2.23</td><td>2.20</td></tr> <tr><td>Average annual flow, mgd</td><td>2.19</td><td>2.19</td><td>2.60</td><td>2.23</td><td>2.15</td><td>2.32</td><td>2.52</td><td>2.50</td><td>2.53</td></tr> <tr><td>Average annual I/I, mgd</td><td>0.28</td><td>0.32</td><td>0.33</td><td>0.37</td><td>0.28</td><td>0.13</td><td>0.25</td><td>0.27</td><td>0.33</td></tr> <tr><td>Average I/I, gpad</td><td>71.9</td><td>82.9</td><td>84.5</td><td>96.0</td><td>72.8</td><td>31.1</td><td>57.3</td><td>62.6</td><td>77.3</td></tr> <tr><td>Average wet weather flow, mgd</td><td>2.40</td><td>2.47</td><td>2.83</td><td>2.35</td><td>2.35</td><td>2.37</td><td>2.66</td><td>2.69</td><td>2.70</td></tr> <tr><td>Maximum month average flow, mgd</td><td>2.70</td><td>3.00</td><td>3.01</td><td>2.81</td><td>2.59</td><td>2.61</td><td>2.95</td><td>3.10</td><td>3.08</td></tr> <tr><td>Peak day flow, mgd</td><td>3.82</td><td>3.81</td><td>4.23</td><td>3.55</td><td>3.27</td><td>4.58</td><td>4.82</td><td>4.",
+        "char_count": 2284,
+        "token_count": 1131,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 2285,
+          "source_file": "AWWA_PPWTF_Infiltration_Inflow_Analysis.pdf",
+          "page": 18,
+          "section": "Table 3-1. Assessment using Ecology infiltration and inflow criteria",
+          "document_title": "AWWA PPWTF Infiltration Inflow Analysis",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "AWWA_PPWTF_Infiltration_Inflow_Analysis.pdf",
+          "file_path": "AWWA_PPWTF_Infiltration_Inflow_Analysis.pdf",
+          "page": 18,
+          "page_label": "18",
+          "page_raw": null,
+          "section": "Table 3-1. Assessment using Ecology infiltration and inflow criteria",
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": null,
+          "agency": null,
+          "doc_type": null,
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "AWWA PPWTF Infiltration Inflow Analysis",
+          "author": null,
+          "publisher": null,
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Section: Table 3-1. Assessment using Ecology infiltration and inflow criteria; p.18; WWTP guidance; permitting",
+          "confidence": 0.65
+        }
+      },
+      {
+        "node_id": "09fba9de-bb67-4fce-86ec-ca09f03e9385",
+        "document_id": "55f36e0f3079f6190b51acff9b249cda69ee97819622d70456",
+        "passage_id": "pid_bbb65b2e665b1996f04a0e0e",
+        "parent_id": null,
+        "score": 0.68723184,
+        "text": "## 5.3.1 Wastewater Flows\n\nEstimates of wastewater flows to establish design flows for clusters or large SWISs should be based on the number of homes served or population projections rather than the number or size of buildings, as is traditionally done for individual home septic systems. Various sources indicate that the values for average daily household indoor water use are 600 to 650 L/d (160 to 170 gpd) based on a national median household size of 2.6 persons (Anderson and Siegrist, 1989; Anderson et al., 1993; Brown and Caldwell, 1984; EPRI, 2004a; Mayer et al., 1999; U.S. EPA, 2002; WERF, 2007). Where household size is expected to exceed the national median, total population multiplied by a per capita water usage of 225 L/capita/d (60 gpd/capita) should be used. Where commercial buildings are to be included, the daily wastewater flows should be estimated individually for each source using appropriate criteria or metered water use.\n\nVariations in flows (daily, weekly, or seasonally) from small populations can be significantly greater than those experienced in large systems. Where the daily or weekly flows vary substantially, consideration should be given to flow equalization to avoid having to build a larger facility capable of treating peak flows. Where the wastewater flows vary seasonally, modular designs should be considered to allow some modules to be taken offline during low-flow periods.\n\nInfiltration and inflow should not be overlooked even in small systems because SWISs are highly flow-sensitive: Sources of inflow, such as roof and foundation drains, and infiltration from old building sewers, collector mains, manholes, and lift stations should be identified and repaired or eliminated where possible or provisions should be made to handle the excess water as appropriate.",
+        "text_raw": "## 5.3.1 Wastewater Flows\n\nEstimates of wastewater flows to establish design flows for clusters or large SWISs should be based on the number of homes served or population projections rather than the number or size of buildings, as is traditionally done for individual home septic systems. Various sources indicate that the values for average daily household indoor water use are 600 to 650 L/d (160 to 170 gpd) based on a national median household size of 2.6 persons (Anderson and Siegrist, 1989; Anderson et al., 1993; Brown and Caldwell, 1984; EPRI, 2004a; Mayer et al., 1999; U.S. EPA, 2002; WERF, 2007). Where household size is expected to exceed the national median, total population multiplied by a per capita water usage of 225 L/capita/d (60 gpd/capita) should be used. Where commercial buildings are to be included, the daily wastewater flows should be estimated individually for each source using appropriate criteria or metered water use.\n\nVariations in flows (daily, weekly, or seasonally) from small populations can be significantly greater than those experienced in large systems. Where the daily or weekly flows vary substantially, consideration should be given to flow equalization to avoid having to build a larger facility capable of treating peak flows. Where the wastewater flows vary seasonally, modular designs should be considered to allow some modules to be taken offline during low-flow periods.\n\nInfiltration and inflow should not be overlooked even in small systems because SWISs are highly flow-sensitive: Sources of inflow, such as roof and foundation drains, and infiltration from old building sewers, collector mains, manholes, and lift stations should be identified and repaired or eliminated where possible or provisions should be made to handle the excess water as appropriate.",
+        "text_clean": "## 5.3.1 Wastewater Flows Estimates of wastewater flows to establish design flows for clusters or large SWISs should be based on the number of homes served or population projections rather than the number or size of buildings, as is traditionally done for individual home septic systems. Various sources indicate that the values for average daily household indoor water use are 600 to 650 L/d (160 to 170 gpd) based on a national median household size of 2.6 persons (Anderson and Siegrist, 1989; Anderson et al., 1993; Brown and Caldwell, 1984; EPRI, 2004a; Mayer et al., 1999; U.S. EPA, 2002; WERF, 2007). Where household size is expected to exceed the national median, total population multiplied by a per capita water usage of 225 L/capita/d (60 gpd/capita) should be used. Where commercial buildings are to be included, the daily wastewater flows should be estimated individually for each source using appropriate criteria or metered water use. Variations in flows (daily, weekly, or seasonally) from small populations can be significantly greater than those experienced in large systems. Where the daily or weekly flows vary substantially, consideration should be given to flow equalization to avoid having to build a larger facility capable of treating peak flows. Where the wastewater flows vary seasonally, modular designs should be considered to allow some modules to be taken offline during low-flow periods. Infiltration and inflow should not be overlooked even in small systems because SWISs are highly flow-sensitive: Sources of inflow, such as roof and foundation drains, and infiltration from old building sewers, collector mains, manholes, and lift stations should be identified and repaired or eliminated where possible or provisions should be made to handle the excess water as appropriate.",
+        "char_count": 1809,
+        "token_count": 387,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 1812,
+          "source_file": "WEF_FD-16_Facilities_Design.pdf",
+          "page": 99,
+          "section": "5.3.1 Wastewater Flows",
+          "document_title": "WEF FD-16 Facilities Design",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "WEF_FD-16_Facilities_Design.pdf",
+          "file_path": "WEF_FD-16_Facilities_Design.pdf",
+          "page": 99,
+          "page_label": "99",
+          "page_raw": null,
+          "section": "5.3.1 Wastewater Flows",
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": "Unknown",
+          "agency": "WA Ecology",
+          "doc_type": "guidance",
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "WEF FD-16 Facilities Design",
+          "author": null,
+          "publisher": "WA Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Section: 5.3.1 Wastewater Flows; p.99; WWTP guidance",
+          "confidence": 0.65
+        }
+      },
+      {
+        "node_id": "fe9c49c4-6712-4265-9b09-41d277e6ddee",
+        "document_id": "832ba754091f1b3738e3baebef1df59ece6de6a4622bbb2f5d",
+        "passage_id": "pid_127b53381e60b576b210a322",
+        "parent_id": null,
+        "score": 0.5582553,
+        "text": "## TABLE 3-6. Nonresidential Wastewater Average Daily Flows\n\n<table>\n  <thead>\n    <tr>\n      <th>Location and Land Use</th>\n      <th>Unit Flow, gal/acre/day (gad) or gal/employee/day (ged)</th>\n      <th>Remarks</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Los Angeles, Calif.</td>\n      <td>30 ged</td>\n      <td>Estimates based on water consumption (City of Los Angeles 1992).</td>\n    </tr>\n<tr>\n      <tdEast Bay Municipal District, Calif. (Oakland and vicinity)</td>\n      <td>30 ged</td>\n      <td>Based on indoor water consumption for faucets and toilets from residential data.</td>\n    </tr>\n<tr>\n      <td>Stamford, Conn. (Stamford, Conn.)</td>\n      <td>6–32 ged</td>\n      <td>Wastewater flow based on billing records. Range reflects commercial establishments without cafeterias to those with cafeterias, showers, and gyms (Jeanette Brown, City of Stamford, Conn. Water Pollution Control Authority, personal communication, 2005).</td>\n    </tr>\n<tr>\n      <td>Morgan Hill, Calif. (mixed use)</td>\n      <td>2,450 gad</td>\n      <td>Flow monitoring in manhole for two weeks in April, 1992. Tributary area was 96 developed acres: 24 retail, 31 hospital, 41 industrial, and 25 homes.</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>Note: gal/day &times; 3.8 = L/day; acre &times; 0.4 = hectare.</p>\n\n----\n\n<table>\n  <thead>\n    <tr>\n      <th>TABLE 3-7. Example of Average Wastewater Flow Computation<br>(Qavg1 or Qavg2)</th>\n      <th></th>\n      <th></th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Demographic Factor<br>(Table 3-2 or 3-3)</td>\n      <td>Unit Flow Factor</td>\n      <td>Average Flow, gal/day</td>\n    </tr>\n<tr>\n      <td>Residential</td>\n      <td>9,010 population<br>60 gal/person/day</td>\n      <td>540,600</td>\n    </tr>\n<tr>\n      <td>Nonresidential</td>\n      <td>1,488 employees<br>30 gal/employee/day</td>\n      <td>44,640</td>\n    </tr>\n<tr>\n      <td>Total</td>\n      <td></td>\n      <td>585,240</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>Note: gal/day × 3.8 = L/day.</p>",
+        "text_raw": "## TABLE 3-6. Nonresidential Wastewater Average Daily Flows\n\n<table>\n  <thead>\n    <tr>\n      <th>Location and Land Use</th>\n      <th>Unit Flow, gal/acre/day (gad) or gal/employee/day (ged)</th>\n      <th>Remarks</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Los Angeles, Calif.</td>\n      <td>30 ged</td>\n      <td>Estimates based on water consumption (City of Los Angeles 1992).</td>\n    </tr>\n<tr>\n      <tdEast Bay Municipal District, Calif. (Oakland and vicinity)</td>\n      <td>30 ged</td>\n      <td>Based on indoor water consumption for faucets and toilets from residential data.</td>\n    </tr>\n<tr>\n      <td>Stamford, Conn. (Stamford, Conn.)</td>\n      <td>6–32 ged</td>\n      <td>Wastewater flow based on billing records. Range reflects commercial establishments without cafeterias to those with cafeterias, showers, and gyms (Jeanette Brown, City of Stamford, Conn. Water Pollution Control Authority, personal communication, 2005).</td>\n    </tr>\n<tr>\n      <td>Morgan Hill, Calif. (mixed use)</td>\n      <td>2,450 gad</td>\n      <td>Flow monitoring in manhole for two weeks in April, 1992. Tributary area was 96 developed acres: 24 retail, 31 hospital, 41 industrial, and 25 homes.</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>Note: gal/day &times; 3.8 = L/day; acre &times; 0.4 = hectare.</p>\n\n----\n\n<table>\n  <thead>\n    <tr>\n      <th>TABLE 3-7. Example of Average Wastewater Flow Computation<br>(Qavg1 or Qavg2)</th>\n      <th></th>\n      <th></th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>Demographic Factor<br>(Table 3-2 or 3-3)</td>\n      <td>Unit Flow Factor</td>\n      <td>Average Flow, gal/day</td>\n    </tr>\n<tr>\n      <td>Residential</td>\n      <td>9,010 population<br>60 gal/person/day</td>\n      <td>540,600</td>\n    </tr>\n<tr>\n      <td>Nonresidential</td>\n      <td>1,488 employees<br>30 gal/employee/day</td>\n      <td>44,640</td>\n    </tr>\n<tr>\n      <td>Total</td>\n      <td></td>\n      <td>585,240</td>\n    </tr>\n  </tbody>\n</table>\n\n<p>Note: gal/day × 3.8 = L/day.</p>",
+        "text_clean": "## TABLE 3-6. Nonresidential Wastewater Average Daily Flows <table> <thead> <tr> <th>Location and Land Use</th> <th>Unit Flow, gal/acre/day (gad) or gal/employee/day (ged)</th> <th>Remarks</th> </tr> </thead> <tbody> <tr> <td>Los Angeles, Calif.</td> <td>30 ged</td> <td>Estimates based on water consumption (City of Los Angeles 1992).</td> </tr> <tr> <tdEast Bay Municipal District, Calif. (Oakland and vicinity)</td> <td>30 ged</td> <td>Based on indoor water consumption for faucets and toilets from residential data.</td> </tr> <tr> <td>Stamford, Conn. (Stamford, Conn.)</td> <td>6–32 ged</td> <td>Wastewater flow based on billing records. Range reflects commercial establishments without cafeterias to those with cafeterias, showers, and gyms (Jeanette Brown, City of Stamford, Conn. Water Pollution Control Authority, personal communication, 2005).</td> </tr> <tr> <td>Morgan Hill, Calif. (mixed use)</td> <td>2,450 gad</td> <td>Flow monitoring in manhole for two weeks in April, 1992. Tributary area was 96 developed acres: 24 retail, 31 hospital, 41 industrial, and 25 homes.</td> </tr> </tbody> </table> <p>Note: gal/day &times; 3.8 = L/day; acre &times; 0.4 = hectare.</p> ---- <table> <thead> <tr> <th>TABLE 3-7. Example of Average Wastewater Flow Computation<br>(Qavg1 or Qavg2)</th> <th></th> <th></th> </tr> </thead> <tbody> <tr> <td>Demographic Factor<br>(Table 3-2 or 3-3)</td> <td>Unit Flow Factor</td> <td>Average Flow, gal/day</td> </tr> <tr> <td>Residential</td> <td>9,010 population<br>60 gal/person/day</td> <td>540,600</td> </tr> <tr> <td>Nonresidential</td> <td>1,488 employees<br>30 gal/employee/day</td> <td>44,640</td> </tr> <tr> <td>Total</td> <td></td> <td>585,240</td> </tr> </tbody> </table> <p>Note: gal/day × 3.8 = L/day.</p>",
+        "char_count": 1757,
+        "token_count": 611,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 2014,
+          "source_file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 62,
+          "section": "TABLE 3-6. Nonresidential Wastewater Average Daily Flows",
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "file_path": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 62,
+          "page_label": "62",
+          "page_raw": null,
+          "section": "TABLE 3-6. Nonresidential Wastewater Average Daily Flows",
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": "US",
+          "agency": "EPA",
+          "doc_type": "regulation",
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "author": null,
+          "publisher": "EPA",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Section: TABLE 3-6. Nonresidential Wastewater Average Daily Flows; p.62; WWTP guidance",
+          "confidence": 0.65
+        }
+      },
+      {
+        "node_id": "d55906c5-25bb-422b-beac-8202159d0b66",
+        "document_id": "f639c2367795a812c70e9c143e9e89efd5ae33659cb1ded7c3",
+        "passage_id": "pid_fa582186b0bd707e1ba17c86",
+        "parent_id": null,
+        "score": 0.55709904,
+        "text": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficiently Complete</strong><br><br>\nThe engineering report shall be sufficiently complete so that plans and specifications can be developed from it without substantial changes.\n</td>\n<td>\n“Sufficiently complete,” as used in the regulations, means that the report must contain sufficient design information to allow an engineer not involved in writing the report to produce construction drawings for the facility without any need for reevaluation of the selected unit processes or more than minor unit-sizing modifications.\n\n“Substantial change” means a change in the selected treatment process, facility size, design criteria, performance standards, or environmental impacts.. A substantial change requires an amendment to the approved engineering report.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(3) Minimum Information Required</strong><br><br>\nThe engineering report shall include the following information, together with any other relevant data as requested by Ecology:\n\n(a) The name, address, and telephone number of the owner of the proposed facilities, and their authorized representative.\n\n(b) A project description including a location map and a map of the present and proposed service area.\n</td>\n<td>\nThe report must include the name, address, and telephone number of the owner and the owner's representative. The named person or position must have the authority to sign contracts relating to this project. Examples of the owner's representative include the mayor, chair of the city council sewer committee, city manager, public works director, or similar elected or appointed authority. Additionally, the entity may identify a specific project contact person other than the legal representative.\n\nThe project description includes the “where, what, and why” of the report and documents the need for the proposed project. It must reference planning information established in the approved general sewer plan and supplement or update that information as necessary to support the project-specific decisions presented in the engineering report. The report must include a location map of the project area, along with a map showing the current and proposed sewer service area. Scale the map(s) so that at least one map shows the complete, current, and proposed service areas along with the relationship of this service area to adjacent service areas. One map must show the existing collection system changes and the proposed locations of land applications of wastewater.\nProvide Office of Financial Management (OFM) or other population data for the service area for at least the last two decades, if available. Include population projections for the project planning area and concentrated growth areas for the project design period. The project owner must base projections on historical records cited in the approved general sewer plan and remain consistent with data from appropriate local land use planning agencies.\n</td>\n</tr>\n\n</tbody>\n</table>\n\n\\n---\\n\n\n<table>\n  <thead>\n    <tr>\n      <th>Text from WAC 173-240-060</th>\n      <th>Explanation</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>(c)     A statement of the present and expected future quantity and quality of wastewater, including any industrial wastes which may be present or expected in the sewer system.</td>\n      <td>The analysis of current conditions must include the following information, as appropriate:\n        <ul>\n          <li>Characterization of waste loading, including flow, 5-day biochemical oxygen demand (BOD5), and total suspended solids (TSS) received by the treatment plant. Wastewater characterization must also identify any constituents that may have a detrimental impact on any proposed unit process, such as chemicals toxic to microbes, constituents that may interfere with disinfection, and high seasonal or diurnal variability in peak flows and loading.</li>\n          <li>Distribution of the wastewater sources, ideally expressed as percentages of domestic, commercial, and industrial dischargers.</li>\n          <li>Characteristics of industrial discharges along with a discussion of any pretreatment requirements for those discharges.</li>\n          <li>Current I/I flows, including flows received from combined sewers as defined in Chapter 173-245 WAC.</li>\n          <li>Assessment of diurnal flow and loading variations along with seasonal load and flow variations.</li>\n        </ul>\n        The analysis must, at a minimum, include one full year of current wastewater flow and loading data to justify appropriate design parameters for the new system, However, Ecology recommends using more than one year of data.\n        </td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The analyzed data must include sufficient detail to demonstrate the degree of flow and loading variability experienced. It must also identify the location of influent and effluent sampling, the type of samples taken, and the locations of treatment process return streams. The report must rely on credible and accurate data, which requires the use of laboratory data obtained from an Ecology-accredited laboratory and flow data obtained from meters with a documented history of proper calibration</td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The report must estimate the future (normally 20 years from the date of the report) waste load and sources of wastewater.",
+        "text_raw": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficiently Complete</strong><br><br>\nThe engineering report shall be sufficiently complete so that plans and specifications can be developed from it without substantial changes.\n</td>\n<td>\n“Sufficiently complete,” as used in the regulations, means that the report must contain sufficient design information to allow an engineer not involved in writing the report to produce construction drawings for the facility without any need for reevaluation of the selected unit processes or more than minor unit-sizing modifications.\n\n“Substantial change” means a change in the selected treatment process, facility size, design criteria, performance standards, or environmental impacts.. A substantial change requires an amendment to the approved engineering report.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(3) Minimum Information Required</strong><br><br>\nThe engineering report shall include the following information, together with any other relevant data as requested by Ecology:\n\n(a) The name, address, and telephone number of the owner of the proposed facilities, and their authorized representative.\n\n(b) A project description including a location map and a map of the present and proposed service area.\n</td>\n<td>\nThe report must include the name, address, and telephone number of the owner and the owner's representative. The named person or position must have the authority to sign contracts relating to this project. Examples of the owner's representative include the mayor, chair of the city council sewer committee, city manager, public works director, or similar elected or appointed authority. Additionally, the entity may identify a specific project contact person other than the legal representative.\n\nThe project description includes the “where, what, and why” of the report and documents the need for the proposed project. It must reference planning information established in the approved general sewer plan and supplement or update that information as necessary to support the project-specific decisions presented in the engineering report. The report must include a location map of the project area, along with a map showing the current and proposed sewer service area. Scale the map(s) so that at least one map shows the complete, current, and proposed service areas along with the relationship of this service area to adjacent service areas. One map must show the existing collection system changes and the proposed locations of land applications of wastewater.\nProvide Office of Financial Management (OFM) or other population data for the service area for at least the last two decades, if available. Include population projections for the project planning area and concentrated growth areas for the project design period. The project owner must base projections on historical records cited in the approved general sewer plan and remain consistent with data from appropriate local land use planning agencies.\n</td>\n</tr>\n\n</tbody>\n</table>\n\n\\n---\\n\n\n<table>\n  <thead>\n    <tr>\n      <th>Text from WAC 173-240-060</th>\n      <th>Explanation</th>\n    </tr>\n  </thead>\n  <tbody>\n    <tr>\n      <td>(c)     A statement of the present and expected future quantity and quality of wastewater, including any industrial wastes which may be present or expected in the sewer system.</td>\n      <td>The analysis of current conditions must include the following information, as appropriate:\n        <ul>\n          <li>Characterization of waste loading, including flow, 5-day biochemical oxygen demand (BOD5), and total suspended solids (TSS) received by the treatment plant. Wastewater characterization must also identify any constituents that may have a detrimental impact on any proposed unit process, such as chemicals toxic to microbes, constituents that may interfere with disinfection, and high seasonal or diurnal variability in peak flows and loading.</li>\n          <li>Distribution of the wastewater sources, ideally expressed as percentages of domestic, commercial, and industrial dischargers.</li>\n          <li>Characteristics of industrial discharges along with a discussion of any pretreatment requirements for those discharges.</li>\n          <li>Current I/I flows, including flows received from combined sewers as defined in Chapter 173-245 WAC.</li>\n          <li>Assessment of diurnal flow and loading variations along with seasonal load and flow variations.</li>\n        </ul>\n        The analysis must, at a minimum, include one full year of current wastewater flow and loading data to justify appropriate design parameters for the new system, However, Ecology recommends using more than one year of data.\n        </td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The analyzed data must include sufficient detail to demonstrate the degree of flow and loading variability experienced. It must also identify the location of influent and effluent sampling, the type of samples taken, and the locations of treatment process return streams. The report must rely on credible and accurate data, which requires the use of laboratory data obtained from an Ecology-accredited laboratory and flow data obtained from meters with a documented history of proper calibration</td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The report must estimate the future (normally 20 years from the date of the report) waste load and sources of wastewater.",
+        "text_clean": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report. Ecology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan. </td> </tr> <tr> <td> <strong>060(2) Sufficiently Complete</strong><br><br> The engineering report shall be sufficiently complete so that plans and specifications can be developed from it without substantial changes. </td> <td> “Sufficiently complete,” as used in the regulations, means that the report must contain sufficient design information to allow an engineer not involved in writing the report to produce construction drawings for the facility without any need for reevaluation of the selected unit processes or more than minor unit-sizing modifications. “Substantial change” means a change in the selected treatment process, facility size, design criteria, performance standards, or environmental impacts.. A substantial change requires an amendment to the approved engineering report. </td> </tr> <tr> <td> <strong>060(3) Minimum Information Required</strong><br><br> The engineering report shall include the following information, together with any other relevant data as requested by Ecology: (a) The name, address, and telephone number of the owner of the proposed facilities, and their authorized representative. (b) A project description including a location map and a map of the present and proposed service area. </td> <td> The report must include the name, address, and telephone number of the owner and the owner's representative. The named person or position must have the authority to sign contracts relating to this project. Examples of the owner's representative include the mayor, chair of the city council sewer committee, city manager, public works director, or similar elected or appointed authority. Additionally, the entity may identify a specific project contact person other than the legal representative. The project description includes the “where, what, and why” of the report and documents the need for the proposed project. It must reference planning information established in the approved general sewer plan and supplement or update that information as necessary to support the project-specific decisions presented in the engineering report. The report must include a location map of the project area, along with a map showing the current and proposed sewer service area. Scale the map(s) so that at least one map shows the complete, current, and proposed service areas along with the relationship of this service area to adjacent service areas. One map must show the existing collection system changes and the proposed locations of land applications of wastewater. Provide Office of Financial Management (OFM) or other population data for the service area for at least the last two decades, if available. Include population projections for the project planning area and concentrated growth areas for the project design period. The project owner must base projections on historical records cited in the approved general sewer plan and remain consistent with data from appropriate local land use planning agencies. </td> </tr> </tbody> </table> \\n---\\n <table> <thead> <tr> <th>Text from WAC 173-240-060</th> <th>Explanation</th> </tr> </thead> <tbody> <tr> <td>(c) A statement of the present and expected future quantity and quality of wastewater, including any industrial wastes which may be present or expected in the sewer system.</td> <td>The analysis of current conditions must include the following information, as appropriate: <ul> <li>Characterization of waste loading, including flow, 5-day biochemical oxygen demand (BOD5), and total suspended solids (TSS) received by the treatment plant. Wastewater characterization must also identify any constituents that may have a detrimental impact on any proposed unit process, such as chemicals toxic to microbes, constituents that may interfere with disinfection, and high seasonal or diurnal variability in peak flows and loading.</li> <li>Distribution of the wastewater sources, ideally expressed as percentages of domestic, commercial, and industrial dischargers.</li> <li>Characteristics of industrial discharges along with a discussion of any pretreatment requirements for those discharges.</li> <li>Current I/I flows, including flows received from combined sewers as defined in Chapter 173-245 WAC.</li> <li>Assessment of diurnal flow and loading variations along with seasonal load and flow variations.</li> </ul> The analysis must, at a minimum, include one full year of current wastewater flow and loading data to justify appropriate design parameters for the new system, However, Ecology recommends using more than one year of data. </td> </tr> <tr> <td></td> <td>The analyzed data must include sufficient detail to demonstrate the degree of flow and loading variability experienced. It must also identify the location of influent and effluent sampling, the type of samples taken, and the locations of treatment process return streams. The report must rely on credible and accurate data, which requires the use of laboratory data obtained from an Ecology-accredited laboratory and flow data obtained from meters with a documented history of proper calibration</td> </tr> <tr> <td></td> <td>The report must estimate the future (normally 20 years from the date of the report) waste load and sources of wastewater.",
+        "char_count": 5666,
+        "token_count": 1119,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 5834,
+          "source_file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "document_title": "DOE Orange Book Design Standards",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "DOE_Orange_Book_Design_Standards.pdf",
+          "file_path": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "page_label": "48",
+          "page_raw": null,
+          "section": null,
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": "WA",
+          "agency": "WA Ecology",
+          "doc_type": "regulation",
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "DOE Orange Book Design Standards",
+          "author": null,
+          "publisher": "WA Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "p.48",
+          "confidence": 0.6
+        }
+      },
+      {
+        "node_id": "8316074e-e4b3-45c5-8b99-85f58e8c370f",
+        "document_id": "832ba754091f1b3738e3baebef1df59ece6de6a4622bbb2f5d",
+        "passage_id": "pid_8f8a16149952140439664009",
+        "parent_id": null,
+        "score": 0.55275756,
+        "text": "## 3 QUANTITY OF WASTEWATER\n- 3.1 Introduction\n- 3.2 Design Period\n- 3.3 Population or Dwelling Unit Forecast\n- 3.4 Land Use and/or Employee Forecasts\n- 3.5 Average Unit Flows\n- 3.6 Average Flows\n- 3.7 Other\n- 3.8 Infiltration/Inflow\n- 3.9 Peak and Minimum Flows\n- 3.10 Uncertainty in Forecasts\n- References",
+        "text_raw": "## 3 QUANTITY OF WASTEWATER\n- 3.1 Introduction\n- 3.2 Design Period\n- 3.3 Population or Dwelling Unit Forecast\n- 3.4 Land Use and/or Employee Forecasts\n- 3.5 Average Unit Flows\n- 3.6 Average Flows\n- 3.7 Other\n- 3.8 Infiltration/Inflow\n- 3.9 Peak and Minimum Flows\n- 3.10 Uncertainty in Forecasts\n- References",
+        "text_clean": "## 3 QUANTITY OF WASTEWATER - 3.1 Introduction - 3.2 Design Period - 3.3 Population or Dwelling Unit Forecast - 3.4 Land Use and/or Employee Forecasts - 3.5 Average Unit Flows - 3.6 Average Flows - 3.7 Other - 3.8 Infiltration/Inflow - 3.9 Peak and Minimum Flows - 3.10 Uncertainty in Forecasts - References",
+        "char_count": 307,
+        "token_count": 102,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 307,
+          "source_file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 11,
+          "section": "3 QUANTITY OF WASTEWATER",
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "file_path": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 11,
+          "page_label": "11",
+          "page_raw": null,
+          "section": "3 QUANTITY OF WASTEWATER",
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": "US",
+          "agency": "EPA",
+          "doc_type": "regulation",
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "author": null,
+          "publisher": "EPA",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Section: 3 QUANTITY OF WASTEWATER; p.11; WWTP guidance",
+          "confidence": 0.65
+        }
+      },
+      {
+        "node_id": "d0306776-2243-4efc-be93-8a4c0f540a7f",
+        "document_id": "5c6a019bbc2e5653baad10727975b6c10ce6c2cd86f37dfa51",
+        "passage_id": "pid_c275bb10ef45fbc493e2c27b",
+        "parent_id": null,
+        "score": 0.5313802,
+        "text": "# Chapter 173-240 WAC\nSUBMISSION OF PLANS AND REPORTS FOR CONSTRUCTION OF WASTEWATER FACILITIES\n\n- WAC 173-240-010 Purpose and scope.\n- 173-240-020 Definitions.\n  - DOMESTIC WASTEWATER FACILITIES\n- 173-240-030 Submission of plans and reports.\n- 173-240-035 Restrictions—Subsurface disposal systems.\n- 173-240-040 Review standards.\n- 173-240-050 General sewer plan.\n- 173-240-060 Engineering report.\n- 173-240-070 Plans and specifications.\n- 173-240-075 Construction quality assurance plan.\n- 173-240-080 Operation and maintenance manual.\n- 173-240-090 Declaration of construction completion.\n- 173-240-095 Form—Declaration of construction of water pollution control facilities.\n- 173-240-100 Requirement for certified operator.\n- 173-240-104 Ownership and operation and maintenance.\n  - INDUSTRIAL WASTEWATER FACILITIES\n- 173-240-110 Submission of plans and reports.\n- 173-240-120 Review standards.\n- 173-240-130 Engineering report.\n- 173-240-140 Plans and specifications.\n- 173-240-150 Operation and maintenance manual.\n  - DOMESTIC AND INDUSTRIAL WASTEWATER FACILITIES\n- 173-240-160 Requirement for professional engineer.\n- 173-240-170 Right of inspection.\n- 173-240-180 Approval of construction changes.\n-  DISPOSITION OF SECTIONS FORMERLY CODIFIED IN THIS CHAPTER\n- 173-240-105 Form—Certificate of construction of water pollution control facilities.  [Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-105, filed 1/23/79. Formerly chapter 372-20 WAC.] Repealed by WSR 83-23-063 (Order DE 83-30), filed 11/16/83. Statutory Authority: Chapters 43.21A and 90.48 RCW.\n\nWAC 173-240-010 Purpose and scope. The purpose of this chapter is to implement RCW 90.48.110. The department interprets \"plans and specifications\" as mentioned in RCW 90.48.110 as including \"engineering reports,\" \"plans and specifications,\" and \"general sewer plans,\" all as defined in WAC 173-240-020. This chapter also includes provisions for review and approval of proposed methods of operation and maintenance.\n[Statutory Authority: Chapters 43.21A and 90.48 RCW. WSR 83-23-063 (Order DE 83-30), § 173-240-010, filed 11/16/83. Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-010, filed 1/23/79. Formerly chapter 372-20 WAC.]\n\nWAC 173-240-020 Definitions. (1) \"Approval\" means written approval. (2) \"Construction quality assurance plan\" means a plan describing the methods by which the professional engineer in responsible charge of inspection of the project will determine that the facilities were constructed without significant change from the department approved plans and specifications. (3) \"Department\" means the Washington state department of ecology. (4) \"Domestic wastewater\" means water carrying human wastes, including kitchen, bath, and laundry wastes from residences, buildings,\n\\n---\\n\n# Definitions\n\n(5) **\"Domestic wastewater facility\"** means all structures, equipment, or processes required to collect, carry away, treat, reclaim or dispose of domestic wastewater together with the industrial waste that may be present. In the case of subsurface sewage treatment and disposal, the term is restricted to mean those facilities treating and disposing of domestic wastewater only from:\n\n- (a) A septic tank system with subsurface sewage treatment and disposal and an ultimate design capacity exceeding fourteen thousand five hundred gallons per day at any common point; or\n- (b) A mechanical treatment system or lagoon followed by subsurface disposal with an ultimate design capacity exceeding three thousand five hundred gallons per day at any common point.\n\nWhere the proposed system using subsurface disposal has received a state construction grant or a federal construction grant under the Federal Water Pollution Control Act as amended, such a system is a **\"domestic wastewater facility\"** regardless of size.\n\n(6) **\"Engineering report\"** means a document that thoroughly examines the engineering and administrative aspects of a particular domestic or industrial wastewater facility. The report shall contain the appropriate information required in WAC 173-240-060 or 173-240-130. In the case of a domestic wastewater facility project, the report describes the recommended financing method.\n\nThe facility plan described in federal regulation 40 C.F.R. 35 is an **\"engineering report.\"** This federal regulation describes the Environmental Protection Agency's municipal wastewater construction grants program.",
+        "text_raw": "# Chapter 173-240 WAC\nSUBMISSION OF PLANS AND REPORTS FOR CONSTRUCTION OF WASTEWATER FACILITIES\n\n- WAC 173-240-010 Purpose and scope.\n- 173-240-020 Definitions.\n  - DOMESTIC WASTEWATER FACILITIES\n- 173-240-030 Submission of plans and reports.\n- 173-240-035 Restrictions—Subsurface disposal systems.\n- 173-240-040 Review standards.\n- 173-240-050 General sewer plan.\n- 173-240-060 Engineering report.\n- 173-240-070 Plans and specifications.\n- 173-240-075 Construction quality assurance plan.\n- 173-240-080 Operation and maintenance manual.\n- 173-240-090 Declaration of construction completion.\n- 173-240-095 Form—Declaration of construction of water pollution control facilities.\n- 173-240-100 Requirement for certified operator.\n- 173-240-104 Ownership and operation and maintenance.\n  - INDUSTRIAL WASTEWATER FACILITIES\n- 173-240-110 Submission of plans and reports.\n- 173-240-120 Review standards.\n- 173-240-130 Engineering report.\n- 173-240-140 Plans and specifications.\n- 173-240-150 Operation and maintenance manual.\n  - DOMESTIC AND INDUSTRIAL WASTEWATER FACILITIES\n- 173-240-160 Requirement for professional engineer.\n- 173-240-170 Right of inspection.\n- 173-240-180 Approval of construction changes.\n-  DISPOSITION OF SECTIONS FORMERLY CODIFIED IN THIS CHAPTER\n- 173-240-105 Form—Certificate of construction of water pollution control facilities.  [Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-105, filed 1/23/79. Formerly chapter 372-20 WAC.] Repealed by WSR 83-23-063 (Order DE 83-30), filed 11/16/83. Statutory Authority: Chapters 43.21A and 90.48 RCW.\n\nWAC 173-240-010 Purpose and scope. The purpose of this chapter is to implement RCW 90.48.110. The department interprets \"plans and specifications\" as mentioned in RCW 90.48.110 as including \"engineering reports,\" \"plans and specifications,\" and \"general sewer plans,\" all as defined in WAC 173-240-020. This chapter also includes provisions for review and approval of proposed methods of operation and maintenance.\n[Statutory Authority: Chapters 43.21A and 90.48 RCW. WSR 83-23-063 (Order DE 83-30), § 173-240-010, filed 11/16/83. Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-010, filed 1/23/79. Formerly chapter 372-20 WAC.]\n\nWAC 173-240-020 Definitions. (1) \"Approval\" means written approval. (2) \"Construction quality assurance plan\" means a plan describing the methods by which the professional engineer in responsible charge of inspection of the project will determine that the facilities were constructed without significant change from the department approved plans and specifications. (3) \"Department\" means the Washington state department of ecology. (4) \"Domestic wastewater\" means water carrying human wastes, including kitchen, bath, and laundry wastes from residences, buildings,\n\\n---\\n\n# Definitions\n\n(5) **\"Domestic wastewater facility\"** means all structures, equipment, or processes required to collect, carry away, treat, reclaim or dispose of domestic wastewater together with the industrial waste that may be present. In the case of subsurface sewage treatment and disposal, the term is restricted to mean those facilities treating and disposing of domestic wastewater only from:\n\n- (a) A septic tank system with subsurface sewage treatment and disposal and an ultimate design capacity exceeding fourteen thousand five hundred gallons per day at any common point; or\n- (b) A mechanical treatment system or lagoon followed by subsurface disposal with an ultimate design capacity exceeding three thousand five hundred gallons per day at any common point.\n\nWhere the proposed system using subsurface disposal has received a state construction grant or a federal construction grant under the Federal Water Pollution Control Act as amended, such a system is a **\"domestic wastewater facility\"** regardless of size.\n\n(6) **\"Engineering report\"** means a document that thoroughly examines the engineering and administrative aspects of a particular domestic or industrial wastewater facility. The report shall contain the appropriate information required in WAC 173-240-060 or 173-240-130. In the case of a domestic wastewater facility project, the report describes the recommended financing method.\n\nThe facility plan described in federal regulation 40 C.F.R. 35 is an **\"engineering report.\"** This federal regulation describes the Environmental Protection Agency's municipal wastewater construction grants program.",
+        "text_clean": "# Chapter 173-240 WAC SUBMISSION OF PLANS AND REPORTS FOR CONSTRUCTION OF WASTEWATER FACILITIES - WAC 173-240-010 Purpose and scope. - 173-240-020 Definitions. - DOMESTIC WASTEWATER FACILITIES - 173-240-030 Submission of plans and reports. - 173-240-035 Restrictions—Subsurface disposal systems. - 173-240-040 Review standards. - 173-240-050 General sewer plan. - 173-240-060 Engineering report. - 173-240-070 Plans and specifications. - 173-240-075 Construction quality assurance plan. - 173-240-080 Operation and maintenance manual. - 173-240-090 Declaration of construction completion. - 173-240-095 Form—Declaration of construction of water pollution control facilities. - 173-240-100 Requirement for certified operator. - 173-240-104 Ownership and operation and maintenance. - INDUSTRIAL WASTEWATER FACILITIES - 173-240-110 Submission of plans and reports. - 173-240-120 Review standards. - 173-240-130 Engineering report. - 173-240-140 Plans and specifications. - 173-240-150 Operation and maintenance manual. - DOMESTIC AND INDUSTRIAL WASTEWATER FACILITIES - 173-240-160 Requirement for professional engineer. - 173-240-170 Right of inspection. - 173-240-180 Approval of construction changes. - DISPOSITION OF SECTIONS FORMERLY CODIFIED IN THIS CHAPTER - 173-240-105 Form—Certificate of construction of water pollution control facilities. [Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-105, filed 1/23/79. Formerly chapter 372-20 WAC.] Repealed by WSR 83-23-063 (Order DE 83-30), filed 11/16/83. Statutory Authority: Chapters 43.21A and 90.48 RCW. WAC 173-240-010 Purpose and scope. The purpose of this chapter is to implement RCW 90.48.110. The department interprets \"plans and specifications\" as mentioned in RCW 90.48.110 as including \"engineering reports,\" \"plans and specifications,\" and \"general sewer plans,\" all as defined in WAC 173-240-020. This chapter also includes provisions for review and approval of proposed methods of operation and maintenance. [Statutory Authority: Chapters 43.21A and 90.48 RCW. WSR 83-23-063 (Order DE 83-30), § 173-240-010, filed 11/16/83. Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-010, filed 1/23/79. Formerly chapter 372-20 WAC.] WAC 173-240-020 Definitions. (1) \"Approval\" means written approval. (2) \"Construction quality assurance plan\" means a plan describing the methods by which the professional engineer in responsible charge of inspection of the project will determine that the facilities were constructed without significant change from the department approved plans and specifications. (3) \"Department\" means the Washington state department of ecology. (4) \"Domestic wastewater\" means water carrying human wastes, including kitchen, bath, and laundry wastes from residences, buildings, \\n---\\n # Definitions (5) **\"Domestic wastewater facility\"** means all structures, equipment, or processes required to collect, carry away, treat, reclaim or dispose of domestic wastewater together with the industrial waste that may be present. In the case of subsurface sewage treatment and disposal, the term is restricted to mean those facilities treating and disposing of domestic wastewater only from: - (a) A septic tank system with subsurface sewage treatment and disposal and an ultimate design capacity exceeding fourteen thousand five hundred gallons per day at any common point; or - (b) A mechanical treatment system or lagoon followed by subsurface disposal with an ultimate design capacity exceeding three thousand five hundred gallons per day at any common point. Where the proposed system using subsurface disposal has received a state construction grant or a federal construction grant under the Federal Water Pollution Control Act as amended, such a system is a **\"domestic wastewater facility\"** regardless of size. (6) **\"Engineering report\"** means a document that thoroughly examines the engineering and administrative aspects of a particular domestic or industrial wastewater facility. The report shall contain the appropriate information required in WAC 173-240-060 or 173-240-130. In the case of a domestic wastewater facility project, the report describes the recommended financing method. The facility plan described in federal regulation 40 C.F.R. 35 is an **\"engineering report.\"** This federal regulation describes the Environmental Protection Agency's municipal wastewater construction grants program.",
+        "char_count": 4444,
+        "token_count": 1070,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 4460,
+          "source_file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 1,
+          "section": "Definitions",
+          "document_title": "WAC 173-240 Wastewater Submission Plans",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "file_path": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 1,
+          "page_label": "1",
+          "page_raw": null,
+          "section": "Definitions",
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": "WA",
+          "agency": "WA Ecology",
+          "doc_type": "regulation",
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "WAC 173-240 Wastewater Submission Plans",
+          "author": null,
+          "publisher": "WA Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Cites WAC 173-240-010; Section: Definitions; p.1; WWTP guidance",
+          "confidence": 0.75
+        }
+      },
+      {
+        "node_id": "111507f3-6513-4bef-a9f3-5a05c693033d",
+        "document_id": "832ba754091f1b3738e3baebef1df59ece6de6a4622bbb2f5d",
+        "passage_id": "pid_cb8c89f96b1ad5467e91bcb4",
+        "parent_id": null,
+        "score": 0.5150107,
+        "text": "](http://www.lethbridge.ca/NR/rdonlyres/82DC4DE1-C54A-4981-AFDF-1925E7699054/1077/Section5SANITARYSEWER.pdf)</td>\n</tr>\n<tr>\n<td>Augusta, Ga.</td>\n<td>25 gpd/inch-diameter/mile</td>\n<td></td>\n</tr>\n<tr>\n<td>London, Ontario</td>\n<td>8,640 L/ha/day (0.100 L/sec/ha)</td>\n<td>Environmental and Engineering Services Department, The Corporation of the City of London. October, 2003.</td>\n</tr>\n<tr>\n<td>Kingston, Ontario</td>\n<td>0.14 L/ha/sec from residential land, 28 m³/ha/day from industrial, commercial, and institutional lands.</td>\n<td></td>\n</tr>\n<tr>\n<td>Union County, N.C.</td>\n<td>300 gpd/inch-diameter/mile</td>\n<td></td>\n</tr>\n<tr>\n<td>State of New Hampshire</td>\n<td>100 gpd/inch-diameter/mile of pipe for sizes to 48 inches. 200 gpd/inch-diameter/mile for sizes more than 48 inches.</td>\n<td></td>\n</tr>\n<tr>\n<td>Municipality of The County of Antigonish, Nova Scotia</td>\n<td>500 Imperial gpd/inch-diameter/mile of pipe</td>\n<td>[www.antigonishcounty.ns.ca/](http://www.antigonishcounty.ns.ca/MunicipalServiceSpecs.pdf)[MunicipalServiceSpecs.pdf, accessed ](http://www.antigonishcounty.ns.ca/MunicipalServiceSpecs.pdf)October 27, 2005.</td>\n</tr>\n<tr>\n<td>Maryland Department of the Environment</td>\n<td>400 gal/day/acre</td>\n<td>[www.mde.state.md.us/assets/document/](http://www.mde.state.md.us/assets/document/[water/WastewaterCapacityMgmtGuidance]([http://www.mde.state.md.us/assets/document/water/WastewaterCapacityMgmtGuidance.pdf](http://www.mde.state.md.us/assets/document/water/WastewaterCapacityMgmtGuidance.pdf)).pdf)water/WastewaterCapacityMgmtGuidance.pdf, accessed October 27, 2005.</td>\n</tr>\n</tbody>\n</table>\n\nNote: gal × 3.8 = L; acre × 0.4 = hectare; in. × 25.4 = mm.\nᵃWeb search on “infiltration allowance” sewer.\n\ncould be used for the peaking method—separately for the beginning and the end of the design period:\n\n1. Tabulate the average flows for each subarea; this would include all of the subarea flows—including residential, employee, industrial, and I/I flows. Each resulting flow is the estimate of average daily flow coming from the subarea.\n\\n---\\n",
+        "text_raw": "](http://www.lethbridge.ca/NR/rdonlyres/82DC4DE1-C54A-4981-AFDF-1925E7699054/1077/Section5SANITARYSEWER.pdf)</td>\n</tr>\n<tr>\n<td>Augusta, Ga.</td>\n<td>25 gpd/inch-diameter/mile</td>\n<td></td>\n</tr>\n<tr>\n<td>London, Ontario</td>\n<td>8,640 L/ha/day (0.100 L/sec/ha)</td>\n<td>Environmental and Engineering Services Department, The Corporation of the City of London. October, 2003.</td>\n</tr>\n<tr>\n<td>Kingston, Ontario</td>\n<td>0.14 L/ha/sec from residential land, 28 m³/ha/day from industrial, commercial, and institutional lands.</td>\n<td></td>\n</tr>\n<tr>\n<td>Union County, N.C.</td>\n<td>300 gpd/inch-diameter/mile</td>\n<td></td>\n</tr>\n<tr>\n<td>State of New Hampshire</td>\n<td>100 gpd/inch-diameter/mile of pipe for sizes to 48 inches. 200 gpd/inch-diameter/mile for sizes more than 48 inches.</td>\n<td></td>\n</tr>\n<tr>\n<td>Municipality of The County of Antigonish, Nova Scotia</td>\n<td>500 Imperial gpd/inch-diameter/mile of pipe</td>\n<td>[www.antigonishcounty.ns.ca/](http://www.antigonishcounty.ns.ca/MunicipalServiceSpecs.pdf)[MunicipalServiceSpecs.pdf, accessed ](http://www.antigonishcounty.ns.ca/MunicipalServiceSpecs.pdf)October 27, 2005.</td>\n</tr>\n<tr>\n<td>Maryland Department of the Environment</td>\n<td>400 gal/day/acre</td>\n<td>[www.mde.state.md.us/assets/document/](http://www.mde.state.md.us/assets/document/[water/WastewaterCapacityMgmtGuidance]([http://www.mde.state.md.us/assets/document/water/WastewaterCapacityMgmtGuidance.pdf](http://www.mde.state.md.us/assets/document/water/WastewaterCapacityMgmtGuidance.pdf)).pdf)water/WastewaterCapacityMgmtGuidance.pdf, accessed October 27, 2005.</td>\n</tr>\n</tbody>\n</table>\n\nNote: gal × 3.8 = L; acre × 0.4 = hectare; in. × 25.4 = mm.\nᵃWeb search on “infiltration allowance” sewer.\n\ncould be used for the peaking method—separately for the beginning and the end of the design period:\n\n1. Tabulate the average flows for each subarea; this would include all of the subarea flows—including residential, employee, industrial, and I/I flows. Each resulting flow is the estimate of average daily flow coming from the subarea.\n\\n---\\n",
+        "text_clean": "](http://www.lethbridge.ca/NR/rdonlyres/82DC4DE1-C54A-4981-AFDF-1925E7699054/1077/Section5SANITARYSEWER.pdf)</td> </tr> <tr> <td>Augusta, Ga.</td> <td>25 gpd/inch-diameter/mile</td> <td></td> </tr> <tr> <td>London, Ontario</td> <td>8,640 L/ha/day (0.100 L/sec/ha)</td> <td>Environmental and Engineering Services Department, The Corporation of the City of London. October, 2003.</td> </tr> <tr> <td>Kingston, Ontario</td> <td>0.14 L/ha/sec from residential land, 28 m³/ha/day from industrial, commercial, and institutional lands.</td> <td></td> </tr> <tr> <td>Union County, N.C.</td> <td>300 gpd/inch-diameter/mile</td> <td></td> </tr> <tr> <td>State of New Hampshire</td> <td>100 gpd/inch-diameter/mile of pipe for sizes to 48 inches. 200 gpd/inch-diameter/mile for sizes more than 48 inches.</td> <td></td> </tr> <tr> <td>Municipality of The County of Antigonish, Nova Scotia</td> <td>500 Imperial gpd/inch-diameter/mile of pipe</td> <td>[www.antigonishcounty.ns.ca/](http://www.antigonishcounty.ns.ca/MunicipalServiceSpecs.pdf)[MunicipalServiceSpecs.pdf, accessed ](http://www.antigonishcounty.ns.ca/MunicipalServiceSpecs.pdf)October 27, 2005.</td> </tr> <tr> <td>Maryland Department of the Environment</td> <td>400 gal/day/acre</td> <td>[www.mde.state.md.us/assets/document/](http://www.mde.state.md.us/assets/document/[water/WastewaterCapacityMgmtGuidance]([http://www.mde.state.md.us/assets/document/water/WastewaterCapacityMgmtGuidance.pdf](http://www.mde.state.md.us/assets/document/water/WastewaterCapacityMgmtGuidance.pdf)).pdf)water/WastewaterCapacityMgmtGuidance.pdf, accessed October 27, 2005.</td> </tr> </tbody> </table> Note: gal × 3.8 = L; acre × 0.4 = hectare; in. × 25.4 = mm. ᵃWeb search on “infiltration allowance” sewer. could be used for the peaking method—separately for the beginning and the end of the design period: 1. Tabulate the average flows for each subarea; this would include all of the subarea flows—including residential, employee, industrial, and I/I flows. Each resulting flow is the estimate of average daily flow coming from the subarea. \\n---\\n",
+        "char_count": 2084,
+        "token_count": 673,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 2087,
+          "source_file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 67,
+          "section": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "file_path": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 67,
+          "page_label": "67",
+          "page_raw": null,
+          "section": null,
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": "US",
+          "agency": "EPA",
+          "doc_type": "regulation",
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "author": null,
+          "publisher": "EPA",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "p.67",
+          "confidence": 0.6
+        }
+      },
+      {
+        "node_id": "a31de0b2-71f6-4c34-a8e1-acf21c6b1699",
+        "document_id": "832ba754091f1b3738e3baebef1df59ece6de6a4622bbb2f5d",
+        "passage_id": "pid_3511b1c9e0e330ca246fc5d1",
+        "parent_id": null,
+        "score": 0.5078369,
+        "text": "### 3.3. POPULATION OR DWELLING UNIT FORECAST\n\nOnce the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period.\nPrevious versions of this Manual and other historical references give several mathematical and graphical methods for population forecasting.\n\\n---\\n",
+        "text_raw": "### 3.3. POPULATION OR DWELLING UNIT FORECAST\n\nOnce the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period.\nPrevious versions of this Manual and other historical references give several mathematical and graphical methods for population forecasting.\n\\n---\\n",
+        "text_clean": "### 3.3. POPULATION OR DWELLING UNIT FORECAST Once the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period. Previous versions of this Manual and other historical references give several mathematical and graphical methods for population forecasting. \\n---\\n",
+        "char_count": 480,
+        "token_count": 91,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 481,
+          "source_file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 54,
+          "section": "3.3. POPULATION OR DWELLING UNIT FORECAST",
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "file_path": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 54,
+          "page_label": "54",
+          "page_raw": null,
+          "section": "3.3. POPULATION OR DWELLING UNIT FORECAST",
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": "US",
+          "agency": "EPA",
+          "doc_type": "regulation",
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "2013 WEF FD-5 gravity-sanitary-sewer-design-and-construction",
+          "author": null,
+          "publisher": "EPA",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Section: 3.3. POPULATION OR DWELLING UNIT FORECAST; p.54; WWTP guidance; design horizon",
+          "confidence": 0.65
+        }
+      },
+      {
+        "node_id": "3bf46ef0-1906-40e1-a2a0-24e149c3c956",
+        "document_id": "f639c2367795a812c70e9c143e9e89efd5ae33659cb1ded7c3",
+        "passage_id": "pid_55e3f53ea16ebaf8e3688db9",
+        "parent_id": null,
+        "score": 0.50446826,
+        "text": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et al. Pumping Station Design. Butterworth Publishers, 1989.\n\\n---\\n\n# General Considerations\n\n- US Environmental Protection Agency. *Design Criteria for Mechanical, Electrical, and Fluid System Component Reliability*. Publication No. EPA 430-99-74-001. 1974.\n- US Environmental Protection Agency. *Estimating Laboratory Needs for Municipal Wastewater Treatment Facilities*. Publication No. EPA 430-9-74-002. 1973.\n- Water Environment Federation. *Odor Control in Wastewater Treatment Plants*. Manual of Practice No. 22. 1995.\n\\n---\\n\n# G3 Special Considerations for Small Community Systems\n\nThis chapter provides supplemental information that specifically applies to small communities for planning, designing, and constructing a domestic wastewater collection and treatment facility. An overall description of the regulatory framework, guidance on selecting an engineering consultant, rate setting, and financing the project are all discussed in general terms. Information and design criteria are also presented for several treatment technologies that have been demonstrated to be particularly appropriate for small community applications.\n\n## G3-1 Regulatory Framework\n\n### G3-1.1 Ecology Regulations\n- G3-1.1.1 Chapter 173-221 WAC: Discharge Standards and Effluent Limitations for Domestic Wastewater Facilities\n- G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington\n- G3-1.1.3 Chapter 173-220 WAC: National Pollutant Discharge Elimination System Permit Program\n- G3-1.1.4 Chapter 173-200 WAC: Water Quality Standards for Ground Waters of the State of Washington\n- G3-1.1.5 Chapter 173-216 WAC: State Waste Discharge Permit Program\n- G3-1.1.6 Chapter 173-240 WAC: Submission of Plans and Reports for Construction of Wastewater Facilities\n- G3-1.1.7 Chapter 173-802 WAC: State Environmental Policy Act\n\n### G3-1.2 Requirements of Other State Agencies\n- G3-1.2.1 Washington Department of Fish and Wildlife\n- G3-1.2.2 Washington Department of Natural Resources\n- G3-1.2.3 Washington Department of Health\n\n### G3-1.3 Other Considerations\n- G3-1.3.1 Local Requirements\n- G3-1.3.2 Tribal Requirements\n- G3-1.3.3 Discharge and Disposal Requirements\n\n## G3-2 Identifying and Securing Resources\n\n- G3-2.1 Hiring a Consultant\n- G3-2.2 Identifying Available Financial Resources\n  - G3-2.2.1 Evaluating and Setting User Rates, Connection Fees\n    - A. User Rates\n      - 1. Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2.",
+        "text_raw": "## G2-10 References\n\n* American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems.\nASCE Manuals and Reports on Engineering Practice, No. 69. 1989.\n* Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959.\n* Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995.\n* Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991.\n* Sanks, Robert L., et al. Pumping Station Design. Butterworth Publishers, 1989.\n\\n---\\n\n# General Considerations\n\n- US Environmental Protection Agency. *Design Criteria for Mechanical, Electrical, and Fluid System Component Reliability*. Publication No. EPA 430-99-74-001. 1974.\n- US Environmental Protection Agency. *Estimating Laboratory Needs for Municipal Wastewater Treatment Facilities*. Publication No. EPA 430-9-74-002. 1973.\n- Water Environment Federation. *Odor Control in Wastewater Treatment Plants*. Manual of Practice No. 22. 1995.\n\\n---\\n\n# G3 Special Considerations for Small Community Systems\n\nThis chapter provides supplemental information that specifically applies to small communities for planning, designing, and constructing a domestic wastewater collection and treatment facility. An overall description of the regulatory framework, guidance on selecting an engineering consultant, rate setting, and financing the project are all discussed in general terms. Information and design criteria are also presented for several treatment technologies that have been demonstrated to be particularly appropriate for small community applications.\n\n## G3-1 Regulatory Framework\n\n### G3-1.1 Ecology Regulations\n- G3-1.1.1 Chapter 173-221 WAC: Discharge Standards and Effluent Limitations for Domestic Wastewater Facilities\n- G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington\n- G3-1.1.3 Chapter 173-220 WAC: National Pollutant Discharge Elimination System Permit Program\n- G3-1.1.4 Chapter 173-200 WAC: Water Quality Standards for Ground Waters of the State of Washington\n- G3-1.1.5 Chapter 173-216 WAC: State Waste Discharge Permit Program\n- G3-1.1.6 Chapter 173-240 WAC: Submission of Plans and Reports for Construction of Wastewater Facilities\n- G3-1.1.7 Chapter 173-802 WAC: State Environmental Policy Act\n\n### G3-1.2 Requirements of Other State Agencies\n- G3-1.2.1 Washington Department of Fish and Wildlife\n- G3-1.2.2 Washington Department of Natural Resources\n- G3-1.2.3 Washington Department of Health\n\n### G3-1.3 Other Considerations\n- G3-1.3.1 Local Requirements\n- G3-1.3.2 Tribal Requirements\n- G3-1.3.3 Discharge and Disposal Requirements\n\n## G3-2 Identifying and Securing Resources\n\n- G3-2.1 Hiring a Consultant\n- G3-2.2 Identifying Available Financial Resources\n  - G3-2.2.1 Evaluating and Setting User Rates, Connection Fees\n    - A. User Rates\n      - 1. Flat Rates\n      - 2. Consumption Rates\n      - 3. Combination of Flat and Consumption Rates\n    - B. Connection Fees\n      - 1. Physical Connection Charge\n      - 2.",
+        "text_clean": "## G2-10 References * American Society of Civil Engineering. Sulfide in Wastewater Collection and Treatment Systems. ASCE Manuals and Reports on Engineering Practice, No. 69. 1989. * Chow, Ven Te. Open Channel Hydraulics. McGraw-Hill, Inc., 1959. * Grant, Douglas M. Isco Open Channel Flow Measurement Handbook. Fourth Edition (Revised). 1995. * Instrument Society of America. Standards and Practices for Instrumentation. Volume 1, Eleventh Edition, Standard No. S5.1. 1991. * Sanks, Robert L., et al. Pumping Station Design. Butterworth Publishers, 1989. \\n---\\n # General Considerations - US Environmental Protection Agency. *Design Criteria for Mechanical, Electrical, and Fluid System Component Reliability*. Publication No. EPA 430-99-74-001. 1974. - US Environmental Protection Agency. *Estimating Laboratory Needs for Municipal Wastewater Treatment Facilities*. Publication No. EPA 430-9-74-002. 1973. - Water Environment Federation. *Odor Control in Wastewater Treatment Plants*. Manual of Practice No. 22. 1995. \\n---\\n # G3 Special Considerations for Small Community Systems This chapter provides supplemental information that specifically applies to small communities for planning, designing, and constructing a domestic wastewater collection and treatment facility. An overall description of the regulatory framework, guidance on selecting an engineering consultant, rate setting, and financing the project are all discussed in general terms. Information and design criteria are also presented for several treatment technologies that have been demonstrated to be particularly appropriate for small community applications. ## G3-1 Regulatory Framework ### G3-1.1 Ecology Regulations - G3-1.1.1 Chapter 173-221 WAC: Discharge Standards and Effluent Limitations for Domestic Wastewater Facilities - G3-1.1.2 Chapter 173-201A WAC: Water Quality Standards for Surface Waters of the State of Washington - G3-1.1.3 Chapter 173-220 WAC: National Pollutant Discharge Elimination System Permit Program - G3-1.1.4 Chapter 173-200 WAC: Water Quality Standards for Ground Waters of the State of Washington - G3-1.1.5 Chapter 173-216 WAC: State Waste Discharge Permit Program - G3-1.1.6 Chapter 173-240 WAC: Submission of Plans and Reports for Construction of Wastewater Facilities - G3-1.1.7 Chapter 173-802 WAC: State Environmental Policy Act ### G3-1.2 Requirements of Other State Agencies - G3-1.2.1 Washington Department of Fish and Wildlife - G3-1.2.2 Washington Department of Natural Resources - G3-1.2.3 Washington Department of Health ### G3-1.3 Other Considerations - G3-1.3.1 Local Requirements - G3-1.3.2 Tribal Requirements - G3-1.3.3 Discharge and Disposal Requirements ## G3-2 Identifying and Securing Resources - G3-2.1 Hiring a Consultant - G3-2.2 Identifying Available Financial Resources - G3-2.2.1 Evaluating and Setting User Rates, Connection Fees - A. User Rates - 1. Flat Rates - 2. Consumption Rates - 3. Combination of Flat and Consumption Rates - B. Connection Fees - 1. Physical Connection Charge - 2.",
+        "char_count": 3026,
+        "token_count": 751,
+        "citation_anchor": {
+          "start_char": 0,
+          "end_char": 3075,
+          "source_file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 175,
+          "section": "G3-2 Identifying and Securing Resources",
+          "document_title": "DOE Orange Book Design Standards",
+          "confidence": null
+        },
+        "metadata": {
+          "file_name": "DOE_Orange_Book_Design_Standards.pdf",
+          "file_path": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 175,
+          "page_label": "175",
+          "page_raw": null,
+          "section": "G3-2 Identifying and Securing Resources",
+          "breadcrumbs": null,
+          "index": null,
+          "jurisdiction": "WA",
+          "agency": "WA Ecology",
+          "doc_type": "regulation",
+          "date": null,
+          "table_json": null,
+          "table_caption": null,
+          "kv_pairs": null,
+          "document_title": "DOE Orange Book Design Standards",
+          "author": null,
+          "publisher": "WA Ecology",
+          "rerank_confidence": null,
+          "retrieval_strategy": "standard"
+        },
+        "spore": {
+          "reason": "Section: G3-2 Identifying and Securing Resources; p.175; WWTP guidance",
+          "confidence": 0.65
+        }
+      }
+    ],
+    "spore": {
+      "summary": "Retrieved 9 nodes covering 1 regulations, 1 standards, addressing 'Rewrite/check and complete the following report section to the extent possible u...'",
+      "rationale_bullets": [
+        "Retrieved 1 regulatory citations including WAC 173-240-010",
+        "Found technical standards from ASCE",
+        "Covers 2 relevant topics: wastewater treatment, permitting",
+        "Includes content from jurisdictions: US, Unknown, WA"
+      ],
+      "confidence": 0.95
+    },
+    "citations": [
+      {
+        "file": "AWWA_PPWTF_Infiltration_Inflow_Analysis.pdf",
+        "page": 18,
+        "section": "Table 3-1. Assessment using Ecology infiltration and inflow criteria"
+      },
+      {
+        "file": "WEF_FD-16_Facilities_Design.pdf",
+        "page": 99,
+        "section": "5.3.1 Wastewater Flows"
+      },
+      {
+        "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+        "page": 62,
+        "section": "TABLE 3-6. Nonresidential Wastewater Average Daily Flows"
+      },
+      {
+        "file": "DOE_Orange_Book_Design_Standards.pdf",
+        "page": 48,
+        "section": null
+      },
+      {
+        "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+        "page": 11,
+        "section": "3 QUANTITY OF WASTEWATER"
+      },
+      {
+        "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+        "page": 1,
+        "section": "Definitions"
+      },
+      {
+        "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+        "page": 67,
+        "section": null
+      },
+      {
+        "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+        "page": 54,
+        "section": "3.3. POPULATION OR DWELLING UNIT FORECAST"
+      },
+      {
+        "file": "DOE_Orange_Book_Design_Standards.pdf",
+        "page": 175,
+        "section": "G3-2 Identifying and Securing Resources"
+      }
+    ]
+  }
+}

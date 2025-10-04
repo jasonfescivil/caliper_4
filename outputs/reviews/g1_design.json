@@ -1,0 +1,407 @@
+{
+  "type": "review_report",
+  "version": 1,
+  "doc_path": "C:\\repos\\caliper_3\\outputs\\drafts\\g1_design.md",
+  "context_path": "C:\\repos\\caliper_3\\data_v2\\context\\g1_design_test.json",
+  "summary": {
+    "blocking": 1,
+    "high_risk": 0,
+    "inconsistencies": 0,
+    "coverage_score": 1.0
+  },
+  "issues": [
+    {
+      "id": "B2",
+      "severity": "blocking",
+      "kind": "missing_required",
+      "message": "Required content missing: flows_link",
+      "suggestion": "Add material satisfying: Q\\s*avg|ADWF|Q\\s*max|peaking factor|Q\\s*min",
+      "where": null
+    }
+  ],
+  "claims": [
+    {
+      "id": "C1",
+      "heading": null,
+      "text": "assistant: G1 requirements for engineering reports [2]:",
+      "span": {
+        "start": 0,
+        "end": 55
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "12",
+          "section": "9 STRUCTURAL REQUIREMENTS",
+          "quote": "## 9 STRUCTURAL REQUIREMENTS\n\n- 9.1 General\n- 9.2 Loads on Sewers Caused by Gravity Earth Forces\n- 9.3 Live Loads and Minimum Cover\n- 9.4 Direct Design and Indirect Design\n- 9.5 Rigid Pipe Structural Design\n\\n---\\n"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "19",
+          "section": "1.3.1. Preliminary or Investigative Phase",
+          "quote": "## 1.3.1. Preliminary or Investigative Phase\nThe objective of this phase is to establish the broad technical and economic bases for environmental assessments, policy decisions, and final designs. The importance of this phase cannot be overemphasized. Inadequate preliminary work will be detrimental to all succeeding phases and may endanger the successful completion of the project or cause the owner to undertake planning which may not produce the most economical or efficient result. This phase usu"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "23",
+          "section": "1.5.2. Engineer",
+          "quote": "## 1.5.2. Engineer\nThe engineer has the responsibility of supplying the owner with the basic information needed to make project implementation policy decisions, detailed plans and specifications necessary to bid and construct the project, consultation, general and resident inspection during construction, and services necessary for the owner to establish satisfactory operation and maintenance procedures. The engineer’s responsibilities are all of a professional character and must be discharged in"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C2",
+      "heading": null,
+      "text": "Statement of the problem",
+      "span": {
+        "start": 59,
+        "end": 83
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "19",
+          "section": "1.3.1. Preliminary or Investigative Phase",
+          "quote": "## 1.3.1. Preliminary or Investigative Phase\nThe objective of this phase is to establish the broad technical and economic bases for environmental assessments, policy decisions, and final designs. The importance of this phase cannot be overemphasized. Inadequate preliminary work will be detrimental to all succeeding phases and may endanger the successful completion of the project or cause the owner to undertake planning which may not produce the most economical or efficient result. This phase usu"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "46",
+          "section": "SURVEYS AND INVESTIGATIONS",
+          "quote": "# SURVEYS AND INVESTIGATIONS\n\nWhen a connection to an existing sanitary sewer system is proposed, the preliminary survey must contain flow data for use in establishing the design capacity and sanitary sewer layout. Extreme precision and detail are neither necessary nor desirable in this phase, but all data obtained must be reliable. The type and extent of the information needed for any given project will usually become apparent as the work progresses, and this may vary widely depending on the si"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "20",
+          "section": "ORGANIZATION OF SANITARY SEWER PROJECTS",
+          "quote": "# ORGANIZATION OF SANITARY SEWER PROJECTS\n\nthe engineer to facilitate safe ingress and egress into manholes and sewers, platforms, safety ladders, etc. Manholes should be accessible for scheduled maintenance. The accessibility of back line systems is critical and easements are recommended for maintenance purposes.\n*  The selection of conveyance materials is critical. The corrosion induced by microbial action, low pH levels, and hydrogen sulfide gas must be considered when materials and linings a"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C3",
+      "heading": null,
+      "text": "review of existing conditions [2]",
+      "span": {
+        "start": 88,
+        "end": 121
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "19",
+          "section": "1.3.1. Preliminary or Investigative Phase",
+          "quote": "## 1.3.1. Preliminary or Investigative Phase\nThe objective of this phase is to establish the broad technical and economic bases for environmental assessments, policy decisions, and final designs. The importance of this phase cannot be overemphasized. Inadequate preliminary work will be detrimental to all succeeding phases and may endanger the successful completion of the project or cause the owner to undertake planning which may not produce the most economical or efficient result. This phase usu"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "41",
+          "section": "2.2.1. Physical",
+          "quote": "### 2.2.1. Physical\n\n* Topography, surface and subsurface conditions, details of paving\n  and other surfaces to be disturbed, pertinent above- and under-\n  ground utilities and structures, soil characteristics, water table ele-\n  vations, and traffic control needs.\n* Locations of streets, alleys, easements, and obstructions; required\n  rights-of-way; and all similar data necessary to define the physical\n  features of a proposed sanitary sewer project, including preliminary\n  horizontal and verti"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "44",
+          "section": "Surveys and Investigations",
+          "quote": "# Surveys and Investigations\n\n* Aerial photographs.\n* Instrument surveys, including approximate surveys by such devices as hand level, total station, and Global Positioning System (GPS), all of which may be useful for preliminary work.\n* Photographs and/or videos of complex surface detail to supplement instrument surveys, and photographs and/or videos to show detail of existing sewer systems.\n* Borings and test pits, either by hand or by machine, for determining subsurface soil and water conditi"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C4",
+      "heading": null,
+      "text": "conditions required for the design period [2]",
+      "span": {
+        "start": 139,
+        "end": 184
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "19",
+          "section": "1.3.1. Preliminary or Investigative Phase",
+          "quote": "## 1.3.1. Preliminary or Investigative Phase\nThe objective of this phase is to establish the broad technical and economic bases for environmental assessments, policy decisions, and final designs. The importance of this phase cannot be overemphasized. Inadequate preliminary work will be detrimental to all succeeding phases and may endanger the successful completion of the project or cause the owner to undertake planning which may not produce the most economical or efficient result. This phase usu"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "57",
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "quote": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nAs with residential land use, there may be many types of commercial/ industrial land use. Typical categories include:\n\n* Office\n* Commercial retail (neighborhood and regional)\n* Commercial services (neighborhood and regional)\n* Institutional\n* Manufacturing and raw material processing\n* Transportation\n* Communication and utilities\n* Industrial and commercial complexes\n* Mixed urban or developed land\n* Public assembly, recreational, cultural, and "
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "41",
+          "section": "2.2.1. Physical",
+          "quote": "### 2.2.1. Physical\n\n* Topography, surface and subsurface conditions, details of paving\n  and other surfaces to be disturbed, pertinent above- and under-\n  ground utilities and structures, soil characteristics, water table ele-\n  vations, and traffic control needs.\n* Locations of streets, alleys, easements, and obstructions; required\n  rights-of-way; and all similar data necessary to define the physical\n  features of a proposed sanitary sewer project, including preliminary\n  horizontal and verti"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C5",
+      "heading": null,
+      "text": "Evaluation of alternative methods, if available [2]",
+      "span": {
+        "start": 187,
+        "end": 238
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "19",
+          "section": "1.3.1. Preliminary or Investigative Phase",
+          "quote": "## 1.3.1. Preliminary or Investigative Phase\nThe objective of this phase is to establish the broad technical and economic bases for environmental assessments, policy decisions, and final designs. The importance of this phase cannot be overemphasized. Inadequate preliminary work will be detrimental to all succeeding phases and may endanger the successful completion of the project or cause the owner to undertake planning which may not produce the most economical or efficient result. This phase usu"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "31",
+          "section": "1.10.1. Investigations",
+          "quote": "### 1.10.1. Investigations\n\n* Investigations or surveys, such as an EPA Sanitary Sewer Evaluation Survey (SSES), should be conducted with safety as a paramount consideration in accordance with regulations for equipment, training, and size of sewer entry crew.\n* The engineer must provide a work environment for his workers that recognizes hazards likely to cause death or serious physical harm. This can be accomplished with the utilization of proper safety equipment and procedures."
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "20",
+          "section": "ORGANIZATION OF SANITARY SEWER PROJECTS",
+          "quote": "# ORGANIZATION OF SANITARY SEWER PROJECTS\n\nthe engineer to facilitate safe ingress and egress into manholes and sewers, platforms, safety ladders, etc. Manholes should be accessible for scheduled maintenance. The accessibility of back line systems is critical and easements are recommended for maintenance purposes.\n*  The selection of conveyance materials is critical. The corrosion induced by microbial action, low pH levels, and hydrogen sulfide gas must be considered when materials and linings a"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C6",
+      "heading": null,
+      "text": "General layouts, including stages of development [2]",
+      "span": {
+        "start": 241,
+        "end": 293
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "19",
+          "section": "1.3.1. Preliminary or Investigative Phase",
+          "quote": "## 1.3.1. Preliminary or Investigative Phase\nThe objective of this phase is to establish the broad technical and economic bases for environmental assessments, policy decisions, and final designs. The importance of this phase cannot be overemphasized. Inadequate preliminary work will be detrimental to all succeeding phases and may endanger the successful completion of the project or cause the owner to undertake planning which may not produce the most economical or efficient result. This phase usu"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "43",
+          "section": "2.3.1. Physical",
+          "quote": "### 2.3.1. Physical\n\n* Existing maps and sewer system plans, including United States Geological Survey (USGS) topographic maps, city plats and topographic maps, state highway plans and maps, tax maps, and local utility records and plans. Depending upon the system owner, much of the needed information may be contained in a Geographic Information System (GIS). However, the engineer should confirm the accuracy of the content.\n\\n---\\n"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "12",
+          "section": "9 STRUCTURAL REQUIREMENTS",
+          "quote": "## 9 STRUCTURAL REQUIREMENTS\n\n- 9.1 General\n- 9.2 Loads on Sewers Caused by Gravity Earth Forces\n- 9.3 Live Loads and Minimum Cover\n- 9.4 Direct Design and Indirect Design\n- 9.5 Rigid Pipe Structural Design\n\\n---\\n"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C7",
+      "heading": null,
+      "text": "Establishment of engineering criteria, preliminary sizing,",
+      "span": {
+        "start": 296,
+        "end": 354
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "19",
+          "section": "1.3.1. Preliminary or Investigative Phase",
+          "quote": "## 1.3.1. Preliminary or Investigative Phase\nThe objective of this phase is to establish the broad technical and economic bases for environmental assessments, policy decisions, and final designs. The importance of this phase cannot be overemphasized. Inadequate preliminary work will be detrimental to all succeeding phases and may endanger the successful completion of the project or cause the owner to undertake planning which may not produce the most economical or efficient result. This phase usu"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "46",
+          "section": "SURVEYS AND INVESTIGATIONS",
+          "quote": "# SURVEYS AND INVESTIGATIONS\n\nWhen a connection to an existing sanitary sewer system is proposed, the preliminary survey must contain flow data for use in establishing the design capacity and sanitary sewer layout. Extreme precision and detail are neither necessary nor desirable in this phase, but all data obtained must be reliable. The type and extent of the information needed for any given project will usually become apparent as the work progresses, and this may vary widely depending on the si"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "20",
+          "section": "ORGANIZATION OF SANITARY SEWER PROJECTS",
+          "quote": "# ORGANIZATION OF SANITARY SEWER PROJECTS\n\nthe engineer to facilitate safe ingress and egress into manholes and sewers, platforms, safety ladders, etc. Manholes should be accessible for scheduled maintenance. The accessibility of back line systems is critical and easements are recommended for maintenance purposes.\n*  The selection of conveyance materials is critical. The corrosion induced by microbial action, low pH levels, and hydrogen sulfide gas must be considered when materials and linings a"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C8",
+      "heading": null,
+      "text": "design [2] to inform cost estimates [2]",
+      "span": {
+        "start": 359,
+        "end": 398
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "46",
+          "section": "SURVEYS AND INVESTIGATIONS",
+          "quote": "# SURVEYS AND INVESTIGATIONS\n\nWhen a connection to an existing sanitary sewer system is proposed, the preliminary survey must contain flow data for use in establishing the design capacity and sanitary sewer layout. Extreme precision and detail are neither necessary nor desirable in this phase, but all data obtained must be reliable. The type and extent of the information needed for any given project will usually become apparent as the work progresses, and this may vary widely depending on the si"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "19",
+          "section": "1.3.1. Preliminary or Investigative Phase",
+          "quote": "## 1.3.1. Preliminary or Investigative Phase\nThe objective of this phase is to establish the broad technical and economic bases for environmental assessments, policy decisions, and final designs. The importance of this phase cannot be overemphasized. Inadequate preliminary work will be detrimental to all succeeding phases and may endanger the successful completion of the project or cause the owner to undertake planning which may not produce the most economical or efficient result. This phase usu"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "12",
+          "section": "9 STRUCTURAL REQUIREMENTS",
+          "quote": "## 9 STRUCTURAL REQUIREMENTS\n\n- 9.1 General\n- 9.2 Loads on Sewers Caused by Gravity Earth Forces\n- 9.3 Live Loads and Minimum Cover\n- 9.4 Direct Design and Indirect Design\n- 9.5 Rigid Pipe Structural Design\n\\n---\\n"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C9",
+      "heading": null,
+      "text": "Exploration of financing methods [2]",
+      "span": {
+        "start": 401,
+        "end": 437
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "19",
+          "section": "1.3.1. Preliminary or Investigative Phase",
+          "quote": "## 1.3.1. Preliminary or Investigative Phase\nThe objective of this phase is to establish the broad technical and economic bases for environmental assessments, policy decisions, and final designs. The importance of this phase cannot be overemphasized. Inadequate preliminary work will be detrimental to all succeeding phases and may endanger the successful completion of the project or cause the owner to undertake planning which may not produce the most economical or efficient result. This phase usu"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "20",
+          "section": "ORGANIZATION OF SANITARY SEWER PROJECTS",
+          "quote": "# ORGANIZATION OF SANITARY SEWER PROJECTS\n\nthe engineer to facilitate safe ingress and egress into manholes and sewers, platforms, safety ladders, etc. Manholes should be accessible for scheduled maintenance. The accessibility of back line systems is critical and easements are recommended for maintenance purposes.\n*  The selection of conveyance materials is critical. The corrosion induced by microbial action, low pH levels, and hydrogen sulfide gas must be considered when materials and linings a"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "46",
+          "section": "SURVEYS AND INVESTIGATIONS",
+          "quote": "# SURVEYS AND INVESTIGATIONS\n\nWhen a connection to an existing sanitary sewer system is proposed, the preliminary survey must contain flow data for use in establishing the design capacity and sanitary sewer layout. Extreme precision and detail are neither necessary nor desirable in this phase, but all data obtained must be reliable. The type and extent of the information needed for any given project will usually become apparent as the work progresses, and this may vary widely depending on the si"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C10",
+      "heading": null,
+      "text": "Environmental impact assessment [2]",
+      "span": {
+        "start": 440,
+        "end": 475
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "19",
+          "section": "1.3.1. Preliminary or Investigative Phase",
+          "quote": "## 1.3.1. Preliminary or Investigative Phase\nThe objective of this phase is to establish the broad technical and economic bases for environmental assessments, policy decisions, and final designs. The importance of this phase cannot be overemphasized. Inadequate preliminary work will be detrimental to all succeeding phases and may endanger the successful completion of the project or cause the owner to undertake planning which may not produce the most economical or efficient result. This phase usu"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "20",
+          "section": "ORGANIZATION OF SANITARY SEWER PROJECTS",
+          "quote": "# ORGANIZATION OF SANITARY SEWER PROJECTS\n\nthe engineer to facilitate safe ingress and egress into manholes and sewers, platforms, safety ladders, etc. Manholes should be accessible for scheduled maintenance. The accessibility of back line systems is critical and easements are recommended for maintenance purposes.\n*  The selection of conveyance materials is critical. The corrosion induced by microbial action, low pH levels, and hydrogen sulfide gas must be considered when materials and linings a"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "46",
+          "section": "SURVEYS AND INVESTIGATIONS",
+          "quote": "# SURVEYS AND INVESTIGATIONS\n\nWhen a connection to an existing sanitary sewer system is proposed, the preliminary survey must contain flow data for use in establishing the design capacity and sanitary sewer layout. Extreme precision and detail are neither necessary nor desirable in this phase, but all data obtained must be reliable. The type and extent of the information needed for any given project will usually become apparent as the work progresses, and this may vary widely depending on the si"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C11",
+      "heading": null,
+      "text": "Consideration of confined space entry requirements per OSHA regulations [2]",
+      "span": {
+        "start": 478,
+        "end": 553
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "19",
+          "section": "1.3.1. Preliminary or Investigative Phase",
+          "quote": "## 1.3.1. Preliminary or Investigative Phase\nThe objective of this phase is to establish the broad technical and economic bases for environmental assessments, policy decisions, and final designs. The importance of this phase cannot be overemphasized. Inadequate preliminary work will be detrimental to all succeeding phases and may endanger the successful completion of the project or cause the owner to undertake planning which may not produce the most economical or efficient result. This phase usu"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "31",
+          "section": "1.10.1. Investigations",
+          "quote": "### 1.10.1. Investigations\n\n* Investigations or surveys, such as an EPA Sanitary Sewer Evaluation Survey (SSES), should be conducted with safety as a paramount consideration in accordance with regulations for equipment, training, and size of sewer entry crew.\n* The engineer must provide a work environment for his workers that recognizes hazards likely to cause death or serious physical harm. This can be accomplished with the utilization of proper safety equipment and procedures."
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": "12",
+          "section": "9 STRUCTURAL REQUIREMENTS",
+          "quote": "## 9 STRUCTURAL REQUIREMENTS\n\n- 9.1 General\n- 9.2 Loads on Sewers Caused by Gravity Earth Forces\n- 9.3 Live Loads and Minimum Cover\n- 9.4 Direct Design and Indirect Design\n- 9.5 Rigid Pipe Structural Design\n\\n---\\n"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    }
+  ],
+  "metrics": {
+    "total_claims": 11,
+    "support_rate": 0.0,
+    "strict_precision": 0.0,
+    "citation_coverage": 1.0,
+    "unique_sources_cited": 1,
+    "avg_evidence_per_claim": 0.6
+  },
+  "follow_up_retrieves": [
+    "poetry run caliper_v2 retrieve \"assistant: G1 requirements for engineering reports [2]:\" --indexes \"design\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C1.json\"",
+    "poetry run caliper_v2 retrieve \"Statement of the problem\" --indexes \"design\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C2.json\"",
+    "poetry run caliper_v2 retrieve \"review of existing conditions [2]\" --indexes \"design\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C3.json\"",
+    "poetry run caliper_v2 retrieve \"conditions required for the design period [2]\" --indexes \"design\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C4.json\"",
+    "poetry run caliper_v2 retrieve \"Evaluation of alternative methods, if available [2]\" --indexes \"design\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C5.json\"",
+    "poetry run caliper_v2 retrieve \"General layouts, including stages of development [2]\" --indexes \"design\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C6.json\"",
+    "poetry run caliper_v2 retrieve \"Establishment of engineering criteria, preliminary sizing,\" --indexes \"design\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C7.json\"",
+    "poetry run caliper_v2 retrieve \"design [2] to inform cost estimates [2]\" --indexes \"design\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C8.json\"",
+    "poetry run caliper_v2 retrieve \"Exploration of financing methods [2]\" --indexes \"design\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C9.json\"",
+    "poetry run caliper_v2 retrieve \"Environmental impact assessment [2]\" --indexes \"design\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C10.json\""
+  ]
+}

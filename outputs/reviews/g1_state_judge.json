@@ -1,0 +1,458 @@
+{
+  "type": "judgment_report",
+  "version": 2,
+  "created_at": "2025-09-13T04:48:23Z",
+  "context_path": "C:\\repos\\caliper_3\\data_v2\\context\\g1_state_test.json",
+  "doc_path": "C:\\repos\\caliper_3\\outputs\\drafts\\g1_state.md",
+  "metrics": {
+    "total_claims": 11,
+    "support_rate": 0.0,
+    "strict_precision": 0.0,
+    "citation_coverage": 1.0,
+    "unique_sources_cited": 2,
+    "avg_evidence_per_claim": 0.8
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "heading": null,
+      "text": "assistant: The G1 requirements for engineering reports are outlined in Table G1-1 [1,2] of the \"DOE Orange Book Design Standards\" [1,2,3,4,5,6,7,8]",
+      "span": {
+        "start": 0,
+        "end": 147
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "15",
+          "section": "List of Tables",
+          "quote": "The purpose of Ecology’s review is to ascertain that the proposed facilities will be designed, constructed, operated, and maintained to meet the effluent limitations and other wastewater discharge permit terms and conditions necessary to protect public health and the environment. The policies for providing this protection are established in Chapters 90.48, 90.52, and 90.54 RCW pertaining to the prevention and control of pollution to state waters. Ecology also relies on requirements established i"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "45",
+          "section": "Table G1-1. Explanation of Engineering Report Requirements",
+          "quote": "Ecology considers the engineering report a\ncomprehensive analysis developed by the project proposer to document the\nengineering alternatives and environmental impacts considered in making a\ndecision to implement the project.\n\nProject proponents interested in pursuing funding from federal agencies may\nface a requirement to submit a preliminary engineering report (PER) to the\nfunding agency for review and approval. USDA-RD, EPA, the U.S. Department\nof Housing and Urban Development (HUD), and India"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C2",
+      "heading": null,
+      "text": "WAC 173-240-060 [8].",
+      "span": {
+        "start": 152,
+        "end": 172
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "45",
+          "section": "Table G1-1. Explanation of Engineering Report Requirements",
+          "quote": "Ecology considers the engineering report a\ncomprehensive analysis developed by the project proposer to document the\nengineering alternatives and environmental impacts considered in making a\ndecision to implement the project.\n\nProject proponents interested in pursuing funding from federal agencies may\nface a requirement to submit a preliminary engineering report (PER) to the\nfunding agency for review and approval. USDA-RD, EPA, the U.S. Department\nof Housing and Urban Development (HUD), and India"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "37",
+          "section": "G1-2.6 Submission of Electronic Documents",
+          "quote": "The regulation specifically identifies “comprehensive sewage drainage basin plans, approved by the department of ecology” as a plan cities and counties should consider. Because of this connection, many cities and counties required to complete comprehensive plans under the GMA must review the adequacy of their general sewer plans discussed in G1-2.3 and make appropriate revisions.\n\n## G1-2.5 Project Specific Planning, Design, and Construction\nThis section summarizes the process for project-specif"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C3",
+      "heading": null,
+      "text": "Engineering reports must include detailed, project-specific evaluations of alternatives [1,3] considered to implement projects described in a general sewer plan [1,3,7].",
+      "span": {
+        "start": 175,
+        "end": 344
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "37",
+          "section": "G1-2.6 Submission of Electronic Documents",
+          "quote": "The regulation specifically identifies “comprehensive sewage drainage basin plans, approved by the department of ecology” as a plan cities and counties should consider. Because of this connection, many cities and counties required to complete comprehensive plans under the GMA must review the adequacy of their general sewer plans discussed in G1-2.3 and make appropriate revisions.\n\n## G1-2.5 Project Specific Planning, Design, and Construction\nThis section summarizes the process for project-specif"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "45",
+          "section": "Table G1-1. Explanation of Engineering Report Requirements",
+          "quote": "Ecology considers the engineering report a\ncomprehensive analysis developed by the project proposer to document the\nengineering alternatives and environmental impacts considered in making a\ndecision to implement the project.\n\nProject proponents interested in pursuing funding from federal agencies may\nface a requirement to submit a preliminary engineering report (PER) to the\nfunding agency for review and approval. USDA-RD, EPA, the U.S. Department\nof Housing and Urban Development (HUD), and India"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C4",
+      "heading": null,
+      "text": "They must be sufficiently complete [1,2,3,8]",
+      "span": {
+        "start": 345,
+        "end": 389
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "45",
+          "section": "Table G1-1. Explanation of Engineering Report Requirements",
+          "quote": "Ecology considers the engineering report a\ncomprehensive analysis developed by the project proposer to document the\nengineering alternatives and environmental impacts considered in making a\ndecision to implement the project.\n\nProject proponents interested in pursuing funding from federal agencies may\nface a requirement to submit a preliminary engineering report (PER) to the\nfunding agency for review and approval. USDA-RD, EPA, the U.S. Department\nof Housing and Urban Development (HUD), and India"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "37",
+          "section": "G1-2.6 Submission of Electronic Documents",
+          "quote": "The regulation specifically identifies “comprehensive sewage drainage basin plans, approved by the department of ecology” as a plan cities and counties should consider. Because of this connection, many cities and counties required to complete comprehensive plans under the GMA must review the adequacy of their general sewer plans discussed in G1-2.3 and make appropriate revisions.\n\n## G1-2.5 Project Specific Planning, Design, and Construction\nThis section summarizes the process for project-specif"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "41",
+          "section": "G1-3.2 Content of General Sewer Plan",
+          "quote": "Any wastewater facility project carried out by a local agency that receives federal funding or approvals must comply with NEPA.\nAs a federal funding source, the CWSRF program requires that all funded projects undergo environmental reviews consistent with NEPA. The EPA’s implementing regulations for the CWSRF program (subpart K of 40 CFR Part 35) provide an allowance for states to use a “NEPA-like state environmental review process” to satisfy the environmental review requirements. The regulation"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C5",
+      "heading": null,
+      "text": "contain appropriate preliminary design details [1,3,8] so that any engineer can develop complete design documents [1,3] (plans",
+      "span": {
+        "start": 394,
+        "end": 520
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "37",
+          "section": "G1-2.6 Submission of Electronic Documents",
+          "quote": "The regulation specifically identifies “comprehensive sewage drainage basin plans, approved by the department of ecology” as a plan cities and counties should consider. Because of this connection, many cities and counties required to complete comprehensive plans under the GMA must review the adequacy of their general sewer plans discussed in G1-2.3 and make appropriate revisions.\n\n## G1-2.5 Project Specific Planning, Design, and Construction\nThis section summarizes the process for project-specif"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "41",
+          "section": "G1-3.2 Content of General Sewer Plan",
+          "quote": "Any wastewater facility project carried out by a local agency that receives federal funding or approvals must comply with NEPA.\nAs a federal funding source, the CWSRF program requires that all funded projects undergo environmental reviews consistent with NEPA. The EPA’s implementing regulations for the CWSRF program (subpart K of 40 CFR Part 35) provide an allowance for states to use a “NEPA-like state environmental review process” to satisfy the environmental review requirements. The regulation"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "45",
+          "section": "Table G1-1. Explanation of Engineering Report Requirements",
+          "quote": "Ecology considers the engineering report a\ncomprehensive analysis developed by the project proposer to document the\nengineering alternatives and environmental impacts considered in making a\ndecision to implement the project.\n\nProject proponents interested in pursuing funding from federal agencies may\nface a requirement to submit a preliminary engineering report (PER) to the\nfunding agency for review and approval. USDA-RD, EPA, the U.S. Department\nof Housing and Urban Development (HUD), and India"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C6",
+      "heading": null,
+      "text": "specifications) without making substantial changes.",
+      "span": {
+        "start": 525,
+        "end": 576
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "37",
+          "section": "G1-2.6 Submission of Electronic Documents",
+          "quote": "The regulation specifically identifies “comprehensive sewage drainage basin plans, approved by the department of ecology” as a plan cities and counties should consider. Because of this connection, many cities and counties required to complete comprehensive plans under the GMA must review the adequacy of their general sewer plans discussed in G1-2.3 and make appropriate revisions.\n\n## G1-2.5 Project Specific Planning, Design, and Construction\nThis section summarizes the process for project-specif"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "45",
+          "section": "Table G1-1. Explanation of Engineering Report Requirements",
+          "quote": "Ecology considers the engineering report a\ncomprehensive analysis developed by the project proposer to document the\nengineering alternatives and environmental impacts considered in making a\ndecision to implement the project.\n\nProject proponents interested in pursuing funding from federal agencies may\nface a requirement to submit a preliminary engineering report (PER) to the\nfunding agency for review and approval. USDA-RD, EPA, the U.S. Department\nof Housing and Urban Development (HUD), and India"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "41",
+          "section": "G1-3.2 Content of General Sewer Plan",
+          "quote": "Any wastewater facility project carried out by a local agency that receives federal funding or approvals must comply with NEPA.\nAs a federal funding source, the CWSRF program requires that all funded projects undergo environmental reviews consistent with NEPA. The EPA’s implementing regulations for the CWSRF program (subpart K of 40 CFR Part 35) provide an allowance for states to use a “NEPA-like state environmental review process” to satisfy the environmental review requirements. The regulation"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C7",
+      "heading": null,
+      "text": "Reports must establish the rationale for specific design criteria [1,3]",
+      "span": {
+        "start": 589,
+        "end": 660
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "37",
+          "section": "G1-2.6 Submission of Electronic Documents",
+          "quote": "The regulation specifically identifies “comprehensive sewage drainage basin plans, approved by the department of ecology” as a plan cities and counties should consider. Because of this connection, many cities and counties required to complete comprehensive plans under the GMA must review the adequacy of their general sewer plans discussed in G1-2.3 and make appropriate revisions.\n\n## G1-2.5 Project Specific Planning, Design, and Construction\nThis section summarizes the process for project-specif"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "45",
+          "section": "Table G1-1. Explanation of Engineering Report Requirements",
+          "quote": "Ecology considers the engineering report a\ncomprehensive analysis developed by the project proposer to document the\nengineering alternatives and environmental impacts considered in making a\ndecision to implement the project.\n\nProject proponents interested in pursuing funding from federal agencies may\nface a requirement to submit a preliminary engineering report (PER) to the\nfunding agency for review and approval. USDA-RD, EPA, the U.S. Department\nof Housing and Urban Development (HUD), and India"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "41",
+          "section": "G1-3.2 Content of General Sewer Plan",
+          "quote": "Any wastewater facility project carried out by a local agency that receives federal funding or approvals must comply with NEPA.\nAs a federal funding source, the CWSRF program requires that all funded projects undergo environmental reviews consistent with NEPA. The EPA’s implementing regulations for the CWSRF program (subpart K of 40 CFR Part 35) provide an allowance for states to use a “NEPA-like state environmental review process” to satisfy the environmental review requirements. The regulation"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C8",
+      "heading": null,
+      "text": "include a description of the project [8], treatment process [8], basic design data",
+      "span": {
+        "start": 665,
+        "end": 747
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "41",
+          "section": "G1-3.2 Content of General Sewer Plan",
+          "quote": "Any wastewater facility project carried out by a local agency that receives federal funding or approvals must comply with NEPA.\nAs a federal funding source, the CWSRF program requires that all funded projects undergo environmental reviews consistent with NEPA. The EPA’s implementing regulations for the CWSRF program (subpart K of 40 CFR Part 35) provide an allowance for states to use a “NEPA-like state environmental review process” to satisfy the environmental review requirements. The regulation"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "37",
+          "section": "G1-2.6 Submission of Electronic Documents",
+          "quote": "The regulation specifically identifies “comprehensive sewage drainage basin plans, approved by the department of ecology” as a plan cities and counties should consider. Because of this connection, many cities and counties required to complete comprehensive plans under the GMA must review the adequacy of their general sewer plans discussed in G1-2.3 and make appropriate revisions.\n\n## G1-2.5 Project Specific Planning, Design, and Construction\nThis section summarizes the process for project-specif"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C9",
+      "heading": null,
+      "text": "sizing calculations [8], site recommendations [8],",
+      "span": {
+        "start": 752,
+        "end": 802
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "37",
+          "section": "G1-2.6 Submission of Electronic Documents",
+          "quote": "The regulation specifically identifies “comprehensive sewage drainage basin plans, approved by the department of ecology” as a plan cities and counties should consider. Because of this connection, many cities and counties required to complete comprehensive plans under the GMA must review the adequacy of their general sewer plans discussed in G1-2.3 and make appropriate revisions.\n\n## G1-2.5 Project Specific Planning, Design, and Construction\nThis section summarizes the process for project-specif"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "15",
+          "section": "List of Tables",
+          "quote": "The purpose of Ecology’s review is to ascertain that the proposed facilities will be designed, constructed, operated, and maintained to meet the effluent limitations and other wastewater discharge permit terms and conditions necessary to protect public health and the environment. The policies for providing this protection are established in Chapters 90.48, 90.52, and 90.54 RCW pertaining to the prevention and control of pollution to state waters. Ecology also relies on requirements established i"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C10",
+      "heading": null,
+      "text": "relevant data as requested by Ecology.",
+      "span": {
+        "start": 807,
+        "end": 845
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "33",
+          "section": "G1-2.3 General Sewer Plans",
+          "quote": "G1-2.2  Sequence of Planning\nPlanning for wastewater collection and treatment facilities begins with general planning to evaluate the long-term wastewater service needs of the identified planning area. Washington state law contains multiple requirements related to the development of “general sewer plans.” The references most relevant to this document are found in the Water Pollution Control Act (chapter 90.48.110 RCW) and in the Growth Management Act (chapter 36.70A.070 RCW). While both laws con"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "12",
+          "section": "G1 General Engineering Requirements",
+          "quote": "The following reference should be consulted for specific definitions of terms.\n\n* Glossary—Water and Wastewater Control Engineering. Published by the American Public Health Association (APHA), American Society of Civil Engineers (ASCE), American Water Works Association (AWWA), and the Water Pollution Control Federation (now WEF). Third Edition, 1981.\n\\n---\\n\n# Criteria for Sewage Works Design\n\n## Abbreviations and Acronyms\n\nThe abbreviations and acronyms listed below appear in this manual. In ad"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "45",
+          "section": "Table G1-1. Explanation of Engineering Report Requirements",
+          "quote": "Ecology considers the engineering report a\ncomprehensive analysis developed by the project proposer to document the\nengineering alternatives and environmental impacts considered in making a\ndecision to implement the project.\n\nProject proponents interested in pursuing funding from federal agencies may\nface a requirement to submit a preliminary engineering report (PER) to the\nfunding agency for review and approval. USDA-RD, EPA, the U.S. Department\nof Housing and Urban Development (HUD), and India"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    },
+    {
+      "id": "C11",
+      "heading": null,
+      "text": "Three copies of the report [8] must be submitted for approval [8], except when waived.",
+      "span": {
+        "start": 852,
+        "end": 938
+      },
+      "supported": "partial",
+      "citations_valid": false,
+      "evidence": [
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": "6",
+          "section": "WAC 173-240-060 Engineering report",
+          "quote": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "39",
+          "section": "G1-2.7 Environmental Review (SEPA, NEPA, SERP)",
+          "quote": "While the document submission\nrequirements in chapter 173-240 WAC are based on the use of paper documents,\nEcology can accept electronic versions of engineering documents in place of paper\ndocuments. Please consult with the Ecology regional office staff responsible for\nreviewing specific engineering documents to discuss preferences between paper and\nelectronic copies of documents and about the logistics of transmitting electronic\ndocuments. Any engineering documents submitted based on conditions"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "37",
+          "section": "G1-2.6 Submission of Electronic Documents",
+          "quote": "The regulation specifically identifies “comprehensive sewage drainage basin plans, approved by the department of ecology” as a plan cities and counties should consider. Because of this connection, many cities and counties required to complete comprehensive plans under the GMA must review the adequacy of their general sewer plans discussed in G1-2.3 and make appropriate revisions.\n\n## G1-2.5 Project Specific Planning, Design, and Construction\nThis section summarizes the process for project-specif"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": "45",
+          "section": "Table G1-1. Explanation of Engineering Report Requirements",
+          "quote": "Ecology considers the engineering report a\ncomprehensive analysis developed by the project proposer to document the\nengineering alternatives and environmental impacts considered in making a\ndecision to implement the project.\n\nProject proponents interested in pursuing funding from federal agencies may\nface a requirement to submit a preliminary engineering report (PER) to the\nfunding agency for review and approval. USDA-RD, EPA, the U.S. Department\nof Housing and Urban Development (HUD), and India"
+        }
+      ],
+      "rationale": "Heuristic fallback due to LLM adjudication unavailability.",
+      "risk": "medium"
+    }
+  ],
+  "follow_up_retrieves": [
+    "poetry run caliper_v2 retrieve \"assistant: The G1 requirements for engineering reports are outlined in Table G1-1 [1,2] of the \\\"DOE Orange Book Design S…\" --indexes \"state\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C1.json\"",
+    "poetry run caliper_v2 retrieve \"WAC 173-240-060 [8].\" --indexes \"state\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C2.json\"",
+    "poetry run caliper_v2 retrieve \"Engineering reports must include detailed, project-specific evaluations of alternatives [1,3] considered to implement pr…\" --indexes \"state\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C3.json\"",
+    "poetry run caliper_v2 retrieve \"They must be sufficiently complete [1,2,3,8]\" --indexes \"state\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C4.json\"",
+    "poetry run caliper_v2 retrieve \"contain appropriate preliminary design details [1,3,8] so that any engineer can develop complete design documents [1,3] …\" --indexes \"state\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C5.json\"",
+    "poetry run caliper_v2 retrieve \"specifications) without making substantial changes.\" --indexes \"state\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C6.json\"",
+    "poetry run caliper_v2 retrieve \"Reports must establish the rationale for specific design criteria [1,3]\" --indexes \"state\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C7.json\"",
+    "poetry run caliper_v2 retrieve \"include a description of the project [8], treatment process [8], basic design data\" --indexes \"state\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C8.json\"",
+    "poetry run caliper_v2 retrieve \"sizing calculations [8], site recommendations [8],\" --indexes \"state\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C9.json\"",
+    "poetry run caliper_v2 retrieve \"relevant data as requested by Ecology.\" --indexes \"state\" --cloud --top-k 40 --reranker cohere --reranker-top-n 20 --out \"C:\\repos\\caliper_3\\data_v2\\context\\retry_C10.json\""
+  ]
+}

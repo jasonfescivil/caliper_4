@@ -1,0 +1,65 @@
+{
+  "question": "AKART engineering report requirements in WA",
+  "indexes": [
+    "state",
+    "design_standards"
+  ],
+  "retrieval_metadata": {
+    "embed_provider": "cohere",
+    "reranker": "cohere",
+    "top_k": 24,
+    "expanded_queries": [
+      "AKART engineering report requirements in WA",
+      "Alternative analysis engineering Washington State",
+      "Wastewater treatment plant AKART reports",
+      "Engineering report requirements Department of Ecology"
+    ],
+    "min_confidence": 0.7
+  },
+  "nodes": [
+    {
+      "node_id": "abc123",
+      "parent_id": null,
+      "score": 0.95,
+      "text": "Engineering reports for wastewater treatment facilities must include...",
+      "citation_anchor": {
+        "start_char": 0,
+        "end_char": 67,
+        "source_file": "WAC_173-240.pdf",
+        "page": 12,
+        "section": "Engineering Reports",
+        "confidence": 0.95
+      },
+      "metadata": {
+        "file_name": "WAC_173-240.pdf",
+        "page": 12,
+        "section": "Engineering Reports",
+        "index": "state",
+        "retrieval_strategy": "cohere_optimized",
+        "rerank_confidence": 0.95
+      }
+    },
+    {
+      "node_id": "def456",
+      "parent_id": null,
+      "score": 0.89,
+      "text": "AKART analysis must consider cost-effectiveness...",
+      "citation_anchor": {
+        "start_char": 0,
+        "end_char": 48,
+        "source_file": "design_standards.pdf",
+        "page": 45,
+        "section": "AKART Requirements",
+        "confidence": 0.89
+      },
+      "metadata": {
+        "file_name": "design_standards.pdf",
+        "page": 45,
+        "section": "AKART Requirements",
+        "index": "design_standards",
+        "retrieval_strategy": "cohere_optimized",
+        "rerank_confidence": 0.89
+      }
+    }
+  ]
+}

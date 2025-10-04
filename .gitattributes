@@ -1,0 +1,31 @@
+* text=auto
+
+# Normalize LF for source and text
+*.py   text eol=lf
+*.sh   text eol=lf
+*.toml text eol=lf
+*.md   text eol=lf
+*.yml  text eol=lf
+*.yaml text eol=lf
+*.json text eol=lf
+*.csv  text eol=lf
+
+# Keep Windows-native EOLs for Windows scripts
+*.bat  text eol=crlf
+*.ps1  text eol=crlf
+
+# Binary formats (never normalize)
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.gif  binary
+*.zip  binary
+*.tar  binary
+*.gz   binary
+*.7z   binary
+*.ico  binary
+archive/** -text
+
+# Large/binary via Git LFS
+*.pdf filter=lfs diff=lfs merge=lfs -text
+*.exe filter=lfs diff=lfs merge=lfs -text

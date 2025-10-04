@@ -1,0 +1,1414 @@
+{
+  "type": "judgment_report",
+  "version": 1,
+  "created_at": "2025-09-05T04:03:08Z",
+  "doc_path": "C:\\repos\\caliper_3\\population_procedure3.md",
+  "metrics": {
+    "precision": 0.98,
+    "citation_coverage": null,
+    "unique_sources_cited": null
+  },
+  "claims": [
+    {
+      "id": "C1",
+      "text": "﻿Top-to-bottom outline: Guidance for population projections to size wastewater treatment facilities\n\n1) Purpose and regulatory basis\n- General sewer plans must include “the population trend… and the estimated future population” and describe methods with planning-agency concurrence [WAC 173-240-050(3)(e)] (“population trend… estimated future population… method… concurrence” [10]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": 1,
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "snippet": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 6,
+          "section": "WAC 173-240-060 Engineering report",
+          "snippet": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C2",
+      "text": "Engineering reports must project “present and expected future quantity and quality” and be “sufficiently complete” for design [WAC 173-240-060] (“sufficiently complete… without substantial changes” [6]; “present and expected future quantity and quality” [6]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 6,
+          "section": "WAC 173-240-060 Engineering report",
+          "snippet": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 14,
+          "section": "Documentation Requirements (Continued)",
+          "snippet": "Statutory Authority: Chapters 43.21A and 90.48 RCW. WSR 83-23-063 (Order DE 83-30), § 173-240-110, filed 11/16/83. Statutory Authority: RCW 90.48.110. WSR 79-02-033 (Order DE 78-10), § 173-240-110, filed 1/23/79. Formerly chapter 372-20 WAC.]\n\n## WAC 173-240-120 Review standards.\n\nThe department will review engineering reports, plans and specifications, and operation and maintenance manuals for industrial wastewater facilities to:\n\n1) Determine whether the proposed facilities will be designed, c"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C3",
+      "text": "Ecology guidance: provide OFM or local data and “population projections… for the project design period” consistent with land-use planning [DOE Orange Book] (“Provide OFM… population projections… design period” [3]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 54,
+          "section": null,
+          "snippet": "The report must include a sufficiently-detailed outfall analysis to justify that the proposed discharge will comply with water quality standards at the point of discharge or at the boundaries of acute and chronic mixing zones defined by 173-201A-400 WAC, if allowed. The analysis must be consistent with Ecology’s “Guidance for Conducting Mixing Zone Analyses” (Publication 92-109, Appendix C) and EPA’s “Technical Support Document for Water Quality-based Toxics Control”. Ecology encourages the use "
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C4",
+      "text": "2) Define planning horizon / design period\n- Select a defensible design period; WEF notes plans may span “as little as 10 years and as much as 50 years” [WEF] (“planning horizon… 10 years… 50 years” [31]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 54,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\nplanning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe.\nResidential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers within its jurisdiction. These plans permit orderly expansion of facilities based on sound engineer"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C5",
+      "text": "Ecology typically expects future waste load estimates for “normally 20 years” [DOE Orange Book] (“estimate the future (normally 20 years)… waste load” [24]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 49,
+          "section": null,
+          "snippet": "</td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The analyzed data must include sufficient detail to demonstrate the degree of flow and loading variability experienced. It must also identify the location of influent and effluent sampling, the type of samples taken, and the locations of treatment process return streams. The report must rely on credible and accurate data, which requires the use of laboratory data obtained from an Ecology-accredited laboratory and flow data obtained from meters with "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 54,
+          "section": null,
+          "snippet": "The report must include a sufficiently-detailed outfall analysis to justify that the proposed discharge will comply with water quality standards at the point of discharge or at the boundaries of acute and chronic mixing zones defined by 173-201A-400 WAC, if allowed. The analysis must be consistent with Ecology’s “Guidance for Conducting Mixing Zone Analyses” (Publication 92-109, Appendix C) and EPA’s “Technical Support Document for Water Quality-based Toxics Control”. Ecology encourages the use "
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C6",
+      "text": "3) Data sources and coordination\n- Use jurisdiction planning documents (general plan land use, zoning, development phasing); consult planners/demographers and use “the most current versions” [WEF] (“use data… general plan… zoning… most current versions” [1]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 54,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\nplanning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe.\nResidential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers within its jurisdiction. These plans permit orderly expansion of facilities based on sound engineer"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C7",
+      "text": "Ensure consistency with local/regional planning agencies and GMA capital facilities planning [DOE Orange Book] (“concurrence with… planning agencies” [17]; “must be… consistent with… comprehensive plan” [34]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 35,
+          "section": "G1-2.5 Project Specific Planning, Design, and Construction",
+          "snippet": "The laws also require development of the plans before the entity may provide sewer service. Chapter 90.48 RCW considers plans developed under the above laws as “plans” subject to Ecology’s review and approval under chapter 90.48.110 RCW. The above planning requirements predate the Growth Management Act and applies to all cities and counties regardless of size and growth potential.\n\nChapter 173-240-050 WAC describes the required content of a “General Sewer Plan” and section G1-3 provides a detail"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 41,
+          "section": "G1-3.2 Content of General Sewer Plan",
+          "snippet": "Any wastewater facility project carried out by a local agency that receives federal funding or approvals must comply with NEPA.\nAs a federal funding source, the CWSRF program requires that all funded projects undergo environmental reviews consistent with NEPA. The EPA’s implementing regulations for the CWSRF program (subpart K of 40 CFR Part 35) provide an allowance for states to use a “NEPA-like state environmental review process” to satisfy the environmental review requirements. The regulation"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C8",
+      "text": "4) Residential projection method\n- Use land-use-based density and occupancy: ranges of DU/acre with persons/DU [WEF] (“ranges of DU/acre… different persons/DU” [1]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 56,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\nTable 3-2. Example of a Residential Dwelling Unit (DU) or Population Forecast for a Subarea at the Beginning or End of the Design Period\n\n<table>\n  <thead>\n    <tr>\n      <th>Residential Land Use (1)</th>\n      <th>Area, acres (2)</th>\n      <th>DU/Acre (3)</th>\n      <th>No. of DUs (4) = (2) × (3)</th>\n      <th>Persons/ DU (5)</th>\n      <th>% Developed at End of Planning Horizon or Design Period (6)</th>\n      <th>Total Population (7) = (4) × (6)</th>\n    </tr>\n  </t"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 7,
+          "section": "WAC 173-240-070 Plans and specifications. (1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility. The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de-",
+          "snippet": "(e) A description of the receiving water, applicable water quality standards, and how water quality standards will be met outside any applicable dilution zone.\n\n(f) The type of treatment process proposed, based upon the character of the wastewater to be handled, the method of disposal, the degree of treatment required, and a discussion of the alternatives evaluated and the reasons they are unacceptable.\n\n(g) The basic design data and sizing calculations of each unit of the treatment works. Expec"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C9",
+      "text": "Example factors: Low ≤4 DU/ac at 3.0 persons/DU; Medium 4–10 at 2.8; High >10 at 2.5 [1].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 56,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\nTable 3-2. Example of a Residential Dwelling Unit (DU) or Population Forecast for a Subarea at the Beginning or End of the Design Period\n\n<table>\n  <thead>\n    <tr>\n      <th>Residential Land Use (1)</th>\n      <th>Area, acres (2)</th>\n      <th>DU/Acre (3)</th>\n      <th>No. of DUs (4) = (2) × (3)</th>\n      <th>Persons/ DU (5)</th>\n      <th>% Developed at End of Planning Horizon or Design Period (6)</th>\n      <th>Total Population (7) = (4) × (6)</th>\n    </tr>\n  </t"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 6,
+          "section": "WAC 173-240-060 Engineering report",
+          "snippet": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C10",
+      "text": "Adjust for vacancy: “Population forecasts may also be adjusted by a housing vacancy rate” [WEF] (“adjusted by a housing vacancy rate” [1]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 75,
+          "section": "3.10. Uncertainty in Forecasts",
+          "snippet": "### 3.10. Uncertainty in Forecasts\n\nForecasts of population, housing, land use, and/or employment described in Sections 3.3 and 3.4 may be based on the best available information, but are not statements of fact. They are considered opinions about the future of a community that cannot be verified until the forecast dates arrive. Consequently, there is a level of uncertainty in forecasting. Engineers can deal with this uncertainty in a logical, rational manner.\n\n* Two or more planning scenarios. O"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 52,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\ndesign, the potential for sulfide-related corrosion, as discussed in Chapter 4, can be minimized. The most direct way of generating Q_min is with the equation $$Q_{\\min} = Q_{\\text{avg1}} \\times P_1$$, where \\(P_1\\) is a peaking factor discussed in Section 3.7.\n\n* The average daily flow, \\(Q_{\\text{avg2}}\\), for the design day for the system. Derivation of \\(Q_{\\text{avg2}}\\) is also presented in Sections 3.3 through 3.6.\n\n* The capacity design flow, \\(Q_{\\max}\\), which"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C11",
+      "text": "Include transients, group quarters, and seasonal populations; convert to “equivalent full-time residents” or include in institutional/commercial land uses [WEF] (“transients… converted to equivalent full-time residents” [1]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 51,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nTable 3-1. Summary of Forecasting Procedures\n\n<table>\n<thead>\n<tr>\n  <th>Step</th>\n  <th>Residential Wastewater</th>\n  <th>Nonresidential Wastewater</th>\n  <th>Other Wastewater<br />(Section 3.7)</th>\n  <th>Infiltration/Inflow<br />(Section 3.8)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>Step 1</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Large i"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C12",
+      "text": "Divide service area into subareas; compute at start and end of design period at key downstream points [WEF] (“divide[d] into subareas… beginning and end of the design period” [1]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 52,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\ndesign, the potential for sulfide-related corrosion, as discussed in Chapter 4, can be minimized. The most direct way of generating Q_min is with the equation $$Q_{\\min} = Q_{\\text{avg1}} \\times P_1$$, where \\(P_1\\) is a peaking factor discussed in Section 3.7.\n\n* The average daily flow, \\(Q_{\\text{avg2}}\\), for the design day for the system. Derivation of \\(Q_{\\text{avg2}}\\) is also presented in Sections 3.3 through 3.6.\n\n* The capacity design flow, \\(Q_{\\max}\\), which"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 54,
+          "section": "3.3. POPULATION OR DWELLING UNIT FORECAST",
+          "snippet": "### 3.3. POPULATION OR DWELLING UNIT FORECAST\n\nOnce the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period.\nPrevious versions of this Manual and other historical references give several mathematical and graphical methods for population forecasting.\n\\n---\\n"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C13",
+      "text": "Document in tables like WEF’s DU/acre-to-population example [WEF] (“Example… forecast for a subarea” [19]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 56,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\nTable 3-2. Example of a Residential Dwelling Unit (DU) or Population Forecast for a Subarea at the Beginning or End of the Design Period\n\n<table>\n  <thead>\n    <tr>\n      <th>Residential Land Use (1)</th>\n      <th>Area, acres (2)</th>\n      <th>DU/Acre (3)</th>\n      <th>No. of DUs (4) = (2) × (3)</th>\n      <th>Persons/ DU (5)</th>\n      <th>% Developed at End of Planning Horizon or Design Period (6)</th>\n      <th>Total Population (7) = (4) × (6)</th>\n    </tr>\n  </t"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 54,
+          "section": null,
+          "snippet": "The report must include a sufficiently-detailed outfall analysis to justify that the proposed discharge will comply with water quality standards at the point of discharge or at the boundaries of acute and chronic mixing zones defined by 173-201A-400 WAC, if allowed. The analysis must be consistent with Ecology’s “Guidance for Conducting Mixing Zone Analyses” (Publication 92-109, Appendix C) and EPA’s “Technical Support Document for Water Quality-based Toxics Control”. Ecology encourages the use "
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C14",
+      "text": "5) Nonresidential projection method\n- Forecast “land uses and/or number of employees”; use FARs and floor area per employee; treat manufacturing separately [WEF] (“forecast the land use and/or number of employees” [20]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 56,
+          "section": "3.4. LAND USE AND/OR EMPLOYEE FORECASTS",
+          "snippet": "## 3.4. LAND USE AND/OR EMPLOYEE FORECASTS\n\n<p>Once the design period or planning horizon has been established, the next step in calculating nonresidential wastewater flow is to forecast the land use and/or number of employees. Nonresidential wastewater is generated by employees in a manner similar to residential (i.e., toilets, sinks, showers, and so forth). In each case, the business does not consume water in products made or services rendered (i.e., services as opposed to manufacturing). Wast"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 51,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nTable 3-1. Summary of Forecasting Procedures\n\n<table>\n<thead>\n<tr>\n  <th>Step</th>\n  <th>Residential Wastewater</th>\n  <th>Nonresidential Wastewater</th>\n  <th>Other Wastewater<br />(Section 3.7)</th>\n  <th>Infiltration/Inflow<br />(Section 3.8)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>Step 1</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Large i"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 57,
+          "section": "3.5. AVERAGE UNIT FLOWS",
+          "snippet": "## 3.5. AVERAGE UNIT FLOWS\n\nOnce the population or dwelling unit (Section 3.3) and land use or employees (Section 3.4) have been forecast, the third step is to apply unit flows to obtain Qavg1 and Qavg2. Unit flows are typically based on volume per unit time per person, dwelling unit, floor area, land area, or employee. The best sources of unit flows are previous or current wastewater flow\n\\n---\\n"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C15",
+      "text": "6) Convert projections to design flows (link to sizing)\n- Apply unit flow factors to obtain average design flows Qavg1/Qavg2, then peaking for Qmax/Qmin [WEF] (“Determine average unit flows… develop average flows… develop… peak and minimum flows” [9]; “Qmax = Qavg2 × P2” [12]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 51,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nTable 3-1. Summary of Forecasting Procedures\n\n<table>\n<thead>\n<tr>\n  <th>Step</th>\n  <th>Residential Wastewater</th>\n  <th>Nonresidential Wastewater</th>\n  <th>Other Wastewater<br />(Section 3.7)</th>\n  <th>Infiltration/Inflow<br />(Section 3.8)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>Step 1</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Large i"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 76,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\n* unit water factors from Section 3.5 and/or peaking factors from Section 3.9.1. Engineers may then develop two or more wastewater forecasts, typically a maximum and a minimum, to see how those forecasts affect the choice of pipe size.\n*  Sensitivity analysis. With judicious use of computer software, multiple planning scenarios can be analyzed quickly and efficiently. By varying any of the components of forecasts, such as population, employment, unit factors, etc., the "
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C16",
+      "text": "Do not rely solely on historical per-capita flows; account for lower indoor use and nonresidential/I&I effects [WEF] (“extrapolating historical per capita… is not the best practice” [12]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 52,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\ndesign, the potential for sulfide-related corrosion, as discussed in Chapter 4, can be minimized. The most direct way of generating Q_min is with the equation $$Q_{\\min} = Q_{\\text{avg1}} \\times P_1$$, where \\(P_1\\) is a peaking factor discussed in Section 3.7.\n\n* The average daily flow, \\(Q_{\\text{avg2}}\\), for the design day for the system. Derivation of \\(Q_{\\text{avg2}}\\) is also presented in Sections 3.3 through 3.6.\n\n* The capacity design flow, \\(Q_{\\max}\\), which"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 49,
+          "section": null,
+          "snippet": "</td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The analyzed data must include sufficient detail to demonstrate the degree of flow and loading variability experienced. It must also identify the location of influent and effluent sampling, the type of samples taken, and the locations of treatment process return streams. The report must rely on credible and accurate data, which requires the use of laboratory data obtained from an Ecology-accredited laboratory and flow data obtained from meters with "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C17",
+      "text": "Separately characterize I/I (not population-based) and its impacts; include climate change effects on unmitigated I/I [DOE/EPA/WEF] (“I/I quantities are not related to population” [12]; “account for… climate change… on unmitigated I/I” [24]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 49,
+          "section": null,
+          "snippet": "</td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The analyzed data must include sufficient detail to demonstrate the degree of flow and loading variability experienced. It must also identify the location of influent and effluent sampling, the type of samples taken, and the locations of treatment process return streams. The report must rely on credible and accurate data, which requires the use of laboratory data obtained from an Ecology-accredited laboratory and flow data obtained from meters with "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 41,
+          "section": "G1-3.2 Content of General Sewer Plan",
+          "snippet": "Any wastewater facility project carried out by a local agency that receives federal funding or approvals must comply with NEPA.\nAs a federal funding source, the CWSRF program requires that all funded projects undergo environmental reviews consistent with NEPA. The EPA’s implementing regulations for the CWSRF program (subpart K of 40 CFR Part 35) provide an allowance for states to use a “NEPA-like state environmental review process” to satisfy the environmental review requirements. The regulation"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 50,
+          "section": "General Engineering Requirements – May 2023",
+          "snippet": "</td>\n    </tr>\n  </tbody>\n</table>\n\n\\n---\\n\n\n<table>\n<[the](http://www.fda.gov/downloads/Food/GuidanceRegulation/FederalStateFoodPrograms/UCM505093.pdf)ad>\n<tr><th>Text from WAC 173-240-060</th><th>Explanation</th></tr>\n</thead>\n<tbody>\n<tr>\n<td><em>(e) A description of the receiving water, applicable water quality standards, and how water quality standards will be met at the boundary of any applicable dilution zone. (173-201A-10Q WAC)</em></td>\n<td>Give the name, location (river mile, latitude"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C18",
+      "text": "7) Uncertainty, scenarios, and sensitivity\n- Prepare multiple growth scenarios (high/medium/low) and phasing [DOE/WEF] (“consider high, medium, and low growth profiles” [7]; “Two or more planning scenarios” [28]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 54,
+          "section": null,
+          "snippet": "The report must include a sufficiently-detailed outfall analysis to justify that the proposed discharge will comply with water quality standards at the point of discharge or at the boundaries of acute and chronic mixing zones defined by 173-201A-400 WAC, if allowed. The analysis must be consistent with Ecology’s “Guidance for Conducting Mixing Zone Analyses” (Publication 92-109, Appendix C) and EPA’s “Technical Support Document for Water Quality-based Toxics Control”. Ecology encourages the use "
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 76,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\n* unit water factors from Section 3.5 and/or peaking factors from Section 3.9.1. Engineers may then develop two or more wastewater forecasts, typically a maximum and a minimum, to see how those forecasts affect the choice of pipe size.\n*  Sensitivity analysis. With judicious use of computer software, multiple planning scenarios can be analyzed quickly and efficiently. By varying any of the components of forecasts, such as population, employment, unit factors, etc., the "
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 75,
+          "section": "3.10. Uncertainty in Forecasts",
+          "snippet": "### 3.10. Uncertainty in Forecasts\n\nForecasts of population, housing, land use, and/or employment described in Sections 3.3 and 3.4 may be based on the best available information, but are not statements of fact. They are considered opinions about the future of a community that cannot be verified until the forecast dates arrive. Consequently, there is a level of uncertainty in forecasting. Engineers can deal with this uncertainty in a logical, rational manner.\n\n* Two or more planning scenarios. O"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C19",
+      "text": "Use sensitivity analysis to test how variations in “population, employment, unit factors” affect sizing [WEF] (“Sensitivity analysis… varying… population, employment, unit factors” [8]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 76,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\n* unit water factors from Section 3.5 and/or peaking factors from Section 3.9.1. Engineers may then develop two or more wastewater forecasts, typically a maximum and a minimum, to see how those forecasts affect the choice of pipe size.\n*  Sensitivity analysis. With judicious use of computer software, multiple planning scenarios can be analyzed quickly and efficiently. By varying any of the components of forecasts, such as population, employment, unit factors, etc., the "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 6,
+          "section": "WAC 173-240-060 Engineering report",
+          "snippet": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C20",
+      "text": "8) Documentation expectations (plans and reports)\n- In general sewer plans: include service-area maps, existing/proposed sewers, and population trends/projections with methods and concurrence [WAC/DOE] (“existing and proposed service boundaries” [10]; “Population trends… and… method” [17]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": 1,
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "snippet": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 41,
+          "section": "G1-3.2 Content of General Sewer Plan",
+          "snippet": "Any wastewater facility project carried out by a local agency that receives federal funding or approvals must comply with NEPA.\nAs a federal funding source, the CWSRF program requires that all funded projects undergo environmental reviews consistent with NEPA. The EPA’s implementing regulations for the CWSRF program (subpart K of 40 CFR Part 35) provide an allowance for states to use a “NEPA-like state environmental review process” to satisfy the environmental review requirements. The regulation"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C21",
+      "text": "In engineering reports: provide the basis of future loads (20-year), tied to zoning and historical trends, and consider water conservation impacts on per-capita flow/strength [DOE] (“Base the estimates on… zoning… historical population trends” [24]; “consider… water conservation measures” [24]).",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 49,
+          "section": null,
+          "snippet": "</td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The analyzed data must include sufficient detail to demonstrate the degree of flow and loading variability experienced. It must also identify the location of influent and effluent sampling, the type of samples taken, and the locations of treatment process return streams. The report must rely on credible and accurate data, which requires the use of laboratory data obtained from an Ecology-accredited laboratory and flow data obtained from meters with "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 53,
+          "section": null,
+          "snippet": "In addition, consider the site’s inundation risk due to tsunamis.</p>\n        <p>The site assessments must also consider the potential impacts to historic properties or the risks of impacting archeological and culturally sensitive sites. The project proponent should consult with the state Department of Archaeology and Historical Preservation (DAHP), Tribal Historic Preservation Offices for federally recognized tribes in the project area, and local historical societies to assess the risk of impac"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C22",
+      "text": "9) Good practices checklist\n- Use current land-use plans and zoning densities [1].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 54,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\nplanning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe.\nResidential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers within its jurisdiction. These plans permit orderly expansion of facilities based on sound engineer"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C23",
+      "text": "Coordinate with planners/demographers; obtain OFM/local forecasts [3], [17].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 75,
+          "section": "3.10. Uncertainty in Forecasts",
+          "snippet": "### 3.10. Uncertainty in Forecasts\n\nForecasts of population, housing, land use, and/or employment described in Sections 3.3 and 3.4 may be based on the best available information, but are not statements of fact. They are considered opinions about the future of a community that cannot be verified until the forecast dates arrive. Consequently, there is a level of uncertainty in forecasting. Engineers can deal with this uncertainty in a logical, rational manner.\n\n* Two or more planning scenarios. O"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C24",
+      "text": "Include vacancy, transients, and group quarters [1].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 51,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nTable 3-1. Summary of Forecasting Procedures\n\n<table>\n<thead>\n<tr>\n  <th>Step</th>\n  <th>Residential Wastewater</th>\n  <th>Nonresidential Wastewater</th>\n  <th>Other Wastewater<br />(Section 3.7)</th>\n  <th>Infiltration/Inflow<br />(Section 3.8)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>Step 1</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Large i"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C25",
+      "text": "Subarea-based computations at start/end of period [1].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 54,
+          "section": "3.3. POPULATION OR DWELLING UNIT FORECAST",
+          "snippet": "### 3.3. POPULATION OR DWELLING UNIT FORECAST\n\nOnce the design period or planning horizon has been established, the next step in calculating residential wastewater flow is to forecast the population or number of dwelling units and persons per dwelling unit, both for the time of start of service and at the end of the design period.\nPrevious versions of this Manual and other historical references give several mathematical and graphical methods for population forecasting.\n\\n---\\n"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 56,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\nTable 3-2. Example of a Residential Dwelling Unit (DU) or Population Forecast for a Subarea at the Beginning or End of the Design Period\n\n<table>\n  <thead>\n    <tr>\n      <th>Residential Land Use (1)</th>\n      <th>Area, acres (2)</th>\n      <th>DU/Acre (3)</th>\n      <th>No. of DUs (4) = (2) × (3)</th>\n      <th>Persons/ DU (5)</th>\n      <th>% Developed at End of Planning Horizon or Design Period (6)</th>\n      <th>Total Population (7) = (4) × (6)</th>\n    </tr>\n  </t"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C26",
+      "text": "Develop residential and employment-based nonresidential projections [20].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 51,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nTable 3-1. Summary of Forecasting Procedures\n\n<table>\n<thead>\n<tr>\n  <th>Step</th>\n  <th>Residential Wastewater</th>\n  <th>Nonresidential Wastewater</th>\n  <th>Other Wastewater<br />(Section 3.7)</th>\n  <th>Infiltration/Inflow<br />(Section 3.8)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>Step 1</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Large i"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 76,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\n* unit water factors from Section 3.5 and/or peaking factors from Section 3.9.1. Engineers may then develop two or more wastewater forecasts, typically a maximum and a minimum, to see how those forecasts affect the choice of pipe size.\n*  Sensitivity analysis. With judicious use of computer software, multiple planning scenarios can be analyzed quickly and efficiently. By varying any of the components of forecasts, such as population, employment, unit factors, etc., the "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 50,
+          "section": "General Engineering Requirements – May 2023",
+          "snippet": "</td>\n    </tr>\n  </tbody>\n</table>\n\n\\n---\\n\n\n<table>\n<[the](http://www.fda.gov/downloads/Food/GuidanceRegulation/FederalStateFoodPrograms/UCM505093.pdf)ad>\n<tr><th>Text from WAC 173-240-060</th><th>Explanation</th></tr>\n</thead>\n<tbody>\n<tr>\n<td><em>(e) A description of the receiving water, applicable water quality standards, and how water quality standards will be met at the boundary of any applicable dilution zone. (173-201A-10Q WAC)</em></td>\n<td>Give the name, location (river mile, latitude"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C27",
+      "text": "Separate I/I analysis; do not embed in per-capita [12], [14].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 49,
+          "section": null,
+          "snippet": "</td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The analyzed data must include sufficient detail to demonstrate the degree of flow and loading variability experienced. It must also identify the location of influent and effluent sampling, the type of samples taken, and the locations of treatment process return streams. The report must rely on credible and accurate data, which requires the use of laboratory data obtained from an Ecology-accredited laboratory and flow data obtained from meters with "
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 52,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\ndesign, the potential for sulfide-related corrosion, as discussed in Chapter 4, can be minimized. The most direct way of generating Q_min is with the equation $$Q_{\\min} = Q_{\\text{avg1}} \\times P_1$$, where \\(P_1\\) is a peaking factor discussed in Section 3.7.\n\n* The average daily flow, \\(Q_{\\text{avg2}}\\), for the design day for the system. Derivation of \\(Q_{\\text{avg2}}\\) is also presented in Sections 3.3 through 3.6.\n\n* The capacity design flow, \\(Q_{\\max}\\), which"
+        },
+        {
+          "file": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+          "page": 1,
+          "section": "Background",
+          "snippet": "## Background  \nThere are three major components of wastewater flow in a sanitary sewer system, base sanitary (or wastewater) flow, groundwater infiltration and rainfall derived inflow and infiltration, more commonly referred to as inflow. Virtually every sewer system has some infiltration and/or inflow. Historically, small amounts of I&I are expected and tolerated. However, infiltration and inflow may be considered excessive when it is the cause of overflows or bypasses, or the cost to transpor"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C28",
+      "text": "Provide scenario/sensitivity analyses to bound uncertainty [8], [28].",
+      "supported": false,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 54,
+          "section": null,
+          "snippet": "The report must include a sufficiently-detailed outfall analysis to justify that the proposed discharge will comply with water quality standards at the point of discharge or at the boundaries of acute and chronic mixing zones defined by 173-201A-400 WAC, if allowed. The analysis must be consistent with Ecology’s “Guidance for Conducting Mixing Zone Analyses” (Publication 92-109, Appendix C) and EPA’s “Technical Support Document for Water Quality-based Toxics Control”. Ecology encourages the use "
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 76,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\n* unit water factors from Section 3.5 and/or peaking factors from Section 3.9.1. Engineers may then develop two or more wastewater forecasts, typically a maximum and a minimum, to see how those forecasts affect the choice of pipe size.\n*  Sensitivity analysis. With judicious use of computer software, multiple planning scenarios can be analyzed quickly and efficiently. By varying any of the components of forecasts, such as population, employment, unit factors, etc., the "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 53,
+          "section": null,
+          "snippet": "In addition, consider the site’s inundation risk due to tsunamis.</p>\n        <p>The site assessments must also consider the potential impacts to historic properties or the risks of impacting archeological and culturally sensitive sites. The project proponent should consult with the state Department of Archaeology and Historical Preservation (DAHP), Tribal Historic Preservation Offices for federally recognized tribes in the project area, and local historical societies to assess the risk of impac"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "medium",
+      "citations_valid": null
+    },
+    {
+      "id": "C29",
+      "text": "Key supporting quotes\n- “Provide OFM… population data… Include population projections… for the project design period” (DOE Orange Book, p.48) [3].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        },
+        {
+          "file": "2019_DOE_Reclaimed_Water_Facilities_Manual.pdf",
+          "page": 58,
+          "section": "210 (2) (m) Summary of preliminary engineering design criteria for reclaimed water treatment processes including:",
+          "snippet": "## 210 (2) (m) Summary of preliminary engineering design criteria for reclaimed water treatment processes including:\n\n210 (2) (m) (i) Aeration/anaerobic organic carbon reduction.\n210 (2) (m) (ii) Nutrient reduction (if required).\n210 (2) (m) (iii) Disinfection system selection meeting the requirements of WAC 173-219-340\n210 (2) (m) (iv) Contact time with disinfectant reactor.\n210 (2) (m) (v) Coagulation and filtration processes (if required).\n210 (2) (m) (vi) Reverse osmosis or comparable techno"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C30",
+      "text": "“Population trend… and the estimated future population… method… concurrence” (WAC 173-240-050(3)(e)) [10].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 6,
+          "section": "WAC 173-240-060 Engineering report",
+          "snippet": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "WAC_173-240-050_Engineering_Reports.pdf",
+          "page": 1,
+          "section": "WAC 173-240-050: Planning and Compliance",
+          "snippet": "# WAC 173-240-050 General sewer plan\n\n- (1) All general sewer plans required of any governmental agency before providing sewer service are \"plans\" within the requirements of RCW 90.48.110. Three copies of the proposed general sewer plan and each amendment to it must be submitted to and approved by the department before implementing the plan.\n\n- (2) The general sewer plan must be sufficiently complete so that engineering reports can be developed from it without substantial alterations of concept "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C31",
+      "text": "“Use data on population and residential land use… general plan… zoning ordinance” (WEF, p.55) [1].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 56,
+          "section": "3.4. LAND USE AND/OR EMPLOYEE FORECASTS",
+          "snippet": "## 3.4. LAND USE AND/OR EMPLOYEE FORECASTS\n\n<p>Once the design period or planning horizon has been established, the next step in calculating nonresidential wastewater flow is to forecast the land use and/or number of employees. Nonresidential wastewater is generated by employees in a manner similar to residential (i.e., toilets, sinks, showers, and so forth). In each case, the business does not consume water in products made or services rendered (i.e., services as opposed to manufacturing). Wast"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 54,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\nplanning horizon developed by the planning department having jurisdiction over the area and the expected useful life of the sewer pipe.\nResidential, commercial, and industrial development in most political subdivisions are governed by a general plan or zoning ordinance. There may also be an accompanying master plan for installation and/or rehabilitation of sanitary sewers within its jurisdiction. These plans permit orderly expansion of facilities based on sound engineer"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C32",
+      "text": "“Ranges of DU/acre and each range may have different persons/DU” (WEF, p.55) [1].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 35,
+          "section": "G1-2.5 Project Specific Planning, Design, and Construction",
+          "snippet": "The laws also require development of the plans before the entity may provide sewer service. Chapter 90.48 RCW considers plans developed under the above laws as “plans” subject to Ecology’s review and approval under chapter 90.48.110 RCW. The above planning requirements predate the Growth Management Act and applies to all cities and counties regardless of size and growth potential.\n\nChapter 173-240-050 WAC describes the required content of a “General Sewer Plan” and section G1-3 provides a detail"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C33",
+      "text": "“Population forecasts may also be adjusted by a housing vacancy rate” (WEF, p.55) [1].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 75,
+          "section": "3.10. Uncertainty in Forecasts",
+          "snippet": "### 3.10. Uncertainty in Forecasts\n\nForecasts of population, housing, land use, and/or employment described in Sections 3.3 and 3.4 may be based on the best available information, but are not statements of fact. They are considered opinions about the future of a community that cannot be verified until the forecast dates arrive. Consequently, there is a level of uncertainty in forecasting. Engineers can deal with this uncertainty in a logical, rational manner.\n\n* Two or more planning scenarios. O"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 52,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\ndesign, the potential for sulfide-related corrosion, as discussed in Chapter 4, can be minimized. The most direct way of generating Q_min is with the equation $$Q_{\\min} = Q_{\\text{avg1}} \\times P_1$$, where \\(P_1\\) is a peaking factor discussed in Section 3.7.\n\n* The average daily flow, \\(Q_{\\text{avg2}}\\), for the design day for the system. Derivation of \\(Q_{\\text{avg2}}\\) is also presented in Sections 3.3 through 3.6.\n\n* The capacity design flow, \\(Q_{\\max}\\), which"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C34",
+      "text": "“Transients… converted to equivalent full-time residents” (WEF, p.55) [1].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 41,
+          "section": "G1-3.2 Content of General Sewer Plan",
+          "snippet": "Any wastewater facility project carried out by a local agency that receives federal funding or approvals must comply with NEPA.\nAs a federal funding source, the CWSRF program requires that all funded projects undergo environmental reviews consistent with NEPA. The EPA’s implementing regulations for the CWSRF program (subpart K of 40 CFR Part 35) provide an allowance for states to use a “NEPA-like state environmental review process” to satisfy the environmental review requirements. The regulation"
+        },
+        {
+          "file": "EPA_Infiltration_Inflow_Review.pdf",
+          "page": 28,
+          "section": null,
+          "snippet": "Golden, J.B. (1996). “An Introduction to Sanitary Sewer Overflows.” National Conference in Sanitary Sewer Overflows, Seminar Publication, EPA/625/R-96/007, EPA, Washington, D.C.\n\nHarmon, W. G. (1918). “Forecasting Sewage at Toledo under Dry-Weather Conditions.” *Engineering New Records*, 80, 1233.\n\nHealth Education Service (HES). (1997). Recommended Standards for Wastewater Facilities. A Report of Committee of the Great Lakes - Upper Mississippi River, Board of State and Provincial Public Health"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C35",
+      "text": "“Applied at many key points… area… divided into subareas” (WEF, p.55) [1].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 55,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nInstead of using past trends to extrapolate future population, a better way is to use data on population and residential land use for the area in question from documents held by the jurisdiction’s planning department, such as the general plan land use element, zoning ordinance, or development plans for the planning horizon or design period. These data may include population or residential dwelling unit densities in terms of dwelling units (DU)/ac"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 59,
+          "section": "Figure G1-2.",
+          "snippet": "In addition, show locations identified for restricted construction activities to protect environmentally or culturally sensitive areas.\n* (8) Any additional information that may help the viewer to understand the designer’s intent or to provide further project clarity.\n\nThe following sections include additional detail required in plan sets for sewers (part B), sewage pump stations (part C), sewage treatment plants (part D) and Plans for Sewage Treatment Plant Discharge Facilities (Part E).\n\n## B."
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 35,
+          "section": "G1-2.5 Project Specific Planning, Design, and Construction",
+          "snippet": "The laws also require development of the plans before the entity may provide sewer service. Chapter 90.48 RCW considers plans developed under the above laws as “plans” subject to Ecology’s review and approval under chapter 90.48.110 RCW. The above planning requirements predate the Growth Management Act and applies to all cities and counties regardless of size and growth potential.\n\nChapter 173-240-050 WAC describes the required content of a “General Sewer Plan” and section G1-3 provides a detail"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C36",
+      "text": "“estimate the future (normally 20 years)… waste load” (DOE Orange Book, p.49) [24].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 49,
+          "section": null,
+          "snippet": "</td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The analyzed data must include sufficient detail to demonstrate the degree of flow and loading variability experienced. It must also identify the location of influent and effluent sampling, the type of samples taken, and the locations of treatment process return streams. The report must rely on credible and accurate data, which requires the use of laboratory data obtained from an Ecology-accredited laboratory and flow data obtained from meters with "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 54,
+          "section": null,
+          "snippet": "The report must include a sufficiently-detailed outfall analysis to justify that the proposed discharge will comply with water quality standards at the point of discharge or at the boundaries of acute and chronic mixing zones defined by 173-201A-400 WAC, if allowed. The analysis must be consistent with Ecology’s “Guidance for Conducting Mixing Zone Analyses” (Publication 92-109, Appendix C) and EPA’s “Technical Support Document for Water Quality-based Toxics Control”. Ecology encourages the use "
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C37",
+      "text": "“extrapolating historical per capita wastewater flow is not the best practice” (WEF, p.52) [12].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 52,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\ndesign, the potential for sulfide-related corrosion, as discussed in Chapter 4, can be minimized. The most direct way of generating Q_min is with the equation $$Q_{\\min} = Q_{\\text{avg1}} \\times P_1$$, where \\(P_1\\) is a peaking factor discussed in Section 3.7.\n\n* The average daily flow, \\(Q_{\\text{avg2}}\\), for the design day for the system. Derivation of \\(Q_{\\text{avg2}}\\) is also presented in Sections 3.3 through 3.6.\n\n* The capacity design flow, \\(Q_{\\max}\\), which"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 49,
+          "section": null,
+          "snippet": "</td>\n    </tr>\n<tr>\n      <td></td>\n      <td>The analyzed data must include sufficient detail to demonstrate the degree of flow and loading variability experienced. It must also identify the location of influent and effluent sampling, the type of samples taken, and the locations of treatment process return streams. The report must rely on credible and accurate data, which requires the use of laboratory data obtained from an Ecology-accredited laboratory and flow data obtained from meters with "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C38",
+      "text": "“consider high, medium, and low growth profiles” (DOE Orange Book, p.54) [7].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 54,
+          "section": null,
+          "snippet": "The report must include a sufficiently-detailed outfall analysis to justify that the proposed discharge will comply with water quality standards at the point of discharge or at the boundaries of acute and chronic mixing zones defined by 173-201A-400 WAC, if allowed. The analysis must be consistent with Ecology’s “Guidance for Conducting Mixing Zone Analyses” (Publication 92-109, Appendix C) and EPA’s “Technical Support Document for Water Quality-based Toxics Control”. Ecology encourages the use "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 53,
+          "section": null,
+          "snippet": "In addition, consider the site’s inundation risk due to tsunamis.</p>\n        <p>The site assessments must also consider the potential impacts to historic properties or the risks of impacting archeological and culturally sensitive sites. The project proponent should consult with the state Department of Archaeology and Historical Preservation (DAHP), Tribal Historic Preservation Offices for federally recognized tribes in the project area, and local historical societies to assess the risk of impac"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 41,
+          "section": "G1-3.2 Content of General Sewer Plan",
+          "snippet": "Any wastewater facility project carried out by a local agency that receives federal funding or approvals must comply with NEPA.\nAs a federal funding source, the CWSRF program requires that all funded projects undergo environmental reviews consistent with NEPA. The EPA’s implementing regulations for the CWSRF program (subpart K of 40 CFR Part 35) provide an allowance for states to use a “NEPA-like state environmental review process” to satisfy the environmental review requirements. The regulation"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C39",
+      "text": "“Sensitivity analysis… varying… population, employment, unit factors” (WEF, p.76) [8].",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 76,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\n* unit water factors from Section 3.5 and/or peaking factors from Section 3.9.1. Engineers may then develop two or more wastewater forecasts, typically a maximum and a minimum, to see how those forecasts affect the choice of pipe size.\n*  Sensitivity analysis. With judicious use of computer software, multiple planning scenarios can be analyzed quickly and efficiently. By varying any of the components of forecasts, such as population, employment, unit factors, etc., the "
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 51,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nTable 3-1. Summary of Forecasting Procedures\n\n<table>\n<thead>\n<tr>\n  <th>Step</th>\n  <th>Residential Wastewater</th>\n  <th>Nonresidential Wastewater</th>\n  <th>Other Wastewater<br />(Section 3.7)</th>\n  <th>Infiltration/Inflow<br />(Section 3.8)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>Step 1</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Large i"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C40",
+      "text": "Sources:\n\n[1] 2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf - p.55; GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n[2] EPA_Infiltration_Inflow_Review.pdf - p.28\n[3] DOE_Orange_Book_Design_Standards.pdf - p.48\n[4] DOE_Orange_Book_Design_Standards.pdf - p.50; General Engineering Requirements – May 2023\n[5] 2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf - p.54; 3.3.",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 53,
+          "section": null,
+          "snippet": "In addition, consider the site’s inundation risk due to tsunamis.</p>\n        <p>The site assessments must also consider the potential impacts to historic properties or the risks of impacting archeological and culturally sensitive sites. The project proponent should consult with the state Department of Archaeology and Historical Preservation (DAHP), Tribal Historic Preservation Offices for federally recognized tribes in the project area, and local historical societies to assess the risk of impac"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        },
+        {
+          "file": "EPA_Infiltration_Inflow_Review.pdf",
+          "page": 28,
+          "section": null,
+          "snippet": "Golden, J.B. (1996). “An Introduction to Sanitary Sewer Overflows.” National Conference in Sanitary Sewer Overflows, Seminar Publication, EPA/625/R-96/007, EPA, Washington, D.C.\n\nHarmon, W. G. (1918). “Forecasting Sewage at Toledo under Dry-Weather Conditions.” *Engineering New Records*, 80, 1233.\n\nHealth Education Service (HES). (1997). Recommended Standards for Wastewater Facilities. A Report of Committee of the Great Lakes - Upper Mississippi River, Board of State and Provincial Public Health"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C41",
+      "text": "POPULATION OR DWELLING UNIT FORECAST\n[6] WAC_173-240_Wastewater_Submission_Plans.pdf - p.6; WAC 173-240-060 Engineering report\n[7] DOE_Orange_Book_Design_Standards.pdf - p.54\n[8] 2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf - p.76; QUANTITY OF WASTEWATER\n[9] 2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf - p.51; GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n[10] WAC_173-240-050_Engineering_Reports.pdf - p.1; WAC 173-240-050: Planning and Compliance\n[11] DOE_Orange_Book_Design_Standards.pdf - p.59; Figure G1-2.",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 48,
+          "section": null,
+          "snippet": "The community must certify that its general sewer plan adequately addresses the current conditions and service area. If the community lacks an adequate, up-to-date, general sewer plan, it must consult with Ecology to identify those portions of Section 050 it must include in the engineering report.\n\nEcology does not normally require an engineering report for sewer line extensions or pump stations that conform to an Ecology-approved general sewer plan.\n</td>\n</tr>\n<tr>\n<td>\n<strong>060(2) Sufficie"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 6,
+          "section": "WAC 173-240-060 Engineering report",
+          "snippet": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C42",
+      "text": "[12] 2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf - p.52; QUANTITY OF WASTEWATER\n[13] DOE_Orange_Book_Design_Standards.pdf - p.35; G1-2.5 Project Specific Planning, Design, and Construction\n[14] EPA_Guide_Estimating_Infiltration_Inflow.pdf - p.1; Background\n[15] DOE_Orange_Book_Design_Standards.pdf - p.57; B.",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "EPA_Infiltration_Inflow_Review.pdf",
+          "page": 28,
+          "section": null,
+          "snippet": "Golden, J.B. (1996). “An Introduction to Sanitary Sewer Overflows.” National Conference in Sanitary Sewer Overflows, Seminar Publication, EPA/625/R-96/007, EPA, Washington, D.C.\n\nHarmon, W. G. (1918). “Forecasting Sewage at Toledo under Dry-Weather Conditions.” *Engineering New Records*, 80, 1233.\n\nHealth Education Service (HES). (1997). Recommended Standards for Wastewater Facilities. A Report of Committee of the Great Lakes - Upper Mississippi River, Board of State and Provincial Public Health"
+        },
+        {
+          "file": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+          "page": 7,
+          "section": "References",
+          "snippet": "# References\n\n* Computer Tools for Sanitary Sewer System Capacity Analysis and Planning  \n  [EPA/600/R-07/111, October 2007](http://nepis.epa.gov/Adobe/PDF/P1008BBP.pdf)\n\n* Design Flow and Loading Determination Guidelines for Wastewater Treatment Plants  \n  [Minnesota ](http://www.pca.state.mn.us/index.php/view-document.html?gid=13505)Pollution Control Agency (MNPCA) February, 2002\n\n* Guidance for evaluating Infiltration and Inflow for State Revolving Fund Projects  \n  [Louisiana ](http://www.de"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C43",
+      "text": "Plans for Sewers\n[16] EPA_Guide_Estimating_Infiltration_Inflow.pdf - p.7; Summary\n[17] DOE_Orange_Book_Design_Standards.pdf - p.43; G1-4.1.1 Objective\n[18] DOE_Orange_Book_Design_Standards.pdf - p.109; G2-2.8.2 Provisions for Flushing, Cleaning, and Draining\n[19] 2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf - p.56; QUANTITY OF WASTEWATER\n[20] 2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf - p.56; 3.4.",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "EPA_Infiltration_Inflow_Review.pdf",
+          "page": 28,
+          "section": null,
+          "snippet": "Golden, J.B. (1996). “An Introduction to Sanitary Sewer Overflows.” National Conference in Sanitary Sewer Overflows, Seminar Publication, EPA/625/R-96/007, EPA, Washington, D.C.\n\nHarmon, W. G. (1918). “Forecasting Sewage at Toledo under Dry-Weather Conditions.” *Engineering New Records*, 80, 1233.\n\nHealth Education Service (HES). (1997). Recommended Standards for Wastewater Facilities. A Report of Committee of the Great Lakes - Upper Mississippi River, Board of State and Provincial Public Health"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 53,
+          "section": null,
+          "snippet": "In addition, consider the site’s inundation risk due to tsunamis.</p>\n        <p>The site assessments must also consider the potential impacts to historic properties or the risks of impacting archeological and culturally sensitive sites. The project proponent should consult with the state Department of Archaeology and Historical Preservation (DAHP), Tribal Historic Preservation Offices for federally recognized tribes in the project area, and local historical societies to assess the risk of impac"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C44",
+      "text": "LAND USE AND/OR EMPLOYEE FORECASTS\n[21] EPA_Guide_Estimating_Infiltration_Inflow.pdf - p.7; References\n[22] WAC_173-240_Wastewater_Submission_Plans.pdf - p.7; WAC 173-240-070 Plans and specifications.",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 7,
+          "section": "WAC 173-240-070 Plans and specifications. (1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility. The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de-",
+          "snippet": "(e) A description of the receiving water, applicable water quality standards, and how water quality standards will be met outside any applicable dilution zone.\n\n(f) The type of treatment process proposed, based upon the character of the wastewater to be handled, the method of disposal, the degree of treatment required, and a discussion of the alternatives evaluated and the reasons they are unacceptable.\n\n(g) The basic design data and sizing calculations of each unit of the treatment works. Expec"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 53,
+          "section": null,
+          "snippet": "In addition, consider the site’s inundation risk due to tsunamis.</p>\n        <p>The site assessments must also consider the potential impacts to historic properties or the risks of impacting archeological and culturally sensitive sites. The project proponent should consult with the state Department of Archaeology and Historical Preservation (DAHP), Tribal Historic Preservation Offices for federally recognized tribes in the project area, and local historical societies to assess the risk of impac"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C45",
+      "text": "(1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility.",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 7,
+          "section": "WAC 173-240-070 Plans and specifications. (1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility. The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de-",
+          "snippet": "(e) A description of the receiving water, applicable water quality standards, and how water quality standards will be met outside any applicable dilution zone.\n\n(f) The type of treatment process proposed, based upon the character of the wastewater to be handled, the method of disposal, the degree of treatment required, and a discussion of the alternatives evaluated and the reasons they are unacceptable.\n\n(g) The basic design data and sizing calculations of each unit of the treatment works. Expec"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 37,
+          "section": "G1-2.6 Submission of Electronic Documents",
+          "snippet": "The regulation specifically identifies “comprehensive sewage drainage basin plans, approved by the department of ecology” as a plan cities and counties should consider. Because of this connection, many cities and counties required to complete comprehensive plans under the GMA must review the adequacy of their general sewer plans discussed in G1-2.3 and make appropriate revisions.\n\n## G1-2.5 Project Specific Planning, Design, and Construction\nThis section summarizes the process for project-specif"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 57,
+          "section": "B. Plans for Sewers",
+          "snippet": "</td>\n      <td>\n        This section does not apply to systems classified as a Large On-site Sewage System under chapter 246-272B WAC and chapter 70.118B RCW. Please consult with DOH for appropriate guidance for these systems.\n        <br/>Section (4)(c) refers to the availability of public sewers connected to a conventional treatment facility. The selection process is related to long-term reliability of the treatment and disposal process.\n        <br/>Section (4)(d) requires adequate area for "
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C46",
+      "text": "The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de-\n[23] DOE_Orange_Book_Design_Standards.pdf - p.175; G3-2 Identifying and Securing Resources\n[24] DOE_Orange_Book_Design_Standards.pdf - p.49\n[25] MOP8_Combined_part01.pdf - p.3; Preface\n[26] DOE_Orange_Book_Design_Standards.pdf - p.61; E.",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 7,
+          "section": "WAC 173-240-070 Plans and specifications. (1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility. The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de-",
+          "snippet": "(e) A description of the receiving water, applicable water quality standards, and how water quality standards will be met outside any applicable dilution zone.\n\n(f) The type of treatment process proposed, based upon the character of the wastewater to be handled, the method of disposal, the degree of treatment required, and a discussion of the alternatives evaluated and the reasons they are unacceptable.\n\n(g) The basic design data and sizing calculations of each unit of the treatment works. Expec"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 6,
+          "section": "WAC 173-240-060 Engineering report",
+          "snippet": "The location of all existing and proposed pumping stations and force mains, designated to distinguish between those existing and proposed;\n  - (v) Topography and elevations. Topography showing pertinent ground elevations and surface drainage must be included, as well as proposed and existing streets;\n  - (vi) Streams, lakes, and other bodies of water. The location and direction of flow of major streams, the high and low elevations of water surfaces at sewer outlets, and controlled overflows, if "
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 37,
+          "section": "G1-2.6 Submission of Electronic Documents",
+          "snippet": "The regulation specifically identifies “comprehensive sewage drainage basin plans, approved by the department of ecology” as a plan cities and counties should consider. Because of this connection, many cities and counties required to complete comprehensive plans under the GMA must review the adequacy of their general sewer plans discussed in G1-2.3 and make appropriate revisions.\n\n## G1-2.5 Project Specific Planning, Design, and Construction\nThis section summarizes the process for project-specif"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C47",
+      "text": "Plans for Sewage Treatment Plant Discharge Facilities\n[27] 2019_DOE_Reclaimed_Water_Facilities_Manual.pdf - p.55\n[28] 2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf - p.75; 3.10.",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 59,
+          "section": "Figure G1-2.",
+          "snippet": "In addition, show locations identified for restricted construction activities to protect environmentally or culturally sensitive areas.\n* (8) Any additional information that may help the viewer to understand the designer’s intent or to provide further project clarity.\n\nThe following sections include additional detail required in plan sets for sewers (part B), sewage pump stations (part C), sewage treatment plants (part D) and Plans for Sewage Treatment Plant Discharge Facilities (Part E).\n\n## B."
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 57,
+          "section": "B. Plans for Sewers",
+          "snippet": "</td>\n      <td>\n        This section does not apply to systems classified as a Large On-site Sewage System under chapter 246-272B WAC and chapter 70.118B RCW. Please consult with DOH for appropriate guidance for these systems.\n        <br/>Section (4)(c) refers to the availability of public sewers connected to a conventional treatment facility. The selection process is related to long-term reliability of the treatment and disposal process.\n        <br/>Section (4)(d) requires adequate area for "
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 52,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\ndesign, the potential for sulfide-related corrosion, as discussed in Chapter 4, can be minimized. The most direct way of generating Q_min is with the equation $$Q_{\\min} = Q_{\\text{avg1}} \\times P_1$$, where \\(P_1\\) is a peaking factor discussed in Section 3.7.\n\n* The average daily flow, \\(Q_{\\text{avg2}}\\), for the design day for the system. Derivation of \\(Q_{\\text{avg2}}\\) is also presented in Sections 3.3 through 3.6.\n\n* The capacity design flow, \\(Q_{\\max}\\), which"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C48",
+      "text": "Uncertainty in Forecasts\n[29] 2010_EPA_Permit_Writers_Manual.pdf - p.201\n[30] DOE_Orange_Book_Design_Standards.pdf - p.53\n[31] 2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf - p.54; QUANTITY OF WASTEWATER\n[32] 2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf - p.11; 3 QUANTITY OF WASTEWATER\n[33] WAC_173-240_Wastewater_Submission_Plans.pdf - p.9; Operation and Maintenance Manual Requirements\n[34] DOE_Orange_Book_Design_Standards.pdf - p.41; G1-3.2 Content of General Sewer Plan\n[35] WAC_173-240_Wastewater_Submission_Plans.pdf - p.14; Documentation Requirements (Continued)\n[36] 2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf - p.42; 2.2.2.",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 43,
+          "section": "G1-4.1.1 Objective",
+          "snippet": "3) The existing and proposed service boundaries.\n4) Layout maps, including the following:\n- Boundary lines of the municipality or district sewer service area, and the vicinity.\n- Details of the existing sewer lines (location, size, slope, direction of flow, and capacity) along with areas served by each.\n- Details of proposed sewers (as identified for existing sewers) and areas proposed to be served by each.\n- Locations of existing and proposed pump stations and force mains.\n- Topography and elev"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 35,
+          "section": "G1-2.5 Project Specific Planning, Design, and Construction",
+          "snippet": "The laws also require development of the plans before the entity may provide sewer service. Chapter 90.48 RCW considers plans developed under the above laws as “plans” subject to Ecology’s review and approval under chapter 90.48.110 RCW. The above planning requirements predate the Growth Management Act and applies to all cities and counties regardless of size and growth potential.\n\nChapter 173-240-050 WAC describes the required content of a “General Sewer Plan” and section G1-3 provides a detail"
+        },
+        {
+          "file": "WAC_173-240_Wastewater_Submission_Plans.pdf",
+          "page": 7,
+          "section": "WAC 173-240-070 Plans and specifications. (1) The plans and specifications for a domestic wastewater facility are the detailed construction documents by which the owner or his or her contractor bid and construct the facility. The content and format of the plans and specifications must be as stated in the state of Washington, \"Criteria for sewage works design,\" and shall include a list of the facility de-",
+          "snippet": "(e) A description of the receiving water, applicable water quality standards, and how water quality standards will be met outside any applicable dilution zone.\n\n(f) The type of treatment process proposed, based upon the character of the wastewater to be handled, the method of disposal, the degree of treatment required, and a discussion of the alternatives evaluated and the reasons they are unacceptable.\n\n(g) The basic design data and sizing calculations of each unit of the treatment works. Expec"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C49",
+      "text": "Developmental\n[37] DOE_Orange_Book_Design_Standards.pdf - p.97; G2-2.2.1 Potable Supply Connection\n[38] 2019_DOE_Reclaimed_Water_Facilities_Manual.pdf - p.58; 210 (2) (m) Summary of preliminary engineering design criteria for reclaimed water treatment processes including:\n[39] WEF_FD-16_Facilities_Design.pdf - p.404; PLAN VIEW\n[40] 2019_DOE_Reclaimed_Water_Facilities_Manual.pdf - p.68\n[41] 2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf - p.57; 3.5.",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2019_DOE_Reclaimed_Water_Facilities_Manual.pdf",
+          "page": 58,
+          "section": "210 (2) (m) Summary of preliminary engineering design criteria for reclaimed water treatment processes including:",
+          "snippet": "## 210 (2) (m) Summary of preliminary engineering design criteria for reclaimed water treatment processes including:\n\n210 (2) (m) (i) Aeration/anaerobic organic carbon reduction.\n210 (2) (m) (ii) Nutrient reduction (if required).\n210 (2) (m) (iii) Disinfection system selection meeting the requirements of WAC 173-219-340\n210 (2) (m) (iv) Contact time with disinfectant reactor.\n210 (2) (m) (v) Coagulation and filtration processes (if required).\n210 (2) (m) (vi) Reverse osmosis or comparable techno"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 35,
+          "section": "G1-2.5 Project Specific Planning, Design, and Construction",
+          "snippet": "The laws also require development of the plans before the entity may provide sewer service. Chapter 90.48 RCW considers plans developed under the above laws as “plans” subject to Ecology’s review and approval under chapter 90.48.110 RCW. The above planning requirements predate the Growth Management Act and applies to all cities and counties regardless of size and growth potential.\n\nChapter 173-240-050 WAC describes the required content of a “General Sewer Plan” and section G1-3 provides a detail"
+        },
+        {
+          "file": "DOE_Orange_Book_Design_Standards.pdf",
+          "page": 57,
+          "section": "B. Plans for Sewers",
+          "snippet": "</td>\n      <td>\n        This section does not apply to systems classified as a Large On-site Sewage System under chapter 246-272B WAC and chapter 70.118B RCW. Please consult with DOH for appropriate guidance for these systems.\n        <br/>Section (4)(c) refers to the availability of public sewers connected to a conventional treatment facility. The selection process is related to long-term reliability of the treatment and disposal process.\n        <br/>Section (4)(d) requires adequate area for "
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    },
+    {
+      "id": "C50",
+      "text": "AVERAGE UNIT FLOWS\n[42] DOE_Orange_Book_Design_Standards.pdf - p.31; G1-2.1  Objective\n[43] 2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf - p.360; 10.2.4.3.",
+      "supported": true,
+      "evidence": [
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 51,
+          "section": "GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION",
+          "snippet": "# GRAVITY SANITARY SEWER DESIGN AND CONSTRUCTION\n\nTable 3-1. Summary of Forecasting Procedures\n\n<table>\n<thead>\n<tr>\n  <th>Step</th>\n  <th>Residential Wastewater</th>\n  <th>Nonresidential Wastewater</th>\n  <th>Other Wastewater<br />(Section 3.7)</th>\n  <th>Infiltration/Inflow<br />(Section 3.8)</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n  <td>Step 1</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Determine planning horizon or design period (Section 3.2).</td>\n  <td>Large i"
+        },
+        {
+          "file": "2013_WEF_FD-5_gravity-sanitary-sewer-design-and-construction.pdf",
+          "page": 52,
+          "section": "QUANTITY OF WASTEWATER",
+          "snippet": "# QUANTITY OF WASTEWATER\n\ndesign, the potential for sulfide-related corrosion, as discussed in Chapter 4, can be minimized. The most direct way of generating Q_min is with the equation $$Q_{\\min} = Q_{\\text{avg1}} \\times P_1$$, where \\(P_1\\) is a peaking factor discussed in Section 3.7.\n\n* The average daily flow, \\(Q_{\\text{avg2}}\\), for the design day for the system. Derivation of \\(Q_{\\text{avg2}}\\) is also presented in Sections 3.3 through 3.6.\n\n* The capacity design flow, \\(Q_{\\max}\\), which"
+        },
+        {
+          "file": "EPA_Guide_Estimating_Infiltration_Inflow.pdf",
+          "page": 1,
+          "section": "Background",
+          "snippet": "## Background  \nThere are three major components of wastewater flow in a sanitary sewer system, base sanitary (or wastewater) flow, groundwater infiltration and rainfall derived inflow and infiltration, more commonly referred to as inflow. Virtually every sewer system has some infiltration and/or inflow. Historically, small amounts of I&I are expected and tolerated. However, infiltration and inflow may be considered excessive when it is the cause of overflows or bypasses, or the cost to transpor"
+        }
+      ],
+      "rationale": "Keyword overlap heuristic; increase recall with follow-up retrieve if weak.",
+      "risk": "low",
+      "citations_valid": null
+    }
+  ],
+  "follow_up_retrieves": []
+}

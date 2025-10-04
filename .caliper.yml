@@ -1,0 +1,123 @@
+# Caliper v2 Configuration
+# This file provides project-specific defaults and presets
+# Values here override system defaults but can be overridden by CLI flags
+
+# Provider Configuration
+# Uncomment and set your preferred provider for different phases
+providers:
+  # Retrieval phase (embedding & search) - Cohere recommended for best results
+  retrieval:
+    provider: cohere
+    model: command-r-plus  # or command-r7b-12-2024
+    
+  # Generation phase (text generation)
+  generation:
+    provider: anthropic  # Options: openai, anthropic, gemini, xai, cohere
+    model: claude-sonnet-4-5  # Provider-specific model
+    
+  # Enhancement phase (context enrichment)
+  enhancement:
+    provider: anthropic
+    model: claude-sonnet-4-5
+    
+  # Judge phase (quality assessment)
+  judge:
+    provider: anthropic
+    model: claude-opus-4-1  # Use most capable model for judging
+
+# Default Retrieval Settings
+retrieval:
+  indexes: federal,state,design_standards  # Default indexes to search
+  search_mode: hybrid  # vector, bm25, or hybrid
+  top_k: 16
+  reranker: cohere  # cohere, llm, st-mini, or null
+  reranker_top_n: 16
+  rerank_min_score: 0.5
+  cloud: true  # Use LlamaCloud by default
+  
+  # Cloud-specific settings
+  cloud_dense_k: 8
+  cloud_sparse_k: 8
+  cloud_alpha: 0.5
+  cloud_rerank: true
+  cloud_rerank_top_n: 8
+
+# Generation Settings
+generation:
+  style: strict-citation  # Output style
+  temperature: 0.7  # Creativity vs consistency (0.0-1.0)
+  max_tokens: 4000  # Max output length
+
+# Workflow Presets
+presets:
+  quick-query:
+    retrieval:
+      indexes: federal,state
+      top_k: 8
+      reranker: cohere
+    generation:
+      provider: openai
+      model: gpt-4o
+      
+  engineering-report:
+    retrieval:
+      indexes: federal,state,design_standards
+      top_k: 24
+      reranker: cohere
+      reranker_top_n: 20
+    generation:
+      provider: anthropic
+      model: claude-sonnet-4-5
+      style: technical-report
+      
+  code-review:
+    retrieval:
+      indexes: design_standards
+      top_k: 12
+    generation:
+      provider: anthropic
+      model: claude-opus-4-1
+      
+  fast-draft:
+    retrieval:
+      indexes: federal,state
+      top_k: 12
+      reranker: null
+    generation:
+      provider: xai
+      model: grok-4
+      
+  deep-analysis:
+    retrieval:
+      indexes: federal,state,design_standards
+      top_k: 36
+      reranker: cohere
+      reranker_top_n: 24
+    generation:
+      provider: anthropic
+      model: claude-opus-4-1
+      temperature: 0.3
+
+# Project Paths (relative to project root)
+paths:
+  knowledge_base: knowledge_base
+  indexes: data_v2/indexes
+  context: data_v2/context
+  outputs: outputs
+  prompts: prompts
+
+# Logging
+logging:
+  level: INFO  # DEBUG, INFO, WARNING, ERROR
+  file: logs/caliper.log
+
+# Archive Settings
+archive:
+  auto_archive: true
+  keep_days: 30  # Archive outputs older than this
+
+# Notes:
+# - CLI flags always override these settings
+# - Use `poetry run caliper_v2 --help` to see all available options
+# - Provider API keys must be set in .env file
+# - Presets can be used with: --preset engineering-report

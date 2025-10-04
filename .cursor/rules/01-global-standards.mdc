@@ -1,0 +1,9 @@
+---
+description: Global engineering standards for Caliper (logging, errors, I/O, testing, prompts, security).
+alwaysApply: false
+globs: []
+---
+
+- Canonical rule source (do not edit this wrapper):
+  @.ide/rules/01-global-standards.md
+- To modify rules, edit the canonical file and re-run scripts/sync_ide_rules.py

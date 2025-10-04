@@ -1,0 +1,9 @@
+---
+description: Canonical authority and precedence for IDE rules; defer to .ide/rules/*.md
+alwaysApply: true
+globs: []
+---
+
+- Canonical rule source (do not edit this wrapper):
+  @.ide/rules/00-authority.md
+- To modify rules, edit the canonical file and re-run scripts/sync_ide_rules.py

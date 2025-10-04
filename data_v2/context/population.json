@@ -1,0 +1,26 @@
+{
+  "type": "retrieval_session",
+  "version": 1,
+  "created_at": "2025-09-05T02:45:50Z",
+  "question": "generate a top to bottom outline which summarizes the guidance for how to perform population projections with the purpose of using the population projections to size wastewater treatment facilities G1 General Sewer Plan Engineering Report Plans and Specifications WAC 173-240-050 WAC 173-240-060 WAC 173-240-070 SEPA NEPA SERP G1 General Sewer Plan Engineering Report Plans and Specifications WAC 173-240-050 WAC 173-240-060 WAC 173-240-070 SEPA NEPA SERP G1 General Sewer Plan Engineering Report Plans and Specifications WAC 173-240-050 WAC 173-240-060 WAC 173-240-070 SEPA NEPA SERP",
+  "indexes": [
+    "federal",
+    "state",
+    "design"
+  ],
+  "search_mode": "vector",
+  "top_k": 0,
+  "reranker": "cohere",
+  "retrieval": {
+    "nodes": [],
+    "spore": {
+      "summary": "Top sources selected based on hybrid similarity and coverage of relevant sections.",
+      "rationale_bullets": [
+        "Covers primary regulatory sections referenced by the question",
+        "Includes adjacent sections providing upstream/downstream context",
+        "Combines lexical and semantic matches to reduce out-of-context risk"
+      ],
+      "confidence": 0.7
+    }
+  }
+}

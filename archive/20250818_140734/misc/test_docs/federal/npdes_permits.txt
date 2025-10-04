@@ -1,0 +1,38 @@
+National Pollutant Discharge Elimination System (NPDES) Permit Requirements
+
+Overview:
+The NPDES permit program, created by the Clean Water Act (CWA) Section 402, controls water pollution by regulating point sources that discharge pollutants into waters of the United States.
+
+Key Requirements:
+
+1. BOD (Biochemical Oxygen Demand) Limits:
+   - Secondary treatment standards: 30 mg/L (30-day average)
+   - 45 mg/L (7-day average)
+   - 85% removal efficiency required
+
+2. TSS (Total Suspended Solids) Limits:
+   - Secondary treatment: 30 mg/L (30-day average)
+   - 45 mg/L (7-day average)
+   - 85% removal efficiency required
+
+3. pH Requirements:
+   - Must be maintained between 6.0 and 9.0 standard units
+
+4. Monitoring and Reporting:
+   - Discharge Monitoring Reports (DMRs) must be submitted monthly
+   - Flow must be monitored continuously
+   - Sampling must follow EPA-approved methods
+
+5. Permit Application Timeline:
+   - New facilities: Apply at least 180 days before discharge
+   - Existing facilities: Renewal applications due 180 days before expiration
+   - Permits valid for maximum of 5 years
+
+6. Technology-Based Effluent Limits:
+   - Best Practicable Control Technology (BPT)
+   - Best Available Technology Economically Achievable (BAT)
+   - Best Conventional Pollutant Control Technology (BCT)
+
+7. Water Quality-Based Effluent Limits:
+   - Must ensure compliance with state water quality standards
+   - Total Maximum Daily Loads (TMDLs) may impose stricter limits

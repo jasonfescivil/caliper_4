@@ -1,0 +1,11 @@
+---
+description: CLI wizard behavior, query vs agent, provider resolution, output options.
+alwaysApply: false
+globs:
+  - "src/caliper_v2/**/*.py"
+  - "run_caliper_v2.py"
+---
+
+- Canonical rule source (do not edit this wrapper):
+  @.ide/rules/04-cli-wizard.md
+- To modify rules, edit the canonical file and re-run scripts/sync_ide_rules.py

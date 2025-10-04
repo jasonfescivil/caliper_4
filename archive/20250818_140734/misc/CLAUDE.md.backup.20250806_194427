@@ -1,0 +1,482 @@
+# CLAUDE.md
+
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
+
+## Project Overview
+
+Caliper is a RAG (Retrieval-Augmented Generation) system designed for regulatory compliance analysis in the wastewater treatment domain. The project uses LlamaIndex for document ingestion, indexing, and querying of regulatory documents including federal regulations (CFR), state regulations (WAC, RCW), and technical standards.
+
+## Development Commands
+
+### Environment Setup
+```bash
+# Install dependencies with LlamaIndex support
+poetry install --with llamaindex
+
+# Run the CLI
+poetry run caliper_v2 --help
+```
+
+### Document Ingestion
+```bash
+# Ingest documents into a named index with persistence
+poetry run caliper_v2 ingest knowledge_base/01_federal_regulations --index federal --persist
+
+# Ingest with LlamaParse for better PDF extraction (requires LLAMA_CLOUD_API_KEY)
+poetry run caliper_v2 ingest knowledge_base/02_state_regulations/washington --index state --persist --llama-parse
+```
+
+### Querying
+```bash
+# Basic vector search
+poetry run caliper_v2 query "What permits are required for biosolids disposal?" --index federal
+
+# Hybrid search (vector + BM25)
+poetry run caliper_v2 query "biosolids land application requirements" --index state --search-mode hybrid
+
+# Agent-based intelligent querying across multiple indexes
+poetry run caliper_v2 agent "What permits do I need for a wastewater plant in Washington?" --indexes federal,state --verbose
+```
+
+### System Information
+```bash
+# Show runtime configuration
+poetry run caliper_v2 info
+```
+
+## Architecture
+
+### Core Components
+
+**CLI Entry Point:** `src/caliper_v2/cli.py`
+- Main Typer-based CLI with commands: `ingest`, `query`, `agent`, `info`
+- Handles lazy imports to keep startup fast
+- Supports multiple search modes: vector, BM25, hybrid
+
+**Configuration:** `src/caliper_v2/core/config.py`
+- Pydantic-based settings with environment variable support
+- API key management for OpenAI, Cohere, LlamaCloud
+- Configurable chunk size, overlap, and retrieval parameters
+
+**Persistence:** `src/caliper_v2/services/persistence.py`
+- Index path resolution with `IndexPathResolver`
+- File hash-based change detection with `HashCache`
+- SQLite-backed metadata storage
+
+### Data Organization
+
+**Knowledge Base Structure:** `knowledge_base/`
+- `01_federal_regulations/` - EPA guidance and CFR documents
+- `02_state_regulations/washington/` - WAC, RCW, and state-specific docs
+- `06_design_standards/` - WEF, ASCE, AWWA standards
+- `07_technical_reports/` - Research and technical studies
+- `08_case_studies/tekoa_wastewater/` - Real-world implementation examples
+
+**Index Storage:** `data_v2/indexes/`
+- Each named index gets its own directory
+- FAISS vector stores in `faiss/` subdirectory
+- BM25 indexes stored as `bm25_index.pkl`
+- Metadata in `meta/` subdirectory
+
+### Key Features
+
+**Multi-Modal Search:**
+- Vector similarity search using OpenAI embeddings
+- BM25 keyword search for exact term matching
+- Hybrid fusion combining both approaches
+- Cohere reranking for improved relevance
+
+**Agent System:**
+- ReAct agent for complex multi-step queries
+- Tool-based architecture for index selection
+- Self-reflection capability for answer refinement
+- Confidence scoring and source attribution
+
+**Document Processing:**
+- Automatic regulatory metadata extraction (CFR, WAC, RCW numbers)
+- LlamaParse integration for enhanced PDF processing
+- Configurable chunking with overlap
+- Source citation tracking
+
+### Environment Variables
+
+Required API keys (set in `.env`):
+```
+OPENAI_API_KEY=your_openai_key
+COHERE_API_KEY=your_cohere_key  # For reranking
+LLAMA_CLOUD_API_KEY=your_llama_key  # For LlamaParse (optional)
+```
+
+## Development Notes
+
+### Index Management
+- Always use `--persist` flag during ingestion to save indexes
+- Index names should be descriptive: `federal`, `state`, `design_standards`
+- BM25 indexes are automatically created alongside vector indexes
+
+### Query Optimization
+- Use `--search-mode hybrid` for best results on technical queries
+- Filter sources with `--source-filter` for targeted searches
+- Enable `--self-reflect` for complex compliance questions
+
+### Agent Usage
+- Agent mode is best for multi-jurisdictional questions
+- Specify available indexes with `--indexes federal,state,technical_reports`
+- Use `--verbose` to see reasoning steps during development
+
+### File Patterns
+- Regulatory documents follow naming convention: `[TYPE]_[NUMBER]_[DESCRIPTION].pdf`
+- Index artifacts stored in `data_v2/` to avoid conflicts
+- SQLite databases use `app_v2.db` naming for version isolation
+
+## Project Status & Planning
+
+### Current Development Phase
+**Phase 2: Service Layer (75% Complete)**
+- ✅ Working CLI with info/ingest/query commands
+- ✅ Local and online embedding modes
+- ✅ Basic persistence and multi-modal search
+- 🔄 FAISS save/load persistence (30% complete)
+- 🔄 HashCache integration for idempotent ingests
+- ⏳ Multi-provider LLM support (OpenAI, Anthropic, Gemini)
+
+### Ready-to-Implement Features
+The following enhancements are documented and ready for implementation:
+
+**Retrieval Improvements:**
+- Query expansion with interactive selection (`--expand-query --interactive`)
+- Retrieval self-critique before synthesis (`--critique-retrieval`)
+- Answer confidence scoring (`--show-confidence`)
+
+**Advanced Features:**
+- Agent-based querying with tool use (partially implemented)
+- Self-reflection for answer refinement (`--self-reflect`)
+- Multi-index federation for comprehensive searches
+
+### Optimization Guidelines
+- Use `text-embedding-3-small` for better quality at lower cost
+- Enable LlamaParse for complex PDFs with tables (`--llama-parse`)
+- Implement document-specific chunking strategies:
+  - Federal CFRs: 2000-2500 tokens, 400-500 overlap
+  - State WACs/RCWs: 1500-2000 tokens, 300-400 overlap
+  - Design Standards: 2500-3000 tokens, 500 overlap
+- Add hybrid search for best precision on technical terms
+
+## Session Continuity Strategy
+
+### Planning Document System
+The project maintains extensive planning and progress tracking through markdown files that provide continuity between development sessions:
+
+**Core Planning Files:**
+- `PROJECT_STATE_SUMMARY.md` - Overall project status and immediate next steps
+- `LLAMAINDEX_PROGRESS_TRACKER.md` - Detailed phase tracking with metrics and milestones
+- `CALIPER_V2_ENHANCEMENT_ROADMAP.md` - Feature prioritization and implementation timeline
+- `READY_TO_IMPLEMENT_FEATURES.md` - Code-ready enhancements with implementation details
+
+**Specialized Guides:**
+- `INDEXING_OPTIMIZATION_GUIDE.md` - Document processing and chunking strategies
+- `LLAMAINDEX_MONITORING_GUIDE.md` - Metrics, alerting, and debugging workflows
+- `CLEANUP_SUMMARY.md` - Recent architectural changes and current state
+
+### Session Continuity Protocol
+
+**When Starting a New Session:**
+
+1. **Read Current State** (Priority Order):
+   ```bash
+   # Get immediate context
+   cat PROJECT_STATE_SUMMARY.md
+
+   # Check detailed progress
+   cat LLAMAINDEX_PROGRESS_TRACKER.md | head -50
+
+   # Review ready features
+   cat READY_TO_IMPLEMENT_FEATURES.md | head -30
+   ```
+
+2. **Update Status Documents**:
+   - Mark completed tasks in progress trackers
+   - Update percentage completion metrics
+   - Log any blockers or new discoveries
+   - Add timestamp to indicate last session activity
+
+3. **Commit Session State**:
+   ```bash
+   # Always commit planning file updates
+   git add *.md
+   git commit -m "Update project status - [current phase]
+
+   🤖 Generated with [Claude Code](https://claude.ai/code)
+
+   Co-Authored-By: Claude <noreply@anthropic.com>"
+   ```
+
+**Session Documentation Template:**
+Each development session should update `PROJECT_STATE_SUMMARY.md` with:
+```markdown
+## Recent Session Summary
+**Date:** [YYYY-MM-DD]
+**Duration:** [X hours]
+**Focus:** [Primary task/feature]
+
+### Completed:
+- [Task 1 with details]
+- [Task 2 with file locations]
+
+### In Progress:
+- [Current task with next steps]
+- [Blocked items with reasons]
+
+### Next Session Priorities:
+1. [Highest priority task]
+2. [Second priority with context]
+3. [Third priority if time permits]
+
+**Updated:** [timestamp]
+```
+
+### State Persistence Best Practices
+
+1. **Use Planning Files as Working Memory**:
+   - Update progress percentages immediately after completing tasks
+   - Document implementation decisions and their rationale
+   - Note performance characteristics and optimization opportunities
+
+2. **Maintain Implementation Continuity**:
+   - Keep `READY_TO_IMPLEMENT_FEATURES.md` with working code snippets
+   - Update `CALIPER_V2_ENHANCEMENT_ROADMAP.md` with new discoveries
+   - Document any architectural changes in dedicated files
+
+3. **Enable Context Recovery**:
+   - Reference specific files and line numbers in planning docs
+   - Include test commands and expected outputs
+   - Link related issues and their resolution status
+
+4. **Track Technical Debt**:
+   - Document known issues and their workarounds
+   - Maintain backlog of optimizations and refactoring needs
+   - Record dependency upgrade paths and compatibility notes
+
+This approach ensures that any new development session can quickly understand the current state, continue work efficiently, and maintain project momentum without losing institutional knowledge.
+
+# CRITICAL RULES - NEVER VIOLATE
+
+## NO IMPROVISED WORKAROUNDS
+**NEVER** create "simpler approaches" or workarounds when something is missing or not available.
+
+When you encounter:
+- "X isn't available"
+- "Y is missing"
+- "Z doesn't exist"
+- Import errors
+- Missing features
+
+YOU MUST:
+1. STOP immediately
+2. Report EXACTLY what's missing
+3. ASK the user how to proceed
+4. WAIT for explicit permission before making ANY changes
+
+FORBIDDEN PHRASES:
+- "Let me fix this by using a simpler approach"
+- "Let me work around this"
+- "I'll implement a basic version"
+- "Let me create a minimal implementation"
+
+CORRECT RESPONSE:
+"ERROR: CustomRetriever is not available in the current codebase. This appears to be a missing feature. How would you like to proceed?"
+
+## NO UNAUTHORIZED EDITS
+ALWAYS ask before making code changes unless explicitly told to "just fix it" or given blanket permission for specific tasks.
+
+## RESPECT THE EXISTING ARCHITECTURE
+The codebase has planned features that aren't implemented yet. Don't implement them without permission. Don't create hacky alternatives.
+
+## DEPENDENCY UPDATE PROTOCOL
+
+When updating dependencies in pyproject.toml or requirements.txt, YOU MUST:
+
+1. **Pre-flight Check** (BEFORE making changes):
+   ```
+   Search: "llama-index-core 0.11 breaking changes"
+   Search: "llama-index 0.10 to 0.11 migration guide"
+   Search: "[package-name] [version] compatibility matrix"
+   ```
+
+2. **Version Compatibility Matrix**:
+   - Check the package's GitHub releases page
+   - Look for "BREAKING CHANGES" in release notes
+   - Search: "[package1] [version1] compatible with [package2] [version2]"
+
+3. **Test in Order**:
+   ```bash
+   # First, check without updating lock
+   wsl poetry check
+
+   # Then update lock file
+   wsl poetry lock --no-update
+
+   # Check for conflicts
+   wsl poetry show --tree
+
+   # Finally install
+   wsl poetry install --with llamaindex
+   ```
+
+4. **For Major Version Updates** (0.10 → 0.11):
+   - ALWAYS search for migration guides first
+   - Check if existing code uses deprecated APIs
+   - Create a compatibility report BEFORE updating
+
+5. **Report Format**:
+   ```
+   DEPENDENCY UPDATE ANALYSIS:
+
+   Core Changes:
+   - llama-index-core: 0.10.11 → 0.11.0
+     ✓ Compatible with Python 3.11
+     ⚠️ Breaking: CustomRetriever moved to llama_index.core.retrievers.custom
+     ⚠️ Breaking: VectorStoreIndex API changes
+
+   Cascading Updates Required:
+   - llama-index-llms-openai: 0.1.17 → 0.2.0 (required by core 0.11)
+   - llama-index-embeddings-openai: 0.1.10 → 0.2.0 (required by core 0.11)
+
+   Proceed with update? [Requires code changes in 3 files]
+   ```
+
+## Proposed Standard Operating Procedures for CLAUDE.md
+
+### 1. **ENVIRONMENT CONSISTENCY PROTOCOL**
+```markdown
+## Environment Usage Rules
+- ALWAYS use WSL for ALL commands (never mix Windows/WSL)
+- Command prefix: `wsl` (no cd needed, already in correct dir)
+- Python: Use Poetry's virtual environment ONLY
+- FORBIDDEN: pip install in global Python, using Windows Python directly
+```
+
+### 2. **INDEX MANAGEMENT PROTOCOL**
+```markdown
+## Index Creation/Query Rules
+1. ALWAYS use same embedding provider for ingest AND query
+2. Document index creation parameters in a manifest:
+   ```
+   indexes/
+     federal/
+       manifest.json  # {"embed_provider": "openai", "created": "2024-11-05", "doc_count": 127}
+   ```
+3. Before querying, check manifest matches current settings
+4. NEVER mix embedding dimensions (8 vs 1536)
+```
+
+### 3. **API KEY VERIFICATION PROTOCOL**
+```markdown
+## Before Running Any LLM/Embedding Commands
+1. Check .env exists and has required keys:
+   - OPENAI_API_KEY (required for embeddings/LLM)
+   - LLAMA_CLOUD_API_KEY (required for --llama-parse)
+   - COHERE_API_KEY (optional, for reranking)
+2. Run `wsl poetry run caliper_v2 info` to verify keys loaded
+3. NEVER commit .env or show keys in logs
+```
+
+### 4. **CODE CHANGE PROTOCOL**
+```markdown
+## Before Making Code Changes
+1. STATE CURRENT FUNCTIONALITY: "Currently, X works by..."
+2. EXPLAIN WHAT WILL CHANGE: "This change will modify..."
+3. IDENTIFY RISKS: "This might break..."
+4. GET APPROVAL before proceeding
+5. TEST IMPACT: Show which commands will still work/break
+```
+
+### 5. **ERROR DIAGNOSIS PROTOCOL**
+```markdown
+## When Errors Occur
+1. CAPTURE FULL ERROR: Include stack trace
+2. IDENTIFY ROOT CAUSE:
+   - Missing dependency? Check pyproject.toml
+   - Import error? Check package version compatibility
+   - Dimension mismatch? Check embedding provider consistency
+   - Path error? Check WSL vs Windows
+3. PROPOSE SOLUTIONS (with time/risk as per existing rule)
+4. NEVER HIDE ERRORS with try/except unless explicitly asked
+```
+
+### 6. **TESTING PROTOCOL**
+```markdown
+## Before Claiming Feature Works
+1. CREATE TEST DATA: Small subset in test_docs/
+2. RUN FULL PIPELINE:
+   ```bash
+   wsl poetry run caliper_v2 ingest test_docs --index test --persist
+   wsl poetry run caliper_v2 query "test question" --index test
+   ```
+3. VERIFY OUTPUT: Check it actually returns relevant results
+4. DOCUMENT: Working command examples with actual output
+```
+
+### 7. **PERFORMANCE TRACKING PROTOCOL**
+```markdown
+## For Ingestion/Query Operations
+1. REPORT METRICS:
+   - Ingestion: X documents in Y seconds (Z docs/sec)
+   - Query: Response in X seconds, retrieved Y chunks
+   - Memory: Peak usage during operation
+2. FLAG CONCERNS: "Warning: Query took 8+ seconds"
+3. COMPARE TO BASELINE: "Previously this took X seconds"
+```
+
+### 8. **DEPENDENCY CONFLICT PROTOCOL**
+```markdown
+## When Poetry/Pip Conflicts Occur
+1. CAPTURE CONFLICT: Full error message
+2. CHECK VERSIONS: `wsl poetry show --tree | grep -A5 -B5 [package]`
+3. SEARCH FOR SOLUTIONS:
+   - "[package1] [package2] dependency conflict"
+   - Check GitHub issues for both packages
+4. PROPOSE OPTIONS:
+   - Downgrade one package
+   - Find compatible versions
+   - Use different package
+```
+
+### 9. **DOCUMENTATION SYNC PROTOCOL**
+```markdown
+## After Making Changes
+1. UPDATE AFFECTED DOCS:
+   - README.md - Update command examples
+   - Planning docs - Mark completed features
+   - CLAUDE.md - Add new patterns/warnings
+2. FLAG OUTDATED SECTIONS: "Note: This example uses old API"
+3. TEST EXAMPLES: Every code example must be tested
+```
+
+### 10. **GIT OPERATIONS PROTOCOL**
+```markdown
+## Before Git Operations
+1. CHECK STATUS: What files changed?
+2. REVIEW CHANGES: Don't commit debug prints, test files
+3. SANITIZE: No API keys, no absolute paths
+4. ATOMIC COMMITS: One feature/fix per commit
+5. DESCRIPTIVE MESSAGES: "Fix index_resolver undefined in multi-index query"
+```
+
+### 11. **MULTI-LLM COORDINATION PROTOCOL**
+```markdown
+## When Multiple LLMs Working on Project
+1. CHECK RECENT CHANGES: "What was changed in last session?"
+2. READ TODO LISTS: Check existing task tracking
+3. VERIFY ASSUMPTIONS: "Is Poetry still in WSL?"
+4. COMMUNICATE CONTEXT: Leave notes for next LLM
+```
+
+### 12. **RESOURCE USAGE PROTOCOL**
+```markdown
+## To Avoid Wasting API Credits
+1. USE LOCAL MODE FOR TESTING: --embed-provider local
+2. BATCH OPERATIONS: Ingest all docs at once vs one-by-one
+3. CACHE RESULTS: Don't re-run same query repeatedly
+4. FAIL FAST: Check prerequisites before expensive operations
+```

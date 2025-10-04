@@ -1,0 +1,12 @@
+---
+description: Python standards: PEP8, type hints, docstrings, imports, formatting.
+alwaysApply: false
+globs:
+  - "**/*.py"
+  - "src/**/*.py"
+  - "scripts/**/*.py"
+---
+
+- Canonical rule source (do not edit this wrapper):
+  @.ide/rules/02-python-standards.md
+- To modify rules, edit the canonical file and re-run scripts/sync_ide_rules.py

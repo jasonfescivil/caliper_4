@@ -1,0 +1,48 @@
+{
+  "type": "review_report",
+  "version": 1,
+  "doc_path": "C:\\repos\\caliper_3\\outputs\\drafts\\grok4fast.md",
+  "context_path": "C:\\repos\\caliper_3\\data_v2\\context\\graph_LS_deisgn.json",
+  "summary": {
+    "blocking": 0,
+    "high_risk": 0,
+    "inconsistencies": 3,
+    "coverage_score": 0.0
+  },
+  "issues": [
+    {
+      "id": "A-ADF",
+      "severity": "medium",
+      "kind": "acronym",
+      "message": "Acronym 'ADF' appears multiple times without definition.",
+      "suggestion": "Define 'ADF' on first use.",
+      "where": null
+    },
+    {
+      "id": "A-FLOW",
+      "severity": "medium",
+      "kind": "acronym",
+      "message": "Acronym 'FLOW' appears multiple times without definition.",
+      "suggestion": "Define 'FLOW' on first use.",
+      "where": null
+    },
+    {
+      "id": "A-PHDF",
+      "severity": "medium",
+      "kind": "acronym",
+      "message": "Acronym 'PHDF' appears multiple times without definition.",
+      "suggestion": "Define 'PHDF' on first use.",
+      "where": null
+    }
+  ],
+  "claims": [],
+  "metrics": {
+    "total_claims": 0,
+    "support_rate": 0.0,
+    "strict_precision": 0.0,
+    "citation_coverage": 0.0,
+    "unique_sources_cited": 0,
+    "avg_evidence_per_claim": 0.0
+  },
+  "follow_up_retrieves": []
+}
