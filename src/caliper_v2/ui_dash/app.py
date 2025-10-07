@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import subprocess
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
@@ -29,11 +30,26 @@ from caliper_v2.services.judge_components import windows_retrieve_command, windo
 from caliper_v2.commands import enhance as enhance_cmd
 from caliper_v2.commands import review as review_cmd
 from caliper_v2.services.ui_api import synthesize_from_context, resolve_llm_from_env_settings
+from caliper_v2.cli.validator import PromptValidationError, validate_prompt
 
 
 # --------------------
 # Helpers
 # --------------------
+
+def _slugify(text: str, max_len: int = 60) -> str:
+    """Create a filename-safe slug from a string."""
+    s = re.sub(r"[^a-zA-Z0-9-_]+", "-", text).strip("-")
+    if len(s) > max_len:
+        s = s[:max_len].rstrip("-")
+    return s or "query"
+
+
+def _utc_now_iso_file_safe() -> str:
+    """Return a timestamp suitable for filenames."""
+    from datetime import datetime, timezone
+    return datetime.now(timezone.utc).strftime("%Y%m%d-%H%M%S")
+
 
 def _normalize_provider_model(provider: Optional[str], model: Optional[str]) -> Tuple[Optional[str], Optional[str], List[Any]]:
     """
@@ -125,6 +141,25 @@ def _preview_nodes(data: Dict[str, Any]) -> List[Dict[str, Any]]:
     return rows
 
 
+PROMPT_TEMPLATES = {
+    "pop_forecast_qa": {
+        "label": "Population Forecast QA",
+        "prompt": "Review the attached population forecast against WAC/DOE design standards. Identify the design year, per capita flow assumptions, and peaking factors. Flag any inconsistencies or missing data required for a facility plan.",
+        "guidance": "Use this to QA/QC population projections. Requires a context file with OFM data and design manuals."
+    },
+    "i_and_i_analysis": {
+        "label": "Inflow and Infiltration Analysis",
+        "prompt": "Analyze the I&I monitoring data provided in @file.md. Summarize the key findings, identify sources of I&I, and recommend mitigation strategies based on Ecology's design guidance.",
+        "guidance": "Requires a context file with I&I monitoring reports."
+    },
+    "standards_matrix": {
+        "label": "Regulatory Standards Matrix",
+        "prompt": "Generate a compliance matrix for a wastewater treatment facility plan, cross-referencing sections of the plan against relevant WAC and RCW citations. Identify any gaps in coverage.",
+        "guidance": "Best used with context files containing both the draft plan and regulatory documents."
+    }
+}
+
+
 # --------------------
 # App
 # --------------------
@@ -211,8 +246,19 @@ retrieval_content = html.Div([
         dbc.CardBody([
             dbc.Row([
                 dbc.Col([
+                    dbc.Label("Prompt Library", html_for="prompt-library", className="fw-bold"),
+                    dcc.Dropdown(
+                        id="prompt-library",
+                        options=[{"label": v["label"], "value": k} for k, v in PROMPT_TEMPLATES.items()],
+                        placeholder="Select a vetted prompt...",
+                    ),
+                    html.Div(id="prompt-guidance", className="text-muted small mt-2"),
+                ], md=12, className="mb-3"),
+            ]),
+            dbc.Row([
+                dbc.Col([
                     dbc.Label("Question/Prompt", html_for="ret-question", className="fw-bold"),
-                    dbc.Textarea(id="ret-question", placeholder="Enter your question for retrieval...", style={"height": 120}),
+                    dbc.Textarea(id="ret-question", placeholder="Enter your question or select from the library above...", style={"height": 120}),
                 ], md=8),
                 dbc.Col([
                     dbc.Label("Or Load from File", className="fw-bold"),
@@ -519,6 +565,69 @@ def on_gen_provider_change_placeholder(prov: str):
     except Exception:
         return "Model name (optional)"
 
+# Update question and guidance from prompt library
+@app.callback(
+    [Output("ret-question", "value"), Output("prompt-guidance", "children")],
+    Input("prompt-library", "value"),
+    prevent_initial_call=True,
+)
+def on_prompt_library_change(prompt_key: str):
+    if not prompt_key:
+        return dash.no_update, ""
+
+    template = PROMPT_TEMPLATES.get(prompt_key)
+    if not template:
+        return dash.no_update, ""
+
+    return template.get("prompt", ""), template.get("guidance", "")
+
+# Auto-suggest output filenames based on the question
+@app.callback(
+    [
+        Output("ret-out", "value"),
+        Output("enh-out", "value"),
+        Output("gen-out", "value"),
+        Output("drf-path", "value"),
+        Output("rev-json", "value"),
+        Output("rev-md", "value"),
+    ],
+    Input("ret-question", "value"),
+    prevent_initial_call=True,
+)
+def on_question_change_suggest_filenames(question: str):
+    if not question or not question.strip():
+        return [dash.no_update] * 6
+
+    slug = _slugify(question)
+    ts = _utc_now_iso_file_safe()
+    base_name = f"{ts}_{slug}"
+
+    paths = _default_paths()
+
+    ret_path = paths["ctx_dir"] / f"{base_name}_retrieved.json"
+    enh_path = paths["ctx_dir"] / f"{base_name}_enhanced.json"
+    gen_path = paths["drafts_dir"] / f"{base_name}_generated.md"
+    drf_path = paths["drafts_dir"] / f"{base_name}_draft.md"
+    rev_json_path = paths["reviews_dir"] / f"{base_name}_review.json"
+    rev_md_path = paths["reviews_dir"] / f"{base_name}_review.md"
+
+    return (
+        str(ret_path.resolve()),
+        str(enh_path.resolve()),
+        str(gen_path.resolve()),
+        str(drf_path.resolve()),
+        str(rev_json_path.resolve()),
+        str(rev_md_path.resolve()),
+    )
+
+artifact_health_indicators = dbc.Row([
+    dbc.Col(html.H6("Artifact Health:"), width="auto", className="pe-0"),
+    dbc.Col(dbc.Badge("Retrieval", id="health-retrieval", color="secondary", className="ms-1 me-1")),
+    dbc.Col(dbc.Badge("Enhanced", id="health-enhanced", color="secondary", className="me-1")),
+    dbc.Col(dbc.Badge("Draft", id="health-draft", color="secondary", className="me-1")),
+    dbc.Col(dbc.Badge("Review", id="health-review", color="secondary", className="me-1")),
+], align="center", className="mb-3")
+
 app.layout = dbc.Container([
     html.H2("Caliper v2 – Dash/Plotly Wrapper"),
     provider_panel,
@@ -526,7 +635,17 @@ app.layout = dbc.Container([
     dcc.Tabs(id="tabs", value="tab-retrieval", children=[
         retrieval_tab, enhance_tab, draft_tab, generate_tab, review_tab
     ]),
+    artifact_health_indicators,
     html.Div(id="tab-content", className="mt-3"),
+    dbc.Modal(
+        [
+            dbc.ModalHeader("Evidence Explorer"),
+            dbc.ModalBody(id="evidence-explorer-content"),
+        ],
+        id="modal-evidence-explorer",
+        size="xl",
+        is_open=False,
+    ),
 ], fluid=True)
 
 # Tell Dash about all components used by callbacks, even if not rendered yet (tabs)
@@ -538,6 +657,7 @@ app.validation_layout = html.Div([
         dcc.Tabs(id="tabs", value="tab-retrieval", children=[
             retrieval_tab, enhance_tab, draft_tab, generate_tab, review_tab
         ]),
+        artifact_health_indicators,
         html.Div(id="tab-content", className="mt-3"),
     ], fluid=True),
     # Include every tab’s content so their IDs are discoverable for validation
@@ -731,6 +851,10 @@ def on_retrieve(n_clicks: int, question: str, indexes_text: str, topk: int, rera
                 mode: Optional[str], densek: Optional[int], sparsek: Optional[int], alpha: Optional[float], include_terms: Optional[str], exclude_sections: Optional[str],
                 filters: Optional[str], infer_vals: List[str], expand: Optional[int], hyde_vals: List[str]):
     question = (question or "").strip()
+    try:
+        validate_prompt(question)
+    except PromptValidationError as e:
+        return "", "", dbc.Alert(f"Invalid prompt: {e}", color="danger"), None, out_path
     if not question:
         return "", "", dbc.Alert("Please enter a question.", color="warning"), None, out_path
     idxs = [s.strip() for s in (indexes_text or "").split(",") if s.strip()]
@@ -781,9 +905,11 @@ def on_retrieve(n_clicks: int, question: str, indexes_text: str, topk: int, rera
             table = dbc.Table([html.Thead(html.Tr([html.Th(k) for k in ["file", "page", "section", "score"]]))] +
                               [html.Tbody([html.Tr([html.Td(r.get("file")), html.Td(r.get("page")), html.Td(r.get("section")), html.Td(r.get("score"))]) for r in rows])],
                               bordered=True, striped=True, hover=True)
+            explorer_button = dbc.Button("Open Evidence Explorer", id="btn-open-evidence-explorer", color="info", className="mt-2")
         except Exception:
             table = html.Div()
-        return cmd, logs, html.Div([dbc.Alert(f"Retrieval successful: {used_path}", color="success"), table]), str(used_path), str(used_path)
+            explorer_button = html.Div()
+        return cmd, logs, html.Div([dbc.Alert(f"Retrieval successful: {used_path}", color="success"), explorer_button, table]), str(used_path), str(used_path)
     else:
         return cmd, logs, dbc.Alert("Retrieval failed or output file not found. See logs above.", color="danger"), None, out_path
 
@@ -1073,6 +1199,75 @@ def on_app_mount(tab_value: str):
     except Exception:
         pass
     return dash.no_update, dash.no_update
+
+
+# Evidence explorer modal
+@app.callback(
+    [Output("modal-evidence-explorer", "is_open"), Output("evidence-explorer-content", "children")],
+    Input("btn-open-evidence-explorer", "n_clicks"),
+    State("store-retrieval-path", "data"),
+    prevent_initial_call=True,
+)
+def on_open_evidence_explorer(n_clicks, retrieval_path):
+    if not n_clicks or not retrieval_path:
+        return False, None
+
+    try:
+        with open(retrieval_path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        nodes = (data.get("retrieval") or {}).get("nodes", [])
+
+        if not nodes:
+            return True, dbc.Alert("No evidence nodes found in the retrieval data.", color="warning")
+
+        header = [html.Thead(html.Tr([html.Th("File"), html.Th("Section"), html.Th("Page"), html.Th("Score"), html.Th("Text")]))]
+
+        rows = []
+        for node in nodes:
+            metadata = node.get("metadata", {})
+            rows.append(html.Tr([
+                html.Td(metadata.get("file_name", "N/A")),
+                html.Td(metadata.get("section", "N/A")),
+                html.Td(metadata.get("page", "N/A")),
+                html.Td(f"{node.get('score', 0):.3f}"),
+                html.Td(html.Pre(node.get("text", ""))),
+            ]))
+
+        table = dbc.Table(header + [html.Tbody(rows)], bordered=True, striped=True, hover=True, responsive=True)
+
+        return True, table
+    except Exception as e:
+        return True, dbc.Alert(f"Error loading evidence: {e}", color="danger")
+
+
+# Update artifact health indicators
+@app.callback(
+    [
+        Output("health-retrieval", "color"),
+        Output("health-enhanced", "color"),
+        Output("health-draft", "color"),
+        Output("health-review", "color"),
+    ],
+    [
+        Input("store-retrieval-path", "data"),
+        Input("store-enhanced-path", "data"),
+        Input("store-draft-path", "data"),
+        Input("store-review-md-path", "data"),
+    ],
+)
+def update_health_indicators(ret_path, enh_path, drf_path, rev_path):
+    def get_color(path_str):
+        if path_str and Path(path_str).exists():
+            return "success"
+        return "secondary"
+
+    return (
+        get_color(ret_path),
+        get_color(enh_path),
+        get_color(drf_path),
+        get_color(rev_path),
+    )
 
 
 if __name__ == "__main__":

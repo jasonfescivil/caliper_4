@@ -9,6 +9,7 @@ from typing import Any, Dict, List, Optional, Sequence, Tuple
 
 from typing import Literal
 from pydantic import BaseModel, Field, field_validator
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
 
 # -------------------------
 # Pydantic Schemas
@@ -197,6 +198,11 @@ def cosine(a: Sequence[float], b: Sequence[float]) -> float:
 # LLM Adjudication
 # -------------------------
 
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=1, min=4, max=10),
+    retry=retry_if_exception_type(Exception),
+)
 def llm_adjudicate(claim_text: str, candidates: List[EvidenceItem], max_evidence: int = 3) -> Optional[Dict[str, Any]]:
     """Call configured LLM to adjudicate a claim. Returns dict or None on failure."""
     try:
@@ -305,9 +311,9 @@ def windows_retrieve_command(
     if isinstance(expand_queries, int):
         adv.append(f"--expand-queries {int(expand_queries)}")
     if hyde is False:
-        adv.append("--no-spore")
+        adv.append("--no-hyde")
     elif hyde is True:
-        adv.append("--spore")
+        adv.append("--hyde")
     adv_str = (" " + " ".join(adv)) if adv else ""
     return (
         f"poetry run caliper_v2{prov_flags} retrieve \"{q}\" --indexes \"{idx}\" --cloud "

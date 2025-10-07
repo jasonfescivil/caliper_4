@@ -6,6 +6,7 @@ import time
 from dataclasses import dataclass
 from pathlib import Path
 from typing import Dict, Iterable, List, Optional, Tuple
+import hashlib
 
 from loguru import logger
 
@@ -360,8 +361,9 @@ class LlamaCloudExporter:
                     # write
                     fname = out_idx / f"{d.doc_id}.md"
                     fname.write_text(md, encoding="utf-8")
-                    # update state
-                    self._state.setdefault(idx, {})[d.doc_id] = "ok"
+                    # update state with content hash
+                    content_hash = hashlib.sha256(md.encode("utf-8")).hexdigest()
+                    self._state.setdefault(idx, {})[d.doc_id] = content_hash
                     self.cache.write_text(json.dumps(self._state, indent=2), encoding="utf-8")
                     exported += 1
                     time.sleep(self.sleep_s)

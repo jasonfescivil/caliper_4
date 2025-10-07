@@ -253,7 +253,7 @@ def test_retrieval_handles_empty_question(tmp_path, mock_env, monkeypatch):
 
     assert command == ""
     assert logs == ""
-    assert "Please enter a question." in str(ui_component)
+    assert "Invalid prompt: Prompt cannot be empty." in str(ui_component)
     assert store_value is None
     assert ret_out == str(out_path)
 

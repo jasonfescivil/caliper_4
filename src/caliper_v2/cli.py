@@ -16,6 +16,7 @@ from llama_index.embeddings.cohere import CohereEmbedding
 from llama_index.llms.cohere import Cohere
 
 from caliper_v2.retrievers.llama_cloud_retriever import LlamaCloudRetriever
+from caliper_v2.cli.validator import PromptValidationError, validate_prompt
 
 
 # Load .env early so OPENAI_API_KEY, etc. are present even if settings import fails
@@ -1341,7 +1342,7 @@ def retrieve(
         help="cohere|none (default: cohere when COHERE_API_KEY present; else MMR)",
     ),
     reranker_top_n: int = typer.Option(16, "--reranker-top-n", help="Keep N after rerank"),
-    out: Optional[str] = typer.Option(None, "--out", help="Output JSON path (default: data_v2/context/*.json)"),
+    out: Optional[str] = typer.Option(None, "--out", help="Output JSON path. If not provided, a name is auto-generated from the question slug and timestamp."),
     no_spore: bool = typer.Option(False, "--no-spore", help="Skip spore generation (no extra LLM call)"),
     node_spore: bool = typer.Option(True, "--node-spore/--no-node-spore", help="Also attach a brief per-node justification+confidence (auto-capped)"),
     include_terms: Optional[str] = typer.Option(None, "--include-terms", help="Comma-separated lexical must-have terms to boost (cloud)"),
@@ -1376,6 +1377,12 @@ def retrieve(
     if not question:
         typer.secho("No question provided. Supply a question argument or --question-file.", fg=typer.colors.RED)
         raise typer.Exit(code=2)
+
+    try:
+        validate_prompt(question)
+    except PromptValidationError as e:
+        typer.secho(f"Invalid prompt: {e}", fg=typer.colors.RED)
+        raise typer.Exit(code=1)
 
     # Router over multiple indexes: retrieve per-index then fuse across indexes
     index_list = [s.strip() for s in (indexes or "").split(",") if s.strip()]
@@ -1903,6 +1910,7 @@ def generate(
     context_file: str = typer.Argument(..., help="Path to a context JSON file from 'retrieve'"),
     style: str = typer.Option("strict-citation", "--style", help="strict-citation|compare|outline|quote-heavy"),
     llm_provider: str = typer.Option("cohere", "--llm-provider", help="LLM provider (cohere|openai)"),
+    out: Optional[str] = typer.Option(None, "--out", help="Output Markdown path. If not provided, a name is auto-generated from the context file."),
 ) -> None:
     """Phase 2: Generation. Reads a context JSON and synthesizes a response."""
     import json as _json
@@ -1921,7 +1929,16 @@ def generate(
         raise typer.Exit(code=1)
 
     response = _synthesize_with_style(question_text, nodes, style, llm_provider=llm_provider)
-    typer.echo(response)
+
+    if out:
+        out_path = Path(out)
+    else:
+        base_name = p.stem.replace("_retrieved", "").replace("_enhanced", "")
+        out_path = Path("outputs/drafts") / f"{base_name}_draft.md"
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(response, encoding="utf-8")
+    typer.secho(f"Generated draft written to: {out_path}", fg=typer.colors.GREEN)
 
 
 
@@ -1937,10 +1954,11 @@ def enhance(
     include_terms: Optional[str] = typer.Option(None, "--include-terms", help="Terms to consider when composing suggestions"),
     filters: Optional[str] = typer.Option(None, "--filters", help="JSON filters to reflect in suggestions"),
     dry_run: bool = typer.Option(False, "--dry-run", help="Run without writing output"),
+    checklist: Optional[str] = typer.Option(None, "--checklist", help="Path to standards checklist for gap alerts"),
 ) -> None:
     """Phase 1.5: Enhance retrieval context for better generation (outline, gaps, suggestions, spore rewrite)."""
     try:
-        from caliper_v2.commands.enhance import main as enhance_main  # lazy import
+        from caliper_v2.commands.enhance import main as enhance_main
     except Exception as exc:
         typer.secho(f"Enhance module unavailable: {exc}", fg=typer.colors.RED)
         raise typer.Exit(code=1)
@@ -1956,6 +1974,7 @@ def enhance(
             include_terms=include_terms,
             filters=filters,
             dry_run=dry_run,
+            checklist_path=checklist,
         )
         typer.secho(f"Enhanced retrieval written to: {outp}", fg=typer.colors.GREEN)
     except Exception as exc:
@@ -2051,3 +2070,108 @@ def review(
     except Exception as exc:
         typer.secho(f"Review failed: {exc}", fg=typer.colors.RED)
         raise typer.Exit(code=1)
+
+
+@app.command()
+def walkthrough(ctx: typer.Context):
+    """
+    Execute a guided workflow: retrieve -> enhance -> generate -> review.
+    """
+    typer.secho("Starting guided workflow...", fg=typer.colors.CYAN)
+
+    # --- 1. Retrieve ---
+    question = typer.prompt("Enter the question for retrieval")
+    try:
+        validate_prompt(question)
+    except PromptValidationError as e:
+        typer.secho(f"Invalid prompt: {e}", fg=typer.colors.RED)
+        raise typer.Exit(code=1)
+
+    slug = _slugify(question)
+    timestamp = _utc_now_iso().replace(":", "").replace("-", "")
+    ctx_path = CONTEXT_ROOT / f"{timestamp}_{slug}_retrieved.json"
+
+    typer.secho(f"Running retrieval for: '{question}'", fg=typer.colors.GREEN)
+    ctx.invoke(
+        retrieve,
+        question=question,
+        question_file=None,
+        indexes="federal,state,design_standards",
+        top_k=40,
+        reranker="cohere",
+        reranker_top_n=20,
+        out=str(ctx_path),
+        cloud=True,
+    )
+
+    if not ctx_path.exists():
+        typer.secho("Retrieval failed to produce an output file. Aborting.", fg=typer.colors.RED)
+        raise typer.Exit(1)
+    typer.secho(f"Retrieval complete. Output: {ctx_path}", fg=typer.colors.GREEN)
+
+    # --- 2. Enhance ---
+    if not typer.confirm("Proceed to enhance step?"):
+        raise typer.Exit()
+
+    enhanced_path = CONTEXT_ROOT / f"{timestamp}_{slug}_enhanced.json"
+    typer.secho(f"Running enhance for: {ctx_path}", fg=typer.colors.GREEN)
+    ctx.invoke(enhance, in_path=str(ctx_path), out_path=str(enhanced_path))
+
+    if not enhanced_path.exists():
+        typer.secho("Enhance failed to produce an output file. Aborting.", fg=typer.colors.RED)
+        raise typer.Exit(1)
+    typer.secho(f"Enhance complete. Output: {enhanced_path}", fg=typer.colors.GREEN)
+
+    # --- 3. Generate ---
+    if not typer.confirm("Proceed to generate step?"):
+        raise typer.Exit()
+
+    draft_path = Path("outputs/drafts")
+    draft_path.mkdir(parents=True, exist_ok=True)
+    generated_path = draft_path / f"{timestamp}_{slug}_draft.md"
+
+    typer.secho(f"Running generation using: {enhanced_path}", fg=typer.colors.GREEN)
+    # Re-route generation to a file instead of stdout
+    try:
+        from caliper_v2.commands.judge import _read_json
+        from caliper_v2.services.ui_api import synthesize_from_context
+
+        context_data = _read_json(enhanced_path)
+        question_text = context_data.get("question", "")
+        nodes = (context_data.get("retrieval") or {}).get("nodes", [])
+
+        response_text = synthesize_from_context(question_text, nodes, "strict-citation")
+        generated_path.write_text(response_text, encoding="utf-8")
+
+    except Exception as e:
+        typer.secho(f"Generation failed: {e}", fg=typer.colors.RED)
+        raise typer.Exit(1)
+
+    if not generated_path.exists():
+        typer.secho("Generation failed to produce an output file. Aborting.", fg=typer.colors.RED)
+        raise typer.Exit(1)
+    typer.secho(f"Generation complete. Output: {generated_path}", fg=typer.colors.GREEN)
+
+    # --- 4. Review ---
+    if not typer.confirm("Proceed to review step?"):
+        raise typer.Exit()
+
+    review_path = Path("outputs/reviews")
+    review_path.mkdir(parents=True, exist_ok=True)
+    review_json_path = review_path / f"{timestamp}_{slug}_review.json"
+    review_md_path = review_path / f"{timestamp}_{slug}_review.md"
+
+    typer.secho(f"Running review for draft: {generated_path}", fg=typer.colors.GREEN)
+    ctx.invoke(
+        review,
+        context=str(enhanced_path),
+        draft=str(generated_path),
+        out_json=str(review_json_path),
+        out_md=str(review_md_path),
+    )
+
+    if not review_json_path.exists() or not review_md_path.exists():
+        typer.secho("Review failed to produce output files. Aborting.", fg=typer.colors.RED)
+        raise typer.Exit(1)
+
+    typer.secho(f"Workflow complete. Final review report: {review_md_path}", fg=typer.colors.CYAN)

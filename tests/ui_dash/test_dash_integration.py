@@ -232,61 +232,32 @@ def test_provider_selection_normalizes_generate(tmp_path, mock_env, monkeypatch)
 
 
 def test_retrieval_retry_after_failure(tmp_path, mock_env, monkeypatch):
-    """Failed retrieval leaves store empty until a successful retry."""
+    """Failed retrieval leaves store empty; a subsequent attempt can succeed."""
     monkeypatch.setitem(dash_app.base_paths, "ctx_dir", tmp_path)
     target = tmp_path / "context.json"
 
-    failure = SimpleNamespace(returncode=1, stdout="", stderr="error")
-    success = SimpleNamespace(returncode=0, stdout="ok", stderr="")
-
-    with patch("caliper_v2.ui_dash.app.subprocess.run", side_effect=[failure, success]):
+    # --- First attempt: Fails ---
+    failure_result = SimpleNamespace(returncode=1, stdout="", stderr="error")
+    with patch("caliper_v2.ui_dash.app.subprocess.run", return_value=failure_result) as mock_run:
         _, _, _, store_value, _ = dash_app.on_retrieve(
-            1,
-            "Fail once",
-            "design",
-            40,
-            20,
-            str(target),
-            None,
-            None,
-            None,
-            None,
-            None,
-            None,
-            "",
-            "",
-            "",
-            [],
-            None,
-            [],
+            1, "Fail once", "design", 40, 20, str(target), None, None, None, None, None, None, "", "", "", [], None, []
         )
-        assert store_value is None
+        assert store_value is None, "Store value should be None after a failed retrieval"
+        assert mock_run.call_count == 1
 
-    _write_json(target, {"retrieval": {"nodes": []}})
+    # --- Second attempt: Succeeds ---
+    def succeeding_run(argv, shell, capture_output, text):
+        # Simulate the subprocess creating the output file
+        out_path_arg = argv[argv.index("--out") + 1]
+        _write_json(Path(out_path_arg), {"retrieval": {"nodes": []}})
+        return SimpleNamespace(returncode=0, stdout="ok", stderr="")
 
-    with patch("caliper_v2.ui_dash.app.subprocess.run", return_value=success):
+    with patch("caliper_v2.ui_dash.app.subprocess.run", side_effect=succeeding_run) as mock_run:
         _, _, _, store_value, _ = dash_app.on_retrieve(
-            2,
-            "Fail once",
-            "design",
-            40,
-            20,
-            str(target),
-            None,
-            None,
-            None,
-            None,
-            None,
-            None,
-            "",
-            "",
-            "",
-            [],
-            None,
-            [],
+            2, "Succeed now", "design", 40, 20, str(target), None, None, None, None, None, None, "", "", "", [], None, []
         )
-
-    assert store_value == str(target)
+        assert store_value == str(target), "Store value should be the target path after a successful retrieval"
+        assert mock_run.call_count == 1
 
 
 def test_graph_mix_flow(tmp_path, mock_env, monkeypatch):

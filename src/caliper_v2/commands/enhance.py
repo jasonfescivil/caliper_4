@@ -4,8 +4,11 @@ import json
 import os
 from pathlib import Path
 from typing import Any, Dict, List, Optional, Tuple
+import re
 
 from loguru import logger
+
+from caliper_v2.services.standards_check import load_checklist
 
 
 def _read_json(path: Path) -> Dict[str, Any]:
@@ -146,6 +149,31 @@ def _suggest_followup_commands(question: str, indexes: List[str], base_out: Path
     return suggestions
 
 
+def _check_for_missing_sections(outline: Dict[str, Any], checklist_path: str | Path) -> List[str]:
+    """
+    Checks the generated outline against a checklist for missing mandatory sections.
+    Returns a list of warnings for any missing sections.
+    """
+    checklist = load_checklist(checklist_path)
+    presence_tests = checklist.get("presence_tests", [])
+
+    outline_titles = [s.get("title", "").lower() for s in outline.get("sections", [])]
+
+    missing_warnings = []
+
+    for test in presence_tests:
+        if test.get("required"):
+            name = test.get("name", "Unnamed Test")
+            pattern = test.get("pattern", "")
+
+            found = any(re.search(pattern, title, re.IGNORECASE) for title in outline_titles)
+
+            if not found:
+                missing_warnings.append(f"Gap Alert: Missing mandatory section '{name}'. Expected content matching pattern: '{pattern}'")
+
+    return missing_warnings
+
+
 def main(
     in_path: str,
     out_path: str,
@@ -158,6 +186,7 @@ def main(
     filters: Optional[str] = None,
     review_spores: bool = True,
     dry_run: bool = False,
+    checklist_path: Optional[str | Path] = None,
 ) -> Path:
     in_file = Path(in_path)
     out_file = Path(out_path)
@@ -178,6 +207,15 @@ def main(
     outline: Dict[str, Any] = {"sections": []}
     if write_outline:
         outline = _default_outline(q_norm, nodes)
+
+    # Check for missing sections and print warnings
+    if checklist_path:
+        missing_warnings = _check_for_missing_sections(outline, checklist_path)
+        if missing_warnings:
+            logger.warning("--- Gap Alerts: Missing Mandatory Sections ---")
+            for warning in missing_warnings:
+                logger.warning(warning)
+            logger.warning("--------------------------------------------")
 
     followups: List[str] = []
     if suggest_retrieve:
@@ -357,6 +395,13 @@ def _heuristic_node_spore(md: Dict[str, Any], text: str, question: str) -> Dict[
     return {"reason": reason, "confidence": round(min(0.95, conf), 2)}
 
 
+from tenacity import retry, stop_after_attempt, wait_exponential, retry_if_exception_type
+
+@retry(
+    stop=stop_after_attempt(3),
+    wait=wait_exponential(multiplier=1, min=4, max=10),
+    retry=retry_if_exception_type(Exception),
+)
 def _rewrite_node_spore(question: str, nd: Dict[str, Any]) -> Dict[str, Any]:
     """Use configured LLM to rewrite node spore; fallback to heuristics."""
     md = (nd.get("metadata") or {})

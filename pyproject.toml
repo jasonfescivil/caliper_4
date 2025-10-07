@@ -13,6 +13,7 @@ llama-cloud-services = "*"
 dash = ">=2.17.0"
 dash-bootstrap-components = ">=1.6.0"
 plotly = "^5.22.0"
+tenacity = "^8.5.0"
 
 # LlamaIndex and related provider integrations
 llama-index-llms-cohere = "~0.4.0"

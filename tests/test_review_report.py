@@ -45,7 +45,14 @@ def make_draft(tmp: Path) -> Path:
     return p
 
 
-def test_review_end_to_end(tmp_path: Path):
+from unittest.mock import patch
+
+@patch("caliper_v2.commands.review.llm_review_with_criteria")
+def test_review_end_to_end(mock_llm_review, tmp_path: Path):
+    mock_llm_review.return_value = {
+        "summary": {"compliance_status": "mocked", "strengths": [], "key_weaknesses": []},
+        "review": "mocked review",
+    }
     ctx = make_context(tmp_path)
     draft = make_draft(tmp_path)
     out_json = tmp_path / "review.json"
@@ -65,11 +72,11 @@ def test_review_end_to_end(tmp_path: Path):
     data = json.loads(out_json.read_text(encoding="utf-8"))
 
     assert data["type"] == "review_report"
-    assert data["version"] == 1
+    assert data["version"] == 2
     # Must include summary, issues, claims, metrics and follow-ups
     for key in ["summary", "issues", "claims", "metrics", "follow_up_retrieves"]:
         assert key in data
 
     md_text = out_md.read_text(encoding="utf-8")
     assert "# Review Report" in md_text
-    assert "## Summary" in md_text
+    assert "## Executive Summary" in md_text
